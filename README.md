@@ -9,10 +9,12 @@ My configuration:
     rm -rf .vim
     rm .vimrc
     rm .tmux.conf
+    rm .zshrc
 
     git clone git@github.com:BosEriko/dotfiles.git
     ln -s dotfiles/vimrc ~/.vimrc
     ln -s dotfiles/tmux.conf ~/.tmux.conf
+    ln -s dotfiles/zshrc ~/.zshrc
 
 ## Vim plugins installed
 
