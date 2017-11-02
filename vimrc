@@ -7,3 +7,6 @@ syntax enable
 " Line numbers
 set number
 set relativenumber
+
+" Stop line break
+set nowrap
