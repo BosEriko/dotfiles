@@ -1,2 +1,15 @@
-# dotfiles
-My dotfiles configuration. I'm still new to VIM so every help is appreciated. You can contact me at mail@boseriko.com if you want to share some knowledge. :)
+# Dotfiles
+
+My configuration:
+
+- Navigate TMUX panes using alt + h, j, k or l
+
+## Installation
+
+    rm -rf .vim
+    rm .vimrc
+    rm .tmux.conf
+
+    git clone git@github.com:BosEriko/dotfiles.git
+    ln -s dotfiles/vimrc ~/.vimrc
+    ln -s dotfiles/tmux.conf ~/.tmux.conf
