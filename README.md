@@ -16,4 +16,4 @@ My configuration:
 
 ## Call to action
 
-If you want to share some ideas you can email me at mail.boseriko.com.
+If you want to share some ideas you can email me at mail@boseriko.com.
