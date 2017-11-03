@@ -3,6 +3,7 @@
 My configuration:
 
 - Navigate TMUX panes using alt + h, j, k or l
+- Resize TMUX panes using alt + w, a, s or d
 
 ## Installation
 
@@ -18,7 +19,7 @@ My configuration:
 
 ## Vim plugins installed
 
-- Nothing :(
+- NERDTree
 
 ## Call to action
 
