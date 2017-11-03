@@ -24,3 +24,7 @@ set relativenumber
 
 " Stop line break
 set nowrap
+
+" NERDTree on startup
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
