@@ -12,9 +12,6 @@ call vundle#end()
 filetype plugin indent on
 " ======================================== "
 
-" Don't bother with vi compatibility
-set nocompatible
-
 " Syntax highlighting
 syntax enable
 
