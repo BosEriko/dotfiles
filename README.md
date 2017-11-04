@@ -1,9 +1,6 @@
 # Dotfiles
 
-My configuration:
-
-- Navigate TMUX panes using alt + h, j, k or l
-- Resize TMUX panes using alt + w, a, s or d
+Better safe than sorry. A back up of my dotfiles.
 
 ## Installation
 
@@ -20,6 +17,9 @@ My configuration:
 ## Vim plugins installed
 
 - NERDTree
+- vim-airline
+- vim-airline-themes
+- fugitive.vim 
 
 ## Call to action
 
