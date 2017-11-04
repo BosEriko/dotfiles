@@ -21,3 +21,6 @@ set relativenumber
 
 " Stop line break
 set nowrap
+
+" Shortcut for NERDTree
+map <silent> <C-\> :NERDTreeToggle<CR>
