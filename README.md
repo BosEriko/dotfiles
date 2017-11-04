@@ -20,6 +20,7 @@ Better safe than sorry. A back up of my dotfiles.
 - vim-airline
 - vim-airline-themes
 - fugitive.vim 
+- ctrlp.vim
 
 ## Call to action
 

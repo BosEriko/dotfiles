@@ -9,6 +9,7 @@ Plugin 'scrooloose/nerdtree' " Tree file explorer
 Plugin 'vim-airline/vim-airline' " Bottom toolbar
 Plugin 'vim-airline/vim-airline-themes' " Themes for the bottom toolbar
 Plugin 'tpope/vim-fugitive' " View any blob, tree, commit, or tag in the repository
+Plugin 'kien/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder.
 
 " Plugin List End
 call vundle#end()
