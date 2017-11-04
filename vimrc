@@ -5,6 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " Plugin List Start
 
+Plugin 'VundleVim/Vundle.vim' " This makes VIM awesome
 Plugin 'scrooloose/nerdtree' " Tree file explorer
 Plugin 'vim-airline/vim-airline' " Bottom toolbar
 Plugin 'vim-airline/vim-airline-themes' " Themes for the bottom toolbar
