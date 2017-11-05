@@ -46,3 +46,8 @@ let g:airline_left_sep = ''
 " Shortcut for ctrlp
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" 2 spaces only for indentation
+set tabstop=2
+set shiftwidth=2
+set expandtab
