@@ -14,15 +14,6 @@ Better safe than sorry. A back up of my dotfiles.
     ln -s dotfiles/tmux.conf ~/.tmux.conf
     ln -s dotfiles/zshrc ~/.zshrc
 
-## Vim plugins installed
-
-- NERDTree
-- vim-airline
-- vim-airline-themes
-- fugitive.vim 
-- ctrlp.vim
-- ack.vim
-
 ## Call to action
 
 If you want to share some ideas you can email me at mail@boseriko.com.
