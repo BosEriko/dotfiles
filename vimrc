@@ -22,6 +22,8 @@ Plugin 'mxw/vim-jsx'                        " JSX syntax highlighting
 Plugin 'hail2u/vim-css3-syntax'             " CSS3 syntax highlighting
 Plugin 'jelera/vim-javascript-syntax'       " Javascript syntax highlighting
 Plugin 'elzr/vim-json'                      " JSON syntax highlighting
+Plugin 'vim-ruby/vim-ruby'                  " Ruby syntax highlighting
+Plugin 'tpope/vim-rails'                    " Ruby on Rails support
 
 " Plugin List End
 call vundle#end()
