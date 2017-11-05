@@ -18,6 +18,8 @@ Plugin 'alvan/vim-closetag'                 " Auto close HTML tags
 Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
 Plugin 'tpope/vim-haml'                     " Vim runtime files for Haml, Sass, and SCSS
 Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
+Plugin 'mxw/vim-jsx'                        " JSX syntax highlighting
+Plugin 'hail2u/vim-css3-syntax'             " CSS3 syntax highlighting
 
 " Plugin List End
 call vundle#end()
