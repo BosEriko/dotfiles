@@ -15,6 +15,8 @@ Plugin 'mileszs/ack.vim'                    " Word search inside directory
 Plugin 'mhinz/vim-startify'                 " Welcome message
 Plugin 'digitaltoad/vim-pug'                " Pug syntax highlighting
 Plugin 'alvan/vim-closetag'                 " Auto close HTML tags
+Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
+Plugin 'tpope/vim-haml'                     " Vim runtime files for Haml, Sass, and SCSS
 
 " Plugin List End
 call vundle#end()
