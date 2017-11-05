@@ -12,6 +12,8 @@ Plugin 'vim-airline/vim-airline-themes' " Themes for the bottom toolbar
 Plugin 'tpope/vim-fugitive' " View any blob, tree, commit, or tag in the repository
 Plugin 'kien/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder.
 Plugin 'mileszs/ack.vim' " Word search inside directory
+Plugin 'mhinz/vim-startify' " Welcome message
+Plugin 'digitaltoad/vim-pug' " Pug syntax highlighting
 
 " Plugin List End
 call vundle#end()
