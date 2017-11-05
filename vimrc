@@ -20,6 +20,8 @@ Plugin 'tpope/vim-haml'                     " Vim runtime files for Haml, Sass, 
 Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
 Plugin 'mxw/vim-jsx'                        " JSX syntax highlighting
 Plugin 'hail2u/vim-css3-syntax'             " CSS3 syntax highlighting
+Plugin 'jelera/vim-javascript-syntax'       " Javascript syntax highlighting
+Plugin 'elzr/vim-json'                      " JSON syntax highlighting
 
 " Plugin List End
 call vundle#end()
