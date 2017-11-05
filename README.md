@@ -21,6 +21,7 @@ Better safe than sorry. A back up of my dotfiles.
 - vim-airline-themes
 - fugitive.vim 
 - ctrlp.vim
+- ack.vim
 
 ## Call to action
 
