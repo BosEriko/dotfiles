@@ -25,6 +25,7 @@ Plugin 'elzr/vim-json'                      " JSON syntax highlighting
 Plugin 'vim-ruby/vim-ruby'                  " Ruby syntax highlighting
 Plugin 'tpope/vim-rails'                    " Ruby on Rails support
 Plugin 'severin-lemaignan/vim-minimap'      " Minimap
+Plugin 'scrooloose/nerdcommenter'           " Comment out function
 
 " Plugin List End
 call vundle#end()
@@ -61,3 +62,6 @@ let g:ctrlp_cmd = 'CtrlP'
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+" Show when <leader> is toggled
+set showcmd
