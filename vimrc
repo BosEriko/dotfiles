@@ -26,6 +26,7 @@ Plugin 'vim-ruby/vim-ruby'                  " Ruby syntax highlighting
 Plugin 'tpope/vim-rails'                    " Ruby on Rails support
 Plugin 'severin-lemaignan/vim-minimap'      " Minimap
 Plugin 'scrooloose/nerdcommenter'           " Comment out function
+Plugin 'Valloric/MatchTagAlways'            " HTML Tag Matcher
 
 " Plugin List End
 call vundle#end()
