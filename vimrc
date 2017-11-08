@@ -27,6 +27,7 @@ Plugin 'tpope/vim-rails'                    " Ruby on Rails support
 Plugin 'severin-lemaignan/vim-minimap'      " Minimap
 Plugin 'scrooloose/nerdcommenter'           " Comment out function
 Plugin 'Valloric/MatchTagAlways'            " HTML Tag Matcher
+Plugin 'crusoexia/vim-monokai'              " Monokai Theme for VIM
 
 " Plugin List End
 call vundle#end()
@@ -66,3 +67,6 @@ set expandtab
 
 " Show when <leader> is toggled
 set showcmd
+
+" Activate Monokai Theme
+colorscheme monokai
