@@ -76,6 +76,6 @@ set cursorline
 
 " Setlist Options
 nmap <leader>l :set list!<CR>
-set listchars=eol:¬,space:·
+set listchars=eol:¬,tab:▸▸,trail:~,extends:>,precedes:<,space:·
 hi NonText ctermfg=237 guifg=grey23
 hi SpecialKey ctermfg=237 guifg=grey23
