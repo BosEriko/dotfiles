@@ -71,6 +71,9 @@ set showcmd
 " Activate Monokai Theme
 colorscheme monokai
 
+" Show which line you're at
+set cursorline
+
 " Setlist Options
 set list
 nmap <leader>l :set list!<CR>
