@@ -10,6 +10,7 @@ source $HOME/.zshenv
 
 # Alias
 alias gst="git status"
+alias gsh="git stash"
 alias gdi="git diff"
 alias gad="git add"
 alias gco="git commit -m"
