@@ -16,6 +16,7 @@ Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
 Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
 Plugin 'scrooloose/nerdcommenter'           " Comment out function
 Plugin 'Valloric/MatchTagAlways'            " HTML Tag Matcher
+Plugin 'airblade/vim-gitgutter'             " Show git difference in the gutter
 
 " Syntax Highlight Plugins
 Plugin 'vim-ruby/vim-ruby'                  " Ruby
