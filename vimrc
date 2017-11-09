@@ -1,38 +1,45 @@
-" ======================================== "
+" ========================================= "
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" Plugin List Start
+" Plugin List Start ======================= "
 
+" Added Functionalities
 Plugin 'VundleVim/Vundle.vim'               " This makes VIM awesome
 Plugin 'scrooloose/nerdtree'                " Tree file explorer
-Plugin 'vim-airline/vim-airline'            " Bottom toolbar
-Plugin 'vim-airline/vim-airline-themes'     " Themes for the bottom toolbar
 Plugin 'tpope/vim-fugitive'                 " View any blob, tree, commit, or tag in the repository
 Plugin 'kien/ctrlp.vim'                     " Fuzzy file, buffer, mru, tag, etc finder.
 Plugin 'mileszs/ack.vim'                    " Word search inside directory
-Plugin 'mhinz/vim-startify'                 " Welcome message
-Plugin 'digitaltoad/vim-pug'                " Pug syntax highlighting
 Plugin 'alvan/vim-closetag'                 " Auto close HTML tags
 Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
-Plugin 'tpope/vim-haml'                     " Vim runtime files for Haml, Sass, and SCSS
 Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
-Plugin 'mxw/vim-jsx'                        " JSX syntax highlighting
-Plugin 'hail2u/vim-css3-syntax'             " CSS3 syntax highlighting
-Plugin 'jelera/vim-javascript-syntax'       " Javascript syntax highlighting
-Plugin 'elzr/vim-json'                      " JSON syntax highlighting
-Plugin 'vim-ruby/vim-ruby'                  " Ruby syntax highlighting
-Plugin 'tpope/vim-rails'                    " Ruby on Rails support
-Plugin 'severin-lemaignan/vim-minimap'      " Minimap
 Plugin 'scrooloose/nerdcommenter'           " Comment out function
 Plugin 'Valloric/MatchTagAlways'            " HTML Tag Matcher
-Plugin 'crusoexia/vim-monokai'              " Monokai Theme for VIM
 
-" Plugin List End
+" Syntax Highlight Plugins
+Plugin 'vim-ruby/vim-ruby'                  " Ruby
+Plugin 'tpope/vim-rails'                    " Rails
+Plugin 'digitaltoad/vim-pug'                " Pug
+Plugin 'mxw/vim-jsx'                        " JSX
+Plugin 'hail2u/vim-css3-syntax'             " CSS3
+Plugin 'jelera/vim-javascript-syntax'       " Javascript
+Plugin 'elzr/vim-json'                      " JSON
+Plugin 'tpope/vim-haml'                     " Haml, Sass and SCSS
+
+" Party tricks Plugin
+Plugin 'severin-lemaignan/vim-minimap'      " Minimap
+Plugin 'mhinz/vim-startify'                 " Welcome message
+
+" Design Plugin
+Plugin 'crusoexia/vim-monokai'              " Monokai Theme for VIM
+Plugin 'vim-airline/vim-airline'            " Bottom toolbar
+Plugin 'vim-airline/vim-airline-themes'     " Themes for the bottom toolbar
+
+" Plugin List End ========================= "
 call vundle#end()
 filetype plugin indent on
-" ======================================== "
+" ========================================= "
 
 " Syntax highlighting
 syntax enable
@@ -83,8 +90,11 @@ set listchars=eol:¬,tab:▸▸,trail:~,extends:>,precedes:<,space:·
 hi NonText ctermfg=237 guifg=grey23
 hi SpecialKey ctermfg=237 guifg=grey23
 
-" Highlight all instance of searched word
+" Search Settings
 set hlsearch
+set ignorecase
+set smartcase
+set incsearch
 
 " Store temporary files in a central spot
 let vimtmp = $HOME . '/.tmp/' . getpid()
