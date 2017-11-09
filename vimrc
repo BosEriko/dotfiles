@@ -101,3 +101,9 @@ let vimtmp = $HOME . '/.tmp/' . getpid()
 silent! call mkdir(vimtmp, "p", 0700)
 let &backupdir=vimtmp
 let &directory=vimtmp
+
+" Disable arrow keys
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
