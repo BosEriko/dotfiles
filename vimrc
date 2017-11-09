@@ -37,6 +37,9 @@ filetype plugin indent on
 " Syntax highlighting
 syntax enable
 
+" Change mapleader
+let mapleader=","
+
 " Line numbers
 set number
 set relativenumber
