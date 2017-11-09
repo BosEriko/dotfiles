@@ -75,6 +75,7 @@ colorscheme monokai
 set cursorline
 
 " Setlist Options
+set list
 nmap <leader>l :set list!<CR>
 set listchars=eol:¬,tab:▸▸,trail:~,extends:>,precedes:<,space:·
 hi NonText ctermfg=237 guifg=grey23
