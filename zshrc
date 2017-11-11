@@ -24,3 +24,6 @@ alias tns="tmux new-session -s"
 alias tas="tmux attach-session -t"
 alias tks="tmux kill-server"
 alias cle="clear"
+
+# Alias to shutdown
+alias goodbye="sudo shutdown -h now"
