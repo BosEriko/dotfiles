@@ -25,8 +25,9 @@ alias tas="tmux attach-session -t"
 alias tks="tmux kill-server"
 alias cle="clear"
 
-# Alias to shutdown
+# Alias to shutdown/restart
 alias goodbye="sudo shutdown -h now"
+alias seeyouagain="sudo shutdown -r now"
 
 # Party tricks alias
 alias party1="aafire"
@@ -44,3 +45,5 @@ alias game7="backgammon"
 alias game8="moon-buggy"
 alias game9="./2048"
 alias game10="ssh sshtron.zachlatta.com"
+alias game11="zangband"
+alias game12="nethack-console"
