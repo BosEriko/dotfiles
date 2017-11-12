@@ -8,7 +8,7 @@ ZSH_THEME="bira"
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
-# Alias
+# Alias for most used commands
 alias gst="git status"
 alias gsh="git stash"
 alias gdi="git diff"
@@ -27,3 +27,20 @@ alias cle="clear"
 
 # Alias to shutdown
 alias goodbye="sudo shutdown -h now"
+
+# Party tricks alias
+alias party1="aafire"
+alias party2="cmatrix"
+alias party3="figlet"
+
+# Games Alias
+alias game1="bastet"
+alias game2="ninvaders"
+alias game3="pacman4console"
+alias game4="nsnake"
+alias game5="greed"
+alias game6="atc"
+alias game7="backgammon"
+alias game8="moon-buggy"
+alias game9="./2048"
+alias game10="ssh sshtron.zachlatta.com"
