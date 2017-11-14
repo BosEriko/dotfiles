@@ -53,3 +53,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+
+# Check memory sizes
+alias df='df -h'
+alias du='du -h -c'
