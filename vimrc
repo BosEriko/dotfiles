@@ -116,3 +116,7 @@ let g:airline#extensions#tabline#left_alt_sep = ''
 
 " Shortcut for Ack
 nmap <leader>f :Ack!<space>
+
+" Remap colon to semicolon to avoid using shift too much
+map ; :
+noremap ;; ;
