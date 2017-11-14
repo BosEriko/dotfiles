@@ -47,3 +47,9 @@ alias game9="./2048"
 alias game10="ssh sshtron.zachlatta.com"
 alias game11="zangband"
 alias game12="nethack-console"
+
+# Back directory alias
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
