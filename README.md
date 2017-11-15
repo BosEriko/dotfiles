@@ -14,6 +14,9 @@ Better safe than sorry. A back up of my dotfiles.
     ln -s dotfiles/tmux.conf ~/.tmux.conf
     ln -s dotfiles/zshrc ~/.zshrc
 
+## Note
+I switched ctrl and caps lock for easier TMUX navigation. Also, for soft touch of caps lock it works as an esc button for VIM mode toggle. I used [xcape](https://github.com/alols/xcape) to do it.
+
 ## Call to action
 
 If you want to share some ideas you can email me at mail@boseriko.com.
