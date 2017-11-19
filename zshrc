@@ -59,3 +59,6 @@ alias .....="cd ../../../.."
 # Check memory sizes
 alias df='df -h'
 alias du='du -h -c'
+
+# Clean trash from Terminal
+alias clearbin="rm -rf ~/.local/share/Trash/*"
