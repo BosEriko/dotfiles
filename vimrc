@@ -120,3 +120,7 @@ nmap <leader>f :Ack!<space>
 " Remap colon to semicolon to avoid using shift too much
 map ; :
 noremap ;; ;
+
+" Navigate buffers easily
+nmap <leader>j :bp!<CR>
+nmap <leader>k :bn!<CR>
