@@ -34,6 +34,9 @@ alias seeyouagain="sudo shutdown -r now"
 # Alias to start a python localhost
 alias locserv="python -m SimpleHTTPServer"
 
+# Alias for ngrok
+alias start-ngrok="ngrok http --region=ap"
+
 # Party tricks alias
 alias party1="aafire"
 alias party2="cmatrix"
