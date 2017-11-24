@@ -31,6 +31,9 @@ alias cle="clear"
 alias goodbye="sudo shutdown -h now"
 alias seeyouagain="sudo shutdown -r now"
 
+# Alias to start a python localhost
+alias locserv="python -m SimpleHTTPServer"
+
 # Party tricks alias
 alias party1="aafire"
 alias party2="cmatrix"
