@@ -37,6 +37,10 @@ alias locserv="python -m SimpleHTTPServer"
 # Alias for ngrok
 alias start-ngrok="ngrok http --region=ap"
 
+# Alias for programming directories
+alias work-folder="cd ~/Documents/Codes/Work"
+alias personal-folder="cd ~/Documents/Codes/Personal"
+
 # Party tricks alias
 alias party1="aafire"
 alias party2="cmatrix"
