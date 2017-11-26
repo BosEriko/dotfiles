@@ -73,3 +73,6 @@ alias du='du -h -c'
 
 # Clean trash from Terminal
 alias clearbin="rm -rf ~/.local/share/Trash/*"
+
+# List all node packages installed
+alias npm-list="npm list -g --depth=0"
