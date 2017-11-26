@@ -124,3 +124,6 @@ noremap ;; ;
 " Navigate buffers easily
 nmap <leader>j :bp!<CR>
 nmap <leader>k :bn!<CR>
+
+" Show hidden files in NERDTree by default
+let NERDTreeShowHidden=1
