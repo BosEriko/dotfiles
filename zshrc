@@ -76,6 +76,8 @@ alias clearbin="rm -rf ~/.local/share/Trash/*"
 
 # List all node packages installed
 alias npm-list="npm list -g --depth=0"
+alias npm-outdated="npm outdated -g --depth=0"
+alias npm-update="npm update -g"
 
 # Google Chrome Alias
 alias gc="google-chrome"
