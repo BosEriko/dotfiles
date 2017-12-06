@@ -42,6 +42,9 @@ call vundle#end()
 filetype plugin indent on
 " ========================================= "
 
+" Set utf-8
+set encoding=utf-8
+
 " Syntax highlighting
 syntax enable
 
