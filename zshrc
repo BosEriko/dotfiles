@@ -81,3 +81,6 @@ alias npm-update="npm update -g"
 
 # Google Chrome Alias
 alias gc="google-chrome"
+
+# SSH to Google Cloud VM Instance Alias
+alias ssh-google="gcloud compute ssh cloud-work-environment"
