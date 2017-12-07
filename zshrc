@@ -71,6 +71,9 @@ alias .....="cd ../../../.."
 alias df='df -h'
 alias du='du -h -c'
 
+# Check diskspace
+alias checkdisk='pydf'
+
 # Clean trash from Terminal
 alias clearbin="rm -rf ~/.local/share/Trash/*"
 
