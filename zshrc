@@ -76,3 +76,6 @@ alias gc="google-chrome"
 
 # Google Cloud VM Instance SSH Alias
 alias ssh-cloud="gcloud compute ssh cloud-ubuntu"
+
+# External IP Alias
+alias external-ip="curl ipinfo.io/ip"
