@@ -8,41 +8,30 @@ ZSH_THEME="bira"
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
-# Alias for most used commands
-alias gst="git status"
-alias gsh="git stash"
-alias gdi="git diff"
-alias gad="git add"
-alias gco="git commit -m"
-alias gca="git commit -am"
-alias gpo="git push origin"
-alias gpu="git push"
-alias gpl="git pull origin"
-alias gpi="git pull"
-alias gch="git checkout"
-alias gbr="git branch"
-alias glo="git log"
+# TMUX Alias
 alias tns="tmux new-session -s"
 alias tas="tmux attach-session -t"
 alias tks="tmux kill-server"
-alias cle="clear"
 
-# Alias to shutdown/restart
+# Shutdown/Restart Alias
 alias goodbye="sudo shutdown -h now"
-alias seeyouagain="sudo shutdown -r now"
+alias see-you-again="sudo shutdown -r now"
 
-# Alias to start a python localhost
-alias locserv="python -m SimpleHTTPServer"
+# Show SSH Key Alias
+alias my-ssh-key="cat ~/.ssh/id_rsa.pub"
 
-# Alias for ngrok
+# Start Localhost Alias
+alias start-localhost="python -m SimpleHTTPServer"
+
+# Start Ngrok Alias
 alias start-ngrok="ngrok http --region=ap"
 
-# Alias for programming directories
+# Directory Alias
 alias work-folder="cd ~/Documents/Codes/Work"
 alias personal-folder="cd ~/Documents/Codes/Personal"
 alias dotfiles-folder="cd ~/dotfiles"
 
-# Party tricks alias
+# Party Tricks Alias
 alias party1="aafire"
 alias party2="cmatrix"
 alias party3="figlet"
@@ -61,23 +50,23 @@ alias game10="ssh sshtron.zachlatta.com"
 alias game11="zangband"
 alias game12="nethack-console"
 
-# Back directory alias
+# Back Directory Alias
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# Check memory sizes
+# Memory Sizes Alias
 alias df='df -h'
 alias du='du -h -c'
 
-# Check diskspace
+# Diskspace Alias
 alias checkdisk='pydf'
 
-# Clean trash from Terminal
+# Clean Trash Alias
 alias clearbin="rm -rf ~/.local/share/Trash/*"
 
-# List all node packages installed
+# Npm Alias
 alias npm-list="npm list -g --depth=0"
 alias npm-outdated="npm outdated -g --depth=0"
 alias npm-update="npm update -g"
@@ -85,5 +74,5 @@ alias npm-update="npm update -g"
 # Google Chrome Alias
 alias gc="google-chrome"
 
-# SSH to Google Cloud VM Instance Alias
-alias ssh-google="gcloud compute ssh cloud-ubuntu"
+# Google Cloud VM Instance SSH Alias
+alias ssh-cloud="gcloud compute ssh cloud-ubuntu"
