@@ -75,7 +75,7 @@ alias npm-update="npm update -g"
 alias gc="google-chrome"
 
 # Google Cloud VM Instance SSH Alias
-alias ssh-cloud="gcloud compute ssh cloud-ubuntu"
+alias ssh-cloud='gcloud compute --project "cloud-ubuntu-188114" ssh --zone "asia-southeast1-a" "cloud-ubuntu"'
 
 # External IP Alias
 alias external-ip="curl ipinfo.io/ip"
