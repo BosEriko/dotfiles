@@ -46,7 +46,13 @@ filetype plugin indent on
 set encoding=utf-8
 
 " Syntax highlighting
-syntax enable
+if !exists("g:syntax_on")
+  syntax enable
+endif
+
+" Code folding
+set foldmethod=syntax                       " za(open/close folding) zO(open) zC(lose)
+set foldlevel=1                             " zr reduce folding, zm increase folding
 
 " Change mapleader
 let mapleader=","
