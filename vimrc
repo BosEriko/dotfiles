@@ -51,7 +51,7 @@ if !exists("g:syntax_on")
 endif
 
 " Code folding
-set foldmethod=syntax                       " za(open/close folding) zO(open) zC(lose)
+set foldmethod=syntax                       " za(open/close folding) zO(open) zC(close)
 set foldlevel=1                             " zr reduce folding, zm increase folding
 
 " Change mapleader
