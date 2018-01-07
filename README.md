@@ -8,11 +8,13 @@ Better safe than sorry. A back up of my dotfiles.
     rm .vimrc
     rm .tmux.conf
     rm .zshrc
+    rm .profile
 
     git clone git@github.com:BosEriko/dotfiles.git
     ln -s dotfiles/vimrc ~/.vimrc
     ln -s dotfiles/tmux.conf ~/.tmux.conf
     ln -s dotfiles/zshrc ~/.zshrc
+    ln -s dotfiles/profile ~/.profile
 
 ## Note
 I switched ctrl and caps lock for easier TMUX navigation. Also, for soft touch of caps lock it works as an esc button for VIM mode toggle. I used [xcape](https://github.com/alols/xcape) to do it.
