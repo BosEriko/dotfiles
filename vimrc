@@ -136,3 +136,6 @@ nmap <leader>k :bn!<CR>
 
 " Show hidden files in NERDTree by default
 let NERDTreeShowHidden=1
+
+" Paste toggle
+set pastetoggle=<F3>
