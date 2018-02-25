@@ -134,7 +134,13 @@ nmap <leader>k :bn!<CR>
 let NERDTreeShowHidden=1
 
 " Paste toggle
-set pastetoggle=<F3>
+set pastetoggle=<F2>
+
+" Easily save changes
+map <F3> :w! <CR>
+
+" Easily quit
+map <F4> :q <CR>
 
 " NERDTree and Startify at startup
 autocmd VimEnter *
