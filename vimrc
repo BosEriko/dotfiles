@@ -139,3 +139,11 @@ let NERDTreeShowHidden=1
 
 " Paste toggle
 set pastetoggle=<F3>
+
+" NERDTree and Startify at startup
+autocmd VimEnter *
+            \   if !argc()
+            \ |   Startify
+            \ |   NERDTree
+            \ |   wincmd w
+            \ | endif
