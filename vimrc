@@ -142,8 +142,12 @@ set pastetoggle=<F3>
 
 " NERDTree and Startify at startup
 autocmd VimEnter *
-            \   if !argc()
-            \ |   Startify
-            \ |   NERDTree
-            \ |   wincmd w
-            \ | endif
+  \   if !argc()
+  \ |   Startify
+  \ |   NERDTree
+  \ |   wincmd w
+  \ | endif
+
+" Startify quote's speech bubble
+let g:startify_custom_header =
+  \ startify#fortune#cowsay('*','═','║','╔','╗','╝','╚')
