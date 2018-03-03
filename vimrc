@@ -133,17 +133,20 @@ nmap <leader>k :bn!<CR>
 " Show hidden files in NERDTree by default
 let NERDTreeShowHidden=1
 
-" Paste toggle
-set pastetoggle=<F2>
-
-" Easily save changes
-map <F3> :w! <CR>
+" Force save
+map <F1> :w! <CR>
 
 " Easily quit
-map <F4> :q <CR>
+map <F2> :q <CR>
+
+" Force quit
+map <F3> :q! <CR>
+
+" Paste toggle
+set pastetoggle=<F11>
 
 " Toggle text wrap
-map <F5> :set wrap!<CR>
+map <F12> :set wrap!<CR>
 
 " NERDTree and Startify at startup
 autocmd VimEnter *
