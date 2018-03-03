@@ -143,10 +143,10 @@ map <F2> :q <CR>
 map <F3> :q! <CR>
 
 " Paste toggle
-set pastetoggle=<F11>
+set pastetoggle=<F6>
 
 " Toggle text wrap
-map <F12> :set wrap!<CR>
+map <F7> :set wrap!<CR>
 
 " NERDTree and Startify at startup
 autocmd VimEnter *
