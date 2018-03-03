@@ -142,6 +142,9 @@ map <F3> :w! <CR>
 " Easily quit
 map <F4> :q <CR>
 
+" Toggle text wrap
+map <F5> :set wrap!<CR>
+
 " NERDTree and Startify at startup
 autocmd VimEnter *
   \   if !argc()
@@ -156,3 +159,7 @@ let g:startify_custom_header =
 
 " Startify start at 0
 let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
+
+" Vertical split bar design
+set fillchars=""
+hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
