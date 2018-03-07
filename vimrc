@@ -139,6 +139,9 @@ set pastetoggle=<F1>
 " Toggle text wrap
 map <F2> :set wrap!<CR>
 
+" Git blame using fugitive
+map <F3> :Gblame<CR>
+
 " NERDTree and Startify at startup
 autocmd VimEnter *
   \   if !argc()
