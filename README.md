@@ -7,6 +7,7 @@ Better safe than sorry. A back up of my dotfiles.
 - [Vundle](https://github.com/VundleVim/Vundle.vim)
 - [tmux](https://github.com/tmux/tmux)
 - [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+- [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [fzf](https://github.com/junegunn/fzf)
 - [xcape](https://github.com/alols/xcape)
 
