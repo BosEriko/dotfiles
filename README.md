@@ -4,6 +4,7 @@ Better safe than sorry. A back up of my dotfiles.
 
 ## Dependencies
 - [Vim](https://www.vim.org)
+- [Vundle](https://github.com/VundleVim/Vundle.vim)
 - [tmux](https://github.com/tmux/tmux)
 - [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - [fzf](https://github.com/junegunn/fzf)
