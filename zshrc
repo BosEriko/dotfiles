@@ -79,3 +79,6 @@ alias ssh-cloud="echo 'ssh -i [PATH_TO_PRIVATE_KEY] [USERNAME]@[EXTERNAL_IP_ADDR
 
 # External IP Alias
 alias external-ip="curl ipinfo.io/ip"
+
+# FZF Search
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

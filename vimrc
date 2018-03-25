@@ -9,8 +9,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'               " This makes VIM awesome
 Plugin 'scrooloose/nerdtree'                " Tree file explorer
 Plugin 'tpope/vim-fugitive'                 " View any blob, tree, commit, or tag in the repository
-Plugin 'kien/ctrlp.vim'                     " Fuzzy file, buffer, mru, tag, etc finder.
-Plugin 'mileszs/ack.vim'                    " Word search inside directory
+Plugin 'junegunn/fzf.vim'                   " FZF Search
 Plugin 'alvan/vim-closetag'                 " Auto close HTML tags
 Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
 Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
@@ -72,10 +71,6 @@ let g:airline_right_sep = ''
 let g:airline_left_alt_sep= ''
 let g:airline_left_sep = ''
 
-" Shortcut for ctrlp
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-
 " 2 spaces only for indentation
 set tabstop=2
 set shiftwidth=2
@@ -119,9 +114,6 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = ''
 
-" Shortcut for Ack
-nmap <leader>f :Ack!<space>
-
 " Remap colon to semicolon to avoid using shift too much
 map ; :
 noremap ;; ;
@@ -160,3 +152,6 @@ let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
 " Vertical split bar design
 set fillchars=""
 hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
+
+" FZF Search
+set rtp+=~/.fzf

@@ -2,6 +2,13 @@
 
 Better safe than sorry. A back up of my dotfiles.
 
+## Dependencies
+- [Vim](https://www.vim.org)
+- [tmux](https://github.com/tmux/tmux)
+- [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+- [fzf](https://github.com/junegunn/fzf)
+- [xcape](https://github.com/alols/xcape)
+
 ## Installation
 
     rm -rf .vim
