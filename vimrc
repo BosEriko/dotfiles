@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'               " This makes VIM awesome
 Plugin 'scrooloose/nerdtree'                " Tree file explorer
 Plugin 'tpope/vim-fugitive'                 " View any blob, tree, commit, or tag in the repository
 Plugin 'junegunn/fzf.vim'                   " FZF Search
+Plugin 'mileszs/ack.vim'                    " Word search inside directory
 Plugin 'alvan/vim-closetag'                 " Auto close HTML tags
 Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
 Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
@@ -153,8 +154,10 @@ let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
 set fillchars=""
 hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
 
-" FZF Search
+" Initialize FZF
 set rtp+=~/.fzf
+
+" FZF Directory Search
 map <silent> <C-p> :Files<CR>
 
 " FZF Color Scheme
@@ -172,3 +175,6 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
+
+" Shortcut for Ack
+nmap <leader>f :Ack!<space>
