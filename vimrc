@@ -27,6 +27,7 @@ Plugin 'hail2u/vim-css3-syntax'             " CSS3
 Plugin 'jelera/vim-javascript-syntax'       " Javascript
 Plugin 'elzr/vim-json'                      " JSON
 Plugin 'tpope/vim-haml'                     " Haml, Sass and SCSS
+Plugin 'slim-template/vim-slim'             " Slim
 
 " Party tricks Plugin
 Plugin 'severin-lemaignan/vim-minimap'      " Minimap
