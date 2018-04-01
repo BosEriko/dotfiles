@@ -151,6 +151,9 @@ let g:startify_custom_header =
 " Startify start at 0
 let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
 
+" Don't change directory on startify
+let g:startify_change_to_dir = 0
+
 " Vertical split bar design
 set fillchars=""
 hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
