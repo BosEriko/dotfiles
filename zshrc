@@ -31,25 +31,6 @@ alias work-folder="cd ~/Documents/Codes/Work"
 alias personal-folder="cd ~/Documents/Codes/Personal"
 alias dotfiles-folder="cd ~/dotfiles"
 
-# Party Tricks Alias
-alias party1="aafire"
-alias party2="cmatrix"
-alias party3="figlet"
-
-# Games Alias
-alias game1="bastet"
-alias game2="ninvaders"
-alias game3="pacman4console"
-alias game4="nsnake"
-alias game5="greed"
-alias game6="atc"
-alias game7="backgammon"
-alias game8="moon-buggy"
-alias game9="./2048"
-alias game10="ssh sshtron.zachlatta.com"
-alias game11="zangband"
-alias game12="nethack-console"
-
 # Back Directory Alias
 alias ..="cd .."
 alias ...="cd ../.."
