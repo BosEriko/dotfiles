@@ -4,6 +4,11 @@ export ZSH=$HOME/.oh-my-zsh
 # Current theme
 ZSH_THEME="bira"
 
+# History
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=10000
+SAVEHIST=10000
+
 # Sources
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
