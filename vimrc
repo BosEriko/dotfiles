@@ -64,6 +64,9 @@ set nowrap
 " Shortcut for NERDTree
 map <silent> <C-\> :NERDTreeToggle<CR>
 
+" Shortcut for NERDTree current opened buffer
+map <leader>r :NERDTreeFind<cr>
+
 " Set theme for bottom toolbar
 let g:airline_theme='bubblegum'
 
