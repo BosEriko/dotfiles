@@ -29,6 +29,7 @@ Plugin 'jelera/vim-javascript-syntax'       " Javascript
 Plugin 'elzr/vim-json'                      " JSON
 Plugin 'tpope/vim-haml'                     " Haml, Sass and SCSS
 Plugin 'slim-template/vim-slim'             " Slim
+Plugin 'elixir-lang/vim-elixir'             " Elixir
 
 " Party tricks Plugin
 Plugin 'severin-lemaignan/vim-minimap'      " Minimap
