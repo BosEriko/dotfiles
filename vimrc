@@ -187,3 +187,6 @@ let g:fzf_colors =
 
 " Shortcut for Ack
 nmap <leader>f :Ack!<space>
+
+" Shorcut for substitute
+nmap <leader>ff :%s/old/new/g
