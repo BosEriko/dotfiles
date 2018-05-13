@@ -2,7 +2,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # Current theme
-ZSH_THEME="bira"
+ZSH_THEME="geoffgarside"
 
 # History
 HISTFILE="$HOME/.zsh_history"
