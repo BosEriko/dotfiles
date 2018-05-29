@@ -70,7 +70,7 @@ alias external-ip="curl ipinfo.io/ip"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # NVM
-[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
 
 # RVM
 eval "$(rbenv init -)"
