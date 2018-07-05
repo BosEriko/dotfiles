@@ -73,4 +73,5 @@ alias external-ip="curl ipinfo.io/ip"
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
 
 # RVM
+export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
