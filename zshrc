@@ -58,7 +58,7 @@ alias npm-outdated="npm outdated -g --depth=0"
 alias npm-update="npm update -g"
 
 # Google Chrome Alias
-alias gc="google-chrome"
+alias gc='open -a "Google Chrome"'
 
 # Google Cloud VM Instance SSH Alias
 alias ssh-cloud="echo 'ssh -i [PATH_TO_PRIVATE_KEY] [USERNAME]@[EXTERNAL_IP_ADDRESS]'"
