@@ -68,9 +68,9 @@ Command Name                                              | Combination
 ---                                                       | ---
 Everything ([?](https://vscodecandothat.com/))            | `cmd` + (`t` ~ `t`)
 Zen Mode                                                  | `cmd` + (`t` ~ `z`)
-Bottom Panel                                              | `cmd` + (`t` ~ `b`)
+Bottom Panel                                              | `cmd` + (`t` ~ `i`)
 Bottom Status Bar                                         | `cmd` + (`t` ~ `s`)
-Sidebar                                                   | `cmd` + (`t` ~ `i`)
+Sidebar                                                   | `cmd` + (`t` ~ `x`)
 Activity Bar                                              | `cmd` + (`t` ~ `a`)
 Editor Tabs                                               | `cmd` + (`t` ~ `e`)
 Minimap                                                   | `cmd` + (`t` ~ `m`)

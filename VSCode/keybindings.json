@@ -268,7 +268,7 @@
         "command": "-workbench.action.toggleZenMode"
     },
     {
-        "key": "cmd+t cmd+b",
+        "key": "cmd+t cmd+i",
         "command": "workbench.action.togglePanel"
     },
     {
@@ -280,7 +280,7 @@
         "command": "workbench.action.toggleStatusbarVisibility"
     },
     {
-        "key": "cmd+t cmd+i",
+        "key": "cmd+t cmd+x",
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
