@@ -1,39 +1,22 @@
 # Dotfiles
 
-Better safe than sorry. A back up of my dotfiles.
+I mainly use VSCode now so this is more of a personal editor settings rather than a dotfiles folder.
 
 ## Dependencies
-- [Vim](https://www.vim.org)
 - [Git](https://git-scm.com)
-- [Vundle](https://github.com/VundleVim/Vundle.vim)
-- [tmux](https://github.com/tmux/tmux)
 - [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [fzf](https://github.com/junegunn/fzf)
-- [xcape](https://github.com/alols/xcape)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Installation
 
-    rm -rf ~/.vim
-    rm ~/.vimrc
-    rm ~/.tmux.conf
-    rm ~/.zshrc
-    rm ~/.profile
-    rm ~/Library/Application\ Support/Code/User/settings.json
-    rm ~/Library/Application\ Support/Code/User/keybindings.json
-
     git clone git@github.com:BosEriko/dotfiles.git ~/dotfiles
-    ln -s ~/dotfiles/vimrc ~/.vimrc
-    ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
-    ln -s ~/dotfiles/zshrc ~/.zshrc
-    ln -s ~/dotfiles/profile ~/.profile
-    ln -s ~/dotfiles/gitconfig ~/.gitconfig
-    ln -s ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-    ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-
-## Note
-I switched ctrl and caps lock for easier TMUX navigation. Also, for soft touch of caps lock it works as an esc button for VIM mode toggle. I used [xcape](https://github.com/alols/xcape) to do it.
+    rm ~/.gitconfig && ln -s ~/dotfiles/gitconfig ~/.gitconfig
+    rm ~/.zshrc && ln -s ~/dotfiles/zshrc ~/.zshrc
+    rm ~/.profile && ln -s ~/dotfiles/profile ~/.profile
+    rm ~/Library/Application\ Support/Code/User/settings.json && ln -s ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+    rm ~/Library/Application\ Support/Code/User/keybindings.json && ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 ## Call to action
 If you want to share some ideas you can email me at mail@boseriko.com.
@@ -43,27 +26,27 @@ If you want to share some ideas you can email me at mail@boseriko.com.
 ### General Commands
 Command Name                                              | Combination
 ---                                                       | ---
-Show all Commands                                         | `cmd` + (`g` ~ `a`)   
-Open a Project                                            | `cmd` + (`g` ~ `o`)   
-Add Folder to Workspace                                   | `cmd` + (`g` ~ `w`)   
-Remove Folder from Workspace                              | `cmd` + (`g` ~ `d`)   
-Format Document                                           | `cmd` + (`g` ~ `f`)   
-Change Language Mode                                      | `cmd` + (`g` ~ `m`) 
-Previous in Quick Open                                    | `cmd` + `shift` + `k`   
-Next in Quick Open                                        | `cmd` + `shift` + `j` 
+Show all Commands                                         | `cmd` + (`g` ~ `a`)
+Open a Project                                            | `cmd` + (`g` ~ `o`)
+Add Folder to Workspace                                   | `cmd` + (`g` ~ `w`)
+Remove Folder from Workspace                              | `cmd` + (`g` ~ `d`)
+Format Document                                           | `cmd` + (`g` ~ `f`)
+Change Language Mode                                      | `cmd` + (`g` ~ `m`)
+Previous in Quick Open                                    | `cmd` + `shift` + `k`
+Next in Quick Open                                        | `cmd` + `shift` + `j`
 
 ### Search Commands
 Command Name                                              | Combination
 ---                                                       | ---
-Fuzzy Search                                              | `cmd` + (`s` ~ `s`)           
-Inside Project                                            | `cmd` + (`s` ~ `p`)           
-Inside Project and Replace                                | `cmd` + (`s` ~ `shift` + `p`) 
-Inside File                                               | `cmd` + (`s` ~ `i`)           
-Inside File and Replace                                   | `cmd` + (`s` ~ `shift` + `i`) 
-Inside Folder                                             | `cmd` + (`s` ~ `o`)           
-Inside Folder and Replace                                 | `cmd` + (`s` ~ `shift` + `o`) 
-Previous Search Result                                    | `cmd` + (`s` ~ `k`)           
-Next Search Result                                        | `cmd` + (`s` ~ `j`)           
+Fuzzy Search                                              | `cmd` + (`s` ~ `s`)
+Inside Project                                            | `cmd` + (`s` ~ `p`)
+Inside Project and Replace                                | `cmd` + (`s` ~ `shift` + `p`)
+Inside File                                               | `cmd` + (`s` ~ `i`)
+Inside File and Replace                                   | `cmd` + (`s` ~ `shift` + `i`)
+Inside Folder                                             | `cmd` + (`s` ~ `o`)
+Inside Folder and Replace                                 | `cmd` + (`s` ~ `shift` + `o`)
+Previous Search Result                                    | `cmd` + (`s` ~ `k`)
+Next Search Result                                        | `cmd` + (`s` ~ `j`)
 
 ### Explorer Commands
 Command Name                                              | Combination
