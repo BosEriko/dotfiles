@@ -29,5 +29,6 @@
   "editor.fontSize": 13,
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
-  "editor.renderWhitespace": "all"
+  "editor.renderWhitespace": "all",
+  "workbench.iconTheme": "material-icon-theme"
 }
