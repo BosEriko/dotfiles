@@ -18,9 +18,3 @@ fi
 
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
-
-# Capslock as escape
-xcape -e '#66=Escape'
-
-# Set touchpad area
-xinput set-prop "ETPS/2 Elantech Touchpad" "Synaptics Area" 500 2597 300 1819
