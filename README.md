@@ -39,8 +39,7 @@ _Remember to install [Font Ligatures](https://github.com/tonsky/FiraCode) as wel
 
     code --list-extensions | xargs -L 1 echo code --install-extension
 
-## Call to action
-If you want to share some ideas you can email me at mail@boseriko.com.
+------
 
 # Visual Studio Code Custom Hotkeys (Mac)
 
@@ -159,3 +158,8 @@ _Commands with ~ are chord commands_
 * [VS Code Can Do That? (Website)](https://vscodecandothat.com/)
 * [10 Most Useful Tips And Tricks](https://www.youtube.com/watch?v=cVGMldhVRxU)
 * [Visual Studio Code Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
+
+------
+
+## Call to action
+If you want to share some ideas you can email me at mail@boseriko.com.
