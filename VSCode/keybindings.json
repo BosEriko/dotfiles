@@ -440,7 +440,11 @@
     },
     {
         "key": "cmd+e cmd+l",
-        "command": "workbench.action.navigateEditorGroups"
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "cmd+e cmd+h",
+        "command": "workbench.action.focusPreviousGroup"
     },
     {
         "key": "cmd+e cmd+x",
