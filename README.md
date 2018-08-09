@@ -91,6 +91,18 @@ Create New Terminal                                       | `cmd` + (`i` ~ `n`)
 Maximize Bottom Panel                                     | `cmd` + (`i` ~ `m`)
 Clear the Terminal                                        | `cmd` + (`i` ~ `c`)
 
+### Fold Commands
+Command Name                                              | Combination
+---                                                       | ---
+Fold                                                      | `cmd` + (`f` ~ `f`)
+Fold Recursively                                          | `cmd` + (`f` ~ `shift` + `f`)
+Unfold                                                    | `cmd` + (`f` ~ `u`)
+Unfold Recursively                                        | `cmd` + (`f` ~ `shift` + `u`)
+Fold All                                                  | `cmd` + (`f` ~ `a`)
+Unfold All                                                | `cmd` + (`f` ~ `shift` + `a`)
+Fold All Block Comments                                   | `cmd` + (`f` ~ `c`)
+Fold Level X (Up to level 7)                              | `cmd` + (`f` ~ `1`)
+
 ### Editor Commands
 Command Name                                              | Combination
 ---                                                       | ---

@@ -528,6 +528,172 @@
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
     },
+    // Fold Commands
+    {
+        "key": "cmd+f",
+        "command": "-workbench.action.terminal.focusFindWidget",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-editor.action.extensioneditor.showfind",
+        "when": "extensionEditorWebviewFocus"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-editor.action.webvieweditor.showFind",
+        "when": "webviewEditorFocus"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-keybindings.editor.searchKeybindings",
+        "when": "inKeybindings && keybindingFocus"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-settings.action.search",
+        "when": "inSettingsEditor"
+    },
+    {
+        "key": "cmd+f cmd+f",
+        "command": "editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+[",
+        "command": "-editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f shift+cmd+f",
+        "command": "editor.foldRecursively",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+[",
+        "command": "-editor.foldRecursively",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+u",
+        "command": "editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+]",
+        "command": "-editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f shift+cmd+u",
+        "command": "editor.unfoldRecursively",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+]",
+        "command": "-editor.unfoldRecursively",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+a",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+0",
+        "command": "-editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f shift+cmd+a",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+c",
+        "command": "editor.foldAllBlockComments",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+/",
+        "command": "-editor.foldAllBlockComments",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+1",
+        "command": "editor.foldLevel1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+1",
+        "command": "-editor.foldLevel1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+2",
+        "command": "editor.foldLevel2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+2",
+        "command": "-editor.foldLevel2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+3",
+        "command": "editor.foldLevel3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+3",
+        "command": "-editor.foldLevel3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+4",
+        "command": "editor.foldLevel4",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+4",
+        "command": "-editor.foldLevel4",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+5",
+        "command": "editor.foldLevel5",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+5",
+        "command": "-editor.foldLevel5",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+6",
+        "command": "editor.foldLevel6",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+6",
+        "command": "-editor.foldLevel6",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f cmd+7",
+        "command": "editor.foldLevel7",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+7",
+        "command": "-editor.foldLevel7",
+        "when": "editorTextFocus"
+    },
     // Other Commands
     {}
 ]
