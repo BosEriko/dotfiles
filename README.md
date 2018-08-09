@@ -110,6 +110,8 @@ Open Preview to the Side (Markdown)                       | `cmd` + (`e` ~ `m`)
 Save Changes                                              | `cmd` + (`e` ~ `enter`)
 
 ### Vim Extension Keys
+Command Name                                              | Combination
+---                                                       | ---
 Add Selection To Next Find Match                          | `ctrl` + `shift` + `n`
 Add Cursor Below                                          | `ctrl` + `shift` + `j`
 Add Cursor Above                                          | `ctrl` + `shift` + `k`
