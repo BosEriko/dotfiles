@@ -106,6 +106,8 @@ Move to left Split Window                                 | `cmd` + (`e` ~ `h`)
 Move to right Split Window                                | `cmd` + (`e` ~ `l`)
 Close Active Split Window                                 | `cmd` + (`e` ~ `x`)
 Comment Highlighted Line                                  | `cmd` + (`e` ~ `c`)
+Add Cursor Below                                          | `ctrl` + `shift` + `j`
+Add Cursor Above                                          | `ctrl` + `shift` + `k`
 Save Changes                                              | `cmd` + (`e` ~ `enter`)
 Open Preview to the Side (Markdown)                       | `cmd` + (`e` ~ `m`)
 
