@@ -32,7 +32,7 @@
         "command": "workbench.action.addRootFolder"
     },
     {
-        "key": "shift+cmd+j",
+        "key": "cmd+g cmd+j",
         "command": "workbench.action.quickOpenSelectNext",
         "when": "inQuickOpen"
     },
@@ -47,7 +47,7 @@
         "when": "searchViewletVisible"
     },
     {
-        "key": "shift+cmd+k",
+        "key": "cmd+g cmd+k",
         "command": "workbench.action.quickOpenSelectPrevious",
         "when": "inQuickOpen"
     },
@@ -517,6 +517,16 @@
         "key": "alt+cmd+down",
         "command": "-editor.action.insertCursorBelow",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
     },
     // Other Commands
     {}

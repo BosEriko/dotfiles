@@ -32,8 +32,8 @@ Add Folder to Workspace                                   | `cmd` + (`g` ~ `w`)
 Remove Folder from Workspace                              | `cmd` + (`g` ~ `d`)
 Format Document                                           | `cmd` + (`g` ~ `f`)
 Change Language Mode                                      | `cmd` + (`g` ~ `m`)
-Previous in Quick Open                                    | `cmd` + `shift` + `k`
-Next in Quick Open                                        | `cmd` + `shift` + `j`
+Previous in Quick Open                                    | `cmd` + (`g` ~ `k`)
+Next in Quick Open                                        | `cmd` + (`g` ~ `j`)
 
 ### Search Commands
 Command Name                                              | Combination
@@ -106,10 +106,13 @@ Move to left Split Window                                 | `cmd` + (`e` ~ `h`)
 Move to right Split Window                                | `cmd` + (`e` ~ `l`)
 Close Active Split Window                                 | `cmd` + (`e` ~ `x`)
 Comment Highlighted Line                                  | `cmd` + (`e` ~ `c`)
+Open Preview to the Side (Markdown)                       | `cmd` + (`e` ~ `m`)
+Save Changes                                              | `cmd` + (`e` ~ `enter`)
+
+### Vim Extension Keys
+Add Selection To Next Find Match                          | `ctrl` + `shift` + `n`
 Add Cursor Below                                          | `ctrl` + `shift` + `j`
 Add Cursor Above                                          | `ctrl` + `shift` + `k`
-Save Changes                                              | `cmd` + (`e` ~ `enter`)
-Open Preview to the Side (Markdown)                       | `cmd` + (`e` ~ `m`)
 
 _Commands with ~ are chord commands_
 
