@@ -694,6 +694,9 @@
         "command": "-editor.foldLevel7",
         "when": "editorTextFocus"
     },
-    // Other Commands
-    {}
+    // Extensions Commands
+    {
+        "key": "cmd+h cmd+p",
+        "command": "autoprefixer.execute"
+    }
 ]

@@ -142,6 +142,11 @@ Comment Highlighted Line                                  | `cmd` + (`e` ~ `c`)
 Open Preview to the Side (Markdown)                       | `cmd` + (`e` ~ `m`)
 Save Changes                                              | `cmd` + (`e` ~ `enter`)
 
+### Extensions Commands
+Command Name                                              | Combination
+---                                                       | ---
+Autoprefix CSS                                            | `cmd` + (`h` ~ `p`)
+
 ### Vim Extension Keys
 Command Name                                              | Combination
 ---                                                       | ---
