@@ -18,6 +18,27 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
     rm ~/Library/Application\ Support/Code/User/settings.json && ln -s ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
     rm ~/Library/Application\ Support/Code/User/keybindings.json && ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
+## Installation of Visual Studio Code extensions
+
+    code --install-extension CoenraadS.bracket-pair-colorizer
+    code --install-extension idleberg.hopscotch
+    code --install-extension jcbuisson.vue
+    code --install-extension karunamurti.haml
+    code --install-extension ms-vsliveshare.vsliveshare
+    code --install-extension rebornix.ruby
+    code --install-extension robinbentley.sass-indented
+    code --install-extension ryuta46.multi-command
+    code --install-extension sianglim.slim
+    code --install-extension vscodevim.vim
+    code --install-extension waderyan.gitblame
+    code --install-extension wayou.vscode-todo-highlight
+
+_Remember to install [Font Ligatures](https://github.com/tonsky/FiraCode) as well_
+
+## Get the list of currently installed Visual Studio Code extensions
+
+    code --list-extensions | xargs -L 1 echo code --install-extension
+
 ## Call to action
 If you want to share some ideas you can email me at mail@boseriko.com.
 
@@ -129,19 +150,6 @@ Add Cursor Below                                          | `ctrl` + `shift` + `
 Add Cursor Above                                          | `ctrl` + `shift` + `k`
 
 _Commands with ~ are chord commands_
-
-------
-
-### Extensions that matter
-Extension Name                                            | Creator
----                                                       | ---
-Vim                                                       | vscodevim
-multi-command                                             | ryuta46
-Bracket Pair Colorizer                                    | CoenraadS
-Hopscotch (Official)                                      | idleberg
-TODO Highlight                                            | Wayou Liu
-
-_Remember to install [Font Ligatures](https://github.com/tonsky/FiraCode) as well_
 
 ------
 
