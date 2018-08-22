@@ -70,9 +70,9 @@ alias external-ip="curl ipinfo.io/ip"
 alias restart-zsh="source ~/.zshrc"
 
 # Talkpush Alias
-alias tp-help="echo -e 'This is a helper of all your Talkpush commands.
-
-COMMANDS                    DESCRIPTION
+alias tp-help="figlet 'Talkpush Helpers' && echo -e '\nThis is a helper of all your Talkpush commands.
+\n
+\033[1mCommands                    Description\033[0m
 tp-start-app                Start Application
 tp-start-webpack            Start Webpack
 tp-start-sidekiq            Start Sidekiq
