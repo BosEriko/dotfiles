@@ -74,11 +74,11 @@ alias tp-help="figlet 'Talkpush Helpers' && echo -e '\nThis is a helper showing 
 \n
 \033[1mCommands                    Description\033[0m
 tp-start-app                Start Application
-tp-start-webpack            Start Webpack
 tp-start-sidekiq            Start Sidekiq
 tp-start-mailhog            Start Mailhog
 tp-start-shell              Start Shell
 tp-start-console            Start Console
+tp-show-logs                Show Logs
 tp-creds-app                Application Credentials
 tp-creds-staging            Staging Credentials
 tp-creds-bug                Bug Tracking Credentials
@@ -87,12 +87,12 @@ tp-remind-socket-error      Socket Error Instructions
 tp-setup-project            Setup Project for the first time
 tp-fix-subclass-error       Fix SubClass error
 '"
-alias tp-start-app="docker-compose stop && docker-compose rm -f && docker-compose up -d talkpush && docker attach talkpush && /usr/bin/open -a '/Applications/Google Chrome.app' 'http://localhost/'"
-alias tp-start-webpack="bin/webpack-watcher"
+alias tp-start-app="docker-compose stop && docker-compose rm -f && docker-compose up -d talkpush && /usr/bin/open -a '/Applications/Google Chrome.app' 'http://lvh.me/' && bin/webpack-watcher"
 alias tp-start-sidekiq="bundle exec sidekiq -C ./config/sidekiq.yml"
 alias tp-start-mailhog="docker-compose up -d mailhog && /usr/bin/open -a '/Applications/Google Chrome.app' 'http://localhost:8025/'"
 alias tp-start-shell="docker-compose exec talkpush sh"
 alias tp-start-console="docker-compose exec talkpush sh -c 'rails c'"
+alias tp-show-logs="docker attach talkpush"
 alias tp-creds-app="echo -e 'Link: localhost\nUsername: dev@talkpush.com\nPassword: talkpush'"
 alias tp-creds-staging="echo -e 'Link: http://staging.talkpush.com:2812/\nUsername: admin\nPassword: monit'"
 alias tp-creds-bug="echo -e 'Link: https://talkpush.atlassian.net/projects/TPBUGS/queues/custom/1\nUsername: devs@talkpush.com\nPassword: W8#7%pDUgbelv!vS'"
