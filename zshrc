@@ -85,7 +85,7 @@ tp-creds-bug                Bug Tracking Credentials
 tp-remind-mina              Mina Instructions
 tp-remind-socket-error      Socket Error Instructions
 tp-setup-project            Setup Project for the first time
-tp-fix-subclass             Fix SubClass error
+tp-fix-subclass-error       Fix SubClass error
 '"
 alias tp-start-app="echo -e 'View at localhost.\n' && docker-compose stop && docker-compose rm -f && docker-compose up -d talkpush && docker attach talkpush"
 alias tp-start-webpack="bin/webpack-watcher"
