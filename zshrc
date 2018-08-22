@@ -92,14 +92,14 @@ alias tp-start-webpack="bin/webpack-watcher"
 alias tp-start-sidekiq="bundle exec sidekiq -C ./config/sidekiq.yml"
 alias tp-start-mailhog="echo -e 'View mailhog at localhost:8025.\n\n' && docker-compose up -d mailhog"
 alias tp-start-shell="docker-compose exec talkpush sh"
-alias tp-start-console="docker-compose exec talkpush sh rails c"
+alias tp-start-console="docker-compose exec talkpush sh -c 'rails c'"
 alias tp-creds-app="echo -e 'Link: localhost\nUsername: dev@talkpush.com\nPassword: talkpush'"
 alias tp-creds-staging="echo -e 'Link: http://staging.talkpush.com:2812/\nUsername: admin\nPassword: monit'"
 alias tp-creds-bug="echo -e 'Link: https://talkpush.atlassian.net/projects/TPBUGS/queues/custom/1\nUsername: devs@talkpush.com\nPassword: W8#7%pDUgbelv!vS'"
 alias tp-remind-mina="echo -e 'Deploy: mina deploy\nOpen Console: mina console'"
 alias tp-remind-socket-error="echo -e 'Stop Docker if running: docker-compose stop talkpush\nOpen the .env file and...\n...replace ELASTICSEARCH_URL=http://elastic:changeme@elasticsearch:9200\n...with ELASTICSEARCH_URL=http://elastic:changeme@localhost:9200\nInstall Dependencies: bundle install\nStart Puma: bundle exec puma'"
-alias tp-setup-project="echo -e 'Setting up for the first time.\n\n' && rake db:reset && rake db:seed && rake company:seed && docker-compose exec talkpush sh rake elasticsearch:campaign_invitation:build && docker-compose exec talkpush sh rake elasticsearch:campaign_invitation:import"
-alias tp-fix-subclass-error="docker-compose exec talkpush sh kill -s SIGUSR1 1"
+alias tp-setup-project="echo -e 'Setting up for the first time.\n\n' && rake db:reset && rake db:seed && rake company:seed && docker-compose exec talkpush sh -c 'rake elasticsearch:campaign_invitation:build' && docker-compose exec talkpush sh -c 'rake elasticsearch:campaign_invitation:import'"
+alias tp-fix-subclass-error="docker-compose exec talkpush sh -c 'kill -s SIGUSR1 1'"
 
 # FZF Search
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
