@@ -73,18 +73,17 @@ alias restart-zsh="source ~/.zshrc"
 alias tp-help="echo -e 'This is a helper of all your Talkpush commands.
 
 COMMANDS                    DESCRIPTION
-
 tp-start-app                Start Application
-       ^-webpack            Start Webpack
-       ^-sidekiq            Start Sidekiq
-       ^-mailhog            Start Mailhog
-       ^-shell              Start Shell
-       ^-console            Start Console
+tp-start-webpack            Start Webpack
+tp-start-sidekiq            Start Sidekiq
+tp-start-mailhog            Start Mailhog
+tp-start-shell              Start Shell
+tp-start-console            Start Console
 tp-creds-app                Application Credentials
-       ^-staging            Staging Credentials
-       ^-bug                Bug Tracking Credentials
+tp-creds-staging            Staging Credentials
+tp-creds-bug                Bug Tracking Credentials
 tp-remind-mina              Mina Instructions
-        ^-socket-error      Socket Error Instructions
+tp-remind-socket-error      Socket Error Instructions
 tp-setup-project            Setup Project for the first time
 tp-fix-subclass             Fix SubClass error
 '"
