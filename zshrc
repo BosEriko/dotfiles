@@ -87,10 +87,10 @@ tp-remind-socket-error      Socket Error Instructions
 tp-setup-project            Setup Project for the first time
 tp-fix-subclass-error       Fix SubClass error
 '"
-alias tp-start-app="echo -e 'View at localhost.\n' && docker-compose stop && docker-compose rm -f && docker-compose up -d talkpush && docker attach talkpush"
+alias tp-start-app="docker-compose stop && docker-compose rm -f && docker-compose up -d talkpush && docker attach talkpush && /usr/bin/open -a '/Applications/Google Chrome.app' 'http://localhost/'"
 alias tp-start-webpack="bin/webpack-watcher"
 alias tp-start-sidekiq="bundle exec sidekiq -C ./config/sidekiq.yml"
-alias tp-start-mailhog="echo -e 'View mailhog at localhost:8025.\n' && docker-compose up -d mailhog"
+alias tp-start-mailhog="docker-compose up -d mailhog && /usr/bin/open -a '/Applications/Google Chrome.app' 'http://localhost:8025/'"
 alias tp-start-shell="docker-compose exec talkpush sh"
 alias tp-start-console="docker-compose exec talkpush sh -c 'rails c'"
 alias tp-creds-app="echo -e 'Link: localhost\nUsername: dev@talkpush.com\nPassword: talkpush'"
