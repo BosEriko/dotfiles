@@ -97,7 +97,7 @@ alias tp-creds-app="echo -e 'Link: localhost\nUsername: dev@talkpush.com\nPasswo
 alias tp-creds-staging="echo -e 'Link: http://staging.talkpush.com:2812/\nUsername: admin\nPassword: monit'"
 alias tp-creds-bug="echo -e 'Link: https://talkpush.atlassian.net/projects/TPBUGS/queues/custom/1\nUsername: devs@talkpush.com\nPassword: W8#7%pDUgbelv!vS'"
 alias tp-remind-mina="echo -e 'Deploy: mina deploy\nOpen Console: mina console'"
-alias tp-remind-socket-error="echo -e 'Stop Docker if running: docker-compose stop talkpush\nOpen the .env file and change ELASTICSEARCH_URL=http://elastic:changeme@elasticsearch:9200 to ELASTICSEARCH_URL=http://elastic:changeme@localhost:9200\nInstall Dependencies: bundle install\nStart Puma: bundle exec puma'"
+alias tp-remind-socket-error="echo -e 'Stop Docker if running: docker-compose stop talkpush\nOpen the .env file and...\n...replace ELASTICSEARCH_URL=http://elastic:changeme@elasticsearch:9200\n...with ELASTICSEARCH_URL=http://elastic:changeme@localhost:9200\nInstall Dependencies: bundle install\nStart Puma: bundle exec puma'"
 alias tp-setup-project="echo -e 'Setting up for the first time.\n\n' && rake db:reset && rake db:seed && rake company:seed && docker-compose exec talkpush sh rake elasticsearch:campaign_invitation:build && docker-compose exec talkpush sh rake elasticsearch:campaign_invitation:import"
 alias tp-fix-subclass-error="docker-compose exec talkpush sh kill -s SIGUSR1 1"
 
