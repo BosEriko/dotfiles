@@ -75,7 +75,7 @@ TALKPUSH_HELP_MESSAGE="
     This is a helper showing all your Talkpush commands.
 
 
-    Usage: tp [options] [command]
+    Usage: tp [option] [command]
 
 \033[1m
     Options:                    Commands:               Description:
