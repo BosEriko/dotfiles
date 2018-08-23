@@ -157,6 +157,8 @@ Add Cursor Above                                          | `ctrl` + `shift` + `
 
 _Commands with ~ are chord commands_
 
+_You can also use Vim's Easymotion. Refer [here](https://github.com/VSCodeVim/Vim#vim-easymotion) for more information._
+
 ------
 
 ### Reference
