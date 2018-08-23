@@ -24,7 +24,7 @@
   ],
   "vim.useSystemClipboard": true,
   "vim.easymotion": true,
-  "vim.leader": ";",
+  "vim.leader": ",",
   "files.autoSave": "off",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
