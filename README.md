@@ -26,6 +26,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
     code --install-extension karunamurti.haml
     code --install-extension mrmlnc.vscode-autoprefixer
     code --install-extension ms-vsliveshare.vsliveshare
+    code --install-extension oderwat.indent-rainbow
     code --install-extension PKief.material-icon-theme
     code --install-extension rebornix.ruby
     code --install-extension robinbentley.sass-indented
