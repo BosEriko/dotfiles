@@ -3,6 +3,7 @@
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "relative",
   "workbench.editor.showTabs": true,
+  "editor.wordWrap": "on",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": true,
