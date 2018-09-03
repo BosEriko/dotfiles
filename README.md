@@ -142,6 +142,7 @@ Move to right Split Window                                | `cmd` + (`e` ~ `l`)
 Close Active Split Window                                 | `cmd` + (`e` ~ `x`)
 Comment Highlighted Line                                  | `cmd` + (`e` ~ `c`)
 Open Preview to the Side (Markdown)                       | `cmd` + (`e` ~ `m`)
+Close Saved Editors in Group                              | `cmd` + (`e` ~ `o`)
 Save Changes                                              | `cmd` + (`e` ~ `enter`)
 
 ### Extensions Commands

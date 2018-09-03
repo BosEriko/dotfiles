@@ -528,6 +528,14 @@
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
     },
+    {
+        "key": "cmd+e cmd+o",
+        "command": "workbench.action.closeUnmodifiedEditors"
+    },
+    {
+        "key": "cmd+k u",
+        "command": "-workbench.action.closeUnmodifiedEditors"
+    },
     // Fold Commands
     {
         "key": "cmd+f",
