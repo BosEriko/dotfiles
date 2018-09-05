@@ -114,6 +114,8 @@ Move to left Pane                                         | `cmd` + (`i` ~ `h`)
 Move to right Pane                                        | `cmd` + (`i` ~ `l`)
 Close Active Pane                                         | `cmd` + (`i` ~ `x`)
 Create New Terminal                                       | `cmd` + (`i` ~ `n`)
+Scroll Up (Line)                                          | `ctrl` + `k`
+Scroll Down (Line)                                        | `ctrl` + `j`
 Maximize Bottom Panel                                     | `cmd` + (`i` ~ `m`)
 Clear the Terminal                                        | `cmd` + (`i` ~ `c`)
 
