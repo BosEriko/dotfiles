@@ -83,6 +83,10 @@
         "key": "cmd+g cmd+d",
         "command": "workbench.action.removeRootFolder"
     },
+    {
+        "key": "cmd+g cmd+v",
+        "command": "workbench.action.toggleDevTools"
+    },
     // Search Commands
     {
         "key": "cmd+s cmd+s",
