@@ -58,8 +58,8 @@ Add Folder to Workspace                                   | `cmd` + (`g` ~ `w`)
 Remove Folder from Workspace                              | `cmd` + (`g` ~ `d`)
 Format Document                                           | `cmd` + (`g` ~ `f`)
 Change Language Mode                                      | `cmd` + (`g` ~ `m`)
-Previous in Quick Open                                    | `cmd` + (`g` ~ `k`)
-Next in Quick Open                                        | `cmd` + (`g` ~ `j`)
+Previous in Quick Open                                    | `ctrl` + `k`
+Next in Quick Open                                        | `ctrl` + `j`
 
 ### Search Commands
 Command Name                                              | Combination

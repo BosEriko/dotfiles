@@ -32,7 +32,7 @@
         "command": "workbench.action.addRootFolder"
     },
     {
-        "key": "cmd+g cmd+j",
+        "key": "ctrl+j",
         "command": "workbench.action.quickOpenSelectNext",
         "when": "inQuickOpen"
     },
@@ -47,7 +47,7 @@
         "when": "searchViewletVisible"
     },
     {
-        "key": "cmd+g cmd+k",
+        "key": "ctrl+k",
         "command": "workbench.action.quickOpenSelectPrevious",
         "when": "inQuickOpen"
     },
