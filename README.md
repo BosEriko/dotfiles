@@ -161,6 +161,7 @@ Command Name                                              | Combination
 ---                                                       | ---
 Autoprefix CSS                                            | `cmd` + (`h` ~ `p`)
 Wrap in HTML Tags                                         | `cmd` + (`h` ~ `w`)
+Toggle Line Blame Annotations                             | `cmd` + (`h` ~ `b`)
 
 ### Vim Extension Keys
 Command Name                                              | Combination

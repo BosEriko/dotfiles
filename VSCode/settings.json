@@ -40,5 +40,6 @@
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "htmltagwrap.tag": "div"
 }

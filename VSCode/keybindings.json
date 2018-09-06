@@ -760,5 +760,9 @@
         "key": "alt+w",
         "command": "-extension.htmlTagWrap",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+h cmd+b",
+        "command": "gitlens.toggleLineBlame"
     }
 ]
