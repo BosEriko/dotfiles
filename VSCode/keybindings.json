@@ -750,5 +750,15 @@
     {
         "key": "cmd+h cmd+p",
         "command": "autoprefixer.execute"
+    },
+    {
+        "key": "cmd+h cmd+w",
+        "command": "extension.htmlTagWrap",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-extension.htmlTagWrap",
+        "when": "editorTextFocus"
     }
 ]
