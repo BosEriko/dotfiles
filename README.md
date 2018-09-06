@@ -20,8 +20,13 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
 
 ## Installation of Visual Studio Code extensions
 
+    code --install-extension alefragnani.project-manager
+    code --install-extension bierner.emojisense
+    code --install-extension bradgashler.htmltagwrap
+    code --install-extension christian-kohler.path-intellisense
     code --install-extension CoenraadS.bracket-pair-colorizer
     code --install-extension eamodio.gitlens
+    code --install-extension humao.rest-client
     code --install-extension idleberg.hopscotch
     code --install-extension jcbuisson.vue
     code --install-extension karunamurti.haml
