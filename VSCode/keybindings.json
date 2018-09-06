@@ -764,5 +764,13 @@
     {
         "key": "cmd+h cmd+b",
         "command": "gitlens.toggleLineBlame"
+    },
+    {
+        "key": "cmd+h cmd+o",
+        "command": "projectManager.listProjects"
+    },
+    {
+        "key": "alt+cmd+p",
+        "command": "-projectManager.listProjects"
     }
 ]
