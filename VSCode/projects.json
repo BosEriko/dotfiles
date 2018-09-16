@@ -1,2 +1,44 @@
 [
+	{
+		"name": "Kuru Anime",
+		"rootPath": "$home/Documents/Codes/Personal/kuru-anime",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "bk201",
+		"rootPath": "$home/Documents/Codes/Personal/bk201",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Kitsu",
+		"rootPath": "$home/Documents/Codes/Personal/hummingbird",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Personal Portfolio",
+		"rootPath": "$home/Documents/Codes/Personal/boseriko.com",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Talkpush Application",
+		"rootPath": "$home/Documents/Codes/Work/tp-app",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Talkpush Website (Old)",
+		"rootPath": "$home/Documents/Codes/Work/tp-site",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Talkpush Website (New)",
+		"rootPath": "$home/Documents/Codes/Work/tp-site-new",
+		"paths": [],
+		"group": ""
+	}
 ]

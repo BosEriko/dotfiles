@@ -40,6 +40,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
     code --install-extension ryuta46.multi-command
     code --install-extension sianglim.slim
     code --install-extension steoates.autoimport
+    code --install-extension Tyriar.sort-lines
     code --install-extension vscodevim.vim
     code --install-extension wayou.vscode-todo-highlight
     code --install-extension xabikos.JavaScriptSnippets
