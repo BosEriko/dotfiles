@@ -772,5 +772,9 @@
     {
         "key": "alt+cmd+p",
         "command": "-projectManager.listProjects"
+    },
+    {
+        "key": "cmd+h cmd+s",
+        "command": "sortLines.sortLinesCaseInsensitive"
     }
 ]
