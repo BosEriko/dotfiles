@@ -24,20 +24,14 @@
 		"group": ""
 	},
 	{
-		"name": "Talkpush Application",
+		"name": "Talkpush (Application)",
 		"rootPath": "$home/Documents/Codes/Work/tp-app",
 		"paths": [],
 		"group": ""
 	},
 	{
-		"name": "Talkpush Website (Old)",
+		"name": "Talkpush (Website)",
 		"rootPath": "$home/Documents/Codes/Work/tp-site",
-		"paths": [],
-		"group": ""
-	},
-	{
-		"name": "Talkpush Website (New)",
-		"rootPath": "$home/Documents/Codes/Work/tp-site-new",
 		"paths": [],
 		"group": ""
 	}
