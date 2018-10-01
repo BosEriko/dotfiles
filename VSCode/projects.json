@@ -28,5 +28,11 @@
 		"rootPath": "$home/Documents/Codes/Work/tp-site",
 		"paths": [],
 		"group": ""
+	},
+	{
+		"name": "Laboratory",
+		"rootPath": "$home/Documents/Codes/Personal/laboratory",
+		"paths": [],
+		"group": ""
 	}
 ]
