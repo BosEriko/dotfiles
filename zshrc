@@ -42,6 +42,10 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+# CPU Details Alias
+alias cpu-usage='htop'
+alias cpu-temp='istats'
+
 # Memory Sizes Alias
 alias df='df -h'
 alias du='du -h -c'
