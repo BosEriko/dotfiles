@@ -13,9 +13,6 @@ SAVEHIST=10000
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
-# ==================================================================================================[ Show SSH Key Alias ]===== #
-alias my-ssh-key="cat ~/.ssh/id_rsa.pub"
-
 # ===============================================================================================[ Start Localhost Alias ]===== #
 alias localhost-live="live-server"
 alias localhost-http="http-server"
@@ -184,9 +181,9 @@ JARVIS_HELP_MESSAGE="
 
     -f, --fun                   parrot                  Party Parrot
 
-
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
+                                ssh-key                 Print Main SSH Key
 
 \033[1m
     VSCode Notes:
@@ -355,6 +352,8 @@ jarvis() {
                 sudo shutdown -h now
             elif [ "$2" = "restart" ]; then
                 sudo shutdown -r now
+            elif [ "$2" = "ssh-key" ]; then
+                cat ~/.ssh/id_rsa.pub
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
