@@ -332,7 +332,7 @@ jarvis() {
             elif [ "$2" = "list-extensions" ]; then
                 code --list-extensions | xargs -L 1 echo code --install-extension
             elif [ "$2" = "reference" ]; then
-                 echo -e "\033[1m
+                echo -e "\033[1m
     Name:                               Link:
 \033[0m
     Default Mac Keyboard Shortcuts      https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
