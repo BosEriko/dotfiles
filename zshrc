@@ -1,75 +1,75 @@
-# Path to your oh-my-zsh installation.
+# =================================================================================[ Path to your oh-my-zsh installation ]===== #
 export ZSH=$HOME/.oh-my-zsh
 
-# Current theme
+# =======================================================================================================[ Current theme ]===== #
 ZSH_THEME="geoffgarside"
 
-# History
+# =============================================================================================================[ History ]===== #
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=10000
 SAVEHIST=10000
 
-# Sources
+# =============================================================================================================[ Sources ]===== #
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
-# Shutdown/Restart Alias
+# ==============================================================================================[ Shutdown/Restart Alias ]===== #
 alias goodbye="sudo shutdown -h now"
 alias see-you-again="sudo shutdown -r now"
 
-# Show SSH Key Alias
+# ==================================================================================================[ Show SSH Key Alias ]===== #
 alias my-ssh-key="cat ~/.ssh/id_rsa.pub"
 
-# Start Localhost Alias
+# ===============================================================================================[ Start Localhost Alias ]===== #
 alias localhost-live="live-server"
 alias localhost-http="http-server"
 
-# Start Ngrok Alias
+# ===================================================================================================[ Start Ngrok Alias ]===== #
 alias start-ngrok="ngrok http --region=ap"
 
-# Directory Alias
+# =====================================================================================================[ Directory Alias ]===== #
 alias work-folder="cd ~/Documents/Codes/Work"
 alias personal-folder="cd ~/Documents/Codes/Personal"
 alias dotfiles-folder="cd ~/dotfiles"
 
-# Back Directory Alias
+# ================================================================================================[ Back Directory Alias ]===== #
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# CPU Details Alias
+# ===================================================================================================[ CPU Details Alias ]===== #
 alias cpu-usage='htop'
 alias cpu-temp='istats'
 
-# Memory Sizes Alias
+# ==================================================================================================[ Memory Sizes Alias ]===== #
 alias df='df -h'
 alias du='du -h -c'
 
-# Diskspace Alias
+# =====================================================================================================[ Diskspace Alias ]===== #
 alias checkdisk='pydf'
 
-# Clean Trash Alias
+# ===================================================================================================[ Clean Trash Alias ]===== #
 alias clearbin="rm -rf ~/.local/share/Trash/*"
 
-# Npm Alias
+# ===========================================================================================================[ Npm Alias ]===== #
 alias npm-list="npm list -g --depth=0"
 alias npm-outdated="npm outdated -g --depth=0"
 alias npm-update="npm update -g"
 
-# Google Chrome Alias
+# =================================================================================================[ Google Chrome Alias ]===== #
 alias gc='open -a "Google Chrome"'
 
-# Google Cloud VM Instance SSH Alias
+# ==================================================================================[ Google Cloud VM Instance SSH Alias ]===== #
 alias ssh-cloud="echo 'ssh -i [PATH_TO_PRIVATE_KEY] [USERNAME]@[EXTERNAL_IP_ADDRESS]'"
 
-# External IP Alias
+# ===================================================================================================[ External IP Alias ]===== #
 alias external-ip="curl ipinfo.io/ip"
 
-# Restart ZSH
+# =========================================================================================================[ Restart ZSH ]===== #
 alias restart-zsh="source ~/.zshrc"
 
-# Talkpush Alias
+# ======================================================================================================[ Talkpush Alias ]===== #
 TALKPUSH_HELP_MESSAGE="
 
     This is a helper showing all your Talkpush commands.
@@ -161,12 +161,12 @@ tp() {
     fi
 }
 
-# FZF Search
+# ==========================================================================================================[ FZF Search ]===== #
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# NVM
+# =================================================================================================================[ NVM ]===== #
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
 
-# RVM
+# =================================================================================================================[ RVM ]===== #
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
