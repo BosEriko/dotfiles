@@ -13,11 +13,6 @@ SAVEHIST=10000
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
-# TMUX Alias
-alias tns="tmux new-session -s"
-alias tas="tmux attach-session -t"
-alias tks="tmux kill-server"
-
 # Shutdown/Restart Alias
 alias goodbye="sudo shutdown -h now"
 alias see-you-again="sudo shutdown -r now"
@@ -26,7 +21,8 @@ alias see-you-again="sudo shutdown -r now"
 alias my-ssh-key="cat ~/.ssh/id_rsa.pub"
 
 # Start Localhost Alias
-alias start-localhost="python -m SimpleHTTPServer"
+alias localhost-live="live-server"
+alias localhost-http="http-server"
 
 # Start Ngrok Alias
 alias start-ngrok="ngrok http --region=ap"
