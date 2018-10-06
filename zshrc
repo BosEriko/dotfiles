@@ -13,10 +13,6 @@ SAVEHIST=10000
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
-# ==============================================================================================[ Shutdown/Restart Alias ]===== #
-alias goodbye="sudo shutdown -h now"
-alias see-you-again="sudo shutdown -r now"
-
 # ==================================================================================================[ Show SSH Key Alias ]===== #
 alias my-ssh-key="cat ~/.ssh/id_rsa.pub"
 
@@ -188,6 +184,10 @@ JARVIS_HELP_MESSAGE="
 
     -f, --fun                   parrot                  Party Parrot
 
+
+    -a, --assist                shutdown                Shutdown the computer
+                                restart                 Restart the computer
+
 \033[1m
     VSCode Notes:
 \033[0m
@@ -349,6 +349,14 @@ jarvis() {
                 curl parrot.live
             else
                 echo "Usage: -f <command> or --fun <command>"
+            fi
+        elif [ "$1" = "-a" ] || [ "$1" = "--assist" ]; then
+            if [ "$2" = "shutdown" ]; then
+                sudo shutdown -h now
+            elif [ "$2" = "restart" ]; then
+                sudo shutdown -r now
+            else
+                echo "Usage: -a <command> or --assist <command>"
             fi
         else
             echo "Command not found: $1"
