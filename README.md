@@ -46,6 +46,8 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
 
 _Remember to install [Font Ligatures](https://github.com/tonsky/FiraCode) as well_
 
+------
+
 ## Visual Studio Code Custom Hotkeys (Mac)
 
     jarvis -vs [general] [search] [explorer] [toggle] [terminal] [fold] [editor] [extensions] [vim]
