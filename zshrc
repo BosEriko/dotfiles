@@ -20,11 +20,6 @@ alias localhost-http="http-server"
 # ===================================================================================================[ Start Ngrok Alias ]===== #
 alias start-ngrok="ngrok http --region=ap"
 
-# =====================================================================================================[ Directory Alias ]===== #
-alias work-folder="cd ~/Documents/Codes/Work"
-alias personal-folder="cd ~/Documents/Codes/Personal"
-alias dotfiles-folder="cd ~/dotfiles"
-
 # ================================================================================================[ Back Directory Alias ]===== #
 alias ..="cd .."
 alias ...="cd ../.."
@@ -184,6 +179,10 @@ JARVIS_HELP_MESSAGE="
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
                                 ssh-key                 Print Main SSH Key
+
+    -d, --directory             work                    Jump to work directory
+                                personal                Jump to personal directory
+                                dotfiles                Jump to the dotfiles directory
 
 \033[1m
     VSCode Notes:
@@ -356,6 +355,16 @@ jarvis() {
                 cat ~/.ssh/id_rsa.pub
             else
                 echo "Usage: -a <command> or --assist <command>"
+            fi
+        elif [ "$1" = "-d" ] || [ "$1" = "--directory" ]; then
+            if [ "$2" = "work" ]; then
+                cd ~/Documents/Codes/Work
+            elif [ "$2" = "personal" ]; then
+                cd ~/Documents/Codes/Personal
+            elif [ "$2" = "dotfiles" ]; then
+                cd ~/dotfiles
+            else
+                echo "Usage: -d <command> or --directory <command>"
             fi
         else
             echo "Command not found: $1"
