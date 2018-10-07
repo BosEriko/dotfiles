@@ -19,10 +19,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# ===================================================================================================[ CPU Details Alias ]===== #
-alias cpu-usage='htop'
-alias cpu-temp='istats'
-
 # ===================================================================================================[ Clean Trash Alias ]===== #
 alias clearbin="rm -rf ~/.local/share/Trash/*"
 
@@ -166,6 +162,8 @@ JARVIS_HELP_MESSAGE="
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
                                 google-chrome           Start Google Chrome
+                                cpu-usage               Start htop
+                                cpu-temp                Start istats
 
     -d, --directory             work                    Jump to work directory
                                 personal                Jump to personal directory
@@ -364,6 +362,10 @@ jarvis() {
                 else
                     open -a "Google Chrome" $3
                 fi
+            elif [ "$2" = "cpu-usage" ]; then
+                htop
+            elif [ "$2" = "cpu-temp" ]; then
+                istats
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
