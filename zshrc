@@ -31,9 +31,6 @@ alias npm-list="npm list -g --depth=0"
 alias npm-outdated="npm outdated -g --depth=0"
 alias npm-update="npm update -g"
 
-# =================================================================================================[ Google Chrome Alias ]===== #
-alias gc='open -a "Google Chrome"'
-
 # ==================================================================================[ Google Cloud VM Instance SSH Alias ]===== #
 alias ssh-cloud="echo 'ssh -i [PATH_TO_PRIVATE_KEY] [USERNAME]@[EXTERNAL_IP_ADDRESS]'"
 
@@ -168,6 +165,7 @@ JARVIS_HELP_MESSAGE="
                                 localhost               Start http-server
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
+                                google-chrome           Start Google Chrome
 
     -d, --directory             work                    Jump to work directory
                                 personal                Jump to personal directory
@@ -359,6 +357,12 @@ jarvis() {
                     echo "Please specify a port"
                 else
                     ngrok http --region=ap $3
+                fi
+            elif [ "$2" = "google-chrome" ]; then
+                if [ -z "$3" ]; then
+                    echo "Please specify a path"
+                else
+                    open -a "Google Chrome" $3
                 fi
             else
                 echo "Usage: -a <command> or --assist <command>"
