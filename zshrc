@@ -13,9 +13,6 @@ SAVEHIST=10000
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
-# ===================================================================================================[ Start Ngrok Alias ]===== #
-alias start-ngrok="ngrok http --region=ap"
-
 # ================================================================================================[ Back Directory Alias ]===== #
 alias ..="cd .."
 alias ...="cd ../.."
@@ -170,6 +167,7 @@ JARVIS_HELP_MESSAGE="
                                 ssh-key                 Print Main SSH Key
                                 localhost               Start http-server
                                 localhost-live          Start live-server
+                                ngrok                   Start ngrok
 
     -d, --directory             work                    Jump to work directory
                                 personal                Jump to personal directory
@@ -348,6 +346,12 @@ jarvis() {
                 http-server
             elif [ "$2" = "localhost-live" ]; then
                 live-server
+            elif [ "$2" = "ngrok" ]; then
+                if [ -z "$3" ]; then
+                    echo "Please specify a port"
+                else
+                    ngrok http --region=ap $3
+                fi
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
