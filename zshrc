@@ -13,10 +13,6 @@ SAVEHIST=10000
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
-# ===============================================================================================[ Start Localhost Alias ]===== #
-alias localhost-live="live-server"
-alias localhost-http="http-server"
-
 # ===================================================================================================[ Start Ngrok Alias ]===== #
 alias start-ngrok="ngrok http --region=ap"
 
@@ -172,6 +168,8 @@ JARVIS_HELP_MESSAGE="
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
                                 ssh-key                 Print Main SSH Key
+                                localhost               Start http-server
+                                localhost-live          Start live-server
 
     -d, --directory             work                    Jump to work directory
                                 personal                Jump to personal directory
@@ -346,6 +344,10 @@ jarvis() {
                 sudo shutdown -r now
             elif [ "$2" = "ssh-key" ]; then
                 cat ~/.ssh/id_rsa.pub
+            elif [ "$2" = "localhost" ]; then
+                http-server
+            elif [ "$2" = "localhost-live" ]; then
+                live-server
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
