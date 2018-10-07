@@ -29,9 +29,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# =========================================================================================================[ Restart ZSH ]===== #
-alias restart-zsh="source ~/.zshrc"
-
 # ======================================================================================================[ Talkpush Alias ]===== #
 TALKPUSH_HELP_MESSAGE="
 
@@ -165,6 +162,7 @@ JARVIS_HELP_MESSAGE="
                                 npm-outdated            List global outdated npm packages
                                 npm-update              Update global npm packages
                                 external-ip             Show external IP address
+                                restart-zsh             Restart ZSH
 
     -d, --directory             work                    Jump to work directory
                                 personal                Jump to personal directory
@@ -377,6 +375,8 @@ jarvis() {
                 npm update -g
             elif [ "$2" = "external-ip" ]; then
                 curl ipinfo.io/ip
+            elif [ "$2" = "restart-zsh" ]; then
+                source ~/.zshrc
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
