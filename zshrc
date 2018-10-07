@@ -29,11 +29,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# ===========================================================================================================[ Npm Alias ]===== #
-alias npm-list="npm list -g --depth=0"
-alias npm-outdated="npm outdated -g --depth=0"
-alias npm-update="npm update -g"
-
 # ==================================================================================[ Google Cloud VM Instance SSH Alias ]===== #
 alias ssh-cloud="echo 'ssh -i [PATH_TO_PRIVATE_KEY] [USERNAME]@[EXTERNAL_IP_ADDRESS]'"
 
@@ -172,6 +167,9 @@ JARVIS_HELP_MESSAGE="
                                 cpu-usage               Start htop
                                 cpu-temp                Start istats
                                 clearbin                Clear system trash
+                                npm-list                List global npm packages
+                                npm-outdated            List global outdated npm packages
+                                npm-update              Update global npm packages
 
     -d, --directory             work                    Jump to work directory
                                 personal                Jump to personal directory
@@ -376,6 +374,12 @@ jarvis() {
                 istats
             elif [ "$2" = "clearbin" ]; then
                 rm -rf ~/.local/share/Trash/*
+            elif [ "$2" = "npm-list" ]; then
+                npm list -g --depth=0
+            elif [ "$2" = "npm-outdated" ]; then
+                npm outdated -g --depth=0
+            elif [ "$2" = "npm-update" ]; then
+                npm update -g
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
