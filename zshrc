@@ -343,9 +343,17 @@ jarvis() {
             elif [ "$2" = "ssh-key" ]; then
                 cat ~/.ssh/id_rsa.pub
             elif [ "$2" = "localhost" ]; then
-                http-server
+                if [ -z "$3" ]; then
+                    http-server
+                else
+                    http-server $3
+                fi
             elif [ "$2" = "localhost-live" ]; then
-                live-server
+                if [ -z "$3" ]; then
+                    live-server
+                else
+                    live-server $3
+                fi
             elif [ "$2" = "ngrok" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a port"
