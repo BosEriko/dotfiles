@@ -29,12 +29,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# ==================================================================================[ Google Cloud VM Instance SSH Alias ]===== #
-alias ssh-cloud="echo 'ssh -i [PATH_TO_PRIVATE_KEY] [USERNAME]@[EXTERNAL_IP_ADDRESS]'"
-
-# ===================================================================================================[ External IP Alias ]===== #
-alias external-ip="curl ipinfo.io/ip"
-
 # =========================================================================================================[ Restart ZSH ]===== #
 alias restart-zsh="source ~/.zshrc"
 
@@ -170,6 +164,7 @@ JARVIS_HELP_MESSAGE="
                                 npm-list                List global npm packages
                                 npm-outdated            List global outdated npm packages
                                 npm-update              Update global npm packages
+                                external-ip             Show external IP address
 
     -d, --directory             work                    Jump to work directory
                                 personal                Jump to personal directory
@@ -380,6 +375,8 @@ jarvis() {
                 npm outdated -g --depth=0
             elif [ "$2" = "npm-update" ]; then
                 npm update -g
+            elif [ "$2" = "external-ip" ]; then
+                curl ipinfo.io/ip
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
