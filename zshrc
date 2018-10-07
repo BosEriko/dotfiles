@@ -29,9 +29,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# ===================================================================================================[ Clean Trash Alias ]===== #
-alias clearbin="rm -rf ~/.local/share/Trash/*"
-
 # ===========================================================================================================[ Npm Alias ]===== #
 alias npm-list="npm list -g --depth=0"
 alias npm-outdated="npm outdated -g --depth=0"
@@ -174,6 +171,7 @@ JARVIS_HELP_MESSAGE="
                                 google-chrome           Start Google Chrome
                                 cpu-usage               Start htop
                                 cpu-temp                Start istats
+                                clearbin                Clear system trash
 
     -d, --directory             work                    Jump to work directory
                                 personal                Jump to personal directory
@@ -376,6 +374,8 @@ jarvis() {
                 htop
             elif [ "$2" = "cpu-temp" ]; then
                 istats
+            elif [ "$2" = "clearbin" ]; then
+                rm -rf ~/.local/share/Trash/*
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
