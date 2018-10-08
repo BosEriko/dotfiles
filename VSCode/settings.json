@@ -41,5 +41,6 @@
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
   "workbench.iconTheme": "material-icon-theme",
-  "htmltagwrap.tag": "div"
+  "htmltagwrap.tag": "div",
+  "workbench.startupEditor": "newUntitledFile"
 }
