@@ -120,13 +120,13 @@ tp() {
     fi
 }
 
-# ==============================================================================================================[ Jarvis ]===== #
-JARVIS_HELP_MESSAGE="
+# =================================================================================================================[ Bos ]===== #
+BOS_HELP_MESSAGE="
 
-    This is a helper showing all your Jarvis commands.
+    This is a helper showing all your Bos commands.
 
 
-    Usage: jarvis [option] [command]
+    Usage: bos [option] [command]
 
 \033[1m
     Options:                    Commands:               Description:
@@ -175,12 +175,12 @@ JARVIS_HELP_MESSAGE="
     2. You can also use Vim's Easymotion [https://github.com/VSCodeVim/Vim#vim-easymotion]
 
 "
-jarvis() {
+bos() {
     if [ -z "$1" ]; then
-        echo "Type -h or --help to print all the Jarvis commands."
+        echo "Type -h or --help to print all the Bos commands."
     else
         if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
-            figlet 'Jarvis will help!' && echo -e $JARVIS_HELP_MESSAGE
+            figlet 'El Psy Congroo!' && echo -e $BOS_HELP_MESSAGE
         elif [ "$1" = "-vs" ] || [ "$1" = "--vscode" ]; then
             if [ "$2" = "general" ]; then
                 echo -e "\033[1m
