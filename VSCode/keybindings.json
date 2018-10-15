@@ -776,5 +776,21 @@
     {
         "key": "cmd+h cmd+s",
         "command": "sortLines.sortLinesCaseInsensitive"
+    },
+    {
+        "key": "cmd+h cmd+r",
+        "command": "vsnotes.listNotes"
+    },
+    {
+        "key": "cmd+h cmd+t",
+        "command": "vsnotes.listTags"
+    },
+    {
+        "key": "cmd+h cmd+c",
+        "command": "vsnotes.newNote"
+    },
+    {
+        "key": "cmd+h cmd+f",
+        "command": "vsnotes.search"
     }
 ]

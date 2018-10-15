@@ -300,6 +300,10 @@ bos() {
     cmd + (h ~ b)               Toggle Line Blame Annotations
     cmd + (h ~ o)               List Projects to Open
     cmd + (h ~ s)               Sort lines
+    cmd + (h ~ r)               VSNotes: List recent notes
+    cmd + (h ~ t)               VSNotes: List tags
+    cmd + (h ~ c)               VSNotes: Create a New Note
+    cmd + (h ~ f)               VSNotes: Search notes
                 "
             elif [ "$2" = "vim" ]; then
                 echo -e "\033[1m
