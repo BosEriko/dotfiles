@@ -147,6 +147,7 @@ BOS_HELP_MESSAGE="
                                 list-extensions         List installed Visual Studio Code extensions
 
     -f, --fun                   parrot                  Party Parrot
+                                parrotsay               Parrot Say
 
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
@@ -331,6 +332,8 @@ bos() {
         elif [ "$1" = "-f" ] || [ "$1" = "--fun" ]; then
             if [ "$2" = "parrot" ]; then
                 curl parrot.live
+            elif [ "$2" = "parrotsay" ]; then
+                parrotsay
             else
                 echo "Usage: -f <command> or --fun <command>"
             fi
