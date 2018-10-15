@@ -51,7 +51,7 @@ _Remember to install [Font Ligatures](https://github.com/tonsky/FiraCode) as wel
 
 ## Visual Studio Code Custom Hotkeys (Mac)
 
-    jarvis -vs [general] [search] [explorer] [toggle] [terminal] [fold] [editor] [extensions] [vim]
+    bos -vs [general] [search] [explorer] [toggle] [terminal] [fold] [editor] [extensions] [vim]
 
 ------
 
