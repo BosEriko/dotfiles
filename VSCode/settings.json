@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Hopscotch",
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.lineNumbers": "relative",
   "workbench.editor.showTabs": true,
   "editor.wordWrap": "on",
