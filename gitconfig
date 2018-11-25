@@ -21,3 +21,4 @@
   release = tag -n1
   d = difftool
   tagrev = echo $@
+  wtf = !sh -c \"git commit -m '$(curl -s http://whatthecommit.com/index.txt)'\"
