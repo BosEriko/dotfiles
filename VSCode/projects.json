@@ -46,5 +46,11 @@
 		"rootPath": "$home/Documents/Codes/Personal/kuru-anime-bot",
 		"paths": [],
 		"group": ""
+	},
+	{
+		"name": "Kuru Anime Bot TS",
+		"rootPath": "$home/Documents/Codes/Personal/kuru-anime-bot-ts",
+		"paths": [],
+		"group": ""
 	}
 ]
