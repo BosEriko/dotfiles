@@ -36,12 +36,6 @@
 		"group": ""
 	},
 	{
-		"name": "Laboratory",
-		"rootPath": "$home/Documents/Codes/Personal/laboratory",
-		"paths": [],
-		"group": ""
-	},
-	{
 		"name": "Kuru Anime (Bot)",
 		"rootPath": "$home/Documents/Codes/Personal/kuru-anime-bot",
 		"paths": [],
