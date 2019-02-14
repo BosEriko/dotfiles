@@ -74,7 +74,7 @@ tp() {
             figlet 'Talkpush Helpers' && echo -e $TALKPUSH_HELP_MESSAGE
         elif [ "$1" = "-s" ] || [ "$1" = "--start" ]; then
             if [ "$2" = "app" ]; then
-                docker-compose stop && docker-compose rm -f && docker-compose up -d talkpush && /usr/bin/open -a '/Applications/Google Chrome.app' 'http://lvh.me/' && bin/webpack-watcher
+                docker-compose stop && docker-compose rm -f && docker-compose up -d talkpush && /usr/bin/open -a '/Applications/Google Chrome.app' 'http://localhost/managers/sign_in' && bin/webpack-watcher
             elif [ "$2" = "sidekiq" ]; then
                 bundle exec sidekiq -C ./config/sidekiq.yml
             elif [ "$2" = "mailhog" ]; then
