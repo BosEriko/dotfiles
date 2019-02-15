@@ -18,12 +18,6 @@
 		"group": ""
 	},
 	{
-		"name": "Kitsu",
-		"rootPath": "$home/Documents/Codes/Personal/hummingbird",
-		"paths": [],
-		"group": ""
-	},
-	{
 		"name": "Talkpush (Application)",
 		"rootPath": "$home/Documents/Codes/Work/tp-app",
 		"paths": [],
@@ -38,12 +32,6 @@
 	{
 		"name": "Kuru Anime (Bot)",
 		"rootPath": "$home/Documents/Codes/Personal/kuru-anime-bot",
-		"paths": [],
-		"group": ""
-	},
-	{
-		"name": "Kuru Anime (Bot TS)",
-		"rootPath": "$home/Documents/Codes/Personal/kuru-anime-bot-ts",
 		"paths": [],
 		"group": ""
 	}
