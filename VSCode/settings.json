@@ -43,5 +43,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "htmltagwrap.tag": "div",
   "workbench.startupEditor": "newUntitledFile",
-  "vsnotes.defaultNotePath": "/Users/boseriko/dotfiles/VSNotes"
+  "vsnotes.defaultNotePath": "/Users/boseriko/dotfiles/VSNotes",
+  "workbench.list.keyboardNavigation": "simple"
 }
