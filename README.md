@@ -31,6 +31,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
     code --install-extension jcbuisson.vue
     code --install-extension karunamurti.haml
     code --install-extension mrmlnc.vscode-autoprefixer
+    code --install-extension ms-vscode.vscode-typescript-tslint-plugin
     code --install-extension ms-vsliveshare.vsliveshare
     code --install-extension oderwat.indent-rainbow
     code --install-extension patricklee.vsnotes
