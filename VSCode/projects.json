@@ -1,19 +1,25 @@
 [
 	{
-		"name": "Kuru Anime",
-		"rootPath": "$home/Documents/Codes/Personal/kuru-anime",
+		"name": "Kuru Anime (Main Website)",
+		"rootPath": "$home/Documents/Codes/Personal/Kuru Anime/Main Website",
 		"paths": [],
 		"group": ""
 	},
 	{
-		"name": "Kuru Anime (Bot's Website)",
-		"rootPath": "$home/Documents/Codes/Personal/kuru-anime-bot-website",
+		"name": "Kuru Anime (Bot Website)",
+		"rootPath": "$home/Documents/Codes/Personal/Kuru Anime/Bot Website",
 		"paths": [],
 		"group": ""
 	},
 	{
 		"name": "Kuru Anime (Webhooks)",
-		"rootPath": "$home/Documents/Codes/Personal/kuru-anime-webhooks",
+		"rootPath": "$home/Documents/Codes/Personal/Kuru Anime/Webhooks",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Kuru Anime (Bot)",
+		"rootPath": "$home/Documents/Codes/Personal/Kuru Anime/Bot",
 		"paths": [],
 		"group": ""
 	},
@@ -26,12 +32,6 @@
 	{
 		"name": "Talkpush (Website)",
 		"rootPath": "$home/Documents/Codes/Work/tp-site",
-		"paths": [],
-		"group": ""
-	},
-	{
-		"name": "Kuru Anime (Bot)",
-		"rootPath": "$home/Documents/Codes/Personal/kuru-anime-bot",
 		"paths": [],
 		"group": ""
 	}
