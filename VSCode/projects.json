@@ -24,6 +24,36 @@
 		"group": ""
 	},
 	{
+		"name": "Blog (Adventure)",
+		"rootPath": "$home/Documents/Codes/Personal/Blogs/Adventure (adventure-boseriko-blog)",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Blog (Anime)",
+		"rootPath": "$home/Documents/Codes/Personal/Blogs/Anime (anime-boseriko-blog)",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Blog (Game)",
+		"rootPath": "$home/Documents/Codes/Personal/Blogs/Game (game-boseriko-blog)",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Blog (JavaScript)",
+		"rootPath": "$home/Documents/Codes/Personal/Blogs/JavaScript (js-boseriko-blog)",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Blog (Personal)",
+		"rootPath": "$home/Documents/Codes/Personal/Blogs/Personal (boseriko-blog)",
+		"paths": [],
+		"group": ""
+	},
+	{
 		"name": "Talkpush (Application)",
 		"rootPath": "$home/Documents/Codes/Work/tp-app",
 		"paths": [],
