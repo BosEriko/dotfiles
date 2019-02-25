@@ -54,6 +54,12 @@
 		"group": ""
 	},
 	{
+		"name": "Bot Eriko (Messenger Bot)",
+		"rootPath": "$home/Documents/Codes/Personal/Bot Eriko",
+		"paths": [],
+		"group": ""
+	},
+	{
 		"name": "Talkpush (Application)",
 		"rootPath": "$home/Documents/Codes/Work/tp-app",
 		"paths": [],
