@@ -160,6 +160,7 @@ BOS_HELP_MESSAGE="
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
                                 google-chrome           Start Google Chrome
+                                set-git-origin          Set Git Origins
                                 cpu-usage               Start htop
                                 cpu-temp                Start istats
                                 clearbin                Clear system trash
@@ -372,6 +373,12 @@ bos() {
                 else
                     open -a "Google Chrome" $3
                 fi
+            elif [ "$2" = "set-git-origin" ]; then
+                echo "Please specify the GitHub path:"
+                read github_path
+                echo "Please specify the GitLab path:"
+                read gitlab_path
+                git remote add origin $github_path && git remote add github $github_path && git remote add gitlab $gitlab_path && git remote set-url --add --push origin $github_path && git remote set-url --add --push origin $gitlab_path && git remote -v
             elif [ "$2" = "cpu-usage" ]; then
                 htop
             elif [ "$2" = "cpu-temp" ]; then
