@@ -76,7 +76,7 @@ tp() {
             if [ "$2" = "app" ]; then
                 docker-compose stop && docker-compose rm -f && docker-compose up -d talkpush && /usr/bin/open -a '/Applications/Google Chrome.app' 'http://localhost/managers/sign_in' && bin/webpack-watcher
             elif [ "$2" = "sidekiq" ]; then
-                bundle exec sidekiq -C ./config/sidekiq.yml
+                docker-compose exec talkpush sh -c 'bundle exec sidekiq'
             elif [ "$2" = "mailhog" ]; then
                 docker-compose up -d mailhog && /usr/bin/open -a '/Applications/Google Chrome.app' 'http://localhost:8025/'
             elif [ "$2" = "shell" ]; then
