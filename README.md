@@ -39,6 +39,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
     code --install-extension rebornix.ruby
     code --install-extension robinbentley.sass-indented
     code --install-extension ryuta46.multi-command
+    code --install-extension shyykoserhiy.vscode-spotify
     code --install-extension sianglim.slim
     code --install-extension steoates.autoimport
     code --install-extension Tyriar.sort-lines
