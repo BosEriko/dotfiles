@@ -1,7 +1,13 @@
 [
 	{
-		"name": "Kuru Anime (Main Website)",
-		"rootPath": "$home/Documents/Codes/Personal/Kuru Anime/Main Website",
+		"name": "Kuru Anime (Main Website Client)",
+		"rootPath": "$home/Documents/Codes/Personal/Kuru Anime/Main Website/Client",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Kuru Anime (Main Website Server)",
+		"rootPath": "$home/Documents/Codes/Personal/Kuru Anime/Main Website/Server",
 		"paths": [],
 		"group": ""
 	},
