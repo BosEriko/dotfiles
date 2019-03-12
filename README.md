@@ -18,34 +18,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
     rm ~/Library/Application\ Support/Code/User/projects.json && ln -s ~/dotfiles/VSCode/projects.json ~/Library/Application\ Support/Code/User/projects.json
     rm ~/Library/Application\ Support/Code/User/settings.json && ln -s ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
     rm ~/Library/Application\ Support/Code/User/keybindings.json && ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-
-## Installation of Visual Studio Code extensions
-
-    code --install-extension alefragnani.project-manager
-    code --install-extension bradgashler.htmltagwrap
-    code --install-extension christian-kohler.path-intellisense
-    code --install-extension CoenraadS.bracket-pair-colorizer
-    code --install-extension eamodio.gitlens
-    code --install-extension humao.rest-client
-    code --install-extension idleberg.hopscotch
-    code --install-extension jcbuisson.vue
-    code --install-extension karunamurti.haml
-    code --install-extension mrmlnc.vscode-autoprefixer
-    code --install-extension ms-vscode.vscode-typescript-tslint-plugin
-    code --install-extension ms-vsliveshare.vsliveshare
-    code --install-extension oderwat.indent-rainbow
-    code --install-extension patricklee.vsnotes
-    code --install-extension PKief.material-icon-theme
-    code --install-extension rebornix.ruby
-    code --install-extension robinbentley.sass-indented
-    code --install-extension ryuta46.multi-command
-    code --install-extension shyykoserhiy.vscode-spotify
-    code --install-extension sianglim.slim
-    code --install-extension steoates.autoimport
-    code --install-extension Tyriar.sort-lines
-    code --install-extension vscodevim.vim
-    code --install-extension wayou.vscode-todo-highlight
-    code --install-extension xabikos.JavaScriptSnippets
+    bash ~/dotfiles/extensions.sh
 
 _Remember to install [Font Ligatures](https://github.com/tonsky/FiraCode) as well_
 
