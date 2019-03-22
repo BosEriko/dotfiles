@@ -44,5 +44,7 @@
   "htmltagwrap.tag": "div",
   "workbench.startupEditor": "newUntitledFile",
   "vsnotes.defaultNotePath": "/Users/boseriko/dotfiles/VSNotes",
-  "workbench.list.keyboardNavigation": "simple"
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.statusBar.feedback.visible": false,
+  "breadcrumbs.enabled": true
 }
