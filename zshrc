@@ -379,7 +379,9 @@ bos() {
                 read github_path
                 echo "Please specify the GitLab path:"
                 read gitlab_path
-                git remote add origin $github_path && git remote add github $github_path && git remote add gitlab $gitlab_path && git remote set-url --add --push origin $github_path && git remote set-url --add --push origin $gitlab_path && git remote -v
+                echo "Please specify the Bitbucket path:"
+                read bitbucket_path
+                git remote add origin $github_path && git remote add github $github_path && git remote add gitlab $gitlab_path && git remote add bitbucket $bitbucket_path && git remote set-url --add --push origin $github_path && git remote set-url --add --push origin $gitlab_path && git remote set-url --add --push origin $bitbucket_path && git remote -v
             elif [ "$2" = "cpu-usage" ]; then
                 htop
             elif [ "$2" = "cpu-temp" ]; then
