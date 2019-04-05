@@ -18,12 +18,6 @@
 		"group": ""
 	},
 	{
-		"name": "Kuru Anime (Webhooks)",
-		"rootPath": "$home/Documents/Codes/Personal/Kuru Anime/Webhooks",
-		"paths": [],
-		"group": ""
-	},
-	{
 		"name": "Kuru Anime (Bot)",
 		"rootPath": "$home/Documents/Codes/Personal/Kuru Anime/Bot",
 		"paths": [],
