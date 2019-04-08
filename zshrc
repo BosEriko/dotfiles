@@ -57,7 +57,7 @@ BOS_HELP_MESSAGE="
                                 extensions              List Extensions Commands
                                 vim                     List Vim Extension Keys
                                 reference               List Reference
-                                list-extensions         List installed Visual Studio Code extensions
+                                copy-extensions         Copy installed Visual Studio Code extensions as executable commands
 
     -f, --fun                   parrot                  Party Parrot
                                 parrotsay               Parrot Say
@@ -228,7 +228,7 @@ bos() {
     ctrl + shift + j            Add Cursor Below
     ctrl + shift + k            Add Cursor Above
                 "
-            elif [ "$2" = "list-extensions" ]; then
+            elif [ "$2" = "copy-extensions" ]; then
                 code --list-extensions | xargs -L 1 echo code --install-extension  | pbcopy
                 echo "List of extensions has been copied to clipboard."
             elif [ "$2" = "reference" ]; then
