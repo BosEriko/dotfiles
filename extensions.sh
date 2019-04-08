@@ -12,6 +12,7 @@ code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
 code --install-extension patricklee.vsnotes
+code --install-extension PeterJausovec.vscode-docker
 code --install-extension PKief.material-icon-theme
 code --install-extension rebornix.ruby
 code --install-extension robinbentley.sass-indented
