@@ -229,7 +229,8 @@ bos() {
     ctrl + shift + k            Add Cursor Above
                 "
             elif [ "$2" = "list-extensions" ]; then
-                code --list-extensions | xargs -L 1 echo code --install-extension
+                code --list-extensions | xargs -L 1 echo code --install-extension  | pbcopy
+                echo "List of extensions has been copied to clipboard."
             elif [ "$2" = "reference" ]; then
                 echo -e "\033[1m
     Name:                               Link:
