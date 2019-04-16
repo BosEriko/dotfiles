@@ -7,6 +7,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
 - [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [fzf](https://github.com/junegunn/fzf)
+- [Hyper](https://hyper.is/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Installation
