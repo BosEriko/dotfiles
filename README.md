@@ -15,7 +15,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
     rm ~/.gitconfig && ln -s ~/dotfiles/gitconfig ~/.gitconfig
     rm ~/.zshrc && ln -s ~/dotfiles/zshrc ~/.zshrc
     rm ~/.profile && ln -s ~/dotfiles/profile ~/.profile
-    rm ~/.vimrc && ln -s ~/Vim/vimrc ~/.vimrc
+    rm ~/.vimrc && ln -s ~/dotfiles/Vim/vimrc ~/.vimrc
     rm ~/Library/Application\ Support/Code/User/projects.json && ln -s ~/dotfiles/VSCode/projects.json ~/Library/Application\ Support/Code/User/projects.json
     rm ~/Library/Application\ Support/Code/User/settings.json && ln -s ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
     rm ~/Library/Application\ Support/Code/User/keybindings.json && ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
