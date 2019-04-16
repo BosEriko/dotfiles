@@ -1,5 +1,14 @@
-" Set 'nocompatible' to ward off unexpected things that your distro might have made, as well as sanely reset options when re-sourcing .vimrc
+" Vundle Start
 set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" Plugin List Start
+Plugin 'VundleVim/Vundle.vim'
+" Plugin List End
+call vundle#end()
+filetype plugin indent on
+" Vundle End
 
 " Enable syntax highlighting
 syntax on
