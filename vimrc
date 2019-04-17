@@ -23,3 +23,7 @@ nnoremap ; :
 nnoremap : ;
 vnoremap ; :
 vnoremap : ;
+
+" Disable Swapfiles
+set nobackup
+set noswapfile
