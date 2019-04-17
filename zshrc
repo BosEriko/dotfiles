@@ -26,6 +26,12 @@ source $HOME/.zshenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# ======================================================================================================[ Tmux Shortcuts ]===== #
+alias tx-new="tmux new-session"
+alias tx-list="tmux list-sessions"
+alias tx-last="tmux attach-session"
+alias tx-clean="tmux kill-session -a"
+
 # ================================================================================================[ Back Directory Alias ]===== #
 alias ..="cd .."
 alias ...="cd ../.."
