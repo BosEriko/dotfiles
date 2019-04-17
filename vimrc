@@ -1,29 +1,192 @@
-" Vundle Start
+" ========================================= "
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" Plugin List Start
+" Plugin List Start ======================= "
 
-Plugin 'VundleVim/Vundle.vim'
+" Added Functionalities
+Plugin 'VundleVim/Vundle.vim'               " This makes VIM awesome
+Plugin 'scrooloose/nerdtree'                " Tree file explorer
+Plugin 'tpope/vim-fugitive'                 " View any blob, tree, commit, or tag in the repository
+Plugin 'junegunn/fzf.vim'                   " FZF Search
+Plugin 'mileszs/ack.vim'                    " Word search inside directory
+Plugin 'alvan/vim-closetag'                 " Auto close HTML tags
+Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
+Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
+Plugin 'scrooloose/nerdcommenter'           " Comment out function
+Plugin 'Valloric/MatchTagAlways'            " HTML Tag Matcher
+Plugin 'airblade/vim-gitgutter'             " Show git difference in the gutter
+Plugin 'mattn/emmet-vim'                    " Emmet for VIM (Provides support for expanding abbreviations)
 
-" Plugin List End
+" Syntax Highlight Plugins
+Plugin 'vim-ruby/vim-ruby'                  " Ruby
+Plugin 'tpope/vim-rails'                    " Rails
+Plugin 'digitaltoad/vim-pug'                " Pug
+Plugin 'mxw/vim-jsx'                        " JSX
+Plugin 'hail2u/vim-css3-syntax'             " CSS3
+Plugin 'jelera/vim-javascript-syntax'       " Javascript
+Plugin 'elzr/vim-json'                      " JSON
+Plugin 'tpope/vim-haml'                     " Haml, Sass and SCSS
+Plugin 'slim-template/vim-slim'             " Slim
+Plugin 'elixir-lang/vim-elixir'             " Elixir
+
+" Party tricks Plugin
+Plugin 'severin-lemaignan/vim-minimap'      " Minimap
+Plugin 'mhinz/vim-startify'                 " Welcome message
+
+" Design Plugin
+Plugin 'crusoexia/vim-monokai'              " Monokai Theme for VIM
+Plugin 'vim-airline/vim-airline'            " Bottom toolbar
+Plugin 'vim-airline/vim-airline-themes'     " Themes for the bottom toolbar
+
+" Plugin List End ========================= "
 call vundle#end()
 filetype plugin indent on
-" Vundle End
+" ========================================= "
 
-" Enable syntax highlighting
-syntax on
+" Set utf-8
+set encoding=utf-8
 
-" Display line numbers on the left
+" Syntax highlighting
+if !exists("g:syntax_on")
+  syntax enable
+endif
+
+" Change mapleader
+let mapleader=","
+
+" Line numbers
+set number
 set relativenumber
 
-" Reverse the funcionatilies of colon and semicolon
-nnoremap ; :
-nnoremap : ;
-vnoremap ; :
-vnoremap : ;
+" Stop line break
+set nowrap
 
-" Disable Swapfiles
-set nobackup
-set noswapfile
+" Shortcut for NERDTree
+map <silent> <C-\> :NERDTreeToggle<CR>
+
+" Shortcut for NERDTree current opened buffer
+map <leader>r :NERDTreeFind<cr>
+
+" Set theme for bottom toolbar
+let g:airline_theme='bubblegum'
+
+" Add arrows to the bottom toolbar
+let g:airline_right_alt_sep = '1'
+let g:airline_right_sep = '2'
+let g:airline_left_alt_sep= '3'
+let g:airline_left_sep = '4'
+
+" 2 spaces only for indentation
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+" Show when <leader> is toggled
+set showcmd
+
+" Activate Monokai Theme
+colorscheme monokai
+
+" Show which line you're at
+set cursorline
+
+" Setlist Options
+nmap <leader>l :set list!<CR>
+set listchars=eol:¬,tab:▸▸,trail:~,extends:>,precedes:<,space:·
+hi NonText ctermfg=237 guifg=grey23
+hi SpecialKey ctermfg=237 guifg=grey23
+
+" Search Settings
+set hlsearch
+set ignorecase
+set smartcase
+set incsearch
+
+" Store temporary files in a central spot
+let vimtmp = $HOME . '/.tmp/' . getpid()
+silent! call mkdir(vimtmp, "p", 0700)
+let &backupdir=vimtmp
+let &directory=vimtmp
+
+" Disable arrow keys
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+" Enable the style of tabs
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = '1'
+let g:airline#extensions#tabline#left_alt_sep = '2'
+
+" Remap colon to semicolon to avoid using shift too much
+map ; :
+noremap ;; ;
+
+" Navigate buffers easily
+nmap <leader>j :bp!<CR>
+nmap <leader>k :bn!<CR>
+
+" Show hidden files in NERDTree by default
+let NERDTreeShowHidden=1
+
+" Paste toggle
+set pastetoggle=<F1>
+
+" Toggle text wrap
+map <F2> :set wrap!<CR>
+
+" Git blame using fugitive
+map <F3> :Gblame<CR>
+
+" NERDTree and Startify at startup
+autocmd VimEnter *
+  \   if !argc()
+  \ |   Startify
+  \ |   NERDTree
+  \ |   wincmd w
+  \ | endif
+
+" Startify quote's speech bubble
+let g:startify_custom_header =
+  \ startify#fortune#cowsay('*','═','║','╔','╗','╝','╚')
+
+" Startify start at 0
+let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
+
+" Don't change directory on startify
+let g:startify_change_to_dir = 0
+
+" Vertical split bar design
+set fillchars=""
+hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
+
+" Initialize FZF
+set rtp+=~/.fzf
+
+" FZF Directory Search
+map <silent> <C-p> :Files<CR>
+
+" FZF Color Scheme
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
+
+" Shortcut for Ack
+nmap <leader>f :Ack!<space>
+
+" Shorcut for substitute
+nmap <leader>ff :%s/old/new/g
