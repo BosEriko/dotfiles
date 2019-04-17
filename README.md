@@ -4,13 +4,12 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
 
 ## Dependencies
 - [Git](https://git-scm.com)
+- [Hyper](https://hyper.is/)
 - [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [fzf](https://github.com/junegunn/fzf)
-- [Hyper](https://hyper.is/)
-- [Vundle.vim](https://github.com/VundleVim/Vundle.vim)
 - [tmux](https://github.com/tmux/tmux/wiki)
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [Vundle.vim](https://github.com/VundleVim/Vundle.vim)
+- [fzf](https://github.com/junegunn/fzf)
 
 ## Installation
 
@@ -21,18 +20,6 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
     rm ~/.vimrc && ln -s ~/dotfiles/vimrc ~/.vimrc
     rm ~/.hyper.js && ln -s ~/dotfiles/hyper.js ~/.hyper.js
     rm ~/.tmux.conf && ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
-    rm ~/Library/Application\ Support/Code/User/projects.json && ln -s ~/dotfiles/VSCode/projects.json ~/Library/Application\ Support/Code/User/projects.json
-    rm ~/Library/Application\ Support/Code/User/settings.json && ln -s ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-    rm ~/Library/Application\ Support/Code/User/keybindings.json && ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-    bash ~/dotfiles/extensions.sh
-
-_Remember to install [Font Ligatures](https://github.com/tonsky/FiraCode) as well_
-
-------
-
-## Visual Studio Code Custom Hotkeys (Mac)
-
-    bos -vs [general] [search] [explorer] [toggle] [terminal] [fold] [editor] [extensions] [vim]
 
 ------
 
