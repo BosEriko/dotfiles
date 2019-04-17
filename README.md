@@ -15,11 +15,11 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
 
     git clone git@github.com:BosEriko/dotfiles.git ~/dotfiles
     rm ~/.gitconfig && ln -s ~/dotfiles/gitconfig ~/.gitconfig
-    rm ~/.zshrc && ln -s ~/dotfiles/zshrc ~/.zshrc
-    rm ~/.profile && ln -s ~/dotfiles/profile ~/.profile
-    rm ~/.vimrc && ln -s ~/dotfiles/vimrc ~/.vimrc
     rm ~/.hyper.js && ln -s ~/dotfiles/hyper.js ~/.hyper.js
+    rm ~/.zshrc && ln -s ~/dotfiles/zshrc ~/.zshrc
     rm ~/.tmux.conf && ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+    rm ~/.vimrc && ln -s ~/dotfiles/vimrc ~/.vimrc
+    rm ~/.profile && ln -s ~/dotfiles/profile ~/.profile
 
 ------
 
