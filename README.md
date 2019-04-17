@@ -20,6 +20,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
     rm ~/.profile && ln -s ~/dotfiles/profile ~/.profile
     rm ~/.vimrc && ln -s ~/dotfiles/Vim/vimrc ~/.vimrc
     rm ~/.hyper.js && ln -s ~/dotfiles/Hyper/.hyper.js ~/.hyper.js
+    rm ~/.tmux.conf && ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
     rm ~/Library/Application\ Support/Code/User/projects.json && ln -s ~/dotfiles/VSCode/projects.json ~/Library/Application\ Support/Code/User/projects.json
     rm ~/Library/Application\ Support/Code/User/settings.json && ln -s ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
     rm ~/Library/Application\ Support/Code/User/keybindings.json && ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
