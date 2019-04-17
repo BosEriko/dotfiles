@@ -9,6 +9,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
 - [fzf](https://github.com/junegunn/fzf)
 - [Hyper](https://hyper.is/)
 - [Vundle.vim] (https://github.com/VundleVim/Vundle.vim)
+- [tmux] (https://github.com/tmux/tmux/wiki)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Installation
