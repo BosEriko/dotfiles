@@ -72,11 +72,17 @@ map <leader>r :NERDTreeFind<cr>
 " Set theme for bottom toolbar
 let g:airline_theme='bubblegum'
 
-" Add arrows to the bottom toolbar
-let g:airline_right_alt_sep = '1'
-let g:airline_right_sep = '2'
-let g:airline_left_alt_sep= '3'
-let g:airline_left_sep = '4'
+" Airline Config
+let g:airline_theme             = 'powerlineish'
+let g:airline_enable_branch     = 1
+let g:airline_enable_syntastic  = 1
+let g:airline_left_sep          = '⮀'
+let g:airline_left_alt_sep      = '⮁'
+let g:airline_right_sep         = '⮂'
+let g:airline_right_alt_sep     = '⮃'
+let g:airline_branch_prefix     = '⭠'
+let g:airline_readonly_symbol   = '⭤'
+let g:airline_linecolumn_prefix = '⭡'
 
 " 2 spaces only for indentation
 set tabstop=2
@@ -117,9 +123,9 @@ map <left> <nop>
 map <right> <nop>
 
 " Enable the style of tabs
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = '1'
-let g:airline#extensions#tabline#left_alt_sep = '2'
+let g:airline#extensions#tabline#enabled      = 1
+let g:airline#extensions#tabline#left_sep     = '⮀'
+let g:airline#extensions#tabline#left_alt_sep = '⮁'
 
 " Remap colon to semicolon to avoid using shift too much
 map ; :
