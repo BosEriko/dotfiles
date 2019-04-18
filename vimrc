@@ -9,8 +9,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'               " This makes VIM awesome
 Plugin 'scrooloose/nerdtree'                " Tree file explorer
 Plugin 'tpope/vim-fugitive'                 " View any blob, tree, commit, or tag in the repository
-Plugin 'junegunn/fzf.vim'                   " FZF Search
-Plugin 'mileszs/ack.vim'                    " Word search inside directory
+" Plugin 'junegunn/fzf.vim'                   " FZF Search
+" Plugin 'mileszs/ack.vim'                    " Word search inside directory
 Plugin 'alvan/vim-closetag'                 " Auto close HTML tags
 Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
 Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
@@ -173,29 +173,29 @@ set fillchars=""
 hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
 
 " Initialize FZF
-set rtp+=~/.fzf
+" set rtp+=~/.fzf
 
 " FZF Directory Search
-map <silent> <C-p> :Files<CR>
+" map <silent> <C-p> :Files<CR>
 
 " FZF Color Scheme
-let g:fzf_colors =
-\ { 'fg':      ['fg', 'Normal'],
-  \ 'bg':      ['bg', 'Normal'],
-  \ 'hl':      ['fg', 'Comment'],
-  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-  \ 'hl+':     ['fg', 'Statement'],
-  \ 'info':    ['fg', 'PreProc'],
-  \ 'border':  ['fg', 'Ignore'],
-  \ 'prompt':  ['fg', 'Conditional'],
-  \ 'pointer': ['fg', 'Exception'],
-  \ 'marker':  ['fg', 'Keyword'],
-  \ 'spinner': ['fg', 'Label'],
-  \ 'header':  ['fg', 'Comment'] }
+" let g:fzf_colors =
+" \ { 'fg':      ['fg', 'Normal'],
+"   \ 'bg':      ['bg', 'Normal'],
+"   \ 'hl':      ['fg', 'Comment'],
+"   \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+"   \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+"   \ 'hl+':     ['fg', 'Statement'],
+"   \ 'info':    ['fg', 'PreProc'],
+"   \ 'border':  ['fg', 'Ignore'],
+"   \ 'prompt':  ['fg', 'Conditional'],
+"   \ 'pointer': ['fg', 'Exception'],
+"   \ 'marker':  ['fg', 'Keyword'],
+"   \ 'spinner': ['fg', 'Label'],
+"   \ 'header':  ['fg', 'Comment'] }
 
 " Shortcut for Ack
-nmap <leader>f :Ack!<space>
+" nmap <leader>f :Ack!<space>
 
 " Shorcut for word substitute
 nmap <leader>ff :%s/old/new/g
