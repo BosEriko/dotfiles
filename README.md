@@ -15,6 +15,7 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
 ## Installation
 
     git clone git@github.com:BosEriko/dotfiles.git ~/dotfiles
+    brew install fzf && $(brew --prefix)/opt/fzf/install && brew install ack
     rm ~/.gitconfig && ln -s ~/dotfiles/gitconfig ~/.gitconfig
     rm ~/.zshrc && ln -s ~/dotfiles/zshrc ~/.zshrc
     rm ~/.tmux.conf && ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
