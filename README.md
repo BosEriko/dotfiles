@@ -1,7 +1,4 @@
 # Dotfiles
-
-I mainly use VSCode now so this is more of a personal editor settings rather than a dotfiles folder.
-
 ## Dependencies
 - [Git](https://git-scm.com)
 - [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
