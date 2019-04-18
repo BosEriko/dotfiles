@@ -1,32 +1,23 @@
 # Dotfiles
-
-I mainly use VSCode now so this is more of a personal editor settings rather than a dotfiles folder.
-
 ## Dependencies
 - [Git](https://git-scm.com)
 - [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [tmux](https://github.com/tmux/tmux/wiki)
+- [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+- [Tmux Themepack](https://github.com/jimeh/tmux-themepack)
+- [Vundle.vim](https://github.com/VundleVim/Vundle.vim)
 - [fzf](https://github.com/junegunn/fzf)
-- [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Installation
 
     git clone git@github.com:BosEriko/dotfiles.git ~/dotfiles
+    brew install fzf && $(brew --prefix)/opt/fzf/install && brew install ack
     rm ~/.gitconfig && ln -s ~/dotfiles/gitconfig ~/.gitconfig
     rm ~/.zshrc && ln -s ~/dotfiles/zshrc ~/.zshrc
+    rm ~/.tmux.conf && ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+    rm ~/.vimrc && ln -s ~/dotfiles/vimrc ~/.vimrc
     rm ~/.profile && ln -s ~/dotfiles/profile ~/.profile
-    rm ~/Library/Application\ Support/Code/User/projects.json && ln -s ~/dotfiles/VSCode/projects.json ~/Library/Application\ Support/Code/User/projects.json
-    rm ~/Library/Application\ Support/Code/User/settings.json && ln -s ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-    rm ~/Library/Application\ Support/Code/User/keybindings.json && ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-    bash ~/dotfiles/extensions.sh
-
-_Remember to install [Font Ligatures](https://github.com/tonsky/FiraCode) as well_
-
-------
-
-## Visual Studio Code Custom Hotkeys (Mac)
-
-    bos -vs [general] [search] [explorer] [toggle] [terminal] [fold] [editor] [extensions] [vim]
 
 ------
 
