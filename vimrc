@@ -135,6 +135,9 @@ noremap ;; ;
 nmap <leader>j :bp!<CR>
 nmap <leader>k :bn!<CR>
 
+" Close buffers easily
+nmap <leader>x :bd!<CR>
+
 " Show hidden files in NERDTree by default
 let NERDTreeShowHidden=1
 
