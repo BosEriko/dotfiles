@@ -4,7 +4,6 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
 
 ## Dependencies
 - [Git](https://git-scm.com)
-- [Hyper](https://hyper.is/)
 - [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [tmux](https://github.com/tmux/tmux/wiki)
@@ -17,7 +16,6 @@ I mainly use VSCode now so this is more of a personal editor settings rather tha
 
     git clone git@github.com:BosEriko/dotfiles.git ~/dotfiles
     rm ~/.gitconfig && ln -s ~/dotfiles/gitconfig ~/.gitconfig
-    rm ~/.hyper.js && ln -s ~/dotfiles/hyper.js ~/.hyper.js
     rm ~/.zshrc && ln -s ~/dotfiles/zshrc ~/.zshrc
     rm ~/.tmux.conf && ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
     rm ~/.vimrc && ln -s ~/dotfiles/vimrc ~/.vimrc
