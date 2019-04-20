@@ -1,8 +1,5 @@
 # Dotfiles
 ## Dependencies
-- [Git](https://git-scm.com)
-- [Z shell](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
-- [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [tmux](https://github.com/tmux/tmux/wiki)
 - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 - [Tmux Themepack](https://github.com/jimeh/tmux-themepack)
