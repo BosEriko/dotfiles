@@ -18,6 +18,9 @@ SAVEHIST=10000
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
+# =================================================================================================[ zsh-autosuggestions ]===== #
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # ==========================================================================================================[ FZF Search ]===== #
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
