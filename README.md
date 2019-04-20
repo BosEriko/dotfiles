@@ -3,6 +3,7 @@ Intended to be run on a fresh environment of OSX only.
 
 ## Installation
 
+    # Open the default terminal and run the following
     xcode-select --install
     git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
     bash ~/dotfiles/install.sh
