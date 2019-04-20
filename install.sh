@@ -25,3 +25,20 @@ chsh -s /bin/zsh
 
 # Install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Installing the dotfiles
+## .gitconfig
+rm ~/.gitconfig
+ln -s ~/dotfiles/gitconfig ~/.gitconfig
+## .zshrc
+rm ~/.zshrc
+ln -s ~/dotfiles/zshrc ~/.zshrc
+## .tmux.conf
+rm ~/.tmux.conf
+ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+## .vimrc
+rm ~/.vimrc
+ln -s ~/dotfiles/vimrc ~/.vimrc
+## .profile
+rm ~/.profile
+ln -s ~/dotfiles/profile ~/.profile
