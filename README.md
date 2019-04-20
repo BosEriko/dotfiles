@@ -1,7 +1,6 @@
 # Dotfiles
 Intended to be run on a fresh environment of OSX only.
 ## Dependencies
-- [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 - [Tmux Themepack](https://github.com/jimeh/tmux-themepack)
 
 ## Installation
