@@ -17,19 +17,19 @@ brew install zsh-autosuggestions
 brew update
 
 # Installing the dotfiles
-## .gitconfig
+# =====> .gitconfig
 rm ~/.gitconfig
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
-## .zshrc
+# =====> .zshrc
 rm ~/.zshrc
 ln -s ~/dotfiles/zshrc ~/.zshrc
-## .tmux.conf
+# =====> .tmux.conf
 rm ~/.tmux.conf
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
-## .vimrc
+# =====> .vimrc
 rm ~/.vimrc
 ln -s ~/dotfiles/vimrc ~/.vimrc
-## .profile
+# =====> .profile
 rm ~/.profile
 ln -s ~/dotfiles/profile ~/.profile
 
