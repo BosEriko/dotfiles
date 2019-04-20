@@ -33,6 +33,9 @@ ln -s ~/dotfiles/vimrc ~/.vimrc
 # =====> .profile
 rm ~/.profile
 ln -s ~/dotfiles/profile ~/.profile
+# =====> .hyper.js
+rm ~/.hyper.js
+ln -s ~/dotfiles/hyper.js ~/.hyper.js
 
 # Install powerline fonts (https://github.com/powerline/fonts)
 git clone https://github.com/powerline/fonts.git ~/powerline-fonts
