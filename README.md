@@ -4,12 +4,11 @@
 - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 - [Tmux Themepack](https://github.com/jimeh/tmux-themepack)
 - [Vundle.vim](https://github.com/VundleVim/Vundle.vim)
-- [fzf](https://github.com/junegunn/fzf)
 
 ## Installation
 
-    bash ~/dotfiles/install.sh
     git clone git@github.com:BosEriko/dotfiles.git ~/dotfiles
+    bash ~/dotfiles/install.sh
     rm ~/.gitconfig && ln -s ~/dotfiles/gitconfig ~/.gitconfig
     rm ~/.zshrc && ln -s ~/dotfiles/zshrc ~/.zshrc
     rm ~/.tmux.conf && ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
