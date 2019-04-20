@@ -7,9 +7,6 @@ Intended to be run on a fresh environment of OSX only.
     git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
     bash ~/dotfiles/install.sh
 
-## Set the powerline font
-After successfully running the script above, be sure to set the terminal font family and size to `Ubuntu Mono derivative Powerline 14 pt.`
-
 ## One last step
 Close the default terminal and open Hyper and that's it!
 
