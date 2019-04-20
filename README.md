@@ -7,8 +7,7 @@
 
 ## Installation
 
-    git clone git@github.com:BosEriko/dotfiles.git ~/dotfiles
-    bash ~/dotfiles/install.sh
+    git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles && bash ~/dotfiles/install.sh
 
 ------
 
