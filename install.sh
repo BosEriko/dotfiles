@@ -6,7 +6,8 @@ brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Ho
 brew update
 
 # Install packages (https://brew.sh/)
-brew install fzf && $(brew --prefix)/opt/fzf/install
+brew install fzf
+$(brew --prefix)/opt/fzf/install
 brew install ack
 brew install figlet
 brew install zsh-autosuggestions
