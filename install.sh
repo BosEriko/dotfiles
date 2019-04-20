@@ -53,6 +53,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Install Tmux Plugin Manager (https://github.com/tmux-plugins/tpm)
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+# Allow key repeats on Hyper terminal
+defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
+
 # Install Vundle (https://github.com/VundleVim/Vundle.vim)
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
