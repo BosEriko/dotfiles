@@ -12,7 +12,5 @@ Intended to be run on fresh environment of OSX only.
 ## One last step
 After successfully running the script above, be sure to set the terminal font family and size to `Ubuntu Mono derivative Powerline 14 pt.`.
 
-------
-
 ## Call to action
 If you want to share some ideas you can email me at mail@boseriko.com.
