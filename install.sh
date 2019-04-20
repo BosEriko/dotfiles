@@ -1,8 +1,5 @@
 # Install Homebrew (https://brew.sh/)
-xcode-select --install
 brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# Update Homebrew if possible (https://brew.sh/)
 brew update
 
 # Install packages (https://brew.sh/)
@@ -10,6 +7,14 @@ brew install fzf
 $(brew --prefix)/opt/fzf/install
 brew install ack
 brew install figlet
+brew install tmux
+brew install htop
+brew install zsh
+brew install zsh-completions
+brew install zsh-autosuggestions
+
+# Update Homebrew again (https://brew.sh/)
+brew update
 
 # Installing the dotfiles
 ## .gitconfig
@@ -35,9 +40,7 @@ cd ~/powerline-fonts
 cd ..
 rm -rf ~/powerline-fonts
 
-# Install ZSH (https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
-brew install zsh zsh-completions
-brew install zsh-autosuggestions
+# Make ZSH the default shell (https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 chsh -s /bin/zsh
 
 # Install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
