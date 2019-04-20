@@ -11,6 +11,7 @@
 
 ## Installation
 
+    ~/dotfiles/install.sh
     git clone git@github.com:BosEriko/dotfiles.git ~/dotfiles
     brew install fzf && $(brew --prefix)/opt/fzf/install
     brew install ack
