@@ -1,5 +1,5 @@
 # Dotfiles
-Intended to be run on fresh environment of OSX only.
+Intended to be run on a fresh environment of OSX only.
 ## Dependencies
 - [tmux](https://github.com/tmux/tmux/wiki)
 - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
