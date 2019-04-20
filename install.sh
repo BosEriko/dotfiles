@@ -12,6 +12,7 @@ brew install htop
 brew install zsh
 brew install zsh-completions
 brew install zsh-autosuggestions
+brew cask install hyper
 
 # Update Homebrew again (https://brew.sh/)
 brew update
