@@ -33,6 +33,7 @@ Plugin 'tpope/vim-haml'                     " Haml, Sass and SCSS
 Plugin 'slim-template/vim-slim'             " Slim
 Plugin 'elixir-lang/vim-elixir'             " Elixir
 Plugin 'leafgarland/typescript-vim'         " Typescript
+Plugin 'posva/vim-vue'                      " Vue
 
 " Party tricks Plugin
 Plugin 'severin-lemaignan/vim-minimap'      " Minimap
