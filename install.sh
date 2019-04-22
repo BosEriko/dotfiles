@@ -12,10 +12,18 @@ brew install htop
 brew install zsh
 brew install zsh-completions
 brew install zsh-autosuggestions
+brew install cmake
 brew cask install hyper
 
 # Update Homebrew again (https://brew.sh/)
 brew update
+
+# Install Karabiner Elements (https://github.com/tekezo/Karabiner-Elements)
+git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
+cd ~/karabiner-elements
+make package
+cd ..
+rm -rf ~/karabiner-elements
 
 # Installing the dotfiles
 # =====> .gitconfig
@@ -36,6 +44,9 @@ ln -s ~/dotfiles/profile ~/.profile
 # =====> .hyper.js
 rm ~/.hyper.js
 ln -s ~/dotfiles/hyper.js ~/.hyper.js
+# ====> karabiner.json
+rm ~/.config/karabiner/karabiner.json
+ln -s ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
 
 # Install powerline fonts (https://github.com/powerline/fonts)
 git clone https://github.com/powerline/fonts.git ~/powerline-fonts
