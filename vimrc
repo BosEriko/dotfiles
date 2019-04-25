@@ -19,7 +19,7 @@ Plugin 'scrooloose/nerdcommenter'           " Comment out function
 Plugin 'Valloric/MatchTagAlways'            " HTML Tag Matcher
 Plugin 'airblade/vim-gitgutter'             " Show git difference in the gutter
 Plugin 'mattn/emmet-vim'                    " Emmet for VIM (Provides support for expanding abbreviations)
-" Plugin 'easymotion/vim-easymotion'          " Jump anywhere easily
+Plugin 'easymotion/vim-easymotion'          " Jump anywhere easily
 
 " Syntax Highlight Plugins
 Plugin 'vim-ruby/vim-ruby'                  " Ruby
