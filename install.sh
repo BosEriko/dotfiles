@@ -24,7 +24,7 @@ mkdir ~/Documents/Codes
 mkdir ~/Documents/Codes/Work
 mkdir ~/Documents/Codes/Personal
 
-# Install Karabiner Elements (https://github.com/tekezo/Karabiner-Elements)
+# Install Karabiner Elements 12.2.0 (https://github.com/tekezo/Karabiner-Elements)
 git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
 cd ~/karabiner-elements
 make package
