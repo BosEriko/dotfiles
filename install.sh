@@ -18,6 +18,12 @@ brew cask install hyper
 # Update Homebrew again (https://brew.sh/)
 brew update
 
+# Make the directories for Personal/Work
+mkdir ~/Documents
+mkdir ~/Documents/Codes
+mkdir ~/Documents/Codes/Work
+mkdir ~/Documents/Codes/Personal
+
 # Install Karabiner Elements (https://github.com/tekezo/Karabiner-Elements)
 git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
 cd ~/karabiner-elements
