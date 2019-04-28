@@ -36,6 +36,7 @@ alias tx-new="tmux new-session"
 alias tx-list="tmux list-sessions"
 alias tx-last="tmux attach-session"
 alias tx-clean="tmux kill-session -a"
+alias tx-quit="tmux kill-session"
 
 # ================================================================================================[ Back Directory Alias ]===== #
 alias ..="cd .."
