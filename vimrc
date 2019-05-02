@@ -34,6 +34,7 @@ Plugin 'slim-template/vim-slim'             " Slim
 Plugin 'elixir-lang/vim-elixir'             " Elixir
 Plugin 'leafgarland/typescript-vim'         " Typescript
 Plugin 'posva/vim-vue'                      " Vue
+Plugin 'briancollins/vim-jst'               " JST/EJS
 
 " Party tricks Plugin
 Plugin 'severin-lemaignan/vim-minimap'      " Minimap
