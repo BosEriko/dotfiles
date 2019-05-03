@@ -51,6 +51,7 @@ alias python="python3"
 alias d-web="docker-compose run web"
 alias d-up="docker-compose up"
 alias d-down="docker-compose down"
+alias d-rails-install="docker-compose down && docker-compose run web bundle install && docker-compose up --build"
 
 # ====================================================================================================[ Avoid using Code ]===== #
 alias code="vim"
