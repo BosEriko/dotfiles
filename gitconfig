@@ -22,3 +22,4 @@
   d = difftool
   tagrev = echo $@
   wtf = !sh -c \"git commit -m '$(curl -s http://whatthecommit.com/index.txt)'\"
+  go = "!f() { msg=${1-Empty}; git add .; git commit -m $msg; git push origin master; }; f"
