@@ -7,7 +7,7 @@
   postBuffer = 1048576000
 [core]
   compression = 0
-  editor = code --wait
+  editor = vim
 [alias]
   st = status
   ci = commit
