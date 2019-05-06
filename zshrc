@@ -31,13 +31,6 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# ======================================================================================================[ Tmux Shortcuts ]===== #
-alias tx-new="tmux new-session"
-alias tx-list="tmux list-sessions"
-alias tx-last="tmux attach-session"
-alias tx-clean="tmux kill-session -a"
-alias tx-quit="tmux kill-session"
-
 # ================================================================================================[ Back Directory Alias ]===== #
 alias ..="cd .."
 alias ...="cd ../.."
@@ -48,12 +41,19 @@ alias .....="cd ../../../.."
 alias python="python3"
 alias pip="python3 -m pip"
 
+# ======================================================================================================[ Tmux Shortcuts ]===== #
+alias t-new="tmux new-session"
+alias t-list="tmux list-sessions"
+alias t-last="tmux attach-session"
+alias t-clean="tmux kill-session -a"
+alias t-quit="tmux kill-session"
+
 # ================================================================================================[ Docker-compose Alias ]===== #
 alias d-web="docker-compose run web"
 alias d-up="docker-compose up"
 alias d-down="docker-compose down"
-alias d-bundle-install="docker-compose down && docker-compose run web bundle install && docker-compose up --build"
-alias d-reset-db="docker-compose run web rake db:schema:load"
+alias d-build="docker-compose down && docker-compose run web bundle install && docker-compose up --build"
+alias d-reset="docker-compose run web rake db:schema:load"
 
 # ====================================================================================================[ Avoid using Code ]===== #
 alias code="vim"
