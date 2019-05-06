@@ -45,13 +45,16 @@ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 # =====> .vimrc
 rm ~/.vimrc
 ln -s ~/dotfiles/vimrc ~/.vimrc
+# =====> .nanorc
+rm ~/.nanorc
+ln -s ~/dotfiles/nanorc ~/.nanorc
 # =====> .profile
 rm ~/.profile
 ln -s ~/dotfiles/profile ~/.profile
 # =====> .hyper.js
 rm ~/.hyper.js
 ln -s ~/dotfiles/hyper.js ~/.hyper.js
-# ====> karabiner.json
+# =====> karabiner.json
 rm ~/.config/karabiner/karabiner.json
 ln -s ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
 
