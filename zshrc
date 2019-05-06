@@ -53,6 +53,7 @@ alias d-web="docker-compose run web"
 alias d-up="docker-compose up"
 alias d-down="docker-compose down"
 alias d-bundle-install="docker-compose down && docker-compose run web bundle install && docker-compose up --build"
+alias d-reset-db="docker-compose run web rake db:schema:load"
 
 # ====================================================================================================[ Avoid using Code ]===== #
 alias code="vim"
