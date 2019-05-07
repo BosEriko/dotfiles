@@ -172,6 +172,7 @@ bos() {
                 curl ipinfo.io/ip
             elif [ "$2" = "restart-zsh" ]; then
                 source ~/.zshrc
+                terminal-notifier -title 'ZSH has been restarted!' -message 'Commands are now refreshed.'
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi

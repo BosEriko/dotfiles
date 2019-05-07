@@ -14,6 +14,7 @@ brew install zsh
 brew install zsh-completions
 brew install zsh-autosuggestions
 brew install cmake
+brew install terminal-notifier
 brew cask install hyper
 
 # Update Homebrew again (https://brew.sh/)
