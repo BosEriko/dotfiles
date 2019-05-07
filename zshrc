@@ -50,10 +50,10 @@ alias t-quit="tmux kill-session"
 
 # ================================================================================================[ Docker-compose Alias ]===== #
 alias d-web="docker-compose run web"
-alias d-up="docker-compose up"
-alias d-down="docker-compose down"
-alias d-build="docker-compose down && docker-compose run web bundle install && docker-compose up --build"
-alias d-reset="docker-compose run web rake db:schema:load"
+alias d-up="docker-compose up && terminal-notifier -title 'Docker Compose for Rails' -message 'Container has now started!'"
+alias d-down="docker-compose down && terminal-notifier -title 'Docker Compose for Rails' -message 'Container has been turned off.'"
+alias d-build="docker-compose down && docker-compose run web bundle install && docker-compose up --build && terminal-notifier -title 'Docker Compose for Rails' -message 'Gems has been installed!'"
+alias d-reset="docker-compose run web rake db:schema:load && terminal-notifier -title 'Docker Compose for Rails' -message 'Databse has been reset!'"
 
 # ====================================================================================================[ Avoid using Code ]===== #
 alias code="vim"
@@ -172,7 +172,7 @@ bos() {
                 curl ipinfo.io/ip
             elif [ "$2" = "restart-zsh" ]; then
                 source ~/.zshrc
-                terminal-notifier -title 'ZSH has been restarted!' -message 'Commands are now refreshed.'
+                terminal-notifier -title 'ZSH' -message 'ZSH has been restarted!'
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
