@@ -67,8 +67,8 @@ g() {
     git clean -fd
   elif [ "$1" = "g" ] || [ "$1" = "go" ]; then
     git add .
-    if [ -z "$2" ]; then
-      git commit -m '$2'
+    if [[ -v $2  ]]; then
+      git commit -m $2
     else
       git commit -m '$(curl -s http://whatthecommit.com/index.txt)'
     fi
