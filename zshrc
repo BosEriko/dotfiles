@@ -59,7 +59,7 @@ alias d-reset="docker-compose run web rake db:schema:load"
 alias code="vim"
 
 # ==========================================================================================================[ Git Extend ]===== #
-get() {
+g() {
   if [ "$1" = "r" ] || [ "$1" = "rework" ]; then
     git stash
     git clean -fd
@@ -116,8 +116,6 @@ get() {
     git log --decorate --pretty=oneline --abbrev-commit
   elif [ "$1" = "graph" ]; then
     git log --graph --decorate --pretty=oneline --abbrev-commit --all
-  elif [ "$1" = "ls" ]; then
-    git ls-files
   else
     git $@
   fi

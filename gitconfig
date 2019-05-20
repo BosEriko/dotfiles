@@ -10,3 +10,4 @@
   editor = vim
 [alias]
   release = tag -n1
+  ls = ls-files
