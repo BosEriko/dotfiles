@@ -77,6 +77,8 @@ g() {
     git commit -m "$(curl -s http://whatthecommit.com/index.txt)"
   elif [ "$1" = "s" ] || [ "$1" = "status" ]; then
     git status
+  elif [ "$1" = "c" ] || [ "$1" = "commit" ]; then
+    git commit
   fi
 }
 
