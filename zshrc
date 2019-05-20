@@ -91,6 +91,16 @@ g() {
     else
       git branch "$2"
     fi
+  elif [ "$1" = "bg" ] || [ "$1" = "branch-generate" ]; then
+    if [ -z "$2" ]; then
+      echo "Please specify a branch and then an optional branch type (feature/bugfix/etc)"
+    else
+      if [ -z "$3" ]; then
+        git branch "general/$(date +%s)/$2"
+      else
+        git branch "$3/$(date +%s)/$2"
+      fi
+    fi
   elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
     if [ -z "$2" ]; then
       echo "Please specify a branch"
