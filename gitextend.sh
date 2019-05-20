@@ -1,3 +1,4 @@
 git-rework {
-  git stash && git clean -fd
+  git stash;
+  git clean -fd;
 }
