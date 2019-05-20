@@ -77,7 +77,6 @@ g() {
     git commit -m "$(curl -s http://whatthecommit.com/index.txt)"
   fi
 }
-# EXTRA LINE FOR TESTING
 
 # =================================================================================================================[ Bos ]===== #
 BOS_HELP_MESSAGE="
