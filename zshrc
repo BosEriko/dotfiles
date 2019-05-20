@@ -74,10 +74,9 @@ g() {
     fi
     git push -u origin HEAD
   elif [ "$1" = "w" ] || [ "$1" = "wtf" ]; then
-    git commit -m "$(curl -s http://whatthecommit.com/index.txt)"
+    git commit -m $(curl -s http://whatthecommit.com/index.txt)
   fi
 }
-# LINE FOR TESTING
 
 # =================================================================================================================[ Bos ]===== #
 BOS_HELP_MESSAGE="
