@@ -59,7 +59,7 @@ alias d-reset="docker-compose run web rake db:schema:load"
 alias code="vim"
 
 # ==========================================================================================================[ Git Extend ]===== #
-g() {
+get() {
   if [ -z "$1" ]; then
     echo "Error: Missing Parameters"
   elif [ "$1" = "r" ] || [ "$1" = "rework" ]; then
