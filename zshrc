@@ -118,8 +118,6 @@ get() {
     git log --graph --decorate --pretty=oneline --abbrev-commit --all
   elif [ "$1" = "ls" ]; then
     git ls-files
-  elif [ "$1" = "release" ]; then
-    git tag -n1
   else
     git $@
   fi

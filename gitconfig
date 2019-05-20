@@ -8,3 +8,5 @@
 [core]
   compression = 0
   editor = vim
+[alias]
+  release = tag -n1
