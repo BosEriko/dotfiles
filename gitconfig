@@ -23,4 +23,4 @@
   tagrev = echo $@
   wtf = !sh -c \"git commit -m '$(curl -s http://whatthecommit.com/index.txt)'\"
   go = !sh -c \"git add . && git commit -m '$1' && git push -u origin HEAD\"
-  rework = !sh -c \"git stash && git clean -fd\"
+  rework = !zsh -c 'source ~/dotfiles/gitextend.sh && git-rework'
