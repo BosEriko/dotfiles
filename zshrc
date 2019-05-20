@@ -60,9 +60,7 @@ alias code="vim"
 
 # ==========================================================================================================[ Git Extend ]===== #
 get() {
-  if [ -z "$1" ]; then
-    echo "Error: Missing Parameters"
-  elif [ "$1" = "r" ] || [ "$1" = "rework" ]; then
+  if [ "$1" = "r" ] || [ "$1" = "rework" ]; then
     git stash
     git clean -fd
   elif [ "$1" = "g" ] || [ "$1" = "go" ]; then
@@ -122,8 +120,8 @@ get() {
     git ls-files
   elif [ "$1" = "release" ]; then
     git tag -n1
-  elif [ "$1" = "tagrev" ]; then
-    git echo $@
+  else
+    git $@
   fi
 }
 
