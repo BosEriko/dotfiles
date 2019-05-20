@@ -9,6 +9,6 @@
   compression = 0
   editor = vim
 [alias]
-  release = tag -n1
   ls = ls-files
+  release = tag -n1
   s = status
