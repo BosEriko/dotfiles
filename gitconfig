@@ -11,3 +11,4 @@
 [alias]
   release = tag -n1
   ls = ls-files
+  s = status
