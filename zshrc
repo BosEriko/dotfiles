@@ -81,12 +81,6 @@ g() {
     else
       git checkout "$2"
     fi
-  elif [ "$1" = "b" ] || [ "$1" = "branch" ]; then
-    if [ -z "$2" ]; then
-      git branch
-    else
-      git branch "$2"
-    fi
   elif [ "$1" = "bg" ] || [ "$1" = "branch-generate" ]; then
     if [ -z "$2" ]; then
       echo "Please specify a branch and then an optional branch type (feature/bugfix/etc)"
