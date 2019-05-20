@@ -9,11 +9,9 @@
   compression = 0
   editor = vim
 [alias]
-  df = diff
   lg = log -p
   lol = log --decorate --pretty=oneline --abbrev-commit
   graph = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
   release = tag -n1
-  d = difftool
   tagrev = echo $@
