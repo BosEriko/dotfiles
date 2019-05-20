@@ -79,6 +79,19 @@ g() {
     git status
   elif [ "$1" = "c" ] || [ "$1" = "commit" ]; then
     git commit
+  elif [ "$1" = "b" ] || [ "$1" = "branch" ]; then
+    if [ -z "$2" ]; then
+      git branch
+    else
+      git branch "$2"
+    fi
+  elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
+    if [ -z "$2" ]; then
+      echo "Please specify a branch"
+    else
+      git push --delete origin "$2"
+      git branch -D "$2"
+    fi
   fi
 }
 

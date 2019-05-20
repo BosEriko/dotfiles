@@ -9,7 +9,6 @@
   compression = 0
   editor = vim
 [alias]
-  br = branch
   co = checkout
   df = diff
   lg = log -p
