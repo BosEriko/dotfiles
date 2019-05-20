@@ -75,6 +75,8 @@ g() {
     git push -u origin HEAD
   elif [ "$1" = "w" ] || [ "$1" = "wtf" ]; then
     git commit -m "$(curl -s http://whatthecommit.com/index.txt)"
+  elif [ "$1" = "s" ] || [ "$1" = "status" ]; then
+    git status
   fi
 }
 
