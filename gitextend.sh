@@ -1,6 +1,6 @@
-gitextend {
-  git-rework {
-    git stash;
-    git clean -fd;
-  }
+#!/bin/sh
+
+git-rework {
+  git stash;
+  git clean -fd;
 }
