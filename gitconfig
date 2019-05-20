@@ -9,7 +9,6 @@
   compression = 0
   editor = vim
 [alias]
-  co = checkout
   df = diff
   lg = log -p
   lol = log --decorate --pretty=oneline --abbrev-commit
