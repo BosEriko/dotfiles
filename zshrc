@@ -77,6 +77,7 @@ g() {
     git commit -m '$(curl -s http://whatthecommit.com/index.txt)'
   fi
 }
+# DELETE AFTER TESTING
 
 # =================================================================================================================[ Bos ]===== #
 BOS_HELP_MESSAGE="
