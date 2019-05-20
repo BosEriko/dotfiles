@@ -81,7 +81,7 @@ BOS_HELP_MESSAGE="
                                 ngrok                   Start ngrok
                                 google-chrome           Start Google Chrome
                                 set-git-origin          Set Git Origins
-                                cpu-usage               Start htop
+                                cpu-usage               Start gtop
                                 cpu-temp                Start istats
                                 clearbin                Clear system trash
                                 npm-list                List global npm packages
@@ -157,7 +157,7 @@ bos() {
                 git remote set-url --add --push origin $bitbucket_path
                 git remote -v
             elif [ "$2" = "cpu-usage" ]; then
-                htop
+                gtop
             elif [ "$2" = "cpu-temp" ]; then
                 istats
             elif [ "$2" = "clearbin" ]; then
