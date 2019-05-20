@@ -102,6 +102,18 @@ g() {
     git diff
   elif [ "$1" = "dt" ] || [ "$1" = "difftool" ]; then
     git difftool
+  elif [ "$1" = "lg" ]; then
+    git log -p
+  elif [ "$1" = "lol" ]; then
+    git log --decorate --pretty=oneline --abbrev-commit
+  elif [ "$1" = "graph" ]; then
+    git log --graph --decorate --pretty=oneline --abbrev-commit --all
+  elif [ "$1" = "ls" ]; then
+    git ls-files
+  elif [ "$1" = "release" ]; then
+    git tag -n1
+  elif [ "$1" = "tagrev" ]; then
+    git echo $@
   fi
 }
 
