@@ -10,6 +10,7 @@
   editor = vim
 [alias]
   b = branch
+  co = checkout
   ls = ls-files
   release = tag -n1
   s = status
