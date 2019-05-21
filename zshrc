@@ -115,8 +115,10 @@ g() {
     else
       if [ -z "$3" ]; then
         git branch "general/$(date +%s)/$2"
+        echo "general/$(date +%s)/$2"
       else
         git branch "$3/$(date +%s)/$2"
+        echo "$3/$(date +%s)/$2"
       fi
     fi
   elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
