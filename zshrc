@@ -70,46 +70,26 @@ GIT_HELP_MESSAGE="
     Options:                    Description:
 \033[0m
 
-    h, help                     Show the list of custom Git commands
-
     a                           Alias for add
-
     b                           Alias for branch
-
     bd, branch-delete           Delete a branch locally and remotely
-
     bg, branch-generate         Generate a branch name with a timestamp included
-
     c                           Alias for commit
-
     co                          Alias for checkout
-
     d                           Alias for diff
-
     dt                          Alias for difftool
-
     g, go                       Instantly add, commit and push
-
     graph                       Show graph of branches
-
+    h, help                     Show the list of custom Git commands
     lg                          Show log (Changes on all commits)
-
     lol                         Show log (Single line presentation)
-
     ls                          Alias for ls-files
-
     pl                          Alias for pull
-
     ps                          Alias for push
-
     r, rework                   Stash and clean the extra files
-
     re                          Alias for reset
-
     rl                          List versions
-
     s                           Alias for status
-
     w, wtf                      Commit with an automated message
 
 "
