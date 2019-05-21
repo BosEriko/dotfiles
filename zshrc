@@ -82,6 +82,36 @@ GIT_HELP_MESSAGE="
 
     bg, branch-generate         Generate a branch name with a timestamp included
 
+    a                           Alias for add
+
+    b                           Alias for branch
+
+    c                           Alias for commit
+
+    co                          Alias for checkout
+
+    d                           Alias for diff
+
+    dt                          Alias for difftool
+
+    graph                       Show graph
+
+    lg                          Show log (-p)
+
+    lol                         Show log (Single line)
+
+    ls                          Alias for ls-files
+
+    pl                          Alias for pull
+
+    ps                          Alias for push
+
+    re                          Alias for reset
+
+    rl                          List versions
+
+    s                           Alias for status
+
 "
 g() {
   if [ "$1" = "h" ] || [ "$1" = "help" ]; then
