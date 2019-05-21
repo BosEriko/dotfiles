@@ -73,8 +73,6 @@ g() {
     git push -u origin HEAD
   elif [ "$1" = "w" ] || [ "$1" = "wtf" ]; then
     git commit -m "$(curl -s http://whatthecommit.com/index.txt)"
-  elif [ "$1" = "c" ] || [ "$1" = "commit" ]; then
-    git commit
   elif [ "$1" = "bg" ] || [ "$1" = "branch-generate" ]; then
     if [ -z "$2" ]; then
       echo "Please specify a branch and then an optional branch type (feature/bugfix/etc)"
