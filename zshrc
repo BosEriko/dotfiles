@@ -90,10 +90,6 @@ g() {
       git push --delete origin "$2"
       git branch -D "$2"
     fi
-  elif [ "$1" = "d" ] || [ "$1" = "diff" ]; then
-    git diff
-  elif [ "$1" = "dt" ] || [ "$1" = "difftool" ]; then
-    git difftool
   elif [ "$1" = "lg" ]; then
     git log -p
   elif [ "$1" = "lol" ]; then

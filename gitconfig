@@ -12,6 +12,8 @@
   b = branch
   c = commit
   co = checkout
+  d = diff
+  dt = difftool
   ls = ls-files
   release = tag -n1
   s = status
