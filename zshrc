@@ -95,7 +95,7 @@ GIT_HELP_MESSAGE="
 "
 g() {
   if [ "$1" = "h" ] || [ "$1" = "help" ]; then
-    figlet "Let's get creative!" && echo -e $GIT_HELP_MESSAGE
+    figlet 'Save time!' && echo -e $GIT_HELP_MESSAGE
   elif [ "$1" = "r" ] || [ "$1" = "rework" ]; then
     git stash
     git clean -fd
