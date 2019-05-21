@@ -59,8 +59,26 @@ alias d-reset="docker-compose run web rake db:schema:load"
 alias code="vim"
 
 # ==========================================================================================================[ Git Extend ]===== #
+GIT_HELP_MESSAGE="
+
+    This is a helper showing all your Git custom commands.
+
+
+    Usage: g [option] [parameter]
+
+\033[1m
+    Options:                    Parameters:             Description:
+\033[0m
+
+    h, help                                             Show the list of custom Git commands
+
+    r, rework                                           Stash and clean the extra files
+
+"
 g() {
-  if [ "$1" = "r" ] || [ "$1" = "rework" ]; then
+  if [ "$1" = "h" ] || [ "$1" = "help" ]; then
+    figlet "Let's get creative!" && echo -e $GIT_HELP_MESSAGE
+  elif [ "$1" = "r" ] || [ "$1" = "rework" ]; then
     git stash
     git clean -fd
   elif [ "$1" = "g" ] || [ "$1" = "go" ]; then
