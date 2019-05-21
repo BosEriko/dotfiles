@@ -9,6 +9,7 @@
   compression = 0
   editor = vim
 [alias]
+  a = add
   b = branch
   c = commit
   co = checkout
