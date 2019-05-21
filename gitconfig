@@ -14,6 +14,7 @@
   co = checkout
   d = diff
   dt = difftool
+  graph = log --graph --decorate --pretty=oneline --abbrev-commit --all
   lg = log -p
   lol = log --decorate --pretty=oneline --abbrev-commit
   ls = ls-files
