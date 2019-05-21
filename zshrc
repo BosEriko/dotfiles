@@ -67,12 +67,20 @@ GIT_HELP_MESSAGE="
     Usage: g [option] [parameter]
 
 \033[1m
-    Options:                    Parameters:             Description:
+    Options:                    Description:
 \033[0m
 
-    h, help                                             Show the list of custom Git commands
+    h, help                     Show the list of custom Git commands
 
-    r, rework                                           Stash and clean the extra files
+    r, rework                   Stash and clean the extra files
+
+    g, go                       Instantly add, commit and push
+
+    w, wtf                      Commit with an automated message
+
+    bd, branch-delete           Delete a branch locally and remotely
+
+    bg, branch-generate         Generate a branch name with a timestamp included
 
 "
 g() {
