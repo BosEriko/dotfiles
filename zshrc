@@ -72,19 +72,13 @@ GIT_HELP_MESSAGE="
 
     h, help                     Show the list of custom Git commands
 
-    r, rework                   Stash and clean the extra files
+    a                           Alias for add
 
-    g, go                       Instantly add, commit and push
-
-    w, wtf                      Commit with an automated message
+    b                           Alias for branch
 
     bd, branch-delete           Delete a branch locally and remotely
 
     bg, branch-generate         Generate a branch name with a timestamp included
-
-    a                           Alias for add
-
-    b                           Alias for branch
 
     c                           Alias for commit
 
@@ -94,11 +88,13 @@ GIT_HELP_MESSAGE="
 
     dt                          Alias for difftool
 
-    graph                       Show graph
+    g, go                       Instantly add, commit and push
 
-    lg                          Show log (-p)
+    graph                       Show graph of branches
 
-    lol                         Show log (Single line)
+    lg                          Show log (Changes on all commits)
+
+    lol                         Show log (Single line presentation)
 
     ls                          Alias for ls-files
 
@@ -106,11 +102,15 @@ GIT_HELP_MESSAGE="
 
     ps                          Alias for push
 
+    r, rework                   Stash and clean the extra files
+
     re                          Alias for reset
 
     rl                          List versions
 
     s                           Alias for status
+
+    w, wtf                      Commit with an automated message
 
 "
 g() {
