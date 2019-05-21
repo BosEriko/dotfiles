@@ -15,6 +15,7 @@
   d = diff
   dt = difftool
   lg = log -p
+  lol = log --decorate --pretty=oneline --abbrev-commit
   ls = ls-files
   release = tag -n1
   s = status

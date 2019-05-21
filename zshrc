@@ -90,8 +90,6 @@ g() {
       git push --delete origin "$2"
       git branch -D "$2"
     fi
-  elif [ "$1" = "lol" ]; then
-    git log --decorate --pretty=oneline --abbrev-commit
   elif [ "$1" = "graph" ]; then
     git log --graph --decorate --pretty=oneline --abbrev-commit --all
   else
