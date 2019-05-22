@@ -90,6 +90,7 @@ GIT_HELP_MESSAGE="
     re                          Alias for reset
     rl                          List versions
     s                           Alias for status
+    so, set-origin              Set the origin path
     w, wtf                      Commit with an automated message
 
 "
@@ -126,6 +127,21 @@ g() {
       git push --delete origin "$2"
       git branch -D "$2"
     fi
+  elif [ "$1" = "so" ] || [ "$1" = "set-origin" ]; then
+    echo "Please specify the GitHub path:"
+    read github_path
+    echo "Please specify the GitLab path:"
+    read gitlab_path
+    echo "Please specify the Bitbucket path:"
+    read bitbucket_path
+    git remote add origin $github_path
+    git remote add github $github_path
+    git remote add gitlab $gitlab_path
+    git remote add bitbucket $bitbucket_path
+    git remote set-url --add --push origin $github_path
+    git remote set-url --add --push origin $gitlab_path
+    git remote set-url --add --push origin $bitbucket_path
+    git remote -v
   else
     git $@
   fi
@@ -153,7 +169,6 @@ BOS_HELP_MESSAGE="
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
                                 google-chrome           Start Google Chrome
-                                set-git-origin          Set Git Origins
                                 cpu-usage               Start gtop
                                 cpu-temp                Start istats
                                 clearbin                Clear system trash
@@ -214,21 +229,6 @@ bos() {
                 else
                     open -a "Google Chrome" $3
                 fi
-            elif [ "$2" = "set-git-origin" ]; then
-                echo "Please specify the GitHub path:"
-                read github_path
-                echo "Please specify the GitLab path:"
-                read gitlab_path
-                echo "Please specify the Bitbucket path:"
-                read bitbucket_path
-                git remote add origin $github_path
-                git remote add github $github_path
-                git remote add gitlab $gitlab_path
-                git remote add bitbucket $bitbucket_path
-                git remote set-url --add --push origin $github_path
-                git remote set-url --add --push origin $gitlab_path
-                git remote set-url --add --push origin $bitbucket_path
-                git remote -v
             elif [ "$2" = "cpu-usage" ]; then
                 gtop
             elif [ "$2" = "cpu-temp" ]; then
