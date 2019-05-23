@@ -10,6 +10,7 @@ brew install ack
 brew install figlet
 brew install tmux
 brew install htop
+brew install vim
 brew install zsh
 brew install zsh-completions
 brew install zsh-autosuggestions
