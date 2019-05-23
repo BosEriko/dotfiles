@@ -41,7 +41,7 @@ Plugin 'severin-lemaignan/vim-minimap'      " Minimap
 Plugin 'mhinz/vim-startify'                 " Welcome message
 
 " Design Plugin
-Plugin 'crusoexia/vim-monokai'              " Monokai Theme for VIM
+" Plugin 'crusoexia/vim-monokai'              " Monokai Theme for VIM
 Plugin 'vim-airline/vim-airline'            " Bottom toolbar
 Plugin 'vim-airline/vim-airline-themes'     " Themes for the bottom toolbar
 
@@ -98,7 +98,7 @@ set expandtab
 set showcmd
 
 " Activate Monokai Theme
-colorscheme monokai
+" colorscheme monokai
 
 " Show which line you're at
 set cursorline
