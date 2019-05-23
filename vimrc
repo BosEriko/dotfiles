@@ -100,6 +100,9 @@ set showcmd
 " Activate Monokai Theme
 " colorscheme monokai
 
+" Activate Koehler Theme
+colorscheme koehler
+
 " Show which line you're at
 set cursorline
 
