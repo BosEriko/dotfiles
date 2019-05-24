@@ -27,7 +27,7 @@ There are a couple of apps that I use almost all the time that are not automatic
 - [Unity](https://store.unity.com/download?ref=personal)
 - [Blender](https://www.blender.org/download/)
 - [Affinity Photo](https://affinity.serif.com/en-gb/photo/desktop/)
-- [Duet Display](https://www.duetdisplay.com/)
+- [Duet Display](https://www.duetdisplay.com/pro/)
 
 ## Call to action
 If you want to share some ideas you can email me at mail@boseriko.com
