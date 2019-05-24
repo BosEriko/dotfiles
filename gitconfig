@@ -24,3 +24,4 @@
   re = reset
   rl = tag -n1
   s = status
+  st = stash

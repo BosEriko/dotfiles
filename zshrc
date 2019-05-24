@@ -91,6 +91,7 @@ GIT_HELP_MESSAGE="
     rl                          List versions
     s                           Alias for status
     so, set-origin              Set the origin path
+    st                          Alias for stash
     w, wtf                      Commit with an automated message
 
 "
