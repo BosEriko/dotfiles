@@ -17,6 +17,7 @@ There are a couple of apps that I use almost all the time that are not automatic
 - [Alfred 3](https://www.alfredapp.com/)
 - [Spotify](https://www.spotify.com/ph/download/mac/)
 - [Discord](https://discordapp.com/)
+- [Messenger](https://fbmacmessenger.rsms.me/)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
 - [OBS](https://obsproject.com/)
 - [Postman](https://www.getpostman.com/downloads/)
