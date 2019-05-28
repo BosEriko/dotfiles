@@ -58,6 +58,22 @@ alias d-reset="docker-compose run web rake db:schema:load"
 # ====================================================================================================[ Avoid using Code ]===== #
 alias code="vim"
 
+# ============================================================================================================[ Projects ]===== #
+
+proj() {
+	case "$1" in
+	"ka-site")
+			cd ~/Documents/Codes/Personal/Kuru\ Anime/Main\ Website
+			;;
+	"ka-bot")
+			cd ~/Documents/Codes/Personal/Kuru\ Anime/Bot
+			;;
+	*)
+			cd ~
+			;;
+	esac
+}
+
 # ==========================================================================================================[ Git Extend ]===== #
 GIT_HELP_MESSAGE="
 
