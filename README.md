@@ -31,5 +31,7 @@ There are a couple of apps/games that I use almost all the time that are not aut
 - [Duet Display](https://www.duetdisplay.com/pro/)
 - [Minecraft](https://www.minecraft.net/en-us/download/)
 
+[Apps](APPS.md)
+
 ## Call to action
 If you want to share some ideas you can email me at mail@boseriko.com
