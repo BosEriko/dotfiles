@@ -15,3 +15,4 @@
 - [Blender](https://www.blender.org/download/)
 - [Affinity Photo](https://affinity.serif.com/en-gb/photo/desktop/)
 - [Duet Display](https://www.duetdisplay.com/pro/)
+- [iMovie](https://itunes.apple.com/us/app/imovie/id408981434)
