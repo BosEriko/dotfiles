@@ -7,7 +7,7 @@ fi
 export ZSH=$HOME/.oh-my-zsh
 
 # =============================================================================================================[ Flutter ]===== #
-export PATH="$PATH:~/Documents/flutter/bin:$PATH"
+export PATH="$PATH:~/Documents/flutter/bin"
 
 # =======================================================================================================[ Current theme ]===== #
 ZSH_THEME="garyblessington"
