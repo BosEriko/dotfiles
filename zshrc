@@ -32,7 +32,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # =============================================================================================================[ Flutter ]===== #
-export PATH="$HOME/.flutter/bin:$PATH"
+export PATH="$HOME/.flutterio/bin:$PATH"
 
 # ================================================================================================[ Back Directory Alias ]===== #
 alias ..="cd .."
