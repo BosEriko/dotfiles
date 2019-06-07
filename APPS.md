@@ -5,6 +5,7 @@
 - [Discord](https://discordapp.com/)
 - [Messenger](https://fbmacmessenger.rsms.me/)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
+- [Flutter](https://flutter.dev/docs/get-started/install/macos)
 - [OBS](https://obsproject.com/)
 - [Postman](https://www.getpostman.com/downloads/)
 - [uTorrent](https://www.utorrent.com/downloads/complete/os/osx/track/stable)
