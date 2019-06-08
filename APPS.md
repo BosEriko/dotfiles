@@ -6,6 +6,7 @@
 - [Messenger](https://fbmacmessenger.rsms.me/)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
 - [Android Studio](https://developer.android.com/studio/index.html)
+- [Xcode](https://itunes.apple.com/ph/app/xcode/id497799835)
 - [Flutter](https://flutter.dev/docs/get-started/install/macos)
 - [OBS](https://obsproject.com/)
 - [Postman](https://www.getpostman.com/downloads/)
