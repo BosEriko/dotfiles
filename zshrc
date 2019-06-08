@@ -68,6 +68,9 @@ proj() {
 	"ka-site")
 			cd ~/Documents/Codes/Personal/Kuru\ Anime/Main\ Website
 			;;
+	"ka-mobile")
+			cd ~/Documents/Codes/Personal/Kuru\ Anime/Mobile\ Application
+			;;
 	"ka-bot")
 			cd ~/Documents/Codes/Personal/Kuru\ Anime/Bot
 			;;
