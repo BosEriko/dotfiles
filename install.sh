@@ -29,6 +29,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh
 
 # Install packages using NPM (https://nodejs.org/)
 npm install --global parrotsay
+npm install --global http-server
+npm install --global live-server
+npm install --global ngrok
 
 # Make the directories for Personal/Work
 mkdir ~/Documents
