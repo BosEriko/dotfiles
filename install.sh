@@ -23,6 +23,9 @@ brew cask install hyper
 # Cleanup for Homebrew (https://brew.sh/)
 brew cleanup
 
+# Install NVM (https://github.com/nvm-sh/nvm)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh
+
 # Make the directories for Personal/Work
 mkdir ~/Documents
 mkdir ~/Documents/Codes
