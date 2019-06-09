@@ -19,8 +19,8 @@ brew install cmake
 brew install terminal-notifier
 brew cask install hyper
 
-# Update Homebrew again (https://brew.sh/)
-brew update
+# Cleanup for Homebrew (https://brew.sh/)
+brew cleanup
 
 # Make the directories for Personal/Work
 mkdir ~/Documents
