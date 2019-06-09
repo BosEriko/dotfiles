@@ -28,6 +28,12 @@ mkdir ~/Documents/Codes
 mkdir ~/Documents/Codes/Work
 mkdir ~/Documents/Codes/Personal
 
+# Install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Make ZSH the default shell (https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+chsh -s /bin/zsh
+
 # Generate .zshenv to avoid errors on oh-my-zsh
 touch ~/.zshenv
 
@@ -70,12 +76,6 @@ cd ~/powerline-fonts
 ./install.sh
 cd ..
 rm -rf ~/powerline-fonts
-
-# Make ZSH the default shell (https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
-chsh -s /bin/zsh
-
-# Install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Install Tmux Plugin Manager (https://github.com/tmux-plugins/tpm)
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
