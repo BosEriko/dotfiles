@@ -18,6 +18,7 @@ brew install zsh-completions
 brew install zsh-autosuggestions
 brew install cmake
 brew install terminal-notifier
+brew install yarn
 brew cask install hyper
 
 # Cleanup for Homebrew (https://brew.sh/)
