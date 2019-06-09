@@ -34,6 +34,11 @@ npm install --global live-server
 npm install --global ngrok
 npm install --global gtop
 
+# Initialize rbenv and set global ruby version (https://github.com/rbenv/rbenv)
+rbenv install 2.6.3
+rbenv global 2.6.3
+rbenv rehash
+
 # Install packages using Gem (https://rubygems.org/)
 gem install iStats
 
