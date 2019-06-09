@@ -79,9 +79,6 @@ cd ~/powerline-fonts
 cd ~
 rm -rf ~/powerline-fonts
 
-# Install Tmux Plugin Manager (https://github.com/tmux-plugins/tpm)
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-
 # Allow key repeats on Hyper terminal
 defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
 
