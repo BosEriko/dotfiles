@@ -7,6 +7,7 @@ brew update
 brew install fzf
 $(brew --prefix)/opt/fzf/install
 brew install rbenv
+brew install node
 brew install ack
 brew install figlet
 brew install tmux
