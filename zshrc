@@ -151,6 +151,7 @@ g() {
       git branch -D "$2"
     fi
   elif [ "$1" = "so" ] || [ "$1" = "set-origin" ]; then
+    git remote rm origin
     echo "Please specify the GitHub path:"
     read github_path
     echo "Please specify the GitLab path:"

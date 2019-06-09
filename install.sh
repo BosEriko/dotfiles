@@ -82,3 +82,6 @@ defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
 # Install Vundle (https://github.com/VundleVim/Vundle.vim)
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+
+# Generate SSH Key
+ssh-keygen -t rsa
