@@ -64,6 +64,13 @@ make package
 cd ~
 rm -rf ~/karabiner-elements
 
+# Install powerline fonts (https://github.com/powerline/fonts)
+git clone https://github.com/powerline/fonts.git ~/powerline-fonts
+cd ~/powerline-fonts
+./install.sh
+cd ~
+rm -rf ~/powerline-fonts
+
 # Installing the dotfiles
 # =====> .gitconfig
 rm ~/.gitconfig
@@ -91,13 +98,6 @@ mkdir ~/.config
 mkdir ~/.config/karabiner
 rm ~/.config/karabiner/karabiner.json
 ln -s ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
-
-# Install powerline fonts (https://github.com/powerline/fonts)
-git clone https://github.com/powerline/fonts.git ~/powerline-fonts
-cd ~/powerline-fonts
-./install.sh
-cd ~
-rm -rf ~/powerline-fonts
 
 # Allow key repeats on Hyper terminal
 defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
