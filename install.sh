@@ -3,7 +3,7 @@
 brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
-# Install packages (https://brew.sh/)
+# Install packages using Homebrew (https://brew.sh/)
 brew install fzf
 $(brew --prefix)/opt/fzf/install
 brew install rbenv
@@ -25,6 +25,9 @@ brew cleanup
 
 # Install NVM (https://github.com/nvm-sh/nvm)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh
+
+# Install packages using NPM (https://nodejs.org/)
+npm install --global parrotsay
 
 # Make the directories for Personal/Work
 mkdir ~/Documents
