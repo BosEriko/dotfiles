@@ -32,6 +32,7 @@ npm install --global parrotsay
 npm install --global http-server
 npm install --global live-server
 npm install --global ngrok
+npm install --global gtop
 
 # Make the directories for Personal/Work
 mkdir ~/Documents
