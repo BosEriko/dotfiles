@@ -5,7 +5,6 @@ brew update
 
 # Install packages using Homebrew (https://brew.sh/)
 brew install fzf
-$(brew --prefix)/opt/fzf/install
 brew install rbenv
 brew install node
 brew install ack
@@ -20,6 +19,9 @@ brew install cmake
 brew install terminal-notifier
 brew install yarn
 brew cask install hyper
+
+# Initialize FZF
+$(brew --prefix)/opt/fzf/install
 
 # Cleanup for Homebrew (https://brew.sh/)
 brew cleanup
