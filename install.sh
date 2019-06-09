@@ -35,7 +35,7 @@ touch ~/.zshenv
 git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
 cd ~/karabiner-elements
 make package
-cd ..
+cd ~
 rm -rf ~/karabiner-elements
 
 # Installing the dotfiles
