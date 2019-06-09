@@ -76,7 +76,7 @@ ln -s ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
 git clone https://github.com/powerline/fonts.git ~/powerline-fonts
 cd ~/powerline-fonts
 ./install.sh
-cd ..
+cd ~
 rm -rf ~/powerline-fonts
 
 # Install Tmux Plugin Manager (https://github.com/tmux-plugins/tpm)
