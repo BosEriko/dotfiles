@@ -34,6 +34,9 @@ npm install --global live-server
 npm install --global ngrok
 npm install --global gtop
 
+# Install packages using Gem (https://rubygems.org/)
+gem install iStats
+
 # Make the directories for Personal/Work
 mkdir ~/Documents
 mkdir ~/Documents/Codes
