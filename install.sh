@@ -28,6 +28,9 @@ mkdir ~/Documents/Codes
 mkdir ~/Documents/Codes/Work
 mkdir ~/Documents/Codes/Personal
 
+# Generate .zshenv to avoid errors on oh-my-zsh
+touch ~/.zshenv
+
 # Install Karabiner Elements 12.2.0 (https://github.com/tekezo/Karabiner-Elements)
 git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
 cd ~/karabiner-elements
