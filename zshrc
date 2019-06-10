@@ -75,6 +75,9 @@ proj() {
 			cd ~/Documents/Codes/Personal/kuru-anime/mobile_application
 			;;
 	"ka-bot")
+			cd ~/Documents/Codes/Personal/kuru-anime/discord-bot-application
+			;;
+	"ka-bot")
 			cd ~/Documents/Codes/Personal/kuru-anime/bot
 			;;
 	*)
