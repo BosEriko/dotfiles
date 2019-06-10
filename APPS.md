@@ -13,6 +13,7 @@
 - [uTorrent](https://www.utorrent.com/downloads/complete/os/osx/track/stable)
 - [Elmedia Video Player](https://itunes.apple.com/us/app/elmedia-universal-video-player/id937759555)
 - [Spectacle](https://www.spectacleapp.com/)
+- [Typora](https://typora.io/)
 - [Figma](https://www.figma.com/)
 - [Unity](https://store.unity.com/download?ref=personal)
 - [Blender](https://www.blender.org/download/)
