@@ -66,13 +66,13 @@ alias code="vim"
 proj() {
 	case "$1" in
 	"ka-site")
-			cd ~/Documents/Codes/Personal/Kuru\ Anime/Main\ Website
+			cd ~/Documents/Codes/Personal/kuru-anime/main-website
 			;;
 	"ka-mobile")
-			cd ~/Documents/Codes/Personal/Kuru\ Anime/Mobile\ Application
+			cd ~/Documents/Codes/Personal/kuru-anime/mobile_application
 			;;
 	"ka-bot")
-			cd ~/Documents/Codes/Personal/Kuru\ Anime/Bot
+			cd ~/Documents/Codes/Personal/kuru-anime/bot
 			;;
 	*)
 			cd ~
