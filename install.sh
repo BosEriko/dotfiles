@@ -19,6 +19,7 @@ brew install cmake
 brew install terminal-notifier
 brew install yarn
 brew cask install hyper
+brew cask install motrix
 
 # Initialize FZF
 $(brew --prefix)/opt/fzf/install

@@ -10,7 +10,6 @@
 - [Flutter](https://flutter.dev/docs/get-started/install/macos)
 - [OBS](https://obsproject.com/)
 - [Postman](https://www.getpostman.com/downloads/)
-- [uTorrent](https://www.utorrent.com/downloads/complete/os/osx/track/stable)
 - [Elmedia Video Player](https://itunes.apple.com/us/app/elmedia-universal-video-player/id937759555)
 - [Spectacle](https://www.spectacleapp.com/)
 - [Typora](https://typora.io/)
