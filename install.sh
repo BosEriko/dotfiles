@@ -38,6 +38,7 @@ npm install --global ngrok
 npm install --global gtop
 npm install --global electron
 npm install --global @vue/cli
+npm install --global gatsby-cli
 
 # Initialize rbenv and set global ruby version (https://github.com/rbenv/rbenv)
 rbenv install 2.6.3
