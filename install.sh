@@ -20,6 +20,7 @@ brew install terminal-notifier
 brew install yarn
 brew cask install hyper
 brew cask install motrix
+brew cask install qutebrowser
 
 # Initialize FZF
 $(brew --prefix)/opt/fzf/install
