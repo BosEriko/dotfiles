@@ -1,5 +1,6 @@
 # Applications
 - [Google Chrome](https://www.google.com/chrome/)
+- [Next Browser](https://next.atlas.engineer/download)
 - [Alfred 3](https://www.alfredapp.com/)
 - [Spotify](https://www.spotify.com/ph/download/mac/)
 - [Discord](https://discordapp.com/)
