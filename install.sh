@@ -106,6 +106,9 @@ mkdir ~/.config
 mkdir ~/.config/karabiner
 rm ~/.config/karabiner/karabiner.json
 ln -s ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
+# =====> qutebrowser.conf
+rm ~/.qutebrowser/config.py
+ln -s ~/dotfiles/qutebrowser.conf ~/.qutebrowser/config.py
 
 # Allow key repeats on Hyper terminal
 defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
