@@ -199,6 +199,7 @@ BOS_HELP_MESSAGE="
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
                                 google-chrome           Start Google Chrome
+                                qutebrowser             Start qutebrowser
                                 cpu-usage               Start gtop
                                 cpu-temp                Start istats
                                 clearbin                Clear system trash
@@ -258,6 +259,12 @@ bos() {
                     echo "Please specify a path"
                 else
                     open -a "Google Chrome" $3
+                fi
+            elif [ "$2" = "qutebrowser" ]; then
+                if [ -z "$3" ]; then
+                    echo "Please specify a path"
+                else
+                    open -a "qutebrowser" $3
                 fi
             elif [ "$2" = "cpu-usage" ]; then
                 gtop
