@@ -50,6 +50,7 @@ rbenv rehash
 
 # Install packages using Gem (https://rubygems.org/)
 gem install iStats
+gem install rails
 
 # Make the directories for Personal/Work
 mkdir ~/Documents
