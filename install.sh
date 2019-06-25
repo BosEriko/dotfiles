@@ -18,6 +18,8 @@ brew install zsh-autosuggestions
 brew install cmake
 brew install terminal-notifier
 brew install yarn
+brew tap heroku/brew
+brew install heroku
 brew cask install hyper
 brew cask install motrix
 brew cask install qutebrowser
