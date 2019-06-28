@@ -1,6 +1,6 @@
 # Applications
 - [Google Chrome](https://www.google.com/chrome/)
-- [Google Drive](https://drive.google.com/)
+- [Google Drive](https://support.google.com/drive/answer/7329379)
 - [Alfred 3](https://www.alfredapp.com/)
 - [Spotify](https://www.spotify.com/ph/download/mac/)
 - [Discord](https://discordapp.com/)
