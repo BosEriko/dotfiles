@@ -197,6 +197,9 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
+" Shortcut for Rubocop
+map <leader>t :RuboCop<cr>
+
 " Shortcut for word search inside directory
 map <C-f> :CtrlSF<space>
 
