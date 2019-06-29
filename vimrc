@@ -39,6 +39,8 @@ Plugin 'leafgarland/typescript-vim'         " Typescript
 Plugin 'posva/vim-vue'                      " Vue
 Plugin 'briancollins/vim-jst'               " JST/EJS
 Plugin 'dart-lang/dart-vim-plugin'          " Dart
+Plugin 'hiukkanen/vim-hamlc'                " hamlc
+Plugin 'kchmck/vim-coffee-script'           " CoffeeScript
 
 " Party tricks Plugin
 Plugin 'severin-lemaignan/vim-minimap'      " Minimap
