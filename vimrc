@@ -26,31 +26,31 @@ Plugin 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs 
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
 
 " Syntax Highlight Plugins
-Plugin 'vim-ruby/vim-ruby'                  " Ruby
-Plugin 'tpope/vim-rails'                    " Rails
-Plugin 'digitaltoad/vim-pug'                " Pug
-Plugin 'mxw/vim-jsx'                        " JSX
-Plugin 'hail2u/vim-css3-syntax'             " CSS3
-Plugin 'jelera/vim-javascript-syntax'       " Javascript
-Plugin 'elzr/vim-json'                      " JSON
-Plugin 'tpope/vim-haml'                     " Haml, Sass and SCSS
-Plugin 'slim-template/vim-slim'             " Slim
-Plugin 'elixir-lang/vim-elixir'             " Elixir
-Plugin 'leafgarland/typescript-vim'         " Typescript
-Plugin 'posva/vim-vue'                      " Vue
-Plugin 'briancollins/vim-jst'               " JST/EJS
-Plugin 'dart-lang/dart-vim-plugin'          " Dart
-Plugin 'hiukkanen/vim-hamlc'                " hamlc
-Plugin 'kchmck/vim-coffee-script'           " CoffeeScript
+Plugin 'vim-ruby/vim-ruby'                        " Ruby
+Plugin 'tpope/vim-rails'                          " Rails
+Plugin 'digitaltoad/vim-pug'                      " Pug
+Plugin 'mxw/vim-jsx'                              " JSX
+Plugin 'hail2u/vim-css3-syntax'                   " CSS3
+Plugin 'jelera/vim-javascript-syntax'             " Javascript
+Plugin 'elzr/vim-json'                            " JSON
+Plugin 'tpope/vim-haml'                           " Haml, Sass and SCSS
+Plugin 'slim-template/vim-slim'                   " Slim
+Plugin 'elixir-lang/vim-elixir'                   " Elixir
+Plugin 'leafgarland/typescript-vim'               " Typescript
+Plugin 'posva/vim-vue'                            " Vue
+Plugin 'briancollins/vim-jst'                     " JST/EJS
+Plugin 'dart-lang/dart-vim-plugin'                " Dart
+Plugin 'hiukkanen/vim-hamlc'                      " hamlc
+Plugin 'kchmck/vim-coffee-script'                 " CoffeeScript
 
 " Party tricks Plugin
-Plugin 'severin-lemaignan/vim-minimap'      " Minimap
-Plugin 'mhinz/vim-startify'                 " Welcome message
+Plugin 'severin-lemaignan/vim-minimap'            " Minimap
+Plugin 'mhinz/vim-startify'                       " Welcome message
 
 " Design Plugin
-Plugin 'vim-airline/vim-airline'            " Bottom toolbar
-Plugin 'vim-airline/vim-airline-themes'     " Themes for the bottom toolbar
-Plugin 'ryanoasis/vim-devicons'             " Devicons (Always load this last)
+Plugin 'vim-airline/vim-airline'                  " Bottom toolbar
+Plugin 'vim-airline/vim-airline-themes'           " Themes for the bottom toolbar
+Plugin 'ryanoasis/vim-devicons'                   " Devicons (Always load this last)
 
 " Plugin List End ========================= "
 call vundle#end()
