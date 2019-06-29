@@ -3,6 +3,7 @@
 - [Google Drive](https://support.google.com/drive/answer/7329379)
 - [Alfred 3](https://www.alfredapp.com/)
 - [Spotify](https://www.spotify.com/ph/download/mac/)
+- [Slack](https://slack.com/intl/en-ph/downloads/mac)
 - [Discord](https://discordapp.com/)
 - [Messenger](https://fbmacmessenger.rsms.me/)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
