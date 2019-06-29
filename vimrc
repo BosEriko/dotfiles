@@ -208,7 +208,7 @@ let g:fzf_colors =
   \ 'header':  ['fg', 'Comment'] }
 
 " Shortcut for Ack
-nmap <leader>f :Ack!<space>
+map <C-f> :Ack!<space>
 
 " Shorcut for word substitute
 nmap <leader>ff :%s/old/new/g
