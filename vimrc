@@ -44,7 +44,6 @@ Plugin 'severin-lemaignan/vim-minimap'      " Minimap
 Plugin 'mhinz/vim-startify'                 " Welcome message
 
 " Design Plugin
-" Plugin 'crusoexia/vim-monokai'            " Monokai Theme for VIM
 Plugin 'vim-airline/vim-airline'            " Bottom toolbar
 Plugin 'vim-airline/vim-airline-themes'     " Themes for the bottom toolbar
 Plugin 'ryanoasis/vim-devicons'             " Devicons (Always load this last)
@@ -103,9 +102,6 @@ set expandtab
 
 " Show when <leader> is toggled
 set showcmd
-
-" Activate Monokai Theme
-" colorscheme monokai
 
 " Activate Koehler Theme
 colorscheme koehler
