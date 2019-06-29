@@ -219,3 +219,7 @@ map <C-l> <C-W>l
 
 " Disable vim-json hidden quotes
 let g:vim_json_syntax_conceal = 0
+
+" Folder icons for NERDTree
+let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+let g:DevIconsEnableFoldersOpenClose = 1
