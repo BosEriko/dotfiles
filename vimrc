@@ -144,14 +144,17 @@ nmap <leader>x :bd!<CR>
 " Show hidden files in NERDTree by default
 let NERDTreeShowHidden=1
 
-" Paste toggle
+" Paste Toggle
 set pastetoggle=<F1>
 
-" Toggle text wrap
+" Text Wrap Toggle
 map <F2> :set wrap!<CR>
 
-" Git blame using fugitive
+" Git Blame Toggle
 map <F3> :Gblame<CR>
+
+" ALE Toggle
+map <F4> :ALEToggle<CR>
 
 " NERDTree and Startify at startup
 autocmd VimEnter *
