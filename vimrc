@@ -6,23 +6,24 @@ call vundle#begin()
 " Plugin List Start ======================= "
 
 " Added Functionalities
-Plugin 'VundleVim/Vundle.vim'               " This makes VIM awesome
-Plugin 'scrooloose/nerdtree'                " Tree file explorer
-Plugin 'tpope/vim-fugitive'                 " View any blob, tree, commit, or tag in the repository
-Plugin 'junegunn/fzf'                       " FZF Search
-Plugin 'junegunn/fzf.vim'                   " FZF.vim Search
-Plugin 'dyng/ctrlsf.vim'                    " Word search inside directory
-Plugin 'alvan/vim-closetag'                 " Auto close HTML tags
-Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
-Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
-Plugin 'scrooloose/nerdcommenter'           " Comment out function
-Plugin 'Valloric/MatchTagAlways'            " HTML Tag Matcher
-Plugin 'airblade/vim-gitgutter'             " Show git difference in the gutter
-Plugin 'mattn/emmet-vim'                    " Emmet for VIM (Provides support for expanding abbreviations)
-Plugin 'easymotion/vim-easymotion'          " Jump anywhere easily
-Plugin 'yggdroot/indentline'                " Indent lines
-Plugin 'w0rp/ale'                           " Check syntax in Vim asynchronously
-Plugin 'ngmy/vim-rubocop'                   " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
+Plugin 'VundleVim/Vundle.vim'                     " This makes VIM awesome
+Plugin 'scrooloose/nerdtree'                      " Tree file explorer
+Plugin 'tpope/vim-fugitive'                       " View any blob, tree, commit, or tag in the repository
+Plugin 'junegunn/fzf'                             " FZF Search
+Plugin 'junegunn/fzf.vim'                         " FZF.vim Search
+Plugin 'dyng/ctrlsf.vim'                          " Word search inside directory
+Plugin 'alvan/vim-closetag'                       " Auto close HTML tags
+Plugin 'editorconfig/editorconfig-vim'            " Editorconfig
+Plugin 'jiangmiao/auto-pairs'                     " Auto close quotes, brackets and parenthesis
+Plugin 'scrooloose/nerdcommenter'                 " Comment out function
+Plugin 'Valloric/MatchTagAlways'                  " HTML Tag Matcher
+Plugin 'airblade/vim-gitgutter'                   " Show git difference in the gutter
+Plugin 'mattn/emmet-vim'                          " Emmet for VIM (Provides support for expanding abbreviations)
+Plugin 'easymotion/vim-easymotion'                " Jump anywhere easily
+Plugin 'yggdroot/indentline'                      " Indent lines
+Plugin 'w0rp/ale'                                 " Check syntax in Vim asynchronously
+Plugin 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
+Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
 
 " Syntax Highlight Plugins
 Plugin 'vim-ruby/vim-ruby'                  " Ruby
