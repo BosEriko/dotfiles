@@ -87,13 +87,6 @@ let g:airline_theme='bubblegum'
 let g:airline_theme             = 'powerlineish'
 let g:airline_enable_branch     = 1
 let g:airline_enable_syntastic  = 1
-" let g:airline_left_sep          = '⮀'
-" let g:airline_left_alt_sep      = '⮁'
-" let g:airline_right_sep         = '⮂'
-" let g:airline_right_alt_sep     = '⮃'
-" let g:airline_branch_prefix     = '⭠'
-" let g:airline_readonly_symbol   = '⭤'
-" let g:airline_linecolumn_prefix = '⭡'
 
 " 2 spaces only for indentation
 set tabstop=2
@@ -135,8 +128,6 @@ map <right> <nop>
 
 " Enable the style of tabs
 let g:airline#extensions#tabline#enabled      = 1
-" let g:airline#extensions#tabline#left_sep     = '⮀'
-" let g:airline#extensions#tabline#left_alt_sep = '⮁'
 
 " Remap colon to semicolon to avoid using shift too much
 map ; :
