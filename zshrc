@@ -201,8 +201,8 @@ BOS_HELP_MESSAGE="
                                 localhost               Start http-server
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
-                                google-chrome           Start Google Chrome
-                                typora                  Start Typora
+                                browser                 Start Google Chrome
+                                md                      Start Typora
                                 qutebrowser             Start qutebrowser
                                 cpu-usage               Start gtop
                                 cpu-temp                Start istats
@@ -258,13 +258,13 @@ bos() {
                 else
                     ngrok http --region=ap $3
                 fi
-            elif [ "$2" = "google-chrome" ]; then
+            elif [ "$2" = "browser" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a path"
                 else
                     open -a "Google Chrome" $3
                 fi
-            elif [ "$2" = "typora" ]; then
+            elif [ "$2" = "md" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a path"
                 else
