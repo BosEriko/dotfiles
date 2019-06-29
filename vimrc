@@ -20,6 +20,7 @@ Plugin 'Valloric/MatchTagAlways'            " HTML Tag Matcher
 Plugin 'airblade/vim-gitgutter'             " Show git difference in the gutter
 Plugin 'mattn/emmet-vim'                    " Emmet for VIM (Provides support for expanding abbreviations)
 Plugin 'easymotion/vim-easymotion'          " Jump anywhere easily
+Plugin 'yggdroot/indentline'                " Indent lines
 
 " Syntax Highlight Plugins
 Plugin 'vim-ruby/vim-ruby'                  " Ruby
