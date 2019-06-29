@@ -179,7 +179,7 @@ hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
 set rtp+=~/.fzf
 
 " FZF Directory Search
-map <silent> <C-p> :Files<CR>
+nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --exclude-standard --others --cached')."\<cr>"
 
 " FZF Color Scheme
 let g:fzf_colors =
