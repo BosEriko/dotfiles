@@ -80,6 +80,9 @@ proj() {
 	"ka-bot")
 			cd ~/Documents/Codes/Personal/kuru-anime/bot
 			;;
+	"ops")
+			cd ~/Documents/Codes/Work/OpsManager
+			;;
 	*)
 			cd ~
 			;;
