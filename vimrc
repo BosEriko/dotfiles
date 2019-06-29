@@ -11,7 +11,7 @@ Plugin 'scrooloose/nerdtree'                " Tree file explorer
 Plugin 'tpope/vim-fugitive'                 " View any blob, tree, commit, or tag in the repository
 Plugin 'junegunn/fzf'                       " FZF Search
 Plugin 'junegunn/fzf.vim'                   " FZF.vim Search
-Plugin 'mileszs/ack.vim'                    " Word search inside directory
+Plugin 'dyng/ctrlsf.vim'                    " Word search inside directory
 Plugin 'alvan/vim-closetag'                 " Auto close HTML tags
 Plugin 'editorconfig/editorconfig-vim'      " Editorconfig
 Plugin 'jiangmiao/auto-pairs'               " Auto close quotes, brackets and parenthesis
@@ -207,8 +207,8 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-" Shortcut for Ack
-map <C-f> :Ack!<space>
+" Shortcut for word search inside directory
+map <C-f> :CtrlSF<space>
 
 " Shorcut for word substitute
 nmap <leader>ff :%s/old/new/g
