@@ -22,6 +22,7 @@ Plugin 'mattn/emmet-vim'                    " Emmet for VIM (Provides support fo
 Plugin 'easymotion/vim-easymotion'          " Jump anywhere easily
 Plugin 'yggdroot/indentline'                " Indent lines
 Plugin 'w0rp/ale'                           " Check syntax in Vim asynchronously
+Plugin 'ngmy/vim-rubocop'                   " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
 
 " Syntax Highlight Plugins
 Plugin 'vim-ruby/vim-ruby'                  " Ruby
