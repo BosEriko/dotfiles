@@ -42,9 +42,10 @@ Plugin 'severin-lemaignan/vim-minimap'      " Minimap
 Plugin 'mhinz/vim-startify'                 " Welcome message
 
 " Design Plugin
-" Plugin 'crusoexia/vim-monokai'              " Monokai Theme for VIM
+" Plugin 'crusoexia/vim-monokai'            " Monokai Theme for VIM
 Plugin 'vim-airline/vim-airline'            " Bottom toolbar
 Plugin 'vim-airline/vim-airline-themes'     " Themes for the bottom toolbar
+Plugin 'ryanoasis/vim-devicons'             " Devicons (Always load this last)
 
 " Plugin List End ========================= "
 call vundle#end()
