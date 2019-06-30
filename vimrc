@@ -159,6 +159,9 @@ map <F3> :Gblame<CR>
 " ALE Toggle
 map <F4> :ALEToggle<CR>
 
+" Minimap Toggle
+map <F5> :MinimapToggle<CR>
+
 " NERDTree and Startify at startup
 autocmd VimEnter *
   \   if !argc()
