@@ -123,6 +123,7 @@ GIT_HELP_MESSAGE="
     s                           Alias for status
     so, set-origin              Set the origin path
     st                          Alias for stash
+    t, tag                      Tag and push
     w, wtf                      Commit with an automated message
 
 "
@@ -175,6 +176,19 @@ g() {
     git remote set-url --add --push origin $gitlab_path
     git remote set-url --add --push origin $bitbucket_path
     git remote -v
+  elif [ "$1" = "t" ] || [ "$1" = "tag" ]; then
+    if [ -z "$2" ]; then
+      echo "Please specify a release name"
+    else
+      echo "Do you want to tag and push '$2'? [Y/N]"
+      read tag_decision
+      if [ "$tag_decision" = "Y" ] || [ "$tag_decision" = "y" ]; then
+        git tag $2 -a
+        git push origin $2
+      else
+        echo "Tagging was cancelled."
+      fi
+    fi
   else
     git $@
   fi
