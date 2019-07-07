@@ -1,8 +1,3 @@
-# ===========================================================================================================[ Load Tmux ]===== #
-if [ "$TMUX" = "" ]; then
-  tmux attach-session || tmux new -s default
-fi
-
 # =================================================================================[ Path to your oh-my-zsh installation ]===== #
 export ZSH=$HOME/.oh-my-zsh
 
@@ -44,13 +39,6 @@ alias .....="cd ../../../.."
 alias python="python3"
 alias pip="python3 -m pip"
 
-# ======================================================================================================[ Tmux Shortcuts ]===== #
-alias t-new="tmux new-session"
-alias t-list="tmux list-sessions"
-alias t-last="tmux attach-session"
-alias t-clean="tmux kill-session -a"
-alias t-quit="tmux kill-session"
-
 # ================================================================================================[ Docker-compose Alias ]===== #
 alias d-web="docker-compose run web"
 alias d-up="docker-compose up"
@@ -78,7 +66,7 @@ proj() {
 			cd ~/Documents/Codes/Personal/kuru-anime/bot
 			;;
 	"ops")
-			cd ~/Documents/Codes/Work/OpsManager
+			cd ~/development/OpsManager
 			;;
 	*)
 			cd ~

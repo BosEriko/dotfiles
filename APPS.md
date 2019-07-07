@@ -1,11 +1,9 @@
 # Applications
 - [Google Chrome](https://www.google.com/chrome/)
 - [Google Drive](https://support.google.com/drive/answer/7329379)
-- [Alfred 3](https://www.alfredapp.com/)
+- [Alfred](https://www.alfredapp.com/)
 - [Spotify](https://www.spotify.com/ph/download/mac/)
-- [Slack](https://slack.com/intl/en-ph/downloads/mac)
-- [Discord](https://discordapp.com/)
-- [Messenger](https://fbmacmessenger.rsms.me/)
+- [All-in-one Messenger](https://apps.apple.com/ph/app/all-in-one-messenger/id1456462087)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
 - [Android Studio](https://developer.android.com/studio/index.html)
 - [Xcode](https://itunes.apple.com/ph/app/xcode/id497799835)
