@@ -87,8 +87,7 @@ ln -s ~/dotfiles/zshrc ~/.zshrc
 rm ~/.hyper.js
 ln -s ~/dotfiles/hyper.js ~/.hyper.js
 # =====> karabiner.json
-mkdir ~/.config
-mkdir ~/.config/karabiner
+mkdir -p ~/.config/karabiner
 rm ~/.config/karabiner/karabiner.json
 ln -s ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
 # =====> Visual Studio Code Settings
