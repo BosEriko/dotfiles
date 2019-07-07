@@ -9,7 +9,7 @@ Intended to be run on a fresh environment of OSX only.
     sh ~/dotfiles/install.sh
 
 ## One last step
-Close the default terminal and open Hyper and that's it!
+Close the default terminal and open Hyper or Visual Studio Code and that's it!
 
 ## Note
 I also have some [Apps](APPS.md) and [Games](GAMES.md) that I frequently use.
