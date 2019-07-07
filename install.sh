@@ -53,10 +53,7 @@ gem install rails
 gem install bundler
 
 # Make the directories for Personal/Work
-mkdir ~/Documents
-mkdir ~/Documents/Codes
-mkdir ~/Documents/Codes/Work
-mkdir ~/Documents/Codes/Personal
+mkdir -p ~/Documents/Codes/Work ~/Documents/Codes/Personal
 
 # Install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
