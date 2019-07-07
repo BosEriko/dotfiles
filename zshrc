@@ -13,6 +13,9 @@ SAVEHIST=10000
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
+# =============================================================================================================[ Plugins ]===== #
+antigen bundle djui/alias-tips
+
 # =================================================================================================[ zsh-autosuggestions ]===== #
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
