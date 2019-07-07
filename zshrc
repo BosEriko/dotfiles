@@ -19,6 +19,9 @@ source $(brew --prefix)/share/antigen/antigen.zsh
 # =============================================================================================================[ Plugins ]===== #
 antigen bundle djui/alias-tips
 
+# ==========================================================================================================[ Alias Tips ]===== #
+export ZSH_PLUGINS_ALIAS_TIPS_TEXT="Has alias: "
+
 # =================================================================================================[ zsh-autosuggestions ]===== #
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
