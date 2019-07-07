@@ -1,6 +1,6 @@
 [
     {
-        "key": ", t",
+        "key": "ctrl+\\",
         "command": "multiCommand.activitySideBar"
     }
 ]
