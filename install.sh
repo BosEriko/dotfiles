@@ -101,10 +101,10 @@ rm ~/.config/karabiner/karabiner.json
 ln -s ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
 # =====> Visual Studio Code Settings
 rm ~/Library/Application\ Support/Code/User/settings.json
-ln -s ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s ~/dotfiles/vs-settings.json ~/Library/Application\ Support/Code/User/settings.json
 # =====> Visual Studio Code Keybindings
 rm ~/Library/Application\ Support/Code/User/keybindings.json
-ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -s ~/dotfiles/vs-keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 # Allow key repeats on Hyper terminal and Visual Studio Code
 defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
