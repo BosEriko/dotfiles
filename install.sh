@@ -15,6 +15,7 @@ brew install zsh-autosuggestions
 brew install cmake
 brew install terminal-notifier
 brew install yarn
+brew install antigen
 brew tap heroku/brew
 brew install heroku
 brew tap homebrew/cask-fonts
