@@ -1,5 +1,8 @@
 #!/bin/sh
-code --install-extension alefragnani.project-manager
+
+# To list all the extensions run the command below
+# code --list-extensions | xargs -L 1 echo code --install-extension  | pbcopy
+
 code --install-extension bradgashler.htmltagwrap
 code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer
@@ -12,7 +15,6 @@ code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
-code --install-extension patricklee.vsnotes
 code --install-extension PeterJausovec.vscode-docker
 code --install-extension PKief.material-icon-theme
 code --install-extension rebornix.ruby
