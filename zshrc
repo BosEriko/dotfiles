@@ -13,6 +13,9 @@ SAVEHIST=10000
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zshenv
 
+# =============================================================================================================[ Antigen ]===== #
+source $(brew --prefix)/share/antigen/antigen.zsh
+
 # =============================================================================================================[ Plugins ]===== #
 antigen bundle djui/alias-tips
 
