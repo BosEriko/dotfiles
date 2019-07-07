@@ -110,5 +110,8 @@ ln -s ~/dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/Use
 defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
+# Install Visual Studio Code Extensions
+~/dotfiles/vs-extensions.sh
+
 # Generate SSH Key
 ssh-keygen -t rsa

@@ -1,0 +1,27 @@
+#!/bin/sh
+code --install-extension alefragnani.project-manager
+code --install-extension bradgashler.htmltagwrap
+code --install-extension christian-kohler.path-intellisense
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension eamodio.gitlens
+code --install-extension humao.rest-client
+code --install-extension idleberg.hopscotch
+code --install-extension karunamurti.haml
+code --install-extension mrmlnc.vscode-autoprefixer
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension octref.vetur
+code --install-extension oderwat.indent-rainbow
+code --install-extension patricklee.vsnotes
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension PKief.material-icon-theme
+code --install-extension rebornix.ruby
+code --install-extension robinbentley.sass-indented
+code --install-extension ryuta46.multi-command
+code --install-extension shyykoserhiy.vscode-spotify
+code --install-extension sianglim.slim
+code --install-extension steoates.autoimport
+code --install-extension Tyriar.sort-lines
+code --install-extension vscodevim.vim
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension xabikos.JavaScriptSnippets
