@@ -12,14 +12,10 @@
     "workbench.editor.enablePreview": false,
     "multiCommand.commands": [
       {
-        "command": "multiCommand.makeRoom",
+        "command": "multiCommand.activitySideBar",
         "sequence": [
-          "workbench.action.togglePanel",
-          "workbench.action.toggleStatusbarVisibility",
           "workbench.action.toggleSidebarVisibility",
-          "workbench.action.toggleActivityBarVisibility",
-          "workbench.action.toggleTabsVisibility",
-          "editor.action.toggleMinimap"
+          "workbench.action.toggleActivityBarVisibility"
         ]
       }
     ],
