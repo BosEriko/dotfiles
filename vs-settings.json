@@ -1,0 +1,51 @@
+{
+    "workbench.colorTheme": "Hopscotch",
+    "editor.minimap.enabled": true,
+    "editor.lineNumbers": "relative",
+    "workbench.editor.showTabs": true,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": true,
+    "explorer.openEditors.visible": 0,
+    "workbench.sideBar.location": "right",
+    "workbench.editor.enablePreview": false,
+    "multiCommand.commands": [
+      {
+        "command": "multiCommand.makeRoom",
+        "sequence": [
+          "workbench.action.togglePanel",
+          "workbench.action.toggleStatusbarVisibility",
+          "workbench.action.toggleSidebarVisibility",
+          "workbench.action.toggleActivityBarVisibility",
+          "workbench.action.toggleTabsVisibility",
+          "editor.action.toggleMinimap"
+        ]
+      }
+    ],
+    "vim.useSystemClipboard": true,
+    "vim.easymotion": true,
+    "vim.easymotionMarkerBackgroundColor": "#ffffff",
+    "vim.easymotionMarkerForegroundColorOneChar": "#d34410",
+    "vim.easymotionMarkerForegroundColorTwoChar": "#ff6e00",
+    "vim.easymotionMarkerWidthPerChar": 10,
+    "vim.easymotionMarkerHeight": 20,
+    "vim.easymotionMarkerYOffset": 0,
+    "vim.easymotionMarkerFontWeight": "normal",
+    "vim.leader": ",",
+    "files.autoSave": "off",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "all",
+    "workbench.iconTheme": "material-icon-theme",
+    "htmltagwrap.tag": "div",
+    "workbench.startupEditor": "newUntitledFile",
+    "vsnotes.defaultNotePath": "/Users/boseriko/dotfiles/VSNotes",
+    "workbench.list.keyboardNavigation": "simple",
+    "workbench.statusBar.feedback.visible": false,
+    "breadcrumbs.enabled": true,
+    "terminal.integrated.shell.osx": "zsh"
+  }

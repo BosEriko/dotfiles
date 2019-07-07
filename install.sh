@@ -17,6 +17,8 @@ brew install terminal-notifier
 brew install yarn
 brew tap heroku/brew
 brew install heroku
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
 brew cask install hyper
 brew cask install motrix
 brew cask install visual-studio-code
