@@ -6,7 +6,7 @@ Intended to be run on a fresh environment of OSX only.
     # Open the default terminal and run the following
     xcode-select --install
     git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
-    bash ~/dotfiles/install.sh
+    sh ~/dotfiles/install.sh
 
 ## One last step
 Close the default terminal and open Hyper and that's it!
