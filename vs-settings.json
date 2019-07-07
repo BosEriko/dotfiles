@@ -43,5 +43,6 @@
     "workbench.list.keyboardNavigation": "simple",
     "workbench.statusBar.feedback.visible": false,
     "breadcrumbs.enabled": true,
-    "terminal.integrated.shell.osx": "zsh"
+    "terminal.integrated.shell.osx": "zsh",
+    "extensions.autoUpdate": false
   }
