@@ -1,47 +1,47 @@
 {
-    "multiCommand.commands": [
-      {
-        "command": "multiCommand.activitySideBar",
-        "sequence": [
-          "workbench.action.toggleSidebarVisibility",
-          "workbench.action.toggleActivityBarVisibility"
-        ]
-      }
-    ],
-    "breadcrumbs.enabled": true,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 13,
-    "editor.insertSpaces": true,
-    "editor.lineNumbers": "relative",
-    "editor.minimap.enabled": true,
-    "editor.renderWhitespace": "all",
-    "editor.tabSize": 4,
-    "editor.wordWrap": "on",
-    "explorer.openEditors.visible": 0,
-    "extensions.autoUpdate": false,
-    "files.autoSave": "off",
-    "htmltagwrap.tag": "div",
-    "terminal.integrated.shell.osx": "zsh",
-    "vim.easymotion": true,
-    "vim.easymotionMarkerBackgroundColor": "#ffffff",
-    "vim.easymotionMarkerFontWeight": "normal",
-    "vim.easymotionMarkerForegroundColorOneChar": "#d34410",
-    "vim.easymotionMarkerForegroundColorTwoChar": "#ff6e00",
-    "vim.easymotionMarkerHeight": 20,
-    "vim.easymotionMarkerWidthPerChar": 10,
-    "vim.easymotionMarkerYOffset": 0,
-    "vim.leader": ",",
-    "vim.useSystemClipboard": true,
-    "window.zoomLevel": 0,
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Hopscotch",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.showTabs": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.list.keyboardNavigation": "simple",
-    "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.statusBar.visible": true
-  }
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.activitySideBar",
+      "sequence": [
+        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleActivityBarVisibility"
+      ]
+    }
+  ],
+  "breadcrumbs.enabled": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.insertSpaces": true,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 4,
+  "editor.wordWrap": "on",
+  "explorer.openEditors.visible": 0,
+  "extensions.autoUpdate": false,
+  "files.autoSave": "off",
+  "htmltagwrap.tag": "div",
+  "terminal.integrated.shell.osx": "zsh",
+  "vim.easymotion": true,
+  "vim.easymotionMarkerBackgroundColor": "#ffffff",
+  "vim.easymotionMarkerFontWeight": "normal",
+  "vim.easymotionMarkerForegroundColorOneChar": "#d34410",
+  "vim.easymotionMarkerForegroundColorTwoChar": "#ff6e00",
+  "vim.easymotionMarkerHeight": 20,
+  "vim.easymotionMarkerWidthPerChar": 10,
+  "vim.easymotionMarkerYOffset": 0,
+  "vim.leader": ",",
+  "vim.useSystemClipboard": true,
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Hopscotch",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.showTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.statusBar.visible": true
+}
