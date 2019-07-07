@@ -23,6 +23,7 @@ brew install heroku
 brew cask install hyper
 brew cask install motrix
 brew cask install qutebrowser
+brew cask install visual-studio-code
 
 # Initialize FZF
 $(brew --prefix)/opt/fzf/install
