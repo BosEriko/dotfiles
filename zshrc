@@ -333,7 +333,6 @@ alias gquik='git-quick-amend'
 alias gquak='git-quick-amend'
 alias gqa='git-quick-amend'
 
-unalias gwip
 alias gwip='git-wip' # from functions.zsh
 alias gcwip='git-wip' # from functions.zsh
 
