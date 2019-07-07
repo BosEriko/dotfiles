@@ -7,7 +7,6 @@
   postBuffer = 1048576000
 [core]
   compression = 0
-  editor = vim
 [alias]
   a = add
   b = branch
