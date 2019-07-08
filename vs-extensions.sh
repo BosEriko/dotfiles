@@ -15,7 +15,6 @@ code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
-code --install-extension PeterJausovec.vscode-docker
 code --install-extension PKief.material-icon-theme
 code --install-extension rebornix.ruby
 code --install-extension robinbentley.sass-indented
@@ -25,5 +24,6 @@ code --install-extension sianglim.slim
 code --install-extension steoates.autoimport
 code --install-extension Tyriar.sort-lines
 code --install-extension vscodevim.vim
+code --install-extension waderyan.gitblame
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension xabikos.JavaScriptSnippets
