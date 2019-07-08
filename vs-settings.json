@@ -36,7 +36,7 @@
   "vim.useSystemClipboard": true,
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "Hopscotch",
   "workbench.editor.enablePreview": false,
   "workbench.editor.showTabs": true,
   "workbench.iconTheme": "material-icon-theme",
