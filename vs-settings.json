@@ -36,7 +36,7 @@
   "vim.useSystemClipboard": true,
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Hopscotch",
+  "workbench.colorTheme": "Monokai",
   "workbench.editor.enablePreview": false,
   "workbench.editor.showTabs": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -44,5 +44,6 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.feedback.visible": false,
-  "workbench.statusBar.visible": true
+  "workbench.statusBar.visible": true,
+  "search.location": "panel"
 }
