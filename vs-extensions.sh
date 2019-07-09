@@ -4,11 +4,11 @@
 # code --list-extensions | xargs -L 1 echo code --install-extension  | pbcopy
 
 code --install-extension bradgashler.htmltagwrap
+code --install-extension ChakrounAnas.turbo-console-log
 code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension eamodio.gitlens
 code --install-extension humao.rest-client
-code --install-extension idleberg.hopscotch
 code --install-extension karunamurti.haml
 code --install-extension mrmlnc.vscode-autoprefixer
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
