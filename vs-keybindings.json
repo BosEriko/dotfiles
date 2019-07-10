@@ -2,5 +2,15 @@
     {
         "key": "ctrl+\\",
         "command": "multiCommand.activitySideBar"
+    },
+    {
+        "key": "ctrl+a l",
+        "command": "copyRelativeFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "shift+alt+cmd+c",
+        "command": "-copyRelativeFilePath",
+        "when": "!editorFocus"
     }
 ]
