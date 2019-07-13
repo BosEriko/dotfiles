@@ -39,7 +39,7 @@
   "vim.leader": ",",
   "vim.useSystemClipboard": true,
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Monokai",
   "workbench.editor.enablePreview": false,
   "workbench.editor.showTabs": true,
