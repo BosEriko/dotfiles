@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # To list all the extensions run the command below
-# code --list-extensions | xargs -L 1 echo code --install-extension  | pbcopy
+# code --list-extensions | xargs -L 1 echo code --install-extension | pbcopy
 
 code --install-extension bradgashler.htmltagwrap
 code --install-extension ChakrounAnas.turbo-console-log
