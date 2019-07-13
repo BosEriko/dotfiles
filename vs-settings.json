@@ -47,6 +47,5 @@
   "workbench.list.keyboardNavigation": "simple",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.feedback.visible": false,
   "workbench.statusBar.visible": true
 }
