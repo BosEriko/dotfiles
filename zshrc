@@ -5,10 +5,7 @@
 . ~/dotfiles/zsh/rvm.z.sh
 . ~/dotfiles/zsh/flutter.z.sh
 . ~/dotfiles/zsh/dir.z.sh
-
-# ======================================================================================================[ Python 3 Alias ]===== #
-alias python="python3"
-alias pip="python3 -m pip"
+. ~/dotfiles/zsh/python.z.sh
 
 # ================================================================================================[ Docker-compose Alias ]===== #
 alias d-web="docker-compose run web"
