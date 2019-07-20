@@ -22,7 +22,8 @@ BOS_HELP_MESSAGE="
                                 ngrok                   Start ngrok
                                 browser                 Start Google Chrome
                                 md                      Start Typora
-                                vs-extensions           Backup the currently install Visual Studio Code extensions
+                                vse-backup              Backup the currently installed Visual Studio Code extensions
+                                vse-install             Install Visual Studio Code extensions from the list
                                 qutebrowser             Start qutebrowser
                                 cpu-usage               Start gtop
                                 cpu-temp                Start istats
@@ -90,13 +91,20 @@ bos() {
                 else
                     open -a "Typora" $3
                 fi
-            elif [ "$2" = "vs-extensions" ]; then
-                echo "Update Visual Studio Code extensions list on the dotfiles? (Ctrl-C to abort, or press enter to continue)"
+            elif [ "$2" = "vse-backup" ]; then
+                echo "Update Visual Studio Code extensions list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
+                echo "Please wait..."
                 code --list-extensions | xargs -L 1 echo code --install-extension | pbcopy
                 rm -rf ~/dotfiles/vscode/extensions.sh
                 pbpaste > ~/dotfiles/vscode/extensions.sh
-                echo "Visual Studio Code extensions list have been updated on the dotfiles"
+                echo "Visual Studio Code extensions list have been updated over on the dotfiles."
+            elif [ "$2" = "vse-install" ]; then
+                echo "Do you want to install Visual Studio Code extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
+                read
+                echo "Please wait..."
+                sh ~/dotfiles/vs-extensions.sh
+                echo "Visual Studio Code extensions have been installed."
             elif [ "$2" = "qutebrowser" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a path"
