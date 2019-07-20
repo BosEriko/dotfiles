@@ -1,4 +1,5 @@
 # Personal
+FIGLET_MESSAGE="El Psy Congroo!"
 BOS_HELP_MESSAGE="
 
     This is a helper showing all your Bos commands.
@@ -42,7 +43,7 @@ bos() {
         echo "Type -h or --help to print all the Bos commands."
     else
         if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
-            figlet 'El Psy Congroo!' && echo -e $BOS_HELP_MESSAGE
+            figlet $FIGLET_MESSAGE && echo -e $BOS_HELP_MESSAGE
         elif [ "$1" = "-f" ] || [ "$1" = "--fun" ]; then
             if [ "$2" = "parrot" ]; then
                 curl parrot.live
