@@ -93,8 +93,8 @@ bos() {
                 echo "Update Visual Studio Code extensions list on the dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
                 code --list-extensions | xargs -L 1 echo code --install-extension | pbcopy
-                rm -rf ~/dotfiles/vscode/keybindings.json
-                pbpaste > ~/dotfiles/vscode/keybindings.json
+                rm -rf ~/dotfiles/vscode/extensions.sh
+                pbpaste > ~/dotfiles/vscode/extensions.sh
                 echo "Visual Studio Code extensions list have been updated on the dotfiles"
             elif [ "$2" = "qutebrowser" ]; then
                 if [ -z "$3" ]; then
