@@ -89,14 +89,10 @@ g() {
     if [ -z "$2" ]; then
       echo "Please specify a release name"
     else
-      echo "Do you want to tag and push '$2'? [Y/N]"
-      read tag_decision
-      if [ "$tag_decision" = "Y" ] || [ "$tag_decision" = "y" ]; then
-        git tag $2 -a
-        git push origin $2
-      else
-        echo "Tagging was cancelled."
-      fi
+      echo "Do you want to tag and push '$2'? (Ctrl-C to abort, or press enter to continue)"
+      read
+      git tag $2 -a
+      git push origin $2
     fi
   else
     git $@
