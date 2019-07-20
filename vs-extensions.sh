@@ -11,6 +11,7 @@ code --install-extension eamodio.gitlens
 code --install-extension foxundermoon.shell-format
 code --install-extension humao.rest-client
 code --install-extension karunamurti.haml
+code --install-extension mhutchie.git-graph
 code --install-extension mrmlnc.vscode-autoprefixer
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
