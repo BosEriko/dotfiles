@@ -31,6 +31,7 @@
   "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
   "terminal.integrated.shell.osx": "zsh",
   "update.mode": "none",
+  "update.showReleaseNotes": false,
   "vim.easymotion": true,
   "vim.easymotionMarkerBackgroundColor": "black",
   "vim.easymotionMarkerFontWeight": "normal",
