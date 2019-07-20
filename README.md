@@ -12,7 +12,7 @@ Intended to be run on a fresh environment of OSX only.
 Close the default terminal and open Hyper or Visual Studio Code and that's it!
 
 ## Note
-I also have some [Apps](md/apps.md) and [Games](md/games.md) that I frequently use.
+I also have some [Apps](markdown/apps.md) and [Games](markdown/games.md) that I frequently use.
 
 ## Call to action
 If you want to share some ideas you can email me at mail@boseriko.com
