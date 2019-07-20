@@ -103,7 +103,7 @@ bos() {
                 echo "Do you want to install Visual Studio Code extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
                 echo "Please wait..."
-                sh ~/dotfiles/vs-extensions.sh
+                sh ~/dotfiles/vscode/extensions.sh
                 echo "Visual Studio Code extensions have been installed."
             elif [ "$2" = "qutebrowser" ]; then
                 if [ -z "$3" ]; then
