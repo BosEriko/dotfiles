@@ -28,6 +28,7 @@
   "git.autofetchPeriod": 1000,
   "htmltagwrap.tag": "div",
   "search.location": "panel",
+  "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
   "terminal.integrated.shell.osx": "zsh",
   "update.mode": "none",
   "vim.easymotion": true,
