@@ -21,6 +21,7 @@ BOS_HELP_MESSAGE="
                                 ngrok                   Start ngrok
                                 browser                 Start Google Chrome
                                 md                      Start Typora
+                                vs-extensions           Backup the currently install Visual Studio Code extensions
                                 qutebrowser             Start qutebrowser
                                 cpu-usage               Start gtop
                                 cpu-temp                Start istats
@@ -88,6 +89,13 @@ bos() {
                 else
                     open -a "Typora" $3
                 fi
+            elif [ "$2" = "vs-extensions" ]; then
+                echo "Update Visual Studio Code extensions list on the dotfiles? (Ctrl-C to abort, or press enter to continue)"
+                read
+                code --list-extensions | xargs -L 1 echo code --install-extension | pbcopy
+                rm -rf ~/dotfiles/vscode/keybindings.json
+                pbpaste > ~/dotfiles/vscode/keybindings.json
+                echo "Visual Studio Code extensions list have been updated on the dotfiles"
             elif [ "$2" = "qutebrowser" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a path"
