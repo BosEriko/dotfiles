@@ -30,6 +30,7 @@
   "search.location": "panel",
   "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
   "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
   "update.mode": "none",
   "update.showReleaseNotes": false,
   "vim.easymotion": true,
@@ -53,3 +54,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": true
 }
+
+// Use this if you're on Windows
+// It uses the Git from Windows Subsystem for Linux
+// "git.path": "D:\\dev\\wslgit.exe",
