@@ -26,6 +26,7 @@
   "files.autoSave": "off",
   "git.autofetch": true,
   "git.autofetchPeriod": 1000,
+  "git.enabled": true,
   "htmltagwrap.tag": "div",
   "search.location": "panel",
   "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
