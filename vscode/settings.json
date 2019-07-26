@@ -1,6 +1,6 @@
 {
-  // "git.path": "D:\\dev\\wslgit.exe", // Enable this if you're on Windows
-  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // Enable this if you're on Windows
+  // "git.path": "D:\\dev\\wslgit.exe", // Enable this if you're on Windows (Fix the path if needed)
+  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // Enable this if you're on Windows (Fix the path if needed)
   "multiCommand.commands": [
     {
       "command": "multiCommand.activitySideBar",
