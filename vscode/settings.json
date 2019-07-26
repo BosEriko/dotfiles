@@ -50,6 +50,7 @@
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "SynthWave '84",
   "workbench.editor.enablePreview": true,
+  "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.showTabs": true,
   "workbench.iconTheme": "simple-icons",
   "workbench.list.keyboardNavigation": "simple",
