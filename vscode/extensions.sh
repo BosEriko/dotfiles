@@ -6,6 +6,7 @@ code --install-extension eamodio.gitlens
 code --install-extension foxundermoon.shell-format
 code --install-extension humao.rest-client
 code --install-extension karunamurti.haml
+code --install-extension LaurentTreguier.vscode-simple-icons
 code --install-extension mhutchie.git-graph
 code --install-extension mrmlnc.vscode-autoprefixer
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
@@ -14,6 +15,7 @@ code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
 code --install-extension PKief.material-icon-theme
 code --install-extension rebornix.ruby
+code --install-extension RobbOwen.synthwave-vscode
 code --install-extension robinbentley.sass-indented
 code --install-extension ryuta46.multi-command
 code --install-extension shyykoserhiy.vscode-spotify
