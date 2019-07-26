@@ -26,3 +26,4 @@ code --install-extension vscodevim.vim
 code --install-extension waderyan.gitblame
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension xabikos.JavaScriptSnippets
+code --install-extension yahya-gilany.vscode-pomodoro
