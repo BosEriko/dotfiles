@@ -1,4 +1,6 @@
 {
+  // "git.path": "D:\\dev\\wslgit.exe", // Enable this if you're on Windows
+  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // Enable this if you're on Windows
   "multiCommand.commands": [
     {
       "command": "multiCommand.activitySideBar",
@@ -11,8 +13,6 @@
   "files.associations": {
     "*.hamlc": "haml"
   },
-  // "git.path": "D:\\dev\\wslgit.exe", // Enable this if you're on Windows
-  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // Enable this if you're on Windows
   "breadcrumbs.enabled": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
