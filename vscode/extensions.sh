@@ -1,7 +1,7 @@
 code --install-extension bradgashler.htmltagwrap
 code --install-extension ChakrounAnas.turbo-console-log
 code --install-extension christian-kohler.path-intellisense
-code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension eamodio.gitlens
 code --install-extension foxundermoon.shell-format
 code --install-extension humao.rest-client
