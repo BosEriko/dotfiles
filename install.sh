@@ -69,6 +69,10 @@ chsh -s /bin/zsh
 # Generate .zshenv to avoid errors on oh-my-zsh
 touch ~/.zshenv
 
+# Install your personal CLI
+git clone https://github.com/BosEriko/bos-cli.git ~/.bos-cli
+(cd ~/.bos-cli && npm install && npm link)
+
 # Install Karabiner Elements 12.2.0 (https://github.com/tekezo/Karabiner-Elements)
 git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
 cd ~/karabiner-elements
