@@ -45,6 +45,7 @@ npm install --global electron-packager
 npm install --global @vue/cli
 npm install --global gatsby-cli
 npm install --global speed-test
+npm install --global eslint
 
 # Initialize rbenv and set global ruby version (https://github.com/rbenv/rbenv)
 rbenv install 2.6.3
