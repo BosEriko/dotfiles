@@ -35,6 +35,7 @@ BOS_HELP_MESSAGE="
                                 restart-zsh             Restart ZSH
 
     -d, --directory             work                    Jump to work directory
+                                cli                     Jump to personal CLI
                                 personal                Jump to personal directory
                                 dotfiles                Jump to the dotfiles directory
 
@@ -136,6 +137,8 @@ bos() {
                 cd ~/Documents/Codes/Work
             elif [ "$2" = "personal" ]; then
                 cd ~/Documents/Codes/Personal
+            elif [ "$2" = "cli" ]; then
+                cd ~/.bos-cli
             elif [ "$2" = "dotfiles" ]; then
                 cd ~/dotfiles
             else
