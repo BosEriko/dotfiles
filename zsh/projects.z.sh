@@ -16,6 +16,9 @@ proj() {
     "ka-bot")
             cd ~/Documents/Codes/Personal/kuru-anime/bot
             ;;
+    "cli")
+            cd ~/.bos-cli
+            ;;
     "ops")
             cd ~/development/OpsManager
             ;;

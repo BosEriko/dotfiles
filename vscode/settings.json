@@ -53,7 +53,7 @@
   "vim.useSystemClipboard": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.colorTheme": "SynthWave '84",
   "workbench.editor.enablePreview": true,
   "workbench.editor.highlightModifiedTabs": true,
