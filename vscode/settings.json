@@ -16,6 +16,7 @@
     "*.hamlc": "haml"
   },
   "breadcrumbs.enabled": true,
+  "editor.cursorBlinking": "smooth",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
