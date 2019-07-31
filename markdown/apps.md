@@ -1,5 +1,4 @@
 # Applications
-- [Google Chrome](https://www.google.com/chrome/)
 - [Google Drive](https://support.google.com/drive/answer/7329379)
 - [Alfred](https://www.alfredapp.com/)
 - [Spotify](https://www.spotify.com/ph/download/mac/)
