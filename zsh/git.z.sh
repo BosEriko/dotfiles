@@ -30,6 +30,7 @@ GIT_HELP_MESSAGE="
     re                          Alias for reset
     rl                          List versions
     s                           Alias for status
+    sc, sync                    Sync all remote repositories
     so, set-origin              Set the origin path
     st                          Alias for stash
     t, tag                      Tag and push
@@ -85,6 +86,13 @@ g() {
     git remote set-url --add --push origin $gitlab_path
     git remote set-url --add --push origin $bitbucket_path
     git remote -v
+  elif [ "$1" = "sc" ] || [ "$1" = "sync" ]; then
+    if [ -z "$2" ]; then
+      echo "Please specify a branch"
+    else
+      git pull origin $2
+      git push origin $2
+    fi
   elif [ "$1" = "t" ] || [ "$1" = "tag" ]; then
     if [ -z "$2" ]; then
       echo "Please specify a release name"
