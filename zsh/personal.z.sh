@@ -16,7 +16,7 @@ BOS_HELP_MESSAGE="
 
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
-                                ssh-key                 Print Main SSH Key
+                                ssh-key                 Copy Main SSH Key to clipboard
                                 localhost               Start http-server
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
