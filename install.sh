@@ -17,7 +17,6 @@ brew install cmake
 brew install terminal-notifier
 brew install yarn
 brew install antigen
-brew install mongodb@3.4
 brew tap heroku/brew
 brew install heroku
 brew tap homebrew/cask-fonts
