@@ -9,6 +9,7 @@ code --install-extension karunamurti.haml
 code --install-extension LaurentTreguier.vscode-simple-icons
 code --install-extension mhutchie.git-graph
 code --install-extension mikestead.dotenv
+code --install-extension misogi.ruby-rubocop
 code --install-extension mrmlnc.vscode-autoprefixer
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode-remote.remote-ssh
