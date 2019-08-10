@@ -34,11 +34,6 @@ BOS_HELP_MESSAGE="
                                 external-ip             Show external IP address
                                 restart-zsh             Restart ZSH
 
-    -d, --directory             work                    Jump to work directory
-                                cli                     Jump to personal CLI
-                                personal                Jump to personal directory
-                                dotfiles                Jump to the dotfiles directory
-
 "
 bos() {
     if [ -z "$1" ]; then
@@ -131,18 +126,6 @@ bos() {
                 terminal-notifier -title 'ZSH' -message 'ZSH has been restarted!'
             else
                 echo "Usage: -a <command> or --assist <command>"
-            fi
-        elif [ "$1" = "-d" ] || [ "$1" = "--directory" ]; then
-            if [ "$2" = "work" ]; then
-                cd ~/Documents/Codes/Work
-            elif [ "$2" = "personal" ]; then
-                cd ~/Documents/Codes/Personal
-            elif [ "$2" = "cli" ]; then
-                cd ~/.bos-cli
-            elif [ "$2" = "dotfiles" ]; then
-                cd ~/dotfiles
-            else
-                echo "Usage: -d <command> or --directory <command>"
             fi
         else
             echo "Command not found: $1"

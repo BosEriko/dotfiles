@@ -1,6 +1,15 @@
 # Projects
 jd() {
     case "$1" in
+    "personal")
+        cd ~/Documents/Codes/Personal
+        ;;
+    "work")
+        cd ~/Documents/Codes/Work
+        ;;
+    "dotfiles")
+        cd ~/dotfiles
+        ;;
     "ka-site")
         cd ~/Documents/Codes/Personal/kuru-anime/website-application
         ;;
