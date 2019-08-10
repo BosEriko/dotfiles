@@ -29,7 +29,7 @@ jd() {
         cd ~/development/OpsManager
         ;;
     *)
-        cd ~
+        echo "Jump to: personal, work, dotfiles, ka-site, ka-desktop, ka-mobile, ka-bot, cli or ops."
         ;;
     esac
 }
