@@ -1,29 +1,26 @@
 # Projects
-proj() {
+jd() {
     case "$1" in
     "ka-site")
-            cd ~/Documents/Codes/Personal/kuru-anime/website-application
-            ;;
+        cd ~/Documents/Codes/Personal/kuru-anime/website-application
+        ;;
     "ka-desktop")
-            cd ~/Documents/Codes/Personal/kuru-anime/desktop-application
-            ;;
+        cd ~/Documents/Codes/Personal/kuru-anime/desktop-application
+        ;;
     "ka-mobile")
-            cd ~/Documents/Codes/Personal/kuru-anime/mobile_application
-            ;;
+        cd ~/Documents/Codes/Personal/kuru-anime/mobile_application
+        ;;
     "ka-bot")
-            cd ~/Documents/Codes/Personal/kuru-anime/discord-bot-application
-            ;;
-    "ka-bot")
-            cd ~/Documents/Codes/Personal/kuru-anime/bot
-            ;;
+        cd ~/Documents/Codes/Personal/kuru-anime/discord-bot-application
+        ;;
     "cli")
-            cd ~/.bos-cli
-            ;;
+        cd ~/.bos-cli
+        ;;
     "ops")
-            cd ~/development/OpsManager
-            ;;
+        cd ~/development/OpsManager
+        ;;
     *)
-            cd ~
-            ;;
+        cd ~
+        ;;
     esac
 }
