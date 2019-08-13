@@ -1,3 +1,4 @@
+code --install-extension alefragnani.Bookmarks
 code --install-extension bradgashler.htmltagwrap
 code --install-extension ChakrounAnas.turbo-console-log
 code --install-extension christian-kohler.path-intellisense
