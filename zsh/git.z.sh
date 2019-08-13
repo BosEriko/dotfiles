@@ -14,6 +14,7 @@ GIT_HELP_MESSAGE="
     b                           Alias for branch
     bd, branch-delete           Delete a branch locally and remotely
     bg, branch-generate         Generate a branch name with a timestamp included
+    bnc, branch-name-copy       Copy the current branch name to clipboard
     c                           Alias for commit
     co                          Alias for checkout
     d                           Alias for diff
@@ -63,6 +64,8 @@ g() {
         git checkout -b "$3/$(date +%s)/$2"
       fi
     fi
+  elif [ "$1" = "bnc" ] || [ "$1" = "branch-name-copy" ]; then
+    git branch | grep \* | cut -d ' ' -f2 | pbcopy
   elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
     if [ -z "$2" ]; then
       echo "Please specify a branch"
