@@ -20,6 +20,7 @@ code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension noku.rails-run-spec-vscode
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
 code --install-extension PKief.material-icon-theme
