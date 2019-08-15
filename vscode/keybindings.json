@@ -2,5 +2,15 @@
     {
         "key": "ctrl+\\",
         "command": "multiCommand.activitySideBar"
+    },
+    {
+        "key": "ctrl+cmd+j",
+        "command": "search.action.focusNextSearchResult",
+        "when": "hasSearchResult && searchViewletVisible"
+    },
+    {
+        "key": "ctrl+cmd+k",
+        "command": "search.action.focusPreviousSearchResult",
+        "when": "hasSearchResult && searchViewletVisible"
     }
 ]
