@@ -8,7 +8,11 @@ Intended to be run on a fresh environment of OSX only.
     git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
     sh ~/dotfiles/install.sh
 
-## One last step
+## A few more steps
+Open Karabiner-Elements and enable the following complex modifications:
+- [Change caps_lock to control if pressed with other keys, to escape if pressed alone.](https://pqrs.org/osx/karabiner/complex_modifications/#caps_lock) - [Open JSON](https://pqrs.org/osx/karabiner/complex_modifications/json/caps_lock.json)
+- Change right_command+hjkl to arrow keys
+
 Close the default terminal and open Hyper or Visual Studio Code and that's it!
 
 ## Note
