@@ -76,12 +76,15 @@ touch ~/.zshenv
 git clone https://github.com/BosEriko/bos-cli.git ~/.bos-cli
 (cd ~/.bos-cli && npm install && npm link)
 
-# Install Karabiner Elements 12.2.0 (https://github.com/tekezo/Karabiner-Elements)
+# Install Karabiner Elements (https://github.com/tekezo/Karabiner-Elements)
 git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
 cd ~/karabiner-elements
 make package
 cd ~
 rm -rf ~/karabiner-elements
+# Activate the following complex modifications:
+# - Change caps_lock to control if pressed with other keys, to escape if pressed alone. (https://pqrs.org/osx/karabiner/complex_modifications/json/caps_lock.json | https://pqrs.org/osx/karabiner/complex_modifications/#caps_lock)
+# - Change right_command+hjkl to arrow keys (Examples)
 
 # Install nerd fonts (https://github.com/ryanoasis/nerd-fonts#font-installation)
 cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
@@ -96,10 +99,6 @@ ln -s ~/dotfiles/zshrc ~/.zshrc
 # =====> .hyper.js
 rm ~/.hyper.js
 ln -s ~/dotfiles/hyper.js ~/.hyper.js
-# =====> karabiner.json
-mkdir -p ~/.config/karabiner
-rm ~/.config/karabiner/karabiner.json
-ln -s ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
 # =====> Visual Studio Code Settings
 rm ~/Library/Application\ Support/Code/User/settings.json
 ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
