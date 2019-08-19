@@ -12,5 +12,18 @@
         "key": "ctrl+cmd+k",
         "command": "search.action.focusPreviousSearchResult",
         "when": "hasSearchResult && searchViewletVisible"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-extension.runAllSpecFiles"
     }
 ]
