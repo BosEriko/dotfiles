@@ -12,7 +12,6 @@ code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension ms-vscode-remote.remote-ssh-explorer
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension noku.rails-run-spec-vscode
 code --install-extension octref.vetur
@@ -23,7 +22,6 @@ code --install-extension RobbOwen.synthwave-vscode
 code --install-extension robinbentley.sass-indented
 code --install-extension ryuta46.multi-command
 code --install-extension shyykoserhiy.vscode-spotify
-code --install-extension sianglim.slim
 code --install-extension Tyriar.sort-lines
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscodevim.vim
