@@ -33,6 +33,9 @@ $(brew --prefix)/opt/fzf/install
 # Cleanup for Homebrew (https://brew.sh/)
 brew cleanup
 
+# Install Rust (https://www.rust-lang.org/tools/install)
+curl https://sh.rustup.rs -sSf | sh
+
 # Install NVM (https://github.com/nvm-sh/nvm)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh
 
