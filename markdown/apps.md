@@ -1,5 +1,6 @@
 # Applications
 - [Google Drive](https://support.google.com/drive/answer/7329379)
+- [MEGA](https://mega.nz/sync)
 - [Alfred](https://www.alfredapp.com/)
 - [Spotify](https://www.spotify.com/ph/download/mac/)
 - [All-in-one Messenger](https://apps.apple.com/ph/app/all-in-one-messenger/id1456462087)
