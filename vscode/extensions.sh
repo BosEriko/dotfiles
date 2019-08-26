@@ -20,5 +20,4 @@ code --install-extension robinbentley.sass-indented
 code --install-extension Tyriar.sort-lines
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscodevim.vim
-code --install-extension waderyan.gitblame
 code --install-extension wayou.vscode-todo-highlight
