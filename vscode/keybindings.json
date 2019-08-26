@@ -1,4 +1,9 @@
 [
+    // Open Keyboard Shortcuts (JSON)
+    {
+        "key": "ctrl+cmd+k",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
     // Zen Mode
     {
         "key": "ctrl+cmd+\\",
@@ -33,10 +38,5 @@
     {
         "key": "ctrl+cmd+r",
         "command": "workbench.action.reloadWindow"
-    },
-    // Open Shortcuts (Json)
-    {
-        "key": "ctrl+cmd+k",
-        "command": "workbench.action.openGlobalKeybindingsFile"
     }
 ]
