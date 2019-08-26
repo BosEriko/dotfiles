@@ -18,7 +18,6 @@ code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
 code --install-extension PKief.material-icon-theme
 code --install-extension rebornix.ruby
-code --install-extension RobbOwen.synthwave-vscode
 code --install-extension robinbentley.sass-indented
 code --install-extension rust-lang.rust
 code --install-extension ryuta46.multi-command
