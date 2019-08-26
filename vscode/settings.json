@@ -7,7 +7,7 @@
     "*.hamlc": "haml"
   },
   "breadcrumbs.enabled": true,
-  "editor.acceptSuggestionOnEnter": "false",
+  "editor.acceptSuggestionOnEnter": "off",
   "editor.cursorBlinking": "smooth",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
