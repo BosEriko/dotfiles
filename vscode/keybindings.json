@@ -14,6 +14,14 @@
         "when": "hasSearchResult && searchViewletVisible"
     },
     {
+        "key": "ctrl+cmd+h",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+cmd+v",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
         "key": "cmd+r",
         "command": "workbench.action.reloadWindow"
     },
