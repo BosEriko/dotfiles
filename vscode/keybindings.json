@@ -1,30 +1,42 @@
 [
+    // Zen Mode
     {
         "key": "ctrl+cmd+\\",
         "command": "workbench.action.toggleZenMode"
     },
+    // Focus Search List
     {
         "key": "ctrl+cmd+l",
         "command": "search.action.focusSearchList"
     },
+    // Horizonal Split
     {
         "key": "ctrl+cmd+h",
         "command": "workbench.action.splitEditorDown"
     },
+    // Vertical Split
     {
         "key": "ctrl+cmd+v",
         "command": "workbench.action.splitEditorRight"
     },
+    // Maximize Active Split
     {
         "key": "ctrl+cmd+m",
         "command": "workbench.action.minimizeOtherEditors"
     },
+    // Close Active Split
     {
         "key": "ctrl+cmd+x",
         "command": "workbench.action.closeEditorsInGroup"
     },
+    // Reload VSCode
     {
         "key": "ctrl+cmd+r",
         "command": "workbench.action.reloadWindow"
+    },
+    // Open Shortcuts (Json)
+    {
+        "key": "ctrl+cmd+k",
+        "command": "workbench.action.openGlobalKeybindingsFile"
     }
 ]
