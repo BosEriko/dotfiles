@@ -20,6 +20,10 @@
         "command": "workbench.action.minimizeOtherEditors"
     },
     {
+        "key": "ctrl+cmd+x",
+        "command": "workbench.action.closeEditorsInGroup"
+    },
+    {
         "key": "ctrl+cmd+r",
         "command": "workbench.action.reloadWindow"
     }
