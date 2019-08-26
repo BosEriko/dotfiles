@@ -7,10 +7,12 @@
     {
       "command": "multiCommand.makeRoom",
       "sequence": [
-        "workbench.action.toggleStatusbarVisibility",
+        "breadcrumbs.toggle",
+        "workbench.action.toggleTabsVisibility",
+        "editor.action.toggleMinimap",
         "workbench.action.toggleSidebarVisibility",
         "workbench.action.toggleActivityBarVisibility",
-        "breadcrumbs.toggle"
+        "workbench.action.toggleStatusbarVisibility"
       ]
     }
   ],
