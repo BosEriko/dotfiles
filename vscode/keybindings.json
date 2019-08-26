@@ -29,9 +29,5 @@
         "key": "cmd+r",
         "command": "-workbench.action.reloadWindow",
         "when": "isDevelopment"
-    },
-    {
-        "key": "cmd+r",
-        "command": "-extension.runAllSpecFiles"
     }
 ]
