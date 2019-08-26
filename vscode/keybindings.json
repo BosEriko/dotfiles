@@ -1,7 +1,7 @@
 [
     {
         "key": "ctrl+\\",
-        "command": "multiCommand.makeRoom"
+        "command": "workbench.action.toggleZenMode"
     },
     {
         "key": "ctrl+cmd+j",

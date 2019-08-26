@@ -3,19 +3,6 @@
 // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
 // ====================================================================== //
 {
-  "multiCommand.commands": [
-    {
-      "command": "multiCommand.makeRoom",
-      "sequence": [
-        "breadcrumbs.toggle",
-        "workbench.action.toggleTabsVisibility",
-        "editor.action.toggleMinimap",
-        "workbench.action.toggleSidebarVisibility",
-        "workbench.action.toggleActivityBarVisibility",
-        "workbench.action.toggleStatusbarVisibility"
-      ]
-    }
-  ],
   "files.associations": {
     "*.hamlc": "haml"
   },
@@ -60,7 +47,7 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Default High Contrast",
+  "workbench.colorTheme": "Monokai",
   "workbench.editor.enablePreview": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.showTabs": true,
