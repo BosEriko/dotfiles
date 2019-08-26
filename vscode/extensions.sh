@@ -13,15 +13,10 @@ code --install-extension ms-vscode-remote.remote-ssh-explorer
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension ms-vsliveshare.vsliveshare
-code --install-extension noku.rails-run-spec-vscode
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
-code --install-extension PKief.material-icon-theme
 code --install-extension rebornix.ruby
 code --install-extension robinbentley.sass-indented
-code --install-extension rust-lang.rust
-code --install-extension ryuta46.multi-command
-code --install-extension shyykoserhiy.vscode-spotify
 code --install-extension Tyriar.sort-lines
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscodevim.vim
