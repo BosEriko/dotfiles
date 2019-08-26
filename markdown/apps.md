@@ -2,6 +2,7 @@
 - [Google Drive](https://support.google.com/drive/answer/7329379)
 - [MEGA](https://mega.nz/sync)
 - [Alfred](https://www.alfredapp.com/)
+- [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [Spotify](https://www.spotify.com/ph/download/mac/)
 - [All-in-one Messenger](https://apps.apple.com/ph/app/all-in-one-messenger/id1456462087)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
