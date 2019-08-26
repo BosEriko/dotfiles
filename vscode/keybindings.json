@@ -1,7 +1,7 @@
 [
     {
         "key": "ctrl+\\",
-        "command": "multiCommand.activitySideBar"
+        "command": "multiCommand.makeRoom"
     },
     {
         "key": "ctrl+cmd+j",

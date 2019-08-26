@@ -5,10 +5,12 @@
 {
   "multiCommand.commands": [
     {
-      "command": "multiCommand.activitySideBar",
+      "command": "multiCommand.makeRoom",
       "sequence": [
+        "workbench.action.toggleStatusbarVisibility",
         "workbench.action.toggleSidebarVisibility",
-        "workbench.action.toggleActivityBarVisibility"
+        "workbench.action.toggleActivityBarVisibility",
+        "breadcrumbs.toggle"
       ]
     }
   ],
