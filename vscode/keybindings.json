@@ -1,17 +1,11 @@
 [
     {
-        "key": "ctrl+\\",
+        "key": "ctrl+cmd+\\",
         "command": "workbench.action.toggleZenMode"
     },
     {
-        "key": "ctrl+cmd+j",
-        "command": "search.action.focusNextSearchResult",
-        "when": "hasSearchResult && searchViewletVisible"
-    },
-    {
-        "key": "ctrl+cmd+k",
-        "command": "search.action.focusPreviousSearchResult",
-        "when": "hasSearchResult && searchViewletVisible"
+        "key": "ctrl+cmd+l",
+        "command": "search.action.focusSearchList"
     },
     {
         "key": "ctrl+cmd+h",
@@ -22,12 +16,11 @@
         "command": "workbench.action.splitEditorRight"
     },
     {
-        "key": "cmd+r",
-        "command": "workbench.action.reloadWindow"
+        "key": "ctrl+cmd+m",
+        "command": "workbench.action.minimizeOtherEditors"
     },
     {
-        "key": "cmd+r",
-        "command": "-workbench.action.reloadWindow",
-        "when": "isDevelopment"
+        "key": "ctrl+cmd+r",
+        "command": "workbench.action.reloadWindow"
     }
 ]
