@@ -31,12 +31,17 @@
     },
     // Close Active Split
     {
-        "key": "ctrl+cmd+x",
+        "key": "ctrl+cmd+d",
         "command": "workbench.action.closeEditorsInGroup"
     },
     // Reload VSCode
     {
         "key": "ctrl+cmd+r",
         "command": "workbench.action.reloadWindow"
+    },
+    // Copy Relative Path
+    {
+        "key": "ctrl+cmd+c",
+        "command": "copyRelativeFilePath"
     }
 ]
