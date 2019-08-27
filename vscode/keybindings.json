@@ -1,45 +1,45 @@
 [
-    // Open Keyboard Shortcuts (JSON)
+    // [K] Open Keyboard Shortcuts (JSON)
     {
         "key": "ctrl+cmd+k",
         "command": "workbench.action.openGlobalKeybindingsFile"
     },
-    // Zen Mode
+    // [\] Zen Mode
     {
         "key": "ctrl+cmd+\\",
         "command": "workbench.action.toggleZenMode"
     },
-    // Focus Search List
+    // [L] Focus Search List
     {
         "key": "ctrl+cmd+l",
         "command": "search.action.focusSearchList"
     },
-    // Horizonal Split
+    // [H] Horizonal Split
     {
         "key": "ctrl+cmd+h",
         "command": "workbench.action.splitEditorDown"
     },
-    // Vertical Split
+    // [V] Vertical Split
     {
         "key": "ctrl+cmd+v",
         "command": "workbench.action.splitEditorRight"
     },
-    // Maximize Active Split
+    // [M] Maximize Active Split
     {
         "key": "ctrl+cmd+m",
         "command": "workbench.action.minimizeOtherEditors"
     },
-    // Close Active Split
+    // [D] Close Active Split
     {
         "key": "ctrl+cmd+d",
         "command": "workbench.action.closeEditorsInGroup"
     },
-    // Reload VSCode
+    // [R] Reload VSCode
     {
         "key": "ctrl+cmd+r",
         "command": "workbench.action.reloadWindow"
     },
-    // Copy Relative Path
+    // [C] Copy Relative Path
     {
         "key": "ctrl+cmd+c",
         "command": "copyRelativeFilePath"
