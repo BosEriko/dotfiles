@@ -1,4 +1,5 @@
 [
+    // Every command here should be prepended with ctrl+cmd
     // [K] Open Keyboard Shortcuts (JSON)
     {
         "key": "ctrl+cmd+k",
