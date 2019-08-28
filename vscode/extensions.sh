@@ -3,6 +3,7 @@ code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
+code --install-extension Equinusocio.vsc-material-theme
 code --install-extension karunamurti.haml
 code --install-extension LaurentTreguier.vscode-simple-icons
 code --install-extension misogi.ruby-rubocop
