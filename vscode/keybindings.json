@@ -5,6 +5,11 @@
         "key": "ctrl+cmd+k",
         "command": "workbench.action.openGlobalKeybindingsFile"
     },
+    // [S] Open Settings (JSON)
+    {
+        "key": "ctrl+cmd+s",
+        "command": "workbench.action.openSettingsJson"
+    },
     // [\] Zen Mode
     {
         "key": "ctrl+cmd+\\",
