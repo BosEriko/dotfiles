@@ -18,7 +18,7 @@
   "editor.minimap.enabled": true,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [ 50, 100, 150, 200 ],
+  "editor.rulers": [ 100 ],
   "editor.suggestSelection": "first",
   "editor.tabSize": 4,
   "editor.wordWrap": "off",
