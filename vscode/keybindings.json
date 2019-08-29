@@ -35,9 +35,9 @@
         "key": "ctrl+cmd+m",
         "command": "workbench.action.minimizeOtherEditors"
     },
-    // [D] Close Active Split
+    // [X] Close Active Split
     {
-        "key": "ctrl+cmd+d",
+        "key": "ctrl+cmd+x",
         "command": "workbench.action.closeEditorsInGroup"
     },
     // [R] Reload VSCode
