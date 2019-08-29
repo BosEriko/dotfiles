@@ -22,6 +22,9 @@ jd() {
     "ka-bot")
         cd ~/Documents/Codes/Personal/kuru-anime/discord-bot-application
         ;;
+    "hestia")
+        cd ~/Documents/Codes/Personal/hestia
+        ;;
     "cli")
         cd ~/.bos-cli
         ;;
@@ -29,7 +32,7 @@ jd() {
         cd ~/development/OpsManager
         ;;
     *)
-        echo "Jump to: personal, work, dotfiles, ka-site, ka-desktop, ka-mobile, ka-bot, cli or ops."
+        echo "Jump to: personal, work, dotfiles, ka-site, ka-desktop, ka-mobile, ka-bot, hestia, cli or ops."
         ;;
     esac
 }
