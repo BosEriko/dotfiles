@@ -4,6 +4,7 @@
 . ~/dotfiles/zsh/nvm.z.sh
 . ~/dotfiles/zsh/rvm.z.sh
 . ~/dotfiles/zsh/flutter.z.sh
+. ~/dotfiles/zsh/rust.z.sh
 . ~/dotfiles/zsh/dir.z.sh
 . ~/dotfiles/zsh/python.z.sh
 . ~/dotfiles/zsh/docker.z.sh
