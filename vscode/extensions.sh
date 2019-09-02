@@ -7,12 +7,6 @@ code --install-extension Equinusocio.vsc-material-theme
 code --install-extension karunamurti.haml
 code --install-extension LaurentTreguier.vscode-simple-icons
 code --install-extension misogi.ruby-rubocop
-code --install-extension ms-vscode-remote.remote-containers
-code --install-extension ms-vscode-remote.remote-ssh
-code --install-extension ms-vscode-remote.remote-ssh-edit
-code --install-extension ms-vscode-remote.remote-ssh-explorer
-code --install-extension ms-vscode-remote.remote-wsl
-code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
