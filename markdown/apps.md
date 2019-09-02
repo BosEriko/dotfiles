@@ -2,7 +2,7 @@
 
 ## Cloud Storage
 - [Dropbox](https://www.dropbox.com/install)
-- [Google Drive](https://support.google.com/drive/answer/7329379)
+- [Google Drive](https://www.google.com/drive/download/)
 - [MEGA](https://mega.nz/sync)
 
 ## Utilities
