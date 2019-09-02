@@ -1,4 +1,5 @@
 . ~/dotfiles/zsh/config.z.sh
+. ~/dotfiles/zsh/powerlevel9k.z.sh
 . ~/dotfiles/zsh/plugins.z.sh
 . ~/dotfiles/zsh/fzf.z.sh
 . ~/dotfiles/zsh/nvm.z.sh
