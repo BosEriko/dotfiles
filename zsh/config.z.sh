@@ -2,7 +2,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # ZSH Theme
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="garyblessington"
 
 # History Configuration
 HISTFILE="$HOME/.zsh_history"

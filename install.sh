@@ -89,9 +89,6 @@ rm -rf ~/karabiner-elements
 # Install nerd fonts (https://github.com/ryanoasis/nerd-fonts#font-installation)
 cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
 
-# Install Powerlevel9k (https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
 # Installing the dotfiles
 # =====> .gitconfig
 rm ~/.gitconfig
