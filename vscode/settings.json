@@ -6,6 +6,7 @@
   "files.associations": {
     "*.hamlc": "haml"
   },
+  "bracket-pair-colorizer-2.unmatchedScopeColor": "",
   "breadcrumbs.enabled": true,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.cursorBlinking": "smooth",
