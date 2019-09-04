@@ -1,2 +1,2 @@
 # Alias
-alias ::="code ."
+alias c="code ."
