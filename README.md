@@ -17,14 +17,14 @@ Open Karabiner-Elements and enable the following complex modifications:
 - Change right_command+hjkl to arrow keys
 
 After setting Karabiner-Elements you can now close it and then proceed to installing [Spectacle](https://www.spectacleapp.com/). Set up its controls with the following:
-- Option + Command + H for Left Half
-- Option + Command + L for Right Half
-- Option + Command + K for Top Half
-- Option + Command + J for Bottom Half
+- `Option + Command + H` for **Left Half**
+- `Option + Command + L` for **Right Half**
+- `Option + Command + K` for **Top Half**
+- `Option + Command + J` for **Bottom Half**
 
 Close Spectacle's preferences and then open Keyboard Shortcuts under System Preferences. Set up Mission Control with the following:
-- Control + H for Move left a space
-- Control + L for Move right a space
+- `Control + H` for **Move left a space**
+- `Control + L` for **Move right a space**
 
 Close Keyboard Shortcuts and then open Hyper or Visual Studio Code and that's it!
 
