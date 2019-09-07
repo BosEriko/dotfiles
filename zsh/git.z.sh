@@ -75,19 +75,15 @@ g() {
     fi
   elif [ "$1" = "so" ] || [ "$1" = "set-origin" ]; then
     git remote rm origin
-    echo "Please specify the GitHub path:"
-    read github_path
-    echo "Please specify the GitLab path:"
-    read gitlab_path
-    echo "Please specify the Bitbucket path:"
-    read bitbucket_path
-    git remote add origin $github_path
-    git remote add github $github_path
-    git remote add gitlab $gitlab_path
-    git remote add bitbucket $bitbucket_path
-    git remote set-url --add --push origin $github_path
-    git remote set-url --add --push origin $gitlab_path
-    git remote set-url --add --push origin $bitbucket_path
+    echo "Please specify the git slug [i.e: BosEriko/dotfiles]:"
+    read git_slug
+    git remote add origin git@github.com:${git_slug}.git
+    git remote add github git@github.com:${git_slug}.git
+    git remote add gitlab git@gitlab.com:${git_slug}.git
+    git remote add bitbucket git@bitbucket.org:${git_slug}.git
+    git remote set-url --add --push origin git@github.com:${git_slug}.git
+    git remote set-url --add --push origin git@gitlab.com:${git_slug}.git
+    git remote set-url --add --push origin git@bitbucket.org:${git_slug}.git
     git remote -v
   elif [ "$1" = "sc" ] || [ "$1" = "sync" ]; then
     if [ -z "$2" ]; then
