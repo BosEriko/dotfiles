@@ -44,6 +44,9 @@ curl https://sh.rustup.rs -sSf | sh
 (cd ~ && php -r "unlink('composer-setup.php');")
 (cd ~ && mv composer.phar /usr/local/bin/composer)
 
+# Install Laravel (https://laravel.com/docs/6.0)
+composer global require laravel/installer
+
 # Install NVM (https://github.com/nvm-sh/nvm)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh
 
