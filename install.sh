@@ -37,6 +37,13 @@ brew cleanup
 # Install Rust (https://www.rust-lang.org/tools/install)
 curl https://sh.rustup.rs -sSf | sh
 
+# Install Composer (https://getcomposer.org/doc/00-intro.md#globally)
+(cd ~ && php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');")
+(cd ~ && php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;")
+(cd ~ && php composer-setup.php)
+(cd ~ && php -r "unlink('composer-setup.php');")
+(cd ~ && mv composer.phar /usr/local/bin/composer)
+
 # Install NVM (https://github.com/nvm-sh/nvm)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh
 
