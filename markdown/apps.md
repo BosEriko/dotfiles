@@ -11,7 +11,6 @@
 - [Duet Display](https://www.duetdisplay.com/pro/)
 - [Spectacle](https://www.spectacleapp.com/)
 - [Vanilla](https://matthewpalmer.net/vanilla/)
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 ## Media
 - [Elmedia Video Player](https://itunes.apple.com/us/app/elmedia-universal-video-player/id937759555)
