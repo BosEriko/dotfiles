@@ -6,6 +6,7 @@
 . ~/dotfiles/zsh/rvm.z.sh
 . ~/dotfiles/zsh/flutter.z.sh
 . ~/dotfiles/zsh/rust.z.sh
+. ~/dotfiles/zsh/php.z.sh
 . ~/dotfiles/zsh/composer.z.sh
 . ~/dotfiles/zsh/dir.z.sh
 . ~/dotfiles/zsh/python.z.sh

@@ -37,6 +37,9 @@ brew cleanup
 # Install Rust (https://www.rust-lang.org/tools/install)
 curl https://sh.rustup.rs -sSf | sh
 
+# Install PHP 7.3 (https://php-osx.liip.ch)
+(cd ~ && curl -s https://php-osx.liip.ch/install.sh | bash -s 7.3)
+
 # Install Composer (https://getcomposer.org/doc/00-intro.md#globally)
 (cd ~ && php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');")
 (cd ~ && php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;")
