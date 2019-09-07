@@ -75,7 +75,7 @@ g() {
     fi
   elif [ "$1" = "so" ] || [ "$1" = "set-origin" ]; then
     git remote rm origin
-    echo "Please specify the git slug [i.e: BosEriko/dotfiles]:"
+    echo "Please specify the git slug [e.g.: BosEriko/dotfiles]:"
     read git_slug
     git remote add origin git@github.com:${git_slug}.git
     git remote add github git@github.com:${git_slug}.git
