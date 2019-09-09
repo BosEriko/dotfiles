@@ -1,4 +1,4 @@
 # Source PHP
-laravel-start() {
+source-php() {
     export PATH="/usr/local/php5/bin:$PATH"
 }
