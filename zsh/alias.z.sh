@@ -1,2 +1,2 @@
 # Alias
-alias c="code ."
+alias c="code . && clear"
