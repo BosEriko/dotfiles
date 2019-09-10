@@ -1,10 +1,7 @@
 #!/bin/sh
 
-# Prompt
-echo "Do you want to install your dotfiles? (Ctrl-C to abort, or press enter to continue)" && read
-
-# Jump to root folder
-cd ~
+# Start the install script
+echo "Do you want to install your dotfiles? (Ctrl-C to abort, or press enter to continue)" && read && cd ~
 
 # Install Homebrew (https://brew.sh/)
 brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
