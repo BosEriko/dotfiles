@@ -71,9 +71,9 @@ rbenv global 2.6.3
 rbenv rehash
 
 # Install packages using Gem (https://rubygems.org/)
-gem install iStats
-gem install rails
-gem install bundler
+(cd ~ && gem install iStats)
+(cd ~ && gem install rails)
+(cd ~ && gem install bundler)
 
 # Make the directories for Personal/Work
 mkdir -p ~/Documents/Codes/Work ~/Documents/Codes/Personal
