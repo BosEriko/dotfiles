@@ -8,7 +8,7 @@ brew update
 brew install fzf
 brew install rbenv
 brew install node
-brew install php@7.3
+brew install php@7.3 && brew install libidn2 && brew install libpsl
 brew install figlet
 brew install htop
 brew install zsh
