@@ -5,26 +5,26 @@ brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Ho
 brew update
 
 # Install packages using Homebrew (https://brew.sh/)
-brew install fzf
-brew install rbenv
-brew install node
-brew install figlet
-brew install htop
-brew install zsh
-brew install zsh-completions
-brew install zsh-autosuggestions
-brew install cmake
-brew install terminal-notifier
-brew install yarn
 brew install antigen
+brew install cmake
+brew install figlet
+brew install fzf
+brew install htop
+brew install node
+brew install rbenv
+brew install terminal-notifier
 brew install tree
+brew install yarn
+brew install zsh
+brew install zsh-autosuggestions
+brew install zsh-completions
+brew cask install beaker-browser
+brew cask install brave-browser
+brew cask install firefox
+brew cask install google-chrome
 brew cask install hyper
 brew cask install motrix
 brew cask install visual-studio-code
-brew cask install google-chrome
-brew cask install firefox
-brew cask install brave-browser
-brew cask install beaker-browser
 brew install php@7.3 && brew install libidn2 && brew install libpsl
 brew tap heroku/brew && brew install heroku
 brew tap homebrew/cask-fonts && brew cask install font-fira-code
