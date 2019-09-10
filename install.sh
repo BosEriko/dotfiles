@@ -18,9 +18,6 @@ brew install terminal-notifier
 brew install yarn
 brew install antigen
 brew install tree
-brew install php@7.3 && brew install libidn2 && brew install libpsl
-brew tap heroku/brew && brew install heroku
-brew tap homebrew/cask-fonts && brew cask install font-fira-code
 brew cask install hyper
 brew cask install motrix
 brew cask install visual-studio-code
@@ -28,6 +25,9 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install brave-browser
 brew cask install beaker-browser
+brew install php@7.3 && brew install libidn2 && brew install libpsl
+brew tap heroku/brew && brew install heroku
+brew tap homebrew/cask-fonts && brew cask install font-fira-code
 
 # Initialize FZF
 $(brew --prefix)/opt/fzf/install
