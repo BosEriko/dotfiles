@@ -28,6 +28,7 @@ brew cask install motrix
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install firefox
+brew cask install brave-browser
 
 # Initialize FZF
 $(brew --prefix)/opt/fzf/install
