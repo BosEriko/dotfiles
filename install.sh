@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# Prompt
+echo "Do you want to install your dotfiles? (Ctrl-C to abort, or press enter to continue)" && read
+
+# Jump to root folder
+cd ~
+
 # Install Homebrew (https://brew.sh/)
 brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
@@ -39,11 +45,11 @@ brew cleanup
 curl https://sh.rustup.rs -sSf | sh
 
 # Install Composer (https://getcomposer.org/doc/00-intro.md#globally)
-(cd ~ && php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');")
-(cd ~ && php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;")
-(cd ~ && php composer-setup.php)
-(cd ~ && php -r "unlink('composer-setup.php');")
-(cd ~ && mv composer.phar /usr/local/bin/composer)
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+mv composer.phar /usr/local/bin/composer
 
 # Install Laravel (https://laravel.com/docs/6.0)
 composer global require laravel/installer
@@ -71,9 +77,9 @@ rbenv global 2.6.3
 rbenv rehash
 
 # Install packages using Gem (https://rubygems.org/)
-(cd ~ && gem install iStats)
-(cd ~ && gem install rails)
-(cd ~ && gem install bundler)
+gem install iStats
+gem install rails
+gem install bundler
 
 # Make the directories for Personal/Work
 mkdir -p ~/Documents/Codes/Work ~/Documents/Codes/Personal
@@ -93,9 +99,7 @@ git clone https://github.com/BosEriko/bos-cli.git ~/.bos-cli
 
 # Install Karabiner Elements (https://github.com/tekezo/Karabiner-Elements)
 git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
-cd ~/karabiner-elements
-make package
-cd ~
+(cd ~/karabiner-elements && make package)
 rm -rf ~/karabiner-elements
 
 # Install nerd fonts (https://github.com/ryanoasis/nerd-fonts#font-installation)
