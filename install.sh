@@ -31,15 +31,19 @@ brew cask install visual-studio-code
 brew install php@7.3 || brew install libidn2 || brew install libpsl
 brew tap heroku/brew && brew install heroku
 brew tap homebrew/cask-fonts && brew cask install font-fira-code
+terminal-notifier -title 'Installing' -message 'Brew apps have been installed.'
 
 # Initialize FZF
 $(brew --prefix)/opt/fzf/install
+terminal-notifier -title 'Installing' -message 'FZF has been initialized.'
 
 # Cleanup for Homebrew (https://brew.sh/)
 brew cleanup
+terminal-notifier -title 'Installing' -message 'Brew has been cleaned.'
 
 # Install Rust (https://www.rust-lang.org/tools/install)
 curl https://sh.rustup.rs -sSf | sh
+terminal-notifier -title 'Installing' -message 'Rust has been installed.'
 
 # Install Composer (https://getcomposer.org/doc/00-intro.md#globally)
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -47,12 +51,15 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/local/bin/composer
+terminal-notifier -title 'Installing' -message 'Composer has been installed'
 
 # Install Laravel (https://laravel.com/docs/6.0)
 composer global require laravel/installer
+terminal-notifier -title 'Installing' -message 'Laravel has been installed.'
 
 # Install NVM (https://github.com/nvm-sh/nvm)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh
+terminal-notifier -title 'Installing' -message 'NVM has been installed.'
 
 # Install packages using NPM (https://nodejs.org/)
 npm install --global @vue/cli
@@ -67,40 +74,50 @@ npm install --global ngrok
 npm install --global now
 npm install --global parrotsay
 npm install --global speed-test
+terminal-notifier -title 'Installing' -message 'NPM apps have been installed.'
 
 # Initialize rbenv and set global ruby version (https://github.com/rbenv/rbenv)
 rbenv install 2.6.3
 rbenv global 2.6.3
 rbenv rehash
+terminal-notifier -title 'Installing' -message 'rbenv has been initialized.'
 
 # Install packages using Gem (https://rubygems.org/)
 gem install iStats
 gem install rails
 gem install bundler
+terminal-notifier -title 'Installing' -message 'Gem apps have been installed.'
 
 # Make the directories for Personal/Work
 mkdir -p ~/Documents/Codes/Work ~/Documents/Codes/Personal
+terminal-notifier -title 'Installing' -message 'Work and Personal folder have been created.'
 
 # Install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+terminal-notifier -title 'Installing' -message 'oh-my-zsh has been installed.'
 
 # Make ZSH the default shell (https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 chsh -s /bin/zsh
+terminal-notifier -title 'Installing' -message 'ZSH has been set as the default shell.'
 
 # Generate .zshenv to avoid errors on oh-my-zsh
 touch ~/.zshenv
+terminal-notifier -title 'Installing' -message '.zshenv has been generated to avoid errors on oh-my-zsh.'
 
 # Install your personal CLI
 git clone https://github.com/BosEriko/bos-cli.git ~/.bos-cli
 (cd ~/.bos-cli && cargo run)
+terminal-notifier -title 'Installing' -message 'Personal CLI has been installed.'
 
 # Install Karabiner Elements (https://github.com/tekezo/Karabiner-Elements)
 git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
 (cd ~/karabiner-elements && make package)
 rm -rf ~/karabiner-elements
+terminal-notifier -title 'Installing' -message 'Karabiner Elements has been installed.'
 
 # Install nerd fonts (https://github.com/ryanoasis/nerd-fonts#font-installation)
 (cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf)
+terminal-notifier -title 'Installing' -message 'Nerd Fonts has been installed.'
 
 # Install the dotfiles
 # =====> .gitconfig
@@ -118,13 +135,18 @@ ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/s
 # =====> Visual Studio Code Keybindings
 rm ~/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+# Notify the user
+terminal-notifier -title 'Installing' -message 'Dotfiles have been linked.'
 
 # Allow key repeats on Hyper terminal and Visual Studio Code
 defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+terminal-notifier -title 'Installing' -message 'Repeated key press has been enabled for Hyper and Visual Studio Code.'
 
 # Install Visual Studio Code Extensions
 sh ~/dotfiles/vscode/extensions.sh
+terminal-notifier -title 'Installing' -message 'Visual Studio Code Extensions have been installed.'
 
 # Generate SSH Key
 ssh-keygen -t rsa
+terminal-notifier -title 'Installing' -message 'SSH Key has been generated.'
