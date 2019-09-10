@@ -8,7 +8,6 @@ brew update
 brew install fzf
 brew install rbenv
 brew install node
-brew install php@7.3 && brew install libidn2 && brew install libpsl
 brew install figlet
 brew install htop
 brew install zsh
@@ -19,6 +18,7 @@ brew install terminal-notifier
 brew install yarn
 brew install antigen
 brew install tree
+brew install php@7.3 && brew install libidn2 && brew install libpsl
 brew tap heroku/brew && brew install heroku
 brew tap homebrew/cask-fonts && brew cask install font-fira-code
 brew cask install hyper
