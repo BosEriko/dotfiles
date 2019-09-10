@@ -8,6 +8,7 @@ brew update
 brew install fzf
 brew install rbenv
 brew install node
+brew install php@7.3
 brew install figlet
 brew install htop
 brew install zsh
@@ -36,9 +37,6 @@ brew cleanup
 
 # Install Rust (https://www.rust-lang.org/tools/install)
 curl https://sh.rustup.rs -sSf | sh
-
-# Install PHP 7.3 (https://php-osx.liip.ch)
-(cd ~ && curl -s https://php-osx.liip.ch/install.sh | bash -s 7.3)
 
 # Install Composer (https://getcomposer.org/doc/00-intro.md#globally)
 (cd ~ && php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');")
