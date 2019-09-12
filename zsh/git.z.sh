@@ -70,7 +70,6 @@ g() {
     if [ -z "$2" ]; then
       echo "Please specify a branch"
     else
-      git push --delete origin "$2"
       git branch -D "$2"
     fi
   elif [ "$1" = "so" ] || [ "$1" = "set-origin" ]; then
