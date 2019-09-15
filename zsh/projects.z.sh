@@ -28,11 +28,14 @@ jd() {
     "cli")
         cd ~/.bos-cli
         ;;
+    "avemble")
+        cd ~/Documents/Codes/Personal/avemble
+        ;;
     "ops")
         cd ~/development/OpsManager
         ;;
     *)
-        echo "Jump to: personal, work, dotfiles, ka-site, ka-desktop, ka-mobile, ka-bot, hestia, cli or ops."
+        echo "Jump to: personal, work, dotfiles, ka-site, ka-desktop, ka-mobile, ka-bot, hestia, cli, avemble or ops."
         ;;
     esac
 }
