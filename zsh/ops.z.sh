@@ -1,6 +1,4 @@
 # Customize to your needs...
-alias i-fucked-up='(cd /Users/boseriko/development/OpsManager || pg_restore --verbose --dbname=airdrilling_development --clean --no-acl --no-owner --host=localhost "tmp/opsmanager-production-backup.dump" || bin/rails db:migrate RAILS_ENV=development)'
-
 alias gitspec='rspec $(git st | grep "...spec/.*_spec.rb" | cut -c 4- | xargs)'
 alias gap='git add -p'
 alias gan='git add -N .'
