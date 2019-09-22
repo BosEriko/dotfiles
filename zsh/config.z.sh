@@ -15,6 +15,3 @@ source $HOME/.zshenv
 
 # Source sbin Brew
 export PATH="$(brew --prefix)/sbin:$PATH"
-
-# ZSH Autosuggest
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
