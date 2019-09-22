@@ -19,12 +19,12 @@ function zle-keymap-select {
 }
 zle -N zle-keymap-select
 zle-line-init() {
-    zle -K viins                            # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+    zle -K viins
     echo -ne "\e[5 q"
 }
 zle -N zle-line-init
-echo -ne '\e[5 q'                           # Use beam shape cursor on startup.
-preexec() { echo -ne '\e[5 q' ;}            # Use beam shape cursor for each new prompt.
+echo -ne '\e[5 q'
+preexec() { echo -ne '\e[5 q' ;}
 
 # Use lf to switch directories and bind it to ctrl-o
 lfcd () {
