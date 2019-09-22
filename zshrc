@@ -1,7 +1,6 @@
 # Basic Configuration
 . ~/dotfiles/zsh/config.z.sh
 . ~/dotfiles/zsh/vim.z.sh
-. ~/dotfiles/zsh/plugins.z.sh
 
 # Alias Configuration
 . ~/dotfiles/zsh/dir.z.sh
@@ -23,5 +22,5 @@
 . ~/dotfiles/zsh/git.z.sh
 . ~/dotfiles/zsh/personal.z.sh
 
-# End Configuration
-. ~/dotfiles/zsh/syntax.z.sh
+# Plugin Configuration
+. ~/dotfiles/zsh/plugins.z.sh
