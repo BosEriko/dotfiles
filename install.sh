@@ -19,8 +19,6 @@ brew install terminal-notifier
 brew install tree
 brew install yarn
 brew install zsh
-brew install zsh-autosuggestions
-brew install zsh-completions
 brew cask install beaker-browser
 brew cask install brave-browser
 brew cask install firefox
