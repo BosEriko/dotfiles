@@ -34,5 +34,4 @@
 - [Figma](https://www.figma.com/)
 
 ## Social
-- [All-in-one Messenger](https://apps.apple.com/ph/app/all-in-one-messenger/id1456462087)
 - [OBS](https://obsproject.com/)
