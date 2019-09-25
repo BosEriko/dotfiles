@@ -17,4 +17,4 @@ source $HOME/.zshenv
 export PATH="$(brew --prefix)/sbin:$PATH"
 
 # Set Visual Studio Code as the default shell editor
-export EDITOR=/usr/local/bin/code
+export EDITOR=/usr/local/bin/nvim
