@@ -1,6 +1,6 @@
 
-# A dancing parrot
-dancing-parrot() {
-    curl parrot.live
+# Open Ranger
+ranger-shortcut() {
+    ranger && clear
 }
-bindkey -s '^o' 'dancing-parrot\n'
+bindkey -s '^o' 'ranger-shortcut\n'

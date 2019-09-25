@@ -14,6 +14,7 @@ brew install figlet
 brew install fzf
 brew install htop
 brew install node
+brew install ranger
 brew install rbenv
 brew install terminal-notifier
 brew install tree
