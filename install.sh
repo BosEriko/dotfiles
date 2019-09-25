@@ -13,6 +13,7 @@ brew install cmake
 brew install figlet
 brew install fzf
 brew install htop
+brew install neovim
 brew install node
 brew install ranger
 brew install rbenv
