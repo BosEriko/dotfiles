@@ -21,5 +21,5 @@ source $HOME/.zshenv
 # Source sbin Brew
 export PATH="$(brew --prefix)/sbin:$PATH"
 
-# Set Visual Studio Code as the default shell editor
+# Set Neovim as the default shell editor
 export EDITOR=/usr/local/bin/nvim
