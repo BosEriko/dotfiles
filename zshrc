@@ -7,6 +7,7 @@
 . ~/dotfiles/zsh/dir.z.sh
 . ~/dotfiles/zsh/alias.z.sh
 . ~/dotfiles/zsh/docker.z.sh
+. ~/dotfiles/zsh/tmux.z.sh
 . ~/dotfiles/zsh/projects.z.sh
 . ~/dotfiles/zsh/ops.z.sh
 
