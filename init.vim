@@ -129,7 +129,7 @@ map <left> <nop>
 map <right> <nop>
 
 " Enable the style of tabs
-let g:airline#extensions#tabline#enabled      = 1
+let g:airline#extensions#tabline#enabled = 1
 
 " Remap colon to semicolon to avoid using shift too much
 map ; :
