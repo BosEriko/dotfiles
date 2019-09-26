@@ -4,7 +4,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Plugin List Start ======================= "
 
 " Added Functionalities
-Plug 'VundleVim/Vundle.vim'                     " This makes VIM awesome
 Plug 'scrooloose/nerdtree'                      " Tree file explorer
 Plug 'tpope/vim-fugitive'                       " View any blob, tree, commit, or tag in the repository
 Plug 'junegunn/fzf'                             " FZF Search
