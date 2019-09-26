@@ -41,6 +41,10 @@ terminal-notifier -title 'Installing' -message 'FZF has been initialized.'
 brew cleanup
 terminal-notifier -title 'Installing' -message 'Brew has been cleaned.'
 
+# Install Plug for Neovim (https://github.com/junegunn/vim-plug)
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 # Install Rust (https://www.rust-lang.org/tools/install)
 curl https://sh.rustup.rs -sSf | sh
 terminal-notifier -title 'Installing' -message 'Rust has been installed.'
@@ -135,6 +139,9 @@ ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/s
 # =====> Visual Studio Code Keybindings
 rm ~/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+# =====> init.vim
+rm ~/.config/nvim/init.vim
+ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
 # Notify the user
 terminal-notifier -title 'Installing' -message 'Dotfiles have been linked.'
 
