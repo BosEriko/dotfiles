@@ -88,9 +88,10 @@ rbenv rehash
 terminal-notifier -title 'Installing' -message 'rbenv has been initialized.'
 
 # Install packages using Gem (https://rubygems.org/)
-gem install iStats
-gem install rails
 gem install bundler
+gem install iStats
+gem install neovim
+gem install rails
 terminal-notifier -title 'Installing' -message 'Gem apps have been installed.'
 
 # Make the directories for Personal/Work
