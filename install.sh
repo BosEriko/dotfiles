@@ -74,6 +74,7 @@ npm install --global gatsby-cli
 npm install --global gtop
 npm install --global http-server
 npm install --global live-server
+npm install --global neovim
 npm install --global ngrok
 npm install --global now
 npm install --global parrotsay
