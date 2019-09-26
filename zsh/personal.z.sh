@@ -31,6 +31,7 @@ BOS_HELP_MESSAGE="
                                 npm-list                List global npm packages
                                 npm-outdated            List global outdated npm packages
                                 npm-update              Update global npm packages
+                                rbenv-rehash            Run Rehash on rbenv
                                 external-ip             Show external IP address
                                 restart-zsh             Restart ZSH
 
@@ -119,6 +120,8 @@ bos() {
                 npm outdated -g --depth=0
             elif [ "$2" = "npm-update" ]; then
                 npm update -g
+            elif [ "$2" = "rbenv-rehash" ]; then
+                rm ~/.rbenv/shims/.rbenv-shim; rbenv rehash;
             elif [ "$2" = "external-ip" ]; then
                 curl ipinfo.io/ip
             elif [ "$2" = "restart-zsh" ]; then

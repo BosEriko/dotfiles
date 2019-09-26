@@ -28,7 +28,7 @@ brew cask install google-chrome
 brew cask install hyper
 brew cask install motrix
 brew cask install visual-studio-code
-brew install php@7.3; brew install libidn2; brew install libpsl
+brew install php@7.3; brew install libidn2; brew install libpsl;
 brew tap heroku/brew && brew install heroku
 brew tap homebrew/cask-fonts && brew cask install font-fira-code
 terminal-notifier -title 'Installing' -message 'Brew apps have been installed.'
