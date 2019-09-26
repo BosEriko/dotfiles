@@ -19,6 +19,7 @@ brew install python3
 brew install ranger
 brew install rbenv
 brew install terminal-notifier
+brew install tmux
 brew install tree
 brew install yarn
 brew install zsh
@@ -145,6 +146,9 @@ ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/s
 # =====> Visual Studio Code Keybindings
 rm ~/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+# =====> .tmux.conf
+rm ~/.tmux.conf
+ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 # =====> init.vim
 rm ~/.config/nvim/init.vim || mkdir -p ~/.config/nvim
 ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim

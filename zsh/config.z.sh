@@ -1,3 +1,8 @@
+# Load Tmux
+if [ "$TMUX" = "" ]; then
+    tmux attach-session || tmux new -s default
+fi
+
 # Path to your oh-my-zsh installation
 export ZSH=$HOME/.oh-my-zsh
 
