@@ -6,7 +6,6 @@
 # Alias Configuration
 . ~/dotfiles/zsh/dir.z.sh
 . ~/dotfiles/zsh/alias.z.sh
-. ~/dotfiles/zsh/python.z.sh
 . ~/dotfiles/zsh/docker.z.sh
 . ~/dotfiles/zsh/projects.z.sh
 . ~/dotfiles/zsh/ops.z.sh
