@@ -70,6 +70,9 @@ let mapleader=","
 set number
 set relativenumber
 
+" Use system clipboard
+set clipboard=unnamed
+
 " Stop line break
 set nowrap
 
