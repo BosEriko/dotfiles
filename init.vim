@@ -1,4 +1,3 @@
-
 " ========================================= "
 call plug#begin('~/.local/share/nvim/plugged')
 " Plugin List Start ======================= "
