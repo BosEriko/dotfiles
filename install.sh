@@ -140,8 +140,9 @@ ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/s
 rm ~/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 # =====> init.vim
-rm ~/.config/nvim/init.vim
+rm ~/.config/nvim/init.vim || mkdir -p ~/.config/nvim
 ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
+nvim +PlugInstall +qall
 # Notify the user
 terminal-notifier -title 'Installing' -message 'Dotfiles have been linked.'
 
