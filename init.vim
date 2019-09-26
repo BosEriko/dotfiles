@@ -182,6 +182,10 @@ hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
 " Initialize FZF
 set rtp+=~/.fzf
 
+" Python Interpreters
+let g:python_host_prog = '/usr/bin/python'
+let g:python3_host_prog = '/usr/bin/python3'
+
 " FZF Directory Search
 nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --exclude-standard --others --cached')."\<cr>"
 
