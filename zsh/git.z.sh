@@ -1,3 +1,4 @@
+
 # Git Extend
 GIT_HELP_MESSAGE="
 
@@ -104,3 +105,4 @@ g() {
     git $@
   fi
 }
+

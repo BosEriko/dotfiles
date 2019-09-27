@@ -1,3 +1,4 @@
+
 # Load Tmux
 if [ "$TMUX" = "" ]; then
     tmux attach-session || tmux new -s default
@@ -23,3 +24,4 @@ export PATH="$(brew --prefix)/sbin:$PATH"
 
 # Set Neovim as the default shell editor
 export EDITOR=/usr/local/bin/nvim
+

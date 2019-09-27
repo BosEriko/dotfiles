@@ -1,3 +1,4 @@
+
 # Source Antigen
 source $(brew --prefix)/share/antigen/antigen.zsh
 
@@ -12,3 +13,4 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Apply Antigen Plugins
 antigen apply
+

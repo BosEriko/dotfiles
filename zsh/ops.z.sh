@@ -1,3 +1,4 @@
+
 # Customize to your needs...
 alias gitspec='rspec $(git st | grep "...spec/.*_spec.rb" | cut -c 4- | xargs)'
 alias gap='git add -p'
@@ -258,3 +259,4 @@ ops_dsspecs () {
   ag --nofilename '^describe .?OPL.DataStore' | tr -s "\n" | sed 's/describe //' | sed 's/, ->//' | tr -d "\"'" | uniq
   cd $pushdir
 }
+

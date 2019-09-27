@@ -1,3 +1,4 @@
+
 # Personal
 FIGLET_MESSAGE="El Psy Congroo!"
 BOS_HELP_MESSAGE="
@@ -135,3 +136,4 @@ bos() {
         fi
     fi
 }
+
