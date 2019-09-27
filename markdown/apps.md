@@ -8,6 +8,7 @@
 ## Utilities
 - [Alfred](https://www.alfredapp.com/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
+- [belenaEtcher](https://www.balena.io/etcher/)
 - [Duet Display](https://www.duetdisplay.com/pro/)
 - [Spectacle](https://www.spectacleapp.com/)
 - [Vanilla](https://matthewpalmer.net/vanilla/)
