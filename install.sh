@@ -81,6 +81,7 @@ npm install --global ngrok
 npm install --global now
 npm install --global parrotsay
 npm install --global speed-test
+npm install --global tldr
 terminal-notifier -title 'Installing' -message 'NPM apps have been installed.'
 
 # Initialize rbenv and set global ruby version (https://github.com/rbenv/rbenv)
