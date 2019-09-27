@@ -82,6 +82,9 @@ map <silent> <C-\> :NERDTreeToggle<CR>
 " Shortcut for NERDTree current opened buffer
 map <leader>r :NERDTreeFind<cr>
 
+" Open NERDTree on the right side
+let g:NERDTreeWinPos = "right"
+
 " Set theme for bottom toolbar
 let g:airline_theme='bubblegum'
 
