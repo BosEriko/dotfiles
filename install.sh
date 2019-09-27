@@ -80,6 +80,7 @@ npm install --global neovim
 npm install --global ngrok
 npm install --global now
 npm install --global parrotsay
+npm install --global spaceship-prompt
 npm install --global speed-test
 npm install --global tldr
 terminal-notifier -title 'Installing' -message 'NPM apps have been installed.'

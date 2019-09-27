@@ -14,3 +14,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 # Apply Antigen Plugins
 antigen apply
 
+# Set Spaceship ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt spaceship
+
