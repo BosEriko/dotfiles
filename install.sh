@@ -136,7 +136,7 @@ terminal-notifier -title 'Installing' -message 'Nerd Fonts has been installed.'
 rm ~/.gitconfig
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
 # =====> .zshrc
-sh zshrc.sh
+sh ~/dotfiles/zshrc.sh
 # =====> .hyper.js
 rm ~/.hyper.js
 ln -s ~/dotfiles/hyper.js ~/.hyper.js
