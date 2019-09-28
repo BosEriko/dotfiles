@@ -100,6 +100,7 @@ terminal-notifier -title 'Installing' -message 'Gem apps have been installed.'
 
 # Install packages using pip (https://www.python.org)
 pip3 install --user --upgrade pynvim
+terminal-notifier -title 'Installing' -message 'Pip apps have been installed.'
 
 # Make the directories for Personal/Work
 mkdir -p ~/Documents/Codes/Work ~/Documents/Codes/Personal
