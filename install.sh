@@ -13,6 +13,7 @@ brew install cmake
 brew install figlet
 brew install fzf
 brew install htop
+brew install neofetch
 brew install neovim
 brew install node
 brew install python3

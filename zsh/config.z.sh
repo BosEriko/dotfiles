@@ -22,3 +22,6 @@ export PATH="$(brew --prefix)/sbin:$PATH"
 # Set Neovim as the default shell editor
 export EDITOR=/usr/local/bin/nvim
 
+# Run Neofetch on startup
+neofetch
+
