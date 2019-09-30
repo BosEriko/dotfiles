@@ -19,6 +19,7 @@ Plug 'easymotion/vim-easymotion'                " Jump anywhere easily
 Plug 'yggdroot/indentline'                      " Indent lines
 Plug 'w0rp/ale'                                 " Check syntax in Vim asynchronously
 Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
+Plug 'liuchengxu/space-vim-dark'                " Space vim theme
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
 
 " Syntax Highlight Plugins
@@ -113,8 +114,8 @@ set expandtab
 " Show when <leader> is toggled
 set showcmd
 
-" Activate Koehler Theme
-colorscheme koehler
+" Activate Space vim theme
+colorscheme space-vim-dark
 
 " Show which line you're at
 set cursorline
