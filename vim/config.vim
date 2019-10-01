@@ -12,9 +12,6 @@ if !exists("g:syntax_on")
   syntax enable
 endif
 
-" Change mapleader
-let mapleader=","
-
 " Line numbers
 set number
 set relativenumber
@@ -24,12 +21,6 @@ set clipboard=unnamed
 
 " Stop line break
 set nowrap
-
-" Shortcut for NERDTree
-map <silent> <C-\> :NERDTreeToggle<CR>
-
-" Shortcut for NERDTree current opened buffer
-map <leader>r :NERDTreeFind<cr>
 
 " Open NERDTree on the right side
 let g:NERDTreeWinPos = "right"
@@ -69,7 +60,6 @@ colorscheme space-vim-dark
 set cursorline
 
 " Setlist Options
-nmap <leader>l :set list!<CR>
 set listchars=eol:¬,tab:▸▸,trail:~,extends:>,precedes:<,space:·
 hi NonText ctermfg=237 guifg=grey23
 hi SpecialKey ctermfg=237 guifg=grey23
@@ -86,43 +76,14 @@ silent! call mkdir(vimtmp, "p", 0700)
 let &backupdir=vimtmp
 let &directory=vimtmp
 
-" Disable arrow keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-
 " Enable the style of tabs
 let g:airline#extensions#tabline#enabled = 1
-
-" Remap colon to semicolon to avoid using shift too much
-map ; :
-noremap ;; ;
-
-" Navigate buffers easily
-nmap <leader>j :bp!<CR>
-nmap <leader>k :bn!<CR>
-
-" Close buffers easily
-nmap <leader>x :bd!<CR>
 
 " Show hidden files in NERDTree by default
 let NERDTreeShowHidden=1
 
 " Paste Toggle
 set pastetoggle=<F1>
-
-" Text Wrap Toggle
-map <F2> :set wrap!<CR>
-
-" Git Blame Toggle
-map <F3> :Gblame<CR>
-
-" ALE Toggle
-map <F4> :ALEToggle<CR>
-
-" Minimap Toggle
-map <F5> :MinimapToggle<CR>
 
 " NERDTree and Startify at startup
 autocmd VimEnter *
@@ -149,9 +110,6 @@ hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
 " Initialize FZF
 set rtp+=~/.fzf
 
-" FZF Directory Search
-nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --exclude-standard --others --cached')."\<cr>"
-
 " FZF Color Scheme
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
@@ -168,31 +126,12 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-" Shortcut for Rubocop
-map <leader>t :RuboCop<cr>
-
-" Shortcut for word search inside directory
-map <C-f> :CtrlSF<space>
-
-" Shorcut for word substitute
-nmap <leader>ff :%s/old/new/g
-
-" Switch Panes
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
-
 " Disable vim-json hidden quotes
 let g:vim_json_syntax_conceal = 0
 
 " Folder icons for NERDTree
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 let g:DevIconsEnableFoldersOpenClose = 1
-
-" Shortcut for NERDCommenter
-nnoremap <leader>/ :call NERDCommenter(0,"toggle")<CR>
-vnoremap <leader>/ :call NERDCommenter(0,"toggle")<CR>
 
 " Set line length
 set colorcolumn=100
