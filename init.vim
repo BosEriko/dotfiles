@@ -242,3 +242,7 @@ let g:vim_json_syntax_conceal = 0
 " Folder icons for NERDTree
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 let g:DevIconsEnableFoldersOpenClose = 1
+
+" Shortcut for NERDCommenter
+nnoremap <leader>/ :call NERDCommenter(0,"toggle")<CR>
+vnoremap <leader>/ :call NERDCommenter(0,"toggle")<CR>
