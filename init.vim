@@ -21,6 +21,7 @@ Plug 'w0rp/ale'                                 " Check syntax in Vim asynchrono
 Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
 Plug 'liuchengxu/space-vim-dark'                " Space vim theme
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 
 " Syntax Highlight Plugins
 Plug 'vim-ruby/vim-ruby'                        " Ruby
