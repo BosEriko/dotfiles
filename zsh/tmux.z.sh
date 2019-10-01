@@ -1,5 +1,6 @@
 
-# Tmux alias
+# ============================================================================= [Tmux alias] ===== #
+
 alias t-new="tmux new-session"
 alias t-list="tmux list-sessions"
 alias t-last="tmux attach-session"

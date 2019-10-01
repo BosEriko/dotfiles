@@ -1,4 +1,6 @@
 
+# ================================================================================= [Config] ===== #
+
 # Load Tmux
 if [ "$TMUX" = "" ]; then
     tmux attach-session || tmux new -s default

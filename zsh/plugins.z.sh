@@ -1,4 +1,6 @@
 
+# ================================================================================ [Plugins] ===== #
+
 # Source Antigen
 source $(brew --prefix)/share/antigen/antigen.zsh
 

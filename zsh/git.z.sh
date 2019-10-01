@@ -1,5 +1,6 @@
 
-# Git Extend
+# ============================================================================= [Git Extend] ===== #
+
 GIT_HELP_MESSAGE="
 
     This is a helper showing all your Git custom commands.
