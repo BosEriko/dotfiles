@@ -94,9 +94,8 @@ bos() {
                 echo "Update Visual Studio Code extensions list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
                 echo "Please wait..."
-                code --list-extensions | xargs -L 1 echo code --install-extension | pbcopy
                 rm -rf ~/dotfiles/vscode/extensions.sh
-                pbpaste > ~/dotfiles/vscode/extensions.sh
+                code --list-extensions | xargs -L 1 echo code --install-extension > ~/dotfiles/vscode/extensions.sh
                 echo "Visual Studio Code extensions list have been updated over on the dotfiles."
             elif [ "$2" = "vse-install" ]; then
                 echo "Do you want to install Visual Studio Code extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
