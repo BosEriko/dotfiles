@@ -157,8 +157,7 @@ ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/Use
 rm ~/.tmux.conf
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 # =====> init.vim
-rm ~/.config/nvim/init.vim || mkdir -p ~/.config/nvim
-ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
+sh ~/dotfiles/init.vim.sh
 nvim +PlugInstall +qall
 # Notify the user
 terminal-notifier -title 'Installing' -message 'Dotfiles have been linked.'
