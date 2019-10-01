@@ -30,6 +30,9 @@ nmap <leader>k :bn!<CR>
 " Close buffers easily
 nmap <leader>x :bd!<CR>
 
+" Paste Toggle
+set pastetoggle=<F1>
+
 " Text Wrap Toggle
 map <F2> :set wrap!<CR>
 

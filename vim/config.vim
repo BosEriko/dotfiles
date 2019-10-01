@@ -53,9 +53,6 @@ let &directory=vimtmp
 " Show hidden files in NERDTree by default
 let NERDTreeShowHidden=1
 
-" Paste Toggle
-set pastetoggle=<F1>
-
 " NERDTree and Startify at startup
 autocmd VimEnter *
   \   if !argc()
