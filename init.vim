@@ -246,3 +246,6 @@ let g:DevIconsEnableFoldersOpenClose = 1
 " Shortcut for NERDCommenter
 nnoremap <leader>/ :call NERDCommenter(0,"toggle")<CR>
 vnoremap <leader>/ :call NERDCommenter(0,"toggle")<CR>
+
+" Set line length
+set colorcolumn=100
