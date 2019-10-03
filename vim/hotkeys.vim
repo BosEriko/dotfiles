@@ -63,7 +63,3 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-" Shortcut for NERDCommenter
-nnoremap <leader>/ :call NERDCommenter(0,"toggle")<CR>
-vnoremap <leader>/ :call NERDCommenter(0,"toggle")<CR>
-

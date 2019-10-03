@@ -11,7 +11,6 @@ Plug 'dyng/ctrlsf.vim'                          " Word search inside directory
 Plug 'alvan/vim-closetag'                       " Auto close HTML tags
 Plug 'editorconfig/editorconfig-vim'            " Editorconfig
 Plug 'jiangmiao/auto-pairs'                     " Auto close quotes, brackets and parenthesis
-Plug 'scrooloose/nerdcommenter'                 " Comment out function
 Plug 'Valloric/MatchTagAlways'                  " HTML Tag Matcher
 Plug 'airblade/vim-gitgutter'                   " Show git difference in the gutter
 Plug 'mattn/emmet-vim'                          " Emmet for VIM (Provides support for expanding abbreviations)
