@@ -66,6 +66,7 @@ cd ~/ranger_devicons
 make install
 cd ~
 rm -rf ~/ranger_devicons
+terminal-notifier -title 'Installing' -message 'Ranger Devicons have been installed'
 
 # Install Laravel (https://laravel.com/docs/6.0)
 composer global require laravel/installer
