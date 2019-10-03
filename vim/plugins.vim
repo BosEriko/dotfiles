@@ -21,6 +21,7 @@ Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs Ru
 Plug 'liuchengxu/space-vim-dark'                " Space vim theme
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
+Plug 'tomtom/tcomment_vim'                      " Comment out function
 
 " Syntax Highlight Plugins
 Plug 'vim-ruby/vim-ruby'                        " Ruby
