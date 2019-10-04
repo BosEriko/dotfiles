@@ -54,6 +54,12 @@ map <leader>t :RuboCop<cr>
 " Shortcut for word search inside directory
 map <C-f> :CtrlSF<space>
 
+" Shortcut for saving
+map <C-s> :w<CR>
+
+" Shortcut for quitting
+map <C-q> :q<CR>
+
 " Shorcut for word substitute
 nmap <leader>ff :%s/old/new/g
 
