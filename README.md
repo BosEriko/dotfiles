@@ -16,7 +16,11 @@ Open Karabiner-Elements and enable the following complex modifications:
 - [Mouse keys (full) (rev 4)](https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_full) ([Open JSON](https://pqrs.org/osx/karabiner/complex_modifications/json/mouse_keys_full.json))
 - Change right_command+hjkl to arrow keys
 
-After setting Karabiner-Elements you can now close it and then proceed to installing [Spectacle](https://www.spectacleapp.com/). Set up its controls with the following:
+After setting Karabiner-Elements you can now close it and then proceed to installing [Alfred](https://www.alfredapp.com/) then do the following:
+- Disable Spotlight's hotkeys
+- Set Alfred's hotkey to `Command + Spacebar`
+
+When you're done setting up Alfred you can move on to installing [Spectacle](https://www.spectacleapp.com/). Set up its controls with the following:
 - `Option + Command + H` for **Left Half**
 - `Option + Command + L` for **Right Half**
 - `Option + Command + K` for **Top Half**
