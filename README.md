@@ -26,11 +26,7 @@ When you're done setting up Alfred you can move on to installing [Spectacle](htt
 - `Option + Command + K` for **Top Half**
 - `Option + Command + J` for **Bottom Half**
 
-Close Spectacle's preferences and then open Keyboard Shortcuts under System Preferences. Set up Mission Control with the following:
-- `Control + H` for **Move left a space**
-- `Control + L` for **Move right a space**
-
-Close Keyboard Shortcuts and then open Hyper or Visual Studio Code and that's it!
+Close Spectacle's preferences and then open Hyper or Visual Studio Code and that's it!
 
 ## Note
 I also have some [Chrome Extensions](markdown/chrome-extensions.md), [Apps](markdown/apps.md) and [Games](markdown/games.md) that I frequently use.

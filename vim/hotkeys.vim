@@ -40,5 +40,6 @@ nmap <leader>r :RuboCop<CR>
 nmap <leader>a :ALEToggle<CR>
 nmap <leader>w :set wrap!<CR>
 nmap <leader>g :Gblame<CR>
+nmap <leader>n :noh<CR>
 set pastetoggle=<leader>p
 
