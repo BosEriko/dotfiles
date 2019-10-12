@@ -28,6 +28,7 @@ map <silent> <C-l> :bn!<CR>
 map <silent> <C-w> :bd<CR>
 map <silent> <C-q> :q<CR>
 map <silent> <C-s> :w<CR>
+map <silent> <C-/> :TComment<CR>
 map <silent> <C-k> :!less ~/dotfiles/vim/hotkeys.vim<CR>
 map <C-f> :CtrlSF<space>
 nmap <leader>ff :%s/old/new/g
