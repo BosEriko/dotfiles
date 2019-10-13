@@ -34,7 +34,7 @@ map <C-f> :CtrlSF<space>
 map <C-g> :%s/old/new/g
 nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --exclude-standard --others --cached')."\<cr>"
 
-" Toggle Shortcuts
+" Leader Shortcuts (For Toggles)
 nmap <leader>l :set list!<CR>
 nmap <leader>m :MinimapToggle<CR>
 nmap <leader>r :RuboCop<CR>
