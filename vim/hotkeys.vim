@@ -24,6 +24,7 @@ map <silent> <C-q> :q<CR>
 map <silent> <C-s> :w<CR>
 map <silent> <C-c> :TComment<CR>
 map <silent> <C-k> :!less ~/dotfiles/vim/hotkeys.vim<CR>
+map <silent> <C-b> :let @+ = expand("%")<CR>
 map <C-t> :!
 map <C-f> :CtrlSF<space>
 map <C-g> :%s/old/new/g
