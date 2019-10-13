@@ -3,6 +3,12 @@
 # Start the install script
 echo "Do you want to install your dotfiles? (Ctrl-C to abort, or press enter to continue)" && read && cd ~
 
+# Install Xcode (https://developer.apple.com/xcode/)
+xcode-select --install
+
+# Clone the repository (https://github.com/BosEriko/dotfiles.git)
+git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
+
 # Install Homebrew (https://brew.sh/)
 brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update

@@ -4,9 +4,7 @@ Intended to be run on a fresh environment of OSX only.
 ## Installation
 
     # Open the default terminal and run the following
-    ➜ xcode-select --install
-    ➜ git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
-    ➜ sh ~/dotfiles/install.sh
+    curl -sL https://raw.githubusercontent.com/BosEriko/dotfiles/master/install.sh | sh
 
 ## A few more steps
 Close the default terminal.
