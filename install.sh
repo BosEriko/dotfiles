@@ -162,8 +162,7 @@ ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/s
 rm ~/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 # =====> .tmux.conf
-rm ~/.tmux.conf
-ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+sh ~/dotfiles/tmux.conf.sh
 # =====> init.vim
 sh ~/dotfiles/init.vim.sh
 nvim +PlugInstall +qall
