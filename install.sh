@@ -150,8 +150,6 @@ terminal-notifier -title 'Installing' -message 'Nerd Fonts has been installed.'
 # =====> .gitconfig
 rm ~/.gitconfig
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
-# =====> .zshrc
-sh ~/dotfiles/zshrc.sh
 # =====> .hyper.js
 rm ~/.hyper.js
 ln -s ~/dotfiles/hyper.js ~/.hyper.js
@@ -161,13 +159,14 @@ ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/s
 # =====> Visual Studio Code Keybindings
 rm ~/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-# =====> .tmux.conf
-sh ~/dotfiles/tmux.conf.sh
-# =====> init.vim
-sh ~/dotfiles/init.vim.sh
-nvim +PlugInstall +qall
+# =====> Generate .zshrc,.tmux.conf and init.vim
+sh ~/dotfiles/generate.sh
 # Notify the user
 terminal-notifier -title 'Installing' -message 'Dotfiles have been linked.'
+
+# Install Vim Extensions
+nvim +PlugInstall +qall
+terminal-notifier -title 'Installing' -message 'Vim Extensions have been installed.'
 
 # Allow key repeats on Hyper terminal and Visual Studio Code
 defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
