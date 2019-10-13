@@ -14,18 +14,12 @@ map <right> <nop>
 map ; :
 noremap ;; ;
 
-" Switch Panes
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
-
 " Control Shortcuts
 map <silent> <C-\> :NERDTreeToggle<CR>
 map <silent> <C-m> :NERDTreeFind<CR>
 map <silent> <C-h> :bp!<CR>
 map <silent> <C-l> :bn!<CR>
-map <silent> <C-w> :bd<CR>
+map <silent> <C-x> :bd<CR>
 map <silent> <C-q> :q<CR>
 map <silent> <C-s> :w<CR>
 map <silent> <C-c> :TComment<CR>
