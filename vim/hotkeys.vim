@@ -16,7 +16,7 @@ noremap ;; ;
 
 " Control Shortcuts
 map <silent> <C-\> :NERDTreeToggle<CR>
-map <silent> <C-m> :NERDTreeFind<CR>
+map <silent> <C-t> :NERDTreeFind<CR>
 map <silent> <C-h> :bp!<CR>
 map <silent> <C-l> :bn!<CR>
 map <silent> <C-x> :bd<CR>
@@ -25,7 +25,6 @@ map <silent> <C-s> :w<CR>
 map <silent> <C-c> :TComment<CR>
 map <silent> <C-k> :!less ~/dotfiles/vim/hotkeys.vim<CR>
 map <silent> <C-b> :let @+ = expand("%")<CR>
-map <C-t> :!
 map <C-f> :CtrlSF<space>
 map <C-g> :%s/old/new/g
 nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --exclude-standard --others --cached')."\<cr>"
