@@ -63,6 +63,7 @@ bos() {
                 echo "SSH Key has been copied to clipboard."
             elif [ "$2" = "generate-config" ]; then
                 sh ~/dotfiles/generate.sh
+                source ~/.zshrc
             elif [ "$2" = "localhost" ]; then
                 if [ -z "$3" ]; then
                     http-server
