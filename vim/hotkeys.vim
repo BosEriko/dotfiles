@@ -2,17 +2,13 @@
 " ================================================================================ [Hotkeys] ===== "
 
 " Change mapleader
-let mapleader=" "
+let mapleader=";"
 
 " Disable arrow keys
 map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
-
-" Remap colon to semicolon to avoid using shift too much
-map ; :
-nnoremap ;; ;
 
 " Control Shortcuts
 nnoremap <silent> <C-\> :NERDTreeToggle<CR>
