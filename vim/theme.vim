@@ -1,8 +1,14 @@
 
 " ================================================================================== [Theme] ===== "
 
+" Fore more icons to use you can go to https://www.nerdfonts.com/cheat-sheet
+
 " Open NERDTree on the right side
 let g:NERDTreeWinPos = "right"
+
+" NERDTree arrows
+let g:NERDTreeDirArrowExpandable = ''
+let g:NERDTreeDirArrowCollapsible = ''
 
 " Airline Config
 let g:airline_theme             = 'onedark'
