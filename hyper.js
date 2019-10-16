@@ -52,7 +52,7 @@ module.exports = {
     borderColor: '#37b9bc',
 
     // custom CSS to embed in the main window
-    css: '',
+    css: '.hyper_main { border-width: 3px; }',
 
     // custom CSS to embed in the terminal window
     termCSS: '',
