@@ -2,7 +2,7 @@
 " ================================================================================ [Hotkeys] ===== "
 
 " Change mapleader
-let mapleader=","
+let mapleader=" "
 
 " Disable arrow keys
 map <up> <nop>
