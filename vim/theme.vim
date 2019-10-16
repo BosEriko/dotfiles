@@ -1,7 +1,8 @@
 
 " ================================================================================== [Theme] ===== "
 
-" Fore more icons to use you can go to https://www.nerdfonts.com/cheat-sheet
+" Fore more icons to use you can go to:
+" https://www.nerdfonts.com/cheat-sheet
 
 " NERDTree
 let g:NERDTreeWinPos = "right"
