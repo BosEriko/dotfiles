@@ -2,6 +2,9 @@
 call plug#begin('~/.local/share/nvim/plugged')
 " Plugin List Start ======================= "
 
+" Conquer of Completion
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
+
 " Added Functionalities
 Plug 'scrooloose/nerdtree'                      " Tree file explorer
 Plug 'tpope/vim-fugitive'                       " View any blob, tree, commit, or tag in the repository
@@ -18,7 +21,6 @@ Plug 'easymotion/vim-easymotion'                " Jump anywhere easily
 Plug 'yggdroot/indentline'                      " Indent lines
 Plug 'w0rp/ale'                                 " Check syntax in Vim asynchronously
 Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
-Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 Plug 'tomtom/tcomment_vim'                      " Comment out function
 
 " Syntax Highlight Plugins
@@ -40,7 +42,6 @@ Plug 'hiukkanen/vim-hamlc'                      " hamlc
 Plug 'kchmck/vim-coffee-script'                 " CoffeeScript
 
 " Party tricks Plugin
-Plug 'severin-lemaignan/vim-minimap'            " Minimap
 Plug 'mhinz/vim-startify'                       " Welcome message
 
 " Design Plugin
