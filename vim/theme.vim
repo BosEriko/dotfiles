@@ -20,6 +20,7 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Colorscheme
 colorscheme onedark
+highlight EndOfBuffer ctermfg=bg ctermbg=bg
 
 " FZF
 let g:fzf_colors =

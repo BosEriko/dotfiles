@@ -63,7 +63,7 @@ autocmd VimEnter *
 
 " Startify quote's speech bubble
 let g:startify_custom_header =
-  \ startify#fortune#cowsay('*','═','║','╔','╗','╝','╚')
+  \ startify#fortune#cowsay('*','─','│','╭','╮','╯','╰')
 
 " Startify start at 0
 let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
