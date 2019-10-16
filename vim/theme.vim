@@ -4,11 +4,8 @@
 " Open NERDTree on the right side
 let g:NERDTreeWinPos = "right"
 
-" Set theme for bottom toolbar
-let g:airline_theme='bubblegum'
-
 " Airline Config
-let g:airline_theme             = 'powerlineish'
+let g:airline_theme             = 'onedark'
 let g:airline_enable_branch     = 1
 let g:airline_enable_syntastic  = 1
 
