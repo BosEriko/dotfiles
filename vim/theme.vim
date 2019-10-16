@@ -12,8 +12,8 @@ let g:airline_theme             = 'powerlineish'
 let g:airline_enable_branch     = 1
 let g:airline_enable_syntastic  = 1
 
-" Activate Space vim theme
-colorscheme space-vim-dark
+" Activate onedark theme
+colorscheme onedark
 
 " Enable the style of tabs
 let g:airline#extensions#tabline#enabled = 1

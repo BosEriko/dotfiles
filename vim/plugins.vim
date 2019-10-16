@@ -18,8 +18,6 @@ Plug 'easymotion/vim-easymotion'                " Jump anywhere easily
 Plug 'yggdroot/indentline'                      " Indent lines
 Plug 'w0rp/ale'                                 " Check syntax in Vim asynchronously
 Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
-Plug 'liuchengxu/space-vim-dark'                " Space vim theme
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 Plug 'tomtom/tcomment_vim'                      " Comment out function
 
@@ -46,8 +44,10 @@ Plug 'severin-lemaignan/vim-minimap'            " Minimap
 Plug 'mhinz/vim-startify'                       " Welcome message
 
 " Design Plugin
+Plug 'joshdick/onedark.vim'                     " One Dark Theme
 Plug 'vim-airline/vim-airline'                  " Bottom toolbar
 Plug 'vim-airline/vim-airline-themes'           " Themes for the bottom toolbar
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
 Plug 'ryanoasis/vim-devicons'                   " Devicons (Always load this last)
 
 " Plugin List End ========================= "
