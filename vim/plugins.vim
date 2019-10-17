@@ -22,11 +22,7 @@ Plug 'yggdroot/indentline'                      " Indent lines
 Plug 'w0rp/ale'                                 " Check syntax in Vim asynchronously
 Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
 Plug 'tomtom/tcomment_vim'                      " Comment out function
-
-" Syntax Highlight Plugins
 Plug 'sheerun/vim-polyglot'                     " Language Pack
-Plug 'tpope/vim-rails'                          " Rails
-Plug 'hiukkanen/vim-hamlc'                      " hamlc
 
 " Party tricks Plugin
 Plug 'mhinz/vim-startify'                       " Welcome message
