@@ -81,3 +81,5 @@ set rtp+=~/.fzf
 " Set line length
 set colorcolumn=100
 
+" Indent line
+let g:indentLine_char = '│'
