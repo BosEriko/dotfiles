@@ -78,9 +78,6 @@ hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
 " Initialize FZF
 set rtp+=~/.fzf
 
-" Disable vim-json hidden quotes
-let g:vim_json_syntax_conceal = 0
-
 " Set line length
 set colorcolumn=100
 

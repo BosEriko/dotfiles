@@ -24,22 +24,9 @@ Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs Ru
 Plug 'tomtom/tcomment_vim'                      " Comment out function
 
 " Syntax Highlight Plugins
-Plug 'vim-ruby/vim-ruby'                        " Ruby
+Plug 'sheerun/vim-polyglot'                     " Language Pack
 Plug 'tpope/vim-rails'                          " Rails
-Plug 'digitaltoad/vim-pug'                      " Pug
-Plug 'mxw/vim-jsx'                              " JSX
-Plug 'hail2u/vim-css3-syntax'                   " CSS3
-Plug 'jelera/vim-javascript-syntax'             " Javascript
-Plug 'elzr/vim-json'                            " JSON
-Plug 'tpope/vim-haml'                           " Haml, Sass and SCSS
-Plug 'slim-template/vim-slim'                   " Slim
-Plug 'elixir-lang/vim-elixir'                   " Elixir
-Plug 'leafgarland/typescript-vim'               " Typescript
-Plug 'posva/vim-vue'                            " Vue
-Plug 'briancollins/vim-jst'                     " JST/EJS
-Plug 'dart-lang/dart-vim-plugin'                " Dart
 Plug 'hiukkanen/vim-hamlc'                      " hamlc
-Plug 'kchmck/vim-coffee-script'                 " CoffeeScript
 
 " Party tricks Plugin
 Plug 'mhinz/vim-startify'                       " Welcome message
