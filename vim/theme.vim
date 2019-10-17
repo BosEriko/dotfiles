@@ -22,6 +22,10 @@ let g:airline#extensions#tabline#enabled = 1
 colorscheme onedark
 highlight EndOfBuffer ctermfg=bg ctermbg=bg
 
+" Ale
+let g:ale_sign_error = ''
+let g:ale_sign_warning = ''
+
 " FZF
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
