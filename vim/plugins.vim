@@ -5,7 +5,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Conquer of Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 
-" Added Functionalities
+" Functionalities
 Plug 'scrooloose/nerdtree'                      " Tree file explorer
 Plug 'tpope/vim-fugitive'                       " View any blob, tree, commit, or tag in the repository
 Plug 'junegunn/fzf'                             " FZF Search
@@ -22,7 +22,10 @@ Plug 'yggdroot/indentline'                      " Indent lines
 Plug 'w0rp/ale'                                 " Check syntax in Vim asynchronously
 Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
 Plug 'tomtom/tcomment_vim'                      " Comment out function
+
+" Syntax Highlight
 Plug 'sheerun/vim-polyglot'                     " Language Pack
+Plug 'hiukkanen/vim-hamlc'                      " HAMLC
 
 " Party tricks Plugin
 Plug 'mhinz/vim-startify'                       " Welcome message
