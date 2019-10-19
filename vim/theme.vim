@@ -50,3 +50,6 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
+" Colorcolumn Color
+highlight ColorColumn ctermbg=235
+
