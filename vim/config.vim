@@ -35,8 +35,6 @@ set cursorline
 
 " Setlist Options
 set listchars=eol:¬,tab:▸▸,trail:~,extends:>,precedes:<,space:·
-hi NonText ctermfg=237 guifg=grey23
-hi SpecialKey ctermfg=237 guifg=grey23
 
 " Search Settings
 set hlsearch
@@ -50,9 +48,6 @@ silent! call mkdir(vimtmp, "p", 0700)
 let &backupdir=vimtmp
 let &directory=vimtmp
 
-" Show hidden files in NERDTree by default
-let NERDTreeShowHidden=1
-
 " NERDTree and Startify at startup
 autocmd VimEnter *
   \   if !argc()
@@ -61,19 +56,26 @@ autocmd VimEnter *
   \ |   wincmd w
   \ | endif
 
-" Startify quote's speech bubble
+" NERDTree
+let g:NERDTreeWinPos                        = "right"
+let NERDTreeMinimalUI                       = 1
+let NERDTreeShowHidden                      = 1
+let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+let g:DevIconsEnableFoldersOpenClose        = 1
+
+" Airline
+let g:airline_enable_branch               = 1
+let g:airline_enable_syntastic            = 1
+let g:airline#extensions#tabline#enabled  = 1
+
+" Startify
 let g:startify_custom_header =
   \ startify#fortune#cowsay('*','─','│','╭','╮','╯','╰')
-
-" Startify start at 0
 let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
-
-" Don't change directory on startify
 let g:startify_change_to_dir = 0
 
-" Vertical split bar design
+" Remove vertical Split Character
 set fillchars=""
-hi VertSplit ctermfg=DarkGray ctermbg=DarkGray
 
 " Initialize FZF
 set rtp+=~/.fzf
@@ -81,5 +83,3 @@ set rtp+=~/.fzf
 " Set line length
 set colorcolumn=100
 
-" Indent line
-let g:indentLine_char = '│'

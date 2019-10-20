@@ -1,40 +1,17 @@
 
 " ================================================================================== [Theme] ===== "
 
+" This file is for themes, colors, icons and symbols configuration
 " Fore more icons to use you can go to:
 " https://www.nerdfonts.com/cheat-sheet
 
-" NERDTree
-let g:NERDTreeWinPos                        = "right"
-let g:NERDTreeDirArrowExpandable            = ''
-let g:NERDTreeDirArrowCollapsible           = ''
-let NERDTreeMinimalUI                       = 1
-let g:WebDevIconsUnicodeDecorateFolderNodes = 1
-let g:DevIconsEnableFoldersOpenClose        = 1
-
-" Airline
-let g:airline_theme                       = 'onedark'
-let g:airline_enable_branch               = 1
-let g:airline_enable_syntastic            = 1
-let g:airline#extensions#tabline#enabled  = 1
-let g:airline#extensions#tabline#fnamemod = ':t'
-
-" Colorscheme
+" Colors
 colorscheme onedark
-highlight EndOfBuffer ctermfg=bg ctermbg=bg
-
-" Ale
-let g:ale_sign_error    = ''
-let g:ale_sign_warning  = ''
-
-" Gitgutter
-let g:gitgutter_sign_added              = ''
-let g:gitgutter_sign_modified           = ''
-let g:gitgutter_sign_removed            = ''
-let g:gitgutter_sign_removed_first_line = ''
-let g:gitgutter_sign_modified_removed   = ''
-
-" FZF
+hi VertSplit ctermfg=fg ctermbg=bg
+hi ColorColumn ctermbg=bg
+hi EndOfBuffer ctermfg=bg ctermbg=bg
+hi NonText ctermfg=237 guifg=grey23
+hi SpecialKey ctermfg=237 guifg=grey23
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
   \ 'bg':      ['bg', 'Normal'],
@@ -50,6 +27,25 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-" Colorcolumn Color
-highlight ColorColumn ctermbg=235
+" NERDTree
+let g:NERDTreeDirArrowExpandable            = ''
+let g:NERDTreeDirArrowCollapsible           = ''
+
+" Airline
+let g:airline_theme                       = 'onedark'
+let g:airline#extensions#tabline#fnamemod = ':t'
+
+" Indent line
+let g:indentLine_char = '│'
+
+" Ale
+let g:ale_sign_error    = ''
+let g:ale_sign_warning  = ''
+
+" Gitgutter
+let g:gitgutter_sign_added              = ''
+let g:gitgutter_sign_modified           = ''
+let g:gitgutter_sign_removed            = ''
+let g:gitgutter_sign_removed_first_line = ''
+let g:gitgutter_sign_modified_removed   = ''
 
