@@ -1,12 +1,15 @@
 
 " ================================================================================== [Theme] ===== "
 
-" This file is for themes, colors, icons and symbols configuration
+" This file is for the theme, colors, icons and symbols configuration
 " Fore more icons to use you can go to:
 " https://www.nerdfonts.com/cheat-sheet
 
-" Colors
+" Theme
 colorscheme onedark
+let g:airline_theme = 'onedark'
+
+" Colors
 hi VertSplit ctermfg=fg ctermbg=bg
 hi ColorColumn ctermbg=bg
 hi EndOfBuffer ctermfg=bg ctermbg=bg
@@ -27,25 +30,20 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-" NERDTree
-let g:NERDTreeDirArrowExpandable            = ''
-let g:NERDTreeDirArrowCollapsible           = ''
-
-" Airline
-let g:airline_theme                       = 'onedark'
+" Icons
+let g:NERDTreeDirArrowExpandable          = ''
+let g:NERDTreeDirArrowCollapsible         = ''
 let g:airline#extensions#tabline#fnamemod = ':t'
+let g:ale_sign_error                      = ''
+let g:ale_sign_warning                    = ''
+let g:gitgutter_sign_added                = ''
+let g:gitgutter_sign_modified             = ''
+let g:gitgutter_sign_removed              = ''
+let g:gitgutter_sign_removed_first_line   = ''
+let g:gitgutter_sign_modified_removed     = ''
 
-" Indent line
+" Symbols
 let g:indentLine_char = '│'
-
-" Ale
-let g:ale_sign_error    = ''
-let g:ale_sign_warning  = ''
-
-" Gitgutter
-let g:gitgutter_sign_added              = ''
-let g:gitgutter_sign_modified           = ''
-let g:gitgutter_sign_removed            = ''
-let g:gitgutter_sign_removed_first_line = ''
-let g:gitgutter_sign_modified_removed   = ''
+let g:startify_custom_header =
+  \ startify#fortune#cowsay('*','─','│','╭','╮','╯','╰')
 

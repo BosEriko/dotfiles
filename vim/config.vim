@@ -48,6 +48,15 @@ silent! call mkdir(vimtmp, "p", 0700)
 let &backupdir=vimtmp
 let &directory=vimtmp
 
+" Remove vertical Split Character
+set fillchars=""
+
+" Initialize FZF
+set rtp+=~/.fzf
+
+" Set line length
+set colorcolumn=100
+
 " NERDTree and Startify at startup
 autocmd VimEnter *
   \   if !argc()
@@ -69,17 +78,6 @@ let g:airline_enable_syntastic            = 1
 let g:airline#extensions#tabline#enabled  = 1
 
 " Startify
-let g:startify_custom_header =
-  \ startify#fortune#cowsay('*','─','│','╭','╮','╯','╰')
 let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
 let g:startify_change_to_dir = 0
-
-" Remove vertical Split Character
-set fillchars=""
-
-" Initialize FZF
-set rtp+=~/.fzf
-
-" Set line length
-set colorcolumn=100
 
