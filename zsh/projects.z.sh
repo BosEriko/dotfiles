@@ -9,6 +9,9 @@ jd() {
     "work")
         cd ~/Documents/Codes/Work
         ;;
+    "vol")
+        cd /Volumes
+        ;;
     "dotfiles")
         cd ~/dotfiles
         ;;
@@ -37,7 +40,7 @@ jd() {
         cd ~/development/OpsManager
         ;;
     *)
-        echo "Jump to: personal, work, dotfiles, ka-site, ka-desktop, ka-mobile, ka-bot, hestia, cli, avemble or ops."
+        echo "Jump to: personal, work, vol, dotfiles, ka-site, ka-desktop, ka-mobile, ka-bot, hestia, cli, avemble or ops."
         ;;
     esac
 }
