@@ -86,6 +86,7 @@ npm install --global @vue/cli
 npm install --global electron
 npm install --global electron-packager
 npm install --global eslint
+npm install --global expo-cli
 npm install --global gatsby-cli
 npm install --global gtop
 npm install --global http-server
