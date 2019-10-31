@@ -19,6 +19,8 @@
 - [Spotify](https://www.spotify.com/ph/download/mac/)
 
 ## Documents
+- [Notion](https://www.notion.so/)
+- [Typora](https://evernote.com/)
 - [Typora](https://typora.io/)
 
 ## Programming
