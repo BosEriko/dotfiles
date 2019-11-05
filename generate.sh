@@ -27,11 +27,5 @@ terminal-notifier -title 'Generating' -message 'The .zshrc file has been generat
 ~/dotfiles/tmux/generate.sh
 
 # init.vim
-rm ~/.config/nvim/init.vim || mkdir -p ~/.config/nvim
-cat ~/dotfiles/vim/plugins.vim      \
-    ~/dotfiles/vim/config.vim       \
-    ~/dotfiles/vim/theme.vim        \
-    ~/dotfiles/vim/hotkeys.vim      \
-    > ~/.config/nvim/init.vim
-terminal-notifier -title 'Generating' -message 'The init.vim file has been generated.'
+~/dotfiles/vim/generate.sh
 
