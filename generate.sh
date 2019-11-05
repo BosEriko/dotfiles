@@ -24,12 +24,7 @@ cat ~/dotfiles/zsh/config.z.sh      \
 terminal-notifier -title 'Generating' -message 'The .zshrc file has been generated.'
 
 # .tmux.conf
-rm ~/.tmux.conf
-cat ~/dotfiles/tmux/config.tmux.sh  \
-    ~/dotfiles/tmux/hotkeys.tmux.sh \
-    ~/dotfiles/tmux/theme.tmux.sh   \
-    > ~/.tmux.conf
-terminal-notifier -title 'Generating' -message 'The .tmux.conf file has been generated.'
+~/dotfiles/tmux/generate.sh
 
 # init.vim
 rm ~/.config/nvim/init.vim || mkdir -p ~/.config/nvim
