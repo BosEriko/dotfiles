@@ -1,11 +1,11 @@
 # Dotfiles
-Intended to be run on a fresh environment of OSX only.
+This is my dotfiles for both OSX and Visual Studio Code online.
 
 ## Installation
 
     curl -sL https://raw.githubusercontent.com/BosEriko/dotfiles/master/install.sh | sh
 
-## A few more steps
+## A few more steps (OSX)
 Open Karabiner-Elements and enable the following complex modifications:
 - [Change caps_lock to control if pressed with other keys, to escape if pressed alone.](https://pqrs.org/osx/karabiner/complex_modifications/#caps_lock) ([Open JSON](https://pqrs.org/osx/karabiner/complex_modifications/json/caps_lock.json))
 - [Mouse keys (full) (rev 4)](https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_full) ([Open JSON](https://pqrs.org/osx/karabiner/complex_modifications/json/mouse_keys_full.json))
