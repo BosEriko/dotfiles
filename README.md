@@ -3,7 +3,7 @@ Intended to be run on a fresh environment of OSX only.
 
 ## Installation
 
-    curl -sL https://raw.githubusercontent.com/BosEriko/dotfiles/master/install.sh | sh
+    curl -sL https://raw.githubusercontent.com/BosEriko/dotfiles/master/install/osx/install.sh | sh
 
 ## A few more steps
 Open Karabiner-Elements and enable the following complex modifications:
