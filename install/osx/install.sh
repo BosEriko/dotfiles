@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Start the install script
-echo "Do you want to install your dotfiles? (Ctrl-C to abort, or press enter to continue)" && read && cd ~
-
 # Install Xcode (https://developer.apple.com/xcode/)
 xcode-select --install
 
