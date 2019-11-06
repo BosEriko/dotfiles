@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "Under Maintenance"
+echo "Visual Studio Code install script is under maintenance."
