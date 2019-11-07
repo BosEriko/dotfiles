@@ -1,11 +1,5 @@
 #!/bin/sh
 
-# Install Xcode (https://developer.apple.com/xcode/)
-xcode-select --install
-
-# Clone the repository (https://github.com/BosEriko/dotfiles.git)
-git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
-
 # Install Homebrew (https://brew.sh/)
 brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update

@@ -1,9 +1,14 @@
 # Dotfiles
 This is my dotfiles for both OSX and Visual Studio Code online.
 
+## OSX Prerequisite
+
+    xcode-select --install
+
 ## Installation
 
-    curl -sL https://raw.githubusercontent.com/BosEriko/dotfiles/master/install.sh | sh
+    git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
+    sh ~/dotfiles/install.sh
 
 ## A few more steps (OSX)
 Open Karabiner-Elements and enable the following complex modifications:
