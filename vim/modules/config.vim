@@ -36,6 +36,9 @@ set cursorline
 " Setlist Options
 set listchars=eol:¬,tab:▸▸,trail:~,extends:>,precedes:<,space:·
 
+" Enable mouse
+set mouse=a
+
 " Search Settings
 set hlsearch
 set ignorecase
