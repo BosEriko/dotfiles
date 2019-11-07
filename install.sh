@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PS3='Where do you like to install your dotfiles? '
+PS3='Where do you want to install your dotfiles? '
 options=("OSX" "Visual Studio Code Online" "Windows" "Quit")
 select opt in "${options[@]}"
 do
