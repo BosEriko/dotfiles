@@ -20,7 +20,7 @@
 
 ## Documents
 - [Notion](https://www.notion.so/)
-- [Typora](https://evernote.com/)
+- [Evernote](https://evernote.com/)
 - [Typora](https://typora.io/)
 
 ## Programming
