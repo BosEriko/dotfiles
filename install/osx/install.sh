@@ -171,5 +171,5 @@ sh ~/dotfiles/vscode/extensions.sh
 terminal-notifier -title 'Installing' -message 'Visual Studio Code Extensions have been installed.'
 
 # Generate SSH Key
-ssh-keygen -t rsa
+ssh-keygen -C bos.eriko@gmail.com
 terminal-notifier -title 'Installing' -message 'SSH Key has been generated.'
