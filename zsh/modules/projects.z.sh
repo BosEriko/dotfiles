@@ -15,6 +15,9 @@ jd() {
     "dotfiles")
         cd ~/dotfiles
         ;;
+    "firerails")
+        cd ~/Documents/Codes/Personal/firerails
+        ;;
     "ka-site")
         cd ~/Documents/Codes/Personal/kuru-anime/website-application
         ;;
@@ -34,7 +37,7 @@ jd() {
         cd ~/development/OpsManager
         ;;
     *)
-        echo "Jump to: personal, work, vol, dotfiles, ka-site, ka-desktop, ka-mobile, ka-bot, cli or ops."
+        echo "Jump to: personal, work, vol, dotfiles, firerails, ka-site, ka-desktop, ka-mobile, ka-bot, cli or ops."
         ;;
     esac
 }
