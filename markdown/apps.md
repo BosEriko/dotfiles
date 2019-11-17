@@ -10,6 +10,7 @@
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [belenaEtcher](https://www.balena.io/etcher/)
 - [Duet Display](https://www.duetdisplay.com/pro/)
+- [HabitMinder](https://apps.apple.com/ph/app/habitminder/id1415257374?mt=12)
 - [Spectacle](https://www.spectacleapp.com/)
 - [Vanilla](https://matthewpalmer.net/vanilla/)
 
