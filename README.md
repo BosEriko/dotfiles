@@ -19,6 +19,7 @@ Open Karabiner-Elements and enable the following complex modifications:
 After setting Karabiner-Elements you can now close it and then proceed to installing [Alfred](https://www.alfredapp.com/) then do the following:
 - Disable Spotlight's hotkeys
 - Set Alfred's hotkey to `Command + Spacebar`
+- Enable Web Bookmarks under the Features tab
 
 When you're done setting up Alfred you can move on to installing [Spectacle](https://www.spectacleapp.com/). Set up its controls with the following:
 - `Option + Command + H` for **Left Half**
