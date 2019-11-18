@@ -69,7 +69,7 @@ composer global require laravel/installer
 terminal-notifier -title 'Installing' -message 'Laravel has been installed.'
 
 # Install NVM (https://github.com/nvm-sh/nvm)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | sh
 terminal-notifier -title 'Installing' -message 'NVM has been installed.'
 
 # Install packages using NPM (https://nodejs.org/)
