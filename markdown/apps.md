@@ -27,6 +27,7 @@
 ## Programming
 - [Android Studio](https://developer.android.com/studio/index.html)
 - [Blender](https://www.blender.org/download/)
+- [Dash](https://kapeli.com/dash)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
 - [Flutter](https://flutter.dev/docs/get-started/install/macos)
 - [Postman](https://www.getpostman.com/downloads/)
