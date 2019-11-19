@@ -33,5 +33,6 @@ nnoremap <silent> <leader>w :set wrap!<CR>
 nnoremap <silent> <leader>g :Gblame<CR>
 nnoremap <silent> <leader>n :noh<CR>
 nnoremap <silent> <leader>s :Startify<CR>
+nnoremap <silent> <leader>d :Dash<space>
 set pastetoggle=<leader>p
 
