@@ -91,6 +91,9 @@ npm install --global speed-test
 npm install --global tldr
 terminal-notifier -title 'Installing' -message 'NPM apps have been installed.'
 
+# Avoid running postinstall scripts from packages
+npm config set ignore-scripts true
+
 # Initialize rbenv and set global ruby version (https://github.com/rbenv/rbenv)
 rbenv install 2.6.5
 rbenv global 2.6.5
