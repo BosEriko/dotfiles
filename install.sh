@@ -155,7 +155,7 @@ ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/s
 # =====> Visual Studio Code Keybindings
 rm ~/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-# =====> Generate .zshrc,.tmux.conf and init.vim
+# =====> Generate .zshrc, .tmux.conf and init.vim
 sh ~/dotfiles/generate.sh
 # Notify the user
 terminal-notifier -title 'Installing' -message 'Dotfiles have been linked.'
