@@ -22,6 +22,10 @@ When you're done setting up Alfred you can move on to installing [Spectacle](htt
 - `Option + Command + L` for **Right Half**
 - `Option + Command + K` for **Top Half**
 - `Option + Command + J` for **Bottom Half**
+- `Option + Command + U` for **Upper Left**
+- `Option + Command + I` for **Lower Left**
+- `Option + Command + O` for **Upper Right**
+- `Option + Command + P` for **Lower Right**
 
 Close Spectacle's preferences and then install [Dash](https://kapeli.com/dash). Be sure to set it to dark mode after installing it!
 
