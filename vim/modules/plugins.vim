@@ -43,3 +43,8 @@ Plug 'ryanoasis/vim-devicons'                   " Devicons (Always load this las
 call plug#end()
 " ========================================= "
 
+" ========================================================================= [COC Extensions] ===== "
+let g:coc_global_extensions = [
+  \ 'coc-prettier'
+  \ ]
+
