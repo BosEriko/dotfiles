@@ -27,7 +27,7 @@ When you're done setting up Alfred you can move on to installing [Spectacle](htt
 - `Option + Command + O` for **Upper Right**
 - `Option + Command + P` for **Lower Right**
 
-Close Spectacle's preferences and then install [Dash](https://kapeli.com/dash). Be sure to set it to dark mode after installing it!
+Close Spectacle's preferences and then install [Dash](https://kapeli.com/dash) and [Contexts](https://contexts.co/). Be sure to set Dash and Contexts to dark mode after installing them!
 
 That's it! You can now open Hyper or Visual Studio Code.
 
