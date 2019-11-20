@@ -23,7 +23,9 @@ When you're done setting up Alfred you can move on to installing [Spectacle](htt
 - `Option + Command + K` for **Top Half**
 - `Option + Command + J` for **Bottom Half**
 
-Close Spectacle's preferences and then open Hyper or Visual Studio Code and that's it!
+Close Spectacle's preferences and then install [Dash](https://kapeli.com/dash). Be sure to set it to dark mode!
+
+That's it! You can now open Hyper or Visual Studio Code.
 
 ## Note
 I also have some [Chrome Extensions](markdown/chrome-extensions.md), [Apps](markdown/apps.md) and [Games](markdown/games.md) that I frequently use.
