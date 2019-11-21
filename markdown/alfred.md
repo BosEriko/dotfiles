@@ -24,5 +24,5 @@ alfred://customsearch/Search%20Manga%20on%20AniList%20for%20%27%7Bquery%7D%27/ma
 
 ## Devhints ([Icon](../image/devhints.png))
 ```
-alfred://customsearch/Search%20Devhints%20for%20%27%7Bquery%7D%27/%3B/utf8/nospace/https%3A%2F%2Fdevhints.io%2F%7Bquery%7D
+alfred://customsearch/Search%20Devhints%20for%20%27%7Bquery%7D%27/%3B/utf8/nospace/https%3A%2F%2Fdevhints.io%2F%3Fq%3D%7Bquery%7D
 ```
