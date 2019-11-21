@@ -16,8 +16,7 @@ After setting Karabiner-Elements you can now close it and then proceed to instal
 - Disable Spotlight's hotkeys
 - Set Alfred's hotkey to `Command + Spacebar`
 - Enable Web Bookmarks under the Features tab
-- Change the Web Search keyword under Features tab for Google to `?`
-- Add the [Web Searches](markdown/alfred.md)
+- Update the [Web Searches](markdown/alfred.md)
 
 When you're done setting up Alfred you can move on to installing [Spectacle](https://www.spectacleapp.com/). Set up its controls with the following:
 - `Option + Command + H` for **Left Half**
