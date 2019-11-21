@@ -15,3 +15,8 @@ alfred://customsearch/Search%20Anime%20on%20AniList%20for%20%27%7Bquery%7D%27/an
 ```
 alfred://customsearch/Search%20Manga%20on%20AniList%20for%20%27%7Bquery%7D%27/manga/utf8/nospace/https%3A%2F%2Fanilist.co%2Fsearch%2Fmanga%3Fsearch%3D%7Bquery%7D%26sort%3DSEARCH_MATCH
 ```
+
+## Devhints ([Icon](../image/devhints.png))
+```
+alfred://customsearch/Search%20Devhints%20for%20%27%7Bquery%7D%27/dh/utf8/nospace/https%3A%2F%2Fdevhints.io%2F%3Fq%3D%7Bquery%7D
+```
