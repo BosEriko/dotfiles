@@ -4,6 +4,10 @@
         "command": "workbench.action.toggleZenMode"
     },
     {
+        "key": "ctrl+t",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
         "key": "ctrl+h",
         "command": "workbench.action.previousEditor"
     },

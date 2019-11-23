@@ -4,9 +4,9 @@
   },
   "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before":["<C-t>"],
+            "before": ["<leader>", "l"],
             "commands": [
-                "workbench.action.toggleZenMode"
+                "editor.action.toggleRenderWhitespace"
             ]
         }
   ],
