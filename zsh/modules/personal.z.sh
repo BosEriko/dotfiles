@@ -25,8 +25,8 @@ BOS_HELP_MESSAGE="
                                 ngrok                   Start ngrok
                                 browser                 Start Google Chrome
                                 md                      Start Typora
-                                vse-backup              Backup the currently installed Visual Studio Code extensions
-                                vse-install             Install Visual Studio Code extensions from the list
+                                vse-backup              Backup the currently installed VSCodium extensions
+                                vse-install             Install VSCodium extensions from the list
                                 qutebrowser             Start qutebrowser
                                 cpu-usage               Start gtop
                                 cpu-temp                Start istats
@@ -95,18 +95,18 @@ bos() {
                     open -a "Typora" $3
                 fi
             elif [ "$2" = "vse-backup" ]; then
-                echo "Update Visual Studio Code extensions list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
+                echo "Update VSCodium extensions list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
                 echo "Please wait..."
-                rm -rf ~/dotfiles/vscode/extensions.sh
-                code --list-extensions | xargs -L 1 echo code --install-extension > ~/dotfiles/vscode/extensions.sh
-                echo "Visual Studio Code extensions list have been updated over on the dotfiles."
+                rm -rf ~/dotfiles/vscodium/extensions.sh
+                codium --list-extensions | xargs -L 1 echo codium --install-extension > ~/dotfiles/vscodium/extensions.sh
+                echo "VSCodium extensions list have been updated over on the dotfiles."
             elif [ "$2" = "vse-install" ]; then
-                echo "Do you want to install Visual Studio Code extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
+                echo "Do you want to install VSCodium extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
                 echo "Please wait..."
-                sh ~/dotfiles/vscode/extensions.sh
-                echo "Visual Studio Code extensions have been installed."
+                sh ~/dotfiles/vscodium/extensions.sh
+                echo "VSCodium extensions have been installed."
             elif [ "$2" = "qutebrowser" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a path"

@@ -151,11 +151,11 @@ ln -s ~/dotfiles/gitconfig ~/.gitconfig
 rm ~/.hyper.js
 ln -s ~/dotfiles/hyper.js ~/.hyper.js
 # =====> Visual Studio Code Settings
-rm ~/Library/Application\ Support/Code/User/settings.json
-ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+rm ~/Library/Application\ Support/VSCodium/User/settings.json
+ln -s ~/dotfiles/vscodium/settings.json ~/Library/Application\ Support/VSCodium/User/settings.json
 # =====> Visual Studio Code Keybindings
-rm ~/Library/Application\ Support/Code/User/keybindings.json
-ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+rm ~/Library/Application\ Support/VSCodium/User/keybindings.json
+ln -s ~/dotfiles/vscodium/keybindings.json ~/Library/Application\ Support/VSCodium/User/keybindings.json
 # =====> Generate .zshrc, .tmux.conf and init.vim
 sh ~/dotfiles/generate.sh
 # Notify the user
