@@ -46,7 +46,7 @@
         "command": "workbench.action.findInFiles"
     },
     {
-        "key": "cmd+g",
+        "key": "ctrl+g",
         "command": "actions.find"
     },
     {
