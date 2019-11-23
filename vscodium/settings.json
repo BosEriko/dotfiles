@@ -41,7 +41,7 @@
   "vim.easymotionMarkerHeight": 20,
   "vim.easymotionMarkerWidthPerChar": 10,
   "vim.easymotionMarkerYOffset": 0,
-  "vim.leader": ",",
+  "vim.leader": ";",
   "vim.useSystemClipboard": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.zoomLevel": 0,
