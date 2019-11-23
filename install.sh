@@ -165,10 +165,9 @@ terminal-notifier -title 'Installing' -message 'Dotfiles have been linked.'
 nvim +PlugInstall +qall
 terminal-notifier -title 'Installing' -message 'Vim Extensions have been installed.'
 
-# Allow key repeats on Hyper terminal and VSCodium
-defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
-terminal-notifier -title 'Installing' -message 'Repeated key press has been enabled for Hyper and VSCodium.'
+# Allow key repeats
+defaults write -g ApplePressAndHoldEnabled -bool false
+terminal-notifier -title 'Installing' -message 'Repeated key press has been enabled.'
 
 # Install VSCodium Extensions
 sh ~/dotfiles/vscodium/extensions.sh
