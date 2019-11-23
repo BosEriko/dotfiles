@@ -30,7 +30,7 @@ When you're done setting up Alfred you can move on to installing [Spectacle](htt
 
 Close Spectacle's preferences and then install [Dash](https://kapeli.com/dash) and [Contexts](https://contexts.co/). Be sure to set Dash and Contexts to dark mode after installing them!
 
-That's it! You can now open Hyper or Visual Studio Code.
+That's it! You can now open Hyper or VSCodium.
 
 ## Note
 I also have some [Chrome Extensions](markdown/chrome-extensions.md), [Apps](markdown/apps.md) and [Games](markdown/games.md) that I frequently use.

@@ -150,10 +150,10 @@ ln -s ~/dotfiles/gitconfig ~/.gitconfig
 # =====> .hyper.js
 rm ~/.hyper.js
 ln -s ~/dotfiles/hyper.js ~/.hyper.js
-# =====> Visual Studio Code Settings
+# =====> VSCodium Settings
 rm ~/Library/Application\ Support/VSCodium/User/settings.json
 ln -s ~/dotfiles/vscodium/settings.json ~/Library/Application\ Support/VSCodium/User/settings.json
-# =====> Visual Studio Code Keybindings
+# =====> VSCodium Keybindings
 rm ~/Library/Application\ Support/VSCodium/User/keybindings.json
 ln -s ~/dotfiles/vscodium/keybindings.json ~/Library/Application\ Support/VSCodium/User/keybindings.json
 # =====> Generate .zshrc, .tmux.conf and init.vim
@@ -165,14 +165,14 @@ terminal-notifier -title 'Installing' -message 'Dotfiles have been linked.'
 nvim +PlugInstall +qall
 terminal-notifier -title 'Installing' -message 'Vim Extensions have been installed.'
 
-# Allow key repeats on Hyper terminal and Visual Studio Code
+# Allow key repeats on Hyper terminal and VSCodium
 defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
-terminal-notifier -title 'Installing' -message 'Repeated key press has been enabled for Hyper and Visual Studio Code.'
+terminal-notifier -title 'Installing' -message 'Repeated key press has been enabled for Hyper and VSCodium.'
 
-# Install Visual Studio Code Extensions
-sh ~/dotfiles/vscode/extensions.sh
-terminal-notifier -title 'Installing' -message 'Visual Studio Code Extensions have been installed.'
+# Install VSCodium Extensions
+sh ~/dotfiles/vscodium/extensions.sh
+terminal-notifier -title 'Installing' -message 'VSCodium Extensions have been installed.'
 
 # Generate SSH Key
 ssh-keygen -C bos.eriko@gmail.com
