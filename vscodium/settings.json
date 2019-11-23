@@ -2,6 +2,14 @@
   "files.associations": {
     "*.hamlc": "haml"
   },
+  "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before":["<C-t>"],
+            "commands": [
+                "workbench.action.toggleZenMode"
+            ]
+        }
+  ],
   "breadcrumbs.enabled": true,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.cursorBlinking": "smooth",
