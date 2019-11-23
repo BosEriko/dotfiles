@@ -5,27 +5,23 @@
   "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["<leader>", "l"],
-            "commands": [
-                "editor.action.toggleRenderWhitespace"
-            ]
+            "commands": ["editor.action.toggleRenderWhitespace"]
         },
         {
             "before": ["<leader>", "w"],
-            "commands": [
-                "editor.action.toggleWordWrap"
-            ]
+            "commands": ["editor.action.toggleWordWrap"]
         },
         {
             "before": ["<leader>", "g"],
-            "commands": [
-                "gitlens.toggleFileBlame"
-            ]
+            "commands": ["gitlens.toggleFileBlame"]
         },
         {
             "before": ["<leader>", "d"],
-            "commands": [
-                "extension.dash.specific"
-            ]
+            "commands": ["extension.dash.specific"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.extensions.action.updateAllExtensions"]
         }
   ],
   "breadcrumbs.enabled": true,
