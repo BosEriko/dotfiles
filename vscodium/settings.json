@@ -3,26 +3,26 @@
     "*.hamlc": "haml"
   },
   "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": ["<leader>", "l"],
-            "commands": ["editor.action.toggleRenderWhitespace"]
-        },
-        {
-            "before": ["<leader>", "w"],
-            "commands": ["editor.action.toggleWordWrap"]
-        },
-        {
-            "before": ["<leader>", "g"],
-            "commands": ["gitlens.toggleFileBlame"]
-        },
-        {
-            "before": ["<leader>", "d"],
-            "commands": ["extension.dash.specific"]
-        },
-        {
-            "before": ["<leader>", "e"],
-            "commands": ["workbench.extensions.action.updateAllExtensions"]
-        }
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["editor.action.toggleRenderWhitespace"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["editor.action.toggleWordWrap"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["gitlens.toggleFileBlame"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["extension.dash.specific"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.extensions.action.updateAllExtensions"]
+    }
   ],
   "breadcrumbs.enabled": true,
   "editor.acceptSuggestionOnEnter": "off",
