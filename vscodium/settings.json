@@ -8,6 +8,18 @@
             "commands": [
                 "editor.action.toggleRenderWhitespace"
             ]
+        },
+        {
+            "before": ["<leader>", "w"],
+            "commands": [
+                "editor.action.toggleWordWrap"
+            ]
+        },
+        {
+            "before": ["<leader>", "g"],
+            "commands": [
+                "gitlens.toggleFileBlame"
+            ]
         }
   ],
   "breadcrumbs.enabled": true,
