@@ -20,6 +20,12 @@
             "commands": [
                 "gitlens.toggleFileBlame"
             ]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "commands": [
+                "extension.dash.specific"
+            ]
         }
   ],
   "breadcrumbs.enabled": true,
