@@ -85,6 +85,7 @@ npm install --global http-server
 npm install --global live-server
 npm install --global neovim
 npm install --global ngrok
+npm install --global nodemon
 npm install --global now
 npm install --global parrotsay
 npm install --global spaceship-prompt
