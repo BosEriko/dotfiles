@@ -10,7 +10,7 @@ colorscheme onedark
 let g:airline_theme = 'onedark'
 
 " Colors
-hi VertSplit ctermfg=fg ctermbg=bg
+hi VertSplit ctermfg=bg ctermbg=bg
 hi ColorColumn ctermbg=bg
 hi EndOfBuffer ctermfg=bg ctermbg=bg
 hi NonText ctermfg=237 guifg=grey23
