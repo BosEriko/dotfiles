@@ -1,5 +1,5 @@
 # Dotfiles
-This dotfiles is meant to be run on a fresh install of OSX only.
+This dotfiles is meant to be run on a fresh install of OSX only
 
 ## Installation
     xcode-select --install
