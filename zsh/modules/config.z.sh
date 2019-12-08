@@ -3,7 +3,7 @@
 
 # Load Tmux
 if [ "$TMUX" = "" ]; then
-    tmux attach-session || tmux new -s default
+  tmux attach-session || tmux new -s default
 fi
 
 # Path to your oh-my-zsh installation
