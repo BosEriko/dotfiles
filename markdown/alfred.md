@@ -26,3 +26,8 @@ alfred://customsearch/Search%20Manga%20on%20AniList%20for%20%27%7Bquery%7D%27/ma
 ```
 alfred://customsearch/Search%20Devhints%20for%20%27%7Bquery%7D%27/%3B/utf8/nospace/https%3A%2F%2Fdevhints.io%2F%3Fq%3D%7Bquery%7D
 ```
+
+## Can I use ([Icon](../image/caniuse.png))
+```
+alfred://customsearch/Search%20Can%20I%20use%20for%20%27%7Bquery%7D%27/%21/utf8/nospace/https%3A%2F%2Fcaniuse.com%2F%23search%3D%7Bquery%7D
+```
