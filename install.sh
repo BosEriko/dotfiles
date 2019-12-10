@@ -27,6 +27,7 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install hyper
 brew cask install motrix
+brew cask install typora
 brew cask install vscodium
 brew install php@7.3; brew install libidn2; brew install libpsl;
 brew tap heroku/brew && brew install heroku
