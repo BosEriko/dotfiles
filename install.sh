@@ -23,6 +23,7 @@ brew install yarn
 brew install zsh
 brew cask install beaker-browser
 brew cask install brave-browser
+brew cask install figma
 brew cask install firefox
 brew cask install google-chrome
 brew cask install hyper
