@@ -25,6 +25,7 @@ BOS_HELP_MESSAGE="
                                 ngrok                   Start ngrok
                                 browser                 Start Google Chrome
                                 md                      Start Typora
+                                deploy                  Deploy the current folder
                                 vse-backup              Backup the currently installed VSCodium extensions
                                 vse-install             Install VSCodium extensions from the list
                                 qutebrowser             Start qutebrowser
@@ -94,6 +95,8 @@ bos() {
                 else
                     open -a "Typora" $3
                 fi
+            elif [ "$2" = "deploy" ]; then
+              now
             elif [ "$2" = "vse-backup" ]; then
                 echo "Update VSCodium extensions list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
