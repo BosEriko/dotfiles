@@ -10,7 +10,6 @@
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [belenaEtcher](https://www.balena.io/etcher/)
 - [Contexts](https://contexts.co/)
-- [Duet Display](https://www.duetdisplay.com/pro/)
 - [HabitMinder](https://apps.apple.com/ph/app/habitminder/id1415257374?mt=12)
 - [Spectacle](https://www.spectacleapp.com/)
 - [Vanilla](https://matthewpalmer.net/vanilla/)
@@ -18,12 +17,11 @@
 ## Media
 - [Elmedia Video Player](https://itunes.apple.com/us/app/elmedia-universal-video-player/id937759555)
 - [iMovie](https://itunes.apple.com/us/app/imovie/id408981434)
-- [Spotify](https://www.spotify.com/ph/download/mac/)
+- [YouTube Music](https://music.youtube.com/)
 
 ## Documents
 - [Notion](https://www.notion.so/)
 - [Evernote](https://evernote.com/)
-- [Typora](https://typora.io/)
 
 ## Programming
 - [Android Studio](https://developer.android.com/studio/index.html)
@@ -37,7 +35,6 @@
 
 ## Design
 - [Affinity Photo](https://affinity.serif.com/en-gb/photo/desktop/)
-- [Figma](https://www.figma.com/)
 
 ## Social
 - [Keybase](https://keybase.io/docs/the_app/install_macos)
