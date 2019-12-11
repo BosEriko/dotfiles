@@ -3,4 +3,5 @@
 
 bindkey -s '^f' ' fg\n'
 bindkey -s '^o' ' ranger\n'
+bindkey -s '^z' ' fg\n'
 
