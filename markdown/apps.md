@@ -40,4 +40,5 @@
 - [Figma](https://www.figma.com/)
 
 ## Social
+- [Keybase](https://keybase.io/docs/the_app/install_macos)
 - [OBS](https://obsproject.com/)
