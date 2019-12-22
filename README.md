@@ -4,7 +4,7 @@ This dotfiles is meant to be run on a fresh install of OSX only.
 ## Installation
     xcode-select --install
     git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
-    sh ~/dotfiles/install.sh
+    ~/dotfiles/install.sh
 
 ## A few more steps
 Open Karabiner-Elements and enable the following complex modifications:
