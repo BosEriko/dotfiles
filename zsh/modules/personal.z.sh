@@ -38,6 +38,7 @@ BOS_HELP_MESSAGE="
                                 rbenv-rehash            Run Rehash on rbenv
                                 external-ip             Show external IP address
                                 restart-zsh             Restart ZSH
+                                path                    Print out the list of paths
 
 "
 bos() {
@@ -135,6 +136,8 @@ bos() {
             elif [ "$2" = "restart-zsh" ]; then
                 source ~/.zshrc
                 terminal-notifier -title 'ZSH' -message 'ZSH has been restarted!'
+            elif [ "$2" = "path" ]; then
+                echo $PATH | tr \: \\n
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
