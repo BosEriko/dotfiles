@@ -133,11 +133,6 @@ terminal-notifier -title 'Installing' -message 'ZSH has been set as the default 
 touch ~/.zshenv
 terminal-notifier -title 'Installing' -message '.zshenv has been generated to avoid errors on oh-my-zsh.'
 
-# Install your personal CLI
-git clone https://github.com/BosEriko/bos-cli.git ~/.bos-cli
-(cd ~/.bos-cli && cargo run)
-terminal-notifier -title 'Installing' -message 'Personal CLI has been installed.'
-
 # Install Karabiner Elements (https://github.com/tekezo/Karabiner-Elements)
 git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
 (cd ~/karabiner-elements && make package)
