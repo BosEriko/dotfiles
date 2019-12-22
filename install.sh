@@ -106,6 +106,7 @@ rbenv rehash
 terminal-notifier -title 'Installing' -message 'rbenv has been initialized.'
 
 # Install packages using Gem (https://rubygems.org/)
+gem install befr
 gem install bundler
 gem install iStats
 gem install neovim
