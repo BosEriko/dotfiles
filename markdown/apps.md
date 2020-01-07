@@ -37,6 +37,7 @@
 - [Affinity Photo](https://affinity.serif.com/en-gb/photo/desktop/)
 
 ## Stream
+- [iShowU Audio Capture](https://support.shinywhitebox.com/hc/en-us/articles/360030800592)
 - [Keycastr](https://github.com/keycastr/keycastr)
 - [OBS](https://obsproject.com/)
 - [Restream Chat](https://restream.io/en/chat)
