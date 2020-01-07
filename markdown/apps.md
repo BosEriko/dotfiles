@@ -37,6 +37,7 @@
 - [Affinity Photo](https://affinity.serif.com/en-gb/photo/desktop/)
 
 ## Stream
+- [Keycastr](https://github.com/keycastr/keycastr)
 - [OBS](https://obsproject.com/)
 - [Restream Chat](https://restream.io/en/chat)
 
