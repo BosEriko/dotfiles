@@ -20,8 +20,8 @@
 - [YouTube Music](https://music.youtube.com/)
 
 ## Documents
-- [Notion](https://www.notion.so/)
 - [Evernote](https://evernote.com/)
+- [Notion](https://www.notion.so/)
 
 ## Programming
 - [Android Studio](https://developer.android.com/studio/index.html)
@@ -36,6 +36,9 @@
 ## Design
 - [Affinity Photo](https://affinity.serif.com/en-gb/photo/desktop/)
 
+## Stream
+- [OBS](https://obsproject.com/)
+- [Restream Chat](https://restream.io/en/chat)
+
 ## Social
 - [Keybase](https://keybase.io/docs/the_app/install_macos)
-- [OBS](https://obsproject.com/)
