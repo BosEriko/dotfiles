@@ -27,6 +27,7 @@ brew cask install figma
 brew cask install firefox
 brew cask install google-chrome
 brew cask install hyper
+brew cask install keycastr
 brew cask install motrix
 brew cask install typora
 brew cask install vscodium
