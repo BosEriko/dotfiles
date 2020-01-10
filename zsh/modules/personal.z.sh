@@ -15,6 +15,7 @@ BOS_HELP_MESSAGE="
 
     -f, --fun                   parrot                  Party Parrot
                                 parrotsay               Parrot Say
+                                train                   Let a train pass by
 
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
@@ -52,6 +53,8 @@ bos() {
                 curl parrot.live
             elif [ "$2" = "parrotsay" ]; then
                 parrotsay
+            elif [ "$2" = "train" ]; then
+                sl
             else
                 echo "Usage: -f <command> or --fun <command>"
             fi
