@@ -16,6 +16,7 @@ brew install node
 brew install python3
 brew install ranger
 brew install rbenv
+brew install sl
 brew install terminal-notifier
 brew install tmux
 brew install tree
