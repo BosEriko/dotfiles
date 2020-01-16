@@ -27,6 +27,7 @@ brew cask install brave-browser
 brew cask install figma
 brew cask install firefox
 brew cask install google-chrome
+brew cask install graphiql
 brew cask install hyper
 brew cask install keycastr
 brew cask install motrix
