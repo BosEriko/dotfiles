@@ -1,6 +1,6 @@
-" ========================================= "
+" ============================================= "
 call plug#begin('~/.local/share/nvim/plugged')
-" Plugin List Start ======================= "
+" Plugin List Start =========================== "
 
 " Conquer of Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
@@ -39,9 +39,9 @@ Plug 'vim-airline/vim-airline-themes'           " Themes for the bottom toolbar
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
 Plug 'ryanoasis/vim-devicons'                   " Devicons (Always load this last)
 
-" Plugin List End ========================= "
+" Plugin List End ============================= "
 call plug#end()
-" ========================================= "
+" ============================================= "
 
 " ========================================================================= [COC Extensions] ===== "
 let g:coc_global_extensions = [
