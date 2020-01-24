@@ -79,5 +79,8 @@ let g:airline#extensions#tabline#enabled  = 1
 
 " Startify
 let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
-let g:startify_change_to_dir = 0
+let g:startify_change_to_dir  = 0
 
+" Workspace
+let g:workspace_session_name      = 'session.vim'
+let g:workspace_session_directory = $HOME . '/.vim/sessions/'

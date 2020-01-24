@@ -35,6 +35,7 @@ nnoremap <silent> <leader>n :noh<CR>
 nnoremap <silent> <leader>s :Startify<CR>
 nnoremap <silent> <leader>d :Dash!<CR>
 nnoremap <silent> <leader>e :PlugInstall!<CR>
+nnoremap <silent> <leader>t :ToggleWorkspace<CR>
 nnoremap <leader>c :CocInstall<space>
 set pastetoggle=<leader>p
 
