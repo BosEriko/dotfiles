@@ -28,7 +28,7 @@ Plug 'yggdroot/indentline'                      " Indent lines
 
 " Syntax Highlight
 Plug 'sheerun/vim-polyglot'                     " Language Pack
-Plug 'hiukkanen/vim-hamlc'                      " HAMLC
+Plug 'hiukkanen/vim-hamlc'                      " HAMLC (Remove once it becomes available on vim-olyglot)
 
 " Party tricks Plugin
 Plug 'mhinz/vim-startify'                       " Welcome message
