@@ -125,6 +125,10 @@ terminal-notifier -title 'Installing' -message 'Pip apps have been installed.'
 mkdir -p ~/Documents/Codes/Work ~/Documents/Codes/Personal
 terminal-notifier -title 'Installing' -message 'Work and Personal folder have been created.'
 
+# Make the directory for Vim Workspaces
+mkdir -p ~/.vim/workspace
+terminal-notifier -title 'Installing' -message 'Work and Personal folder have been created.'
+
 # Install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 terminal-notifier -title 'Installing' -message 'oh-my-zsh has been installed.'
