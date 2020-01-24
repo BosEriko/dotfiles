@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 rm ~/.zshrc
 cat ~/dotfiles/zsh/modules/config.z.sh      \

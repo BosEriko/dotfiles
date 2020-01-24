@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 rm ~/.config/nvim/init.vim || mkdir -p ~/.config/nvim
 cat ~/dotfiles/vim/modules/plugins.vim      \

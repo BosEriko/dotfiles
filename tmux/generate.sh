@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 rm ~/.tmux.conf
 cat ~/dotfiles/tmux/modules/config.tmux.sh  \

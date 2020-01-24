@@ -1,11 +1,11 @@
 #!/usr/bin/env sh
 
 # .zshrc
-sh ~/dotfiles/zsh/generate.sh
+~/dotfiles/zsh/generate.sh
 
 # .tmux.conf
-sh ~/dotfiles/tmux/generate.sh
+~/dotfiles/tmux/generate.sh
 
 # init.vim
-sh ~/dotfiles/vim/generate.sh
+~/dotfiles/vim/generate.sh
 
