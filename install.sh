@@ -165,7 +165,7 @@ ln -s ~/dotfiles/vscodium/settings.json ~/Library/Application\ Support/VSCodium/
 rm ~/Library/Application\ Support/VSCodium/User/keybindings.json
 ln -s ~/dotfiles/vscodium/keybindings.json ~/Library/Application\ Support/VSCodium/User/keybindings.json
 # =====> Generate .zshrc, .tmux.conf and init.vim
-sh ~/dotfiles/generate.sh
+~/dotfiles/generate.sh
 # Notify the user
 terminal-notifier -title 'Installing' -message 'Dotfiles have been linked.'
 
@@ -178,7 +178,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 terminal-notifier -title 'Installing' -message 'Repeated key press has been enabled.'
 
 # Install VSCodium Extensions
-sh ~/dotfiles/vscodium/extensions.sh
+~/dotfiles/vscodium/extensions.sh
 terminal-notifier -title 'Installing' -message 'VSCodium Extensions have been installed.'
 
 # Generate SSH Key

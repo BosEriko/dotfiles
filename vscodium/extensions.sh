@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 codium --install-extension alefragnani.Bookmarks
 codium --install-extension christian-kohler.path-intellisense
 codium --install-extension CoenraadS.bracket-pair-colorizer-2
