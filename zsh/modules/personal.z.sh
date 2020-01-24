@@ -67,6 +67,7 @@ bos() {
                 cat ~/.ssh/id_rsa.pub | pbcopy
                 echo "SSH Key has been copied to clipboard."
             elif [ "$2" = "generate-config" ]; then
+                (cd ~/dotfiles && git pull)
                 sh ~/dotfiles/generate.sh
                 source ~/.zshrc
             elif [ "$2" = "localhost" ]; then

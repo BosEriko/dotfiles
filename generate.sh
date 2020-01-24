@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 # .zshrc
 sh ~/dotfiles/zsh/generate.sh
