@@ -82,5 +82,7 @@ let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
 let g:startify_change_to_dir  = 0
 
 " Workspace
-let g:workspace_session_name      = 'session.vim'
-let g:workspace_session_directory = $HOME . '/.vim/sessions/'
+let g:workspace_session_name          = 'session.vim'
+let g:workspace_persist_undo_history  = 1
+let g:workspace_session_directory     = $HOME . '/.vim/sessions/'
+let g:workspace_undodir               = $HOME . '/.vim/undodir'
