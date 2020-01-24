@@ -84,3 +84,4 @@ let g:startify_change_to_dir  = 0
 " Workspace
 let g:workspace_session_directory     = $HOME . '/.vim/workspace/sessions'
 let g:workspace_undodir               = $HOME . '/.vim/workspace/undodir'
+
