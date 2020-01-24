@@ -6,24 +6,25 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 
 " Functionalities
-Plug 'scrooloose/nerdtree'                      " Tree file explorer
-Plug 'tpope/vim-fugitive'                       " View any blob, tree, commit, or tag in the repository
-Plug 'junegunn/fzf'                             " FZF Search
-Plug 'junegunn/fzf.vim'                         " FZF.vim Search
-Plug 'dyng/ctrlsf.vim'                          " Word search inside directory
+Plug 'airblade/vim-gitgutter'                   " Show git difference in the gutter
 Plug 'alvan/vim-closetag'                       " Auto close HTML tags
+Plug 'dyng/ctrlsf.vim'                          " Word search inside directory
+Plug 'easymotion/vim-easymotion'                " Jump anywhere easily
 Plug 'editorconfig/editorconfig-vim'            " Editorconfig
 Plug 'jiangmiao/auto-pairs'                     " Auto close quotes, brackets and parenthesis
-Plug 'Valloric/MatchTagAlways'                  " HTML Tag Matcher
-Plug 'airblade/vim-gitgutter'                   " Show git difference in the gutter
+Plug 'junegunn/fzf.vim'                         " FZF.vim Search
+Plug 'junegunn/fzf'                             " FZF Search
 Plug 'mattn/emmet-vim'                          " Emmet for VIM (Provides support for expanding abbreviations)
-Plug 'easymotion/vim-easymotion'                " Jump anywhere easily
-Plug 'yggdroot/indentline'                      " Indent lines
-Plug 'w0rp/ale'                                 " Check syntax in Vim asynchronously
 Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
-Plug 'tomtom/tcomment_vim'                      " Comment out function
-Plug 'terryma/vim-multiple-cursors'             " Multiple Cursors
 Plug 'rizzatti/dash.vim'                        " API Lookup
+Plug 'scrooloose/nerdtree'                      " Tree file explorer
+Plug 'terryma/vim-multiple-cursors'             " Multiple Cursors
+Plug 'thaerkh/vim-workspace'                    " Persistent Vim Session
+Plug 'tomtom/tcomment_vim'                      " Comment out function
+Plug 'tpope/vim-fugitive'                       " View any blob, tree, commit, or tag in the repository
+Plug 'Valloric/MatchTagAlways'                  " HTML Tag Matcher
+Plug 'w0rp/ale'                                 " Check syntax in Vim asynchronously
+Plug 'yggdroot/indentline'                      " Indent lines
 
 " Syntax Highlight
 Plug 'sheerun/vim-polyglot'                     " Language Pack
@@ -47,4 +48,3 @@ call plug#end()
 let g:coc_global_extensions = [
   \ 'coc-prettier'
   \ ]
-
