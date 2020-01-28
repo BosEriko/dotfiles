@@ -69,7 +69,10 @@ bos() {
             elif [ "$2" = "generate-config" ]; then
                 (cd ~/dotfiles && git pull)
                 sh ~/dotfiles/generate.sh
+                nvim +PlugInstall +qall
+                terminal-notifier -title 'Installing' -message 'Vim Extensions have been installed.'
                 source ~/.zshrc
+                terminal-notifier -title 'ZSH' -message 'ZSH has been restarted!'
             elif [ "$2" = "localhost" ]; then
                 if [ -z "$3" ]; then
                     http-server
