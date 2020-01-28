@@ -4,12 +4,6 @@
 " Change mapleader
 let mapleader=";"
 
-" Disable arrow keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-
 " Control Shortcuts
 nnoremap <silent> <C-\> :NERDTreeToggle<CR>
 nnoremap <silent> <C-t> :NERDTreeFind<CR>

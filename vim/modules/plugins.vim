@@ -18,6 +18,7 @@ Plug 'mattn/emmet-vim'                          " Emmet for VIM (Provides suppor
 Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
 Plug 'rizzatti/dash.vim'                        " API Lookup
 Plug 'scrooloose/nerdtree'                      " Tree file explorer
+Plug 'takac/vim-hardtime'                       " Plugin to help you stop repeating the basic movement keys
 Plug 'terryma/vim-multiple-cursors'             " Multiple Cursors
 Plug 'thaerkh/vim-workspace'                    " Persistent Vim Session
 Plug 'tomtom/tcomment_vim'                      " Comment out function
