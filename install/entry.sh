@@ -18,7 +18,5 @@
 ~/dotfiles/install/modules/nvim.sh
 ~/dotfiles/install/modules/key-repeat.sh
 ~/dotfiles/install/modules/vscodium.sh
+~/dotfiles/install/modules/ssh.sh
 
-# Generate SSH Key
-ssh-keygen -C bos.eriko@gmail.com
-terminal-notifier -title 'Installing' -message 'SSH Key has been generated.'
