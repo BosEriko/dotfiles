@@ -2,6 +2,7 @@
 
 ~/dotfiles/install/modules/brew.sh
 ~/dotfiles/install/modules/plug.sh
+~/dotfiles/install/modules/yabai.sh
 ~/dotfiles/install/modules/rust.sh
 ~/dotfiles/install/modules/composer.sh
 ~/dotfiles/install/modules/ranger-icon.sh
