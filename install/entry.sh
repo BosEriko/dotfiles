@@ -2,10 +2,7 @@
 
 ~/dotfiles/install/modules/brew.sh
 ~/dotfiles/install/modules/plug.sh
-
-# Install Rust (https://www.rust-lang.org/tools/install)
-curl https://sh.rustup.rs -sSf | sh
-terminal-notifier -title 'Installing' -message 'Rust has been installed.'
+~/dotfiles/install/modules/rust.sh
 
 # Install Composer (https://getcomposer.org/doc/00-intro.md#globally)
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
