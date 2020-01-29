@@ -18,17 +18,7 @@ After setting Karabiner-Elements you can now close it and then proceed to instal
 - Enable Web Bookmarks under the Features tab
 - Update the [Web Searches](markdown/alfred.md)
 
-When you're done setting up Alfred you can move on to installing [Spectacle](https://www.spectacleapp.com/). Set up its controls with the following:
-- `Option + Command + H` for **Left Half**
-- `Option + Command + L` for **Right Half**
-- `Option + Command + K` for **Top Half**
-- `Option + Command + J` for **Bottom Half**
-- `Option + Command + M` for **Upper Left**
-- `Option + Command + ,` for **Lower Left**
-- `Option + Command + .` for **Upper Right**
-- `Option + Command + /` for **Lower Right**
-
-Close Spectacle's preferences and then install [Dash](https://kapeli.com/dash) and [Contexts](https://contexts.co/). Be sure to set Dash and Contexts to dark mode after installing them!
+Close Alfred's setting and then install [Dash](https://kapeli.com/dash) and [Contexts](https://contexts.co/). Be sure to set Dash and Contexts to dark mode after installing them!
 
 That's it! You can now open Hyper or VSCodium.
 

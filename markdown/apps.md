@@ -11,7 +11,6 @@
 - [belenaEtcher](https://www.balena.io/etcher/)
 - [Contexts](https://contexts.co/)
 - [HabitMinder](https://apps.apple.com/ph/app/habitminder/id1415257374?mt=12)
-- [Spectacle](https://www.spectacleapp.com/)
 - [Vanilla](https://matthewpalmer.net/vanilla/)
 
 ## Media
