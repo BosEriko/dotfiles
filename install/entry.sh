@@ -16,10 +16,7 @@
 ~/dotfiles/install/modules/nerd-font.sh
 ~/dotfiles/install/modules/dotfiles.sh
 ~/dotfiles/install/modules/nvim.sh
-
-# Allow key repeats
-defaults write -g ApplePressAndHoldEnabled -bool false
-terminal-notifier -title 'Installing' -message 'Repeated key press has been enabled.'
+~/dotfiles/install/modules/key-repeat.sh
 
 # Install VSCodium Extensions
 ~/dotfiles/vscodium/extensions.sh
