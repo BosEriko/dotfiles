@@ -7,12 +7,7 @@
 ~/dotfiles/install/modules/ranger-icon.sh
 ~/dotfiles/install/modules/laravel.sh
 ~/dotfiles/install/modules/node.sh
-
-# Initialize rbenv and set global ruby version (https://github.com/rbenv/rbenv)
-rbenv install 2.6.5
-rbenv global 2.6.5
-rbenv rehash
-terminal-notifier -title 'Installing' -message 'rbenv has been initialized.'
+~/dotfiles/install/modules/rbenv.sh
 
 # Install packages using Gem (https://rubygems.org/)
 gem install befr
