@@ -12,12 +12,7 @@
 ~/dotfiles/install/modules/pip.sh
 ~/dotfiles/install/modules/mkdir.sh
 ~/dotfiles/install/modules/zsh.sh
-
-# Install Karabiner Elements (https://github.com/tekezo/Karabiner-Elements)
-git clone https://github.com/tekezo/Karabiner-Elements.git ~/karabiner-elements
-(cd ~/karabiner-elements && make package)
-rm -rf ~/karabiner-elements
-terminal-notifier -title 'Installing' -message 'Karabiner Elements has been installed.'
+~/dotfiles/install/modules/karabiner.sh
 
 # Install nerd fonts (https://github.com/ryanoasis/nerd-fonts#font-installation)
 (cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf)
