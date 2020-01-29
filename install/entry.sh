@@ -9,10 +9,7 @@
 ~/dotfiles/install/modules/node.sh
 ~/dotfiles/install/modules/rbenv.sh
 ~/dotfiles/install/modules/gem.sh
-
-# Install packages using pip (https://www.python.org)
-pip3 install --user --upgrade pynvim
-terminal-notifier -title 'Installing' -message 'Pip apps have been installed.'
+~/dotfiles/install/modules/pip.sh
 
 # Make the directories for Personal/Work
 mkdir -p ~/Documents/Codes/Work ~/Documents/Codes/Personal
