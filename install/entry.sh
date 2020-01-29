@@ -5,10 +5,7 @@
 ~/dotfiles/install/modules/rust.sh
 ~/dotfiles/install/modules/composer.sh
 ~/dotfiles/install/modules/ranger-icons.sh
-
-# Install Laravel (https://laravel.com/docs/6.0)
-composer global require laravel/installer
-terminal-notifier -title 'Installing' -message 'Laravel has been installed.'
+~/dotfiles/install/modules/laravel.sh
 
 # Install NVM (https://github.com/nvm-sh/nvm)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | sh
