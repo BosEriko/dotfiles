@@ -15,10 +15,7 @@
 ~/dotfiles/install/modules/karabiner.sh
 ~/dotfiles/install/modules/nerd-font.sh
 ~/dotfiles/install/modules/dotfiles.sh
-
-# Install Vim Extensions
-nvim +PlugInstall +qall
-terminal-notifier -title 'Installing' -message 'Vim Extensions have been installed.'
+~/dotfiles/install/modules/nvim.sh
 
 # Allow key repeats
 defaults write -g ApplePressAndHoldEnabled -bool false
