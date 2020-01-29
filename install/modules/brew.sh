@@ -39,10 +39,6 @@ brew tap heroku/brew && brew install heroku
 brew tap homebrew/cask-fonts && brew cask install font-fira-code
 terminal-notifier -title 'Installing' -message 'Brew apps have been installed.'
 
-# Initialize FZF (https://github.com/junegunn/fzf)
-$(brew --prefix)/opt/fzf/install
-terminal-notifier -title 'Installing' -message 'FZF has been initialized.'
-
 # Cleanup for Homebrew (https://brew.sh/)
 brew cleanup
 terminal-notifier -title 'Installing' -message 'Brew has been cleaned.'

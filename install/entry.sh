@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 ~/dotfiles/install/modules/brew.sh
+~/dotfiles/install/modules/fzf.sh
 ~/dotfiles/install/modules/plug.sh
 ~/dotfiles/install/modules/yabai.sh
 ~/dotfiles/install/modules/rust.sh
