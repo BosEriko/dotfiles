@@ -19,7 +19,6 @@ BOS_HELP_MESSAGE="
 
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
-                                generate-config         Generate .zshrc, .tmux.conf and init.vim
                                 ssh-key                 Copy Main SSH Key to clipboard
                                 localhost               Start http-server
                                 localhost-live          Start live-server
@@ -66,13 +65,6 @@ bos() {
             elif [ "$2" = "ssh-key" ]; then
                 cat ~/.ssh/id_rsa.pub | pbcopy
                 echo "SSH Key has been copied to clipboard."
-            elif [ "$2" = "generate-config" ]; then
-                (cd ~/dotfiles && git pull)
-                sh ~/dotfiles/generate.sh
-                nvim +PlugInstall +qall
-                terminal-notifier -title 'Installing' -message 'Vim Extensions have been installed.'
-                source ~/.zshrc
-                terminal-notifier -title 'ZSH' -message 'ZSH has been restarted!'
             elif [ "$2" = "localhost" ]; then
                 if [ -z "$3" ]; then
                     http-server

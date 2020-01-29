@@ -19,6 +19,7 @@ cat ~/dotfiles/zsh/modules/config.z.sh      \
     ~/dotfiles/zsh/modules/composer.z.sh    \
     ~/dotfiles/zsh/modules/git.z.sh         \
     ~/dotfiles/zsh/modules/personal.z.sh    \
+    ~/dotfiles/zsh/modules/up.z.sh          \
     > ~/.zshrc
 terminal-notifier -title 'Generating' -message 'The .zshrc file has been generated.'
 
