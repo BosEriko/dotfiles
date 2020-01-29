@@ -1,6 +1,13 @@
 #!/usr/bin/env sh
 
-# global settings
+# Multiple Yabai Instance Note: Kill other Yabai instances that are not started via brew
+# $ ps aux | grep yabai
+# $ kill 9999
+
+# Restart Note: After updating this config be sure to restart Yabai
+# $ brew services restart yabai
+
+# Global Settings
 yabai -m config mouse_follows_focus          off
 yabai -m config focus_follows_mouse          off
 yabai -m config window_placement             second_child
@@ -24,7 +31,7 @@ yabai -m config mouse_modifier               fn
 yabai -m config mouse_action1                move
 yabai -m config mouse_action2                resize
 
-# general space settings
+# General Space Settings
 yabai -m config layout                       bsp
 yabai -m config top_padding                  10
 yabai -m config bottom_padding               10
