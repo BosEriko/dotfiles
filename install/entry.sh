@@ -17,10 +17,7 @@
 ~/dotfiles/install/modules/dotfiles.sh
 ~/dotfiles/install/modules/nvim.sh
 ~/dotfiles/install/modules/key-repeat.sh
-
-# Install VSCodium Extensions
-~/dotfiles/vscodium/extensions.sh
-terminal-notifier -title 'Installing' -message 'VSCodium Extensions have been installed.'
+~/dotfiles/install/modules/vscodium.sh
 
 # Generate SSH Key
 ssh-keygen -C bos.eriko@gmail.com
