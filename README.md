@@ -27,8 +27,8 @@ That's it! You can now open Hyper or VSCodium.
 ## Disable System Integiry Protection [[?](https://howtomacos.com/2019/11/01/disable-system-integrity-protection-in-macos-catalina/)]
 It is not recommended to disable SIP but this is required to run [Yabai](http://github.com/koekeishiya/yabai) smoothly
 - Restart your Mac, then hold down `Command + R` key combination to enter recovery mode
-- Once it boots in, click on Terminal.
-- Type in the following command to turn off SIP completely.
+- Once it boots in, click on Terminal
+- Type in the following command to turn off SIP completely
 ``` sh
 csrutil disable
 ```
