@@ -20,7 +20,7 @@ After setting Karabiner-Elements you can now close it and then proceed to instal
 - Enable Web Bookmarks under the Features tab
 - Update the [Web Searches](markdown/alfred.md)
 
-You also need to setup Mission Control to be able to work with Yabai properly. Open Mission Control's setting then do the following:
+You also need to setup Mission Control to be able to work with [Yabai](http://github.com/koekeishiya/yabai) properly. Open Mission Control's setting then do the following:
 - Enable "Display have separate Spaces"
 - Disable "Automatically rearrange Spaces based on most recent use"
 
