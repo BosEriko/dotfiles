@@ -20,7 +20,11 @@ After setting Karabiner-Elements you can now close it and then proceed to instal
 - Enable Web Bookmarks under the Features tab
 - Update the [Web Searches](markdown/alfred.md)
 
-Close Alfred's setting and then install [Dash](https://kapeli.com/dash) and [Contexts](https://contexts.co/). Be sure to set Dash and Contexts to dark mode after installing them!
+You also need to setup Mission Control to be able to work with Yabai properly. Open Mission Control's setting then do the following:
+- Enable "Display have separate Spaces"
+- Disable "Automatically rearrange Spaces based on most recent use"
+
+Close Mission Control's setting and then install [Dash](https://kapeli.com/dash) and [Contexts](https://contexts.co/). Be sure to set Dash and Contexts to dark mode after installing them!
 
 That's it! You can now open Hyper or VSCodium.
 
