@@ -10,7 +10,6 @@ ln -s ~/dotfiles/hyper.js ~/.hyper.js
 # =====> .yabairc (https://github.com/koekeishiya/yabai/wiki/Configuration#configuration-file)
 rm ~/.yabairc
 ln -s ~/dotfiles/yabairc ~/.yabairc
-chmod +x ~/.yabairc
 # =====> VSCodium Settings
 rm ~/Library/Application\ Support/VSCodium/User/settings.json
 ln -s ~/dotfiles/vscodium/settings.json ~/Library/Application\ Support/VSCodium/User/settings.json
