@@ -14,6 +14,7 @@ brew install koekeishiya/formulae/yabai
 brew install links
 brew install neovim
 brew install node
+brew install pastel
 brew install python3
 brew install ranger
 brew install rbenv
