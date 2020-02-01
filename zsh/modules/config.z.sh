@@ -11,8 +11,8 @@ export ZSH=$HOME/.oh-my-zsh
 
 # History Configuration
 HISTFILE="$HOME/.zsh_history"
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=100000
+SAVEHIST=100000
 
 # Source ZSH
 source $ZSH/oh-my-zsh.sh

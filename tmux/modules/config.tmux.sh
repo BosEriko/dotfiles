@@ -5,7 +5,7 @@
 set-option -g default-shell /bin/zsh
 
 # History Limit
-set -g history-limit 10000
+set -g history-limit 100000
 
 # automatically renumber tmux windows
 set -g renumber-windows on
