@@ -4647,3 +4647,86 @@ TAGLINE="El Psy Congroo\
 : 1580598706:0;vi ~/.zsh_history
 : 1580599009:0;g d
 : 1580599116:0;mv ~/.zsh_history ~/dotfiles/zsh_history
+: 1580599784:0;g d
+: 1580599785:0;g s
+: 1580599788:0;g lol
+: 1580599812:0;g d
+: 1580599824:0;g s
+: 1580599833:0;jt personal
+: 1580599960:0;up
+: 1580600285:0;la
+: 1580600290:0;cd barangay
+: 1580600298:0;la
+: 1580600299:0;vi
+: 1580600307:0;la
+: 1580600312:0;mkdir web
+: 1580600314:0;mkdir server
+: 1580600316:0;cd web
+: 1580600325:0;echo "# Barangay (Web)" >> README.md
+: 1580600328:0;..
+: 1580600331:0;cd server
+: 1580600336:0;echo "# Barangay (Server)" >> README.md
+: 1580600338:0;git init
+: 1580600341:0;g so
+: 1580600350:0;g ps
+: 1580600359:0;git push --set-upstream origin master
+: 1580600395:0;g lol
+: 1580600405:0;git init
+: 1580600408:0;g so
+: 1580600420:0;g ps
+: 1580600427:0;git push --set-upstream origin master
+: 1580600445:0;la
+: 1580600453:0;git init
+: 1580600455:0;git add .
+: 1580600461:0;git commit -m "First commit"
+: 1580600462:0;g so
+: 1580600469:0;g ps
+: 1580600476:0;git push --set-upstream origin master
+: 1580600505:0;..
+: 1580600508:0;la
+: 1580600508:0;g d
+: 1580600509:0;g s
+: 1580600515:0;rm -rf .next
+: 1580600516:0;la
+: 1580600523:0;g d
+: 1580600524:0;g s
+: 1580600530:0;cd web
+: 1580600532:0;git init
+: 1580600534:0;la
+: 1580600537:0;git add .
+: 1580600540:0;git commit -m "First commit"
+: 1580600543:0;g ps
+: 1580600546:0;g so
+: 1580600552:0;g ps
+: 1580600558:0;git push --set-upstream origin master
+: 1580600587:0;..
+: 1580600588:0;g lol
+: 1580600592:0;g g "add submodules"
+: 1580600714:0;vi
+: 1580600806:0;g d
+: 1580600811:0;g g "add workspace"
+: 1580601795:0;la
+: 1580601796:0;g lol
+: 1580601835:0;cp .gitignore web/.gitignore
+: 1580601839:0;cp .gitignore server/.gitignore
+: 1580601840:0;g d
+: 1580601841:0;g s
+: 1580601844:0;cd server
+: 1580601853:0;g g "add .gitignore"
+: 1580601874:0;..
+: 1580601875:0;cd web
+: 1580601877:0;g g "add .gitignore"
+: 1580601900:0;..
+: 1580601900:0;la
+: 1580601905:0;g s
+: 1580601914:0;g g "add gitignore to web/server"
+: 1580609804:0;la
+: 1580609806:0;cd server
+: 1580609806:0;la
+: 1580651847:0;jt dotfiles
+: 1580651848:0;la
+: 1580651849:0;g d
+: 1580651862:0;vi
+: 1580651880:0;gs
+: 1580651885:0;g s
+: 1580651889:0;g g "update history"
