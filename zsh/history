@@ -4804,3 +4804,6 @@ TAGLINE="El Psy Congroo\
 : 1580708451:0;vi
 : 1580708516:0;g d
 : 1580708525:0;git add zsh
+: 1580708549:0;git commit -m "Add shutdown command after down"
+: 1580708551:0;up
+: 1580708572:0;down
