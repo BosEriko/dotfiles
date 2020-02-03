@@ -4760,3 +4760,5 @@ TAGLINE="El Psy Congroo\
 : 1580692604:0;brew install hub
 : 1580692651:0;g d
 : 1580692663:0;down
+: 1580692683:0;g d
+: 1580692697:0;g g "add hub to brew install script"
