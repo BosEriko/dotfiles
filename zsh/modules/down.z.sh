@@ -6,5 +6,8 @@ down() {
   (cd ~/dotfiles && git commit -m "[Update Shell History $(date +%s)]")
   (cd ~/dotfiles && git push origin master)
   terminal-notifier -title 'Installing' -message 'Shell history has been pushed.'
+  echo "Would you like to shutdown now? (Ctrl-C to abort, or press enter to continue)"
+  read
+  sudo shutdown -h now
 }
 
