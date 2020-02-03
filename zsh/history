@@ -4807,3 +4807,4 @@ TAGLINE="El Psy Congroo\
 : 1580708549:0;git commit -m "Add shutdown command after down"
 : 1580708551:0;up
 : 1580708572:0;down
+: 1580709696:0;g g "update up and down script"
