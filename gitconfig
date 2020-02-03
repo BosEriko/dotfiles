@@ -26,3 +26,5 @@
   st = stash
 [color]
   ui = auto
+[hub]
+  protocol = https
