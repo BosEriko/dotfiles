@@ -27,4 +27,4 @@
 [color]
   ui = auto
 [hub]
-  protocol = https
+  protocol = ssh
