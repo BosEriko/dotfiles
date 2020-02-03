@@ -4816,3 +4816,37 @@ TAGLINE="El Psy Congroo\
 : 1580723523:0;g lol
 : 1580723584:0;g d
 : 1580723663:0;g g "move the sync of history up"
+: 1580723737:0;g lol
+: 1580723764:0;brew install hub
+: 1580723800:0;hub --version
+: 1580723829:0;jt personal
+: 1580723842:0;la
+: 1580723848:0;barangay
+: 1580723849:0;la
+: 1580723853:0;cd server
+: 1580723855:0;la
+: 1580723864:0;yarn init -y
+: 1580723875:0;yarn init 
+: 1580723883:0;cd ..
+: 1580723888:0;vi package.json
+: 1580724147:0;cd server
+: 1580724149:0;npm init -y
+: 1580724154:0;g lol
+: 1580724160:0;cd ..
+: 1580724162:0;cd web
+: 1580724166:0;npm init -y
+: 1580724173:0;g d
+: 1580724174:0;g s
+: 1580724178:0;g g "add package.json"
+: 1580724197:0;..
+: 1580724198:0;server
+: 1580724201:0;g g "add package.json"
+: 1580724227:0;g lol
+: 1580724232:0;..
+: 1580724232:0;la
+: 1580724239:0;g g "add package.json for both web and server"
+: 1580725556:0;la
+: 1580725558:0;cd server
+: 1580725819:0;la
+: 1580725824:0;vi
+: 1580727694:0;down
