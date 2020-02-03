@@ -4762,3 +4762,27 @@ TAGLINE="El Psy Congroo\
 : 1580692663:0;down
 : 1580692683:0;g d
 : 1580692697:0;g g "add hub to brew install script"
+: 1580694778:0;hub --help
+: 1580694809:0;hub ci-status
+: 1580694828:0;git config --global hub.protocol https
+: 1580694831:0;hub ci-status
+: 1580694834:0;g lol
+: 1580694835:0;g s
+: 1580694837:0;git remote -v
+: 1580694843:0;g d
+: 1580694861:0;git add gitconfig
+: 1580694868:0;git commit -m "add hub protocol"
+: 1580694889:0;g d
+: 1580694892:0;g lol
+: 1580694894:0;g d
+: 1580694895:0;g reset
+: 1580694907:0;hub ci-status
+: 1580694921:0;g d
+: 1580694932:0;git add gitconfig
+: 1580694939:0;git commit -m "add hub protocol"
+: 1580694941:0;g ps
+: 1580695192:0;la
+: 1580695195:0;g d
+: 1580695204:0;down
+: 1580695207:0;up
+: 1580695230:0;down
