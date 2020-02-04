@@ -4850,3 +4850,35 @@ TAGLINE="El Psy Congroo\
 : 1580725819:0;la
 : 1580725824:0;vi
 : 1580727694:0;down
+: 1580776715:0;jt personal
+: 1580776716:0;tldr
+: 1580776721:0;cd tldr
+: 1580776722:0;la
+: 1580776737:0;hub clone tldr
+: 1580776747:0;git config --global hub.protocol ssh
+: 1580776749:0;hub clone tldr
+: 1580776761:0;g clone git@github.com:BosEriko/tldr.git
+: 1580776775:0;la
+: 1580776777:0;cd tldr
+: 1580776781:0;g br
+: 1580776783:0;g branch
+: 1580776786:0;g fetch
+: 1580776795:0;g co origin/yabai
+: 1580776799:0;g co master
+: 1580776802:0;g co yabai
+: 1580776807:0;g pl
+: 1580776814:0;vi
+: 1580776823:0;code .
+: 1580777035:0;g d
+: 1580777055:0;g g "update based comments"
+: 1580781308:0;lol
+: 1580781314:0;jt ops
+: 1580785545:0;jt personal
+: 1580785546:0;la
+: 1580785548:0;cd barangay
+: 1580785549:0;cd server
+: 1580785550:0;la
+: 1580791309:0;jt dotfiles
+: 1580791311:0;g s
+: 1580791313:0;g d
+: 1580791320:0;down
