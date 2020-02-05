@@ -4882,3 +4882,32 @@ TAGLINE="El Psy Congroo\
 : 1580791311:0;g s
 : 1580791313:0;g d
 : 1580791320:0;down
+: 1580874679:0;jt personal
+: 1580874679:0;la
+: 1580874682:0;clear
+: 1580874686:0;g d
+: 1580874688:0;la
+: 1580874690:0;cd barangay
+: 1580874690:0;la
+: 1580874692:0;cd server
+: 1580874693:0;vi
+: 1580874794:0;yarn add koa
+: 1580874813:0;..
+: 1580874821:0;yarn workspace server add koa
+: 1580875199:0;yarn --help |grep workspace
+: 1580875220:0;jt personal
+: 1580875221:0;la
+: 1580875223:0;cd barnagay
+: 1580875226:0;cd barangay
+: 1580875230:0;yarn workspace
+: 1580875232:0;yarn workspaces
+: 1580875235:0;rm -rf package.json
+: 1580875237:0;yarn workspaces
+: 1580875244:0;yarn init -y
+: 1580875251:0;yarn workspaces
+: 1580875256:0;yarn add workspace
+: 1580875260:0;la
+: 1580875263:0;rm -rf node_modules
+: 1580883511:0;jt dotfiles
+: 1580883513:0;la
+: 1580883530:0;down
