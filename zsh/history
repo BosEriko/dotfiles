@@ -4911,3 +4911,42 @@ TAGLINE="El Psy Congroo\
 : 1580883511:0;jt dotfiles
 : 1580883513:0;la
 : 1580883530:0;down
+: 1580883576:0;jt personal
+: 1580883577:0;la
+: 1580883750:0;g clone git@github.com:BosEriko/cheatsheets.git
+: 1580883764:0;la
+: 1580883772:0;cd cheatsheets
+: 1580883774:0;la
+: 1580883790:0;g remote add upstream git@github.com:rstacruz/cheatsheets.git
+: 1580883795:0;g remote -v
+: 1580883798:0;g pl upstream
+: 1580883807:0;g lol
+: 1580883811:0;g ps
+: 1580883833:0;la
+: 1580883835:0;qg lol
+: 1580883836:0;g lol
+: 1580883847:0;g pl upstream master
+: 1580883853:0;g lol
+: 1580883856:0;g ps
+: 1580883886:0;vi
+: 1580883945:0;docker-compose build
+: 1580894025:0;jt ops
+: 1580897825:0;jt personal
+: 1580897826:0;la
+: 1580897839:0;cd barangay
+: 1580897840:0;la
+: 1580897842:0;g d
+: 1580897848:0;vi
+: 1580897858:0;g d
+: 1580897871:0;cd server
+: 1580897872:0;la
+: 1580897879:0;vi
+: 1580897921:0;yarn install
+: 1580897930:0;cd ..
+: 1580897930:0;la
+: 1580897937:0;g s
+: 1580897938:0;g d
+: 1580897947:0;g g "remove workspaces and scripts for now"
+: 1580898033:0;vi
+: 1580898056:0;yarn start
+: 1580912132:0;exit
