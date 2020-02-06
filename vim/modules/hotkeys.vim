@@ -13,7 +13,7 @@ nnoremap <silent> <C-x> :bd<CR>
 nnoremap <silent> <C-q> :q<CR>
 nnoremap <silent> <C-s> :w<CR>
 nnoremap <silent> <C-c> :TComment<CR>
-nnoremap <silent> <C-k> :!cat ~/dotfiles/vim/modules/hotkeys.vim<CR>
+nnoremap <silent> <C-k> :!cat ~/.dotfiles/vim/modules/hotkeys.vim<CR>
 nnoremap <silent> <C-b> :let @+ = expand("%")<CR>
 nnoremap <C-f> :CtrlSF<space>
 nnoremap <C-g> :%s/old/new/g

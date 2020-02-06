@@ -13,7 +13,7 @@ jt() {
         cd /Volumes
         ;;
     "dotfiles")
-        cd ~/dotfiles
+        cd ~/.dotfiles
         ;;
     "ops")
         cd ~/development/OpsManager

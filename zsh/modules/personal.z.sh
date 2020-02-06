@@ -101,14 +101,14 @@ bos() {
                 echo "Update VSCodium extensions list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
                 echo "Please wait..."
-                rm -rf ~/dotfiles/vscodium/extensions.sh
-                codium --list-extensions | xargs -L 1 echo codium --install-extension > ~/dotfiles/vscodium/extensions.sh
+                rm -rf ~/.dotfiles/vscodium/extensions.sh
+                codium --list-extensions | xargs -L 1 echo codium --install-extension > ~/.dotfiles/vscodium/extensions.sh
                 echo "VSCodium extensions list have been updated over on the dotfiles."
             elif [ "$2" = "vse-install" ]; then
                 echo "Do you want to install VSCodium extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
                 echo "Please wait..."
-                sh ~/dotfiles/vscodium/extensions.sh
+                sh ~/.dotfiles/vscodium/extensions.sh
                 echo "VSCodium extensions have been installed."
             elif [ "$2" = "qutebrowser" ]; then
                 if [ -z "$3" ]; then

@@ -4,8 +4,8 @@ This dotfiles is meant to be run on a fresh install of OSX only.
 ## Installation
 ``` sh
 xcode-select --install
-git clone https://github.com/BosEriko/dotfiles.git ~/dotfiles
-~/dotfiles/install/entry.sh
+git clone https://github.com/BosEriko/dotfiles.git ~/.dotfiles
+~/.dotfiles/install/entry.sh
 ```
 
 ## A few more steps
