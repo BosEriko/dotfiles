@@ -4956,3 +4956,20 @@ TAGLINE="El Psy Congroo\
 : 1580950008:0;g g "remove symlink for zsy_history"
 : 1580950552:0;g d
 : 1580950673:0;down && g g "remove .zshenv"
+: 1580950733:0;vi
+: 1580951155:0;yarn config list
+: 1580951774:0;yarn list -g --depth=0
+: 1580951809:0;yarn global list
+: 1580951829:0;yarn global list --depth=0
+: 1580951838:0;npm list -g --depth=0
+: 1580951861:0;yarn global list
+: 1580951880:0;g d
+: 1580951978:0;yarn global outdated
+: 1580952001:0;yarn global --help
+: 1580952009:0;yarn global --help |grep "update"
+: 1580952015:0;yarn global --help |grep "outdated"
+: 1580952027:0;yarn global --help |grep "upgrade"
+: 1580952044:0;yarn global upgrade-interactive
+: 1580952062:0;yarn global upgrade --latest
+: 1580952206:0;g d
+: 1580952274:0;down && g g "use yarn instead of npm on install and personal script"
