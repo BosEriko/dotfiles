@@ -9,6 +9,7 @@ brew install antigen
 brew install cmake
 brew install figlet
 brew install fzf
+brew install git-flow
 brew install htop
 brew install hub
 brew install koekeishiya/formulae/yabai
