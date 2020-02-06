@@ -4973,3 +4973,11 @@ TAGLINE="El Psy Congroo\
 : 1580952062:0;yarn global upgrade --latest
 : 1580952206:0;g d
 : 1580952274:0;down && g g "use yarn instead of npm on install and personal script"
+: 1580952523:0;g lol
+: 1580956632:0;vi
+: 1580956657:0;g d
+: 1580956668:0;brew install git-flow\
+
+: 1580956698:0;g flow
+: 1580956707:0;g d
+: 1580956721:0;down && g g "add git-flow to homebrew"
