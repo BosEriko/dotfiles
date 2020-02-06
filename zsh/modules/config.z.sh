@@ -16,7 +16,6 @@ SAVEHIST=10000
 
 # Source ZSH
 source $ZSH/oh-my-zsh.sh
-source $HOME/.zshenv
 
 # Source sbin Brew
 export PATH="$(brew --prefix)/sbin:$PATH"

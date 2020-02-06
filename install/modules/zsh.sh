@@ -8,7 +8,3 @@ terminal-notifier -title 'Installing' -message 'oh-my-zsh has been installed.'
 chsh -s /bin/zsh
 terminal-notifier -title 'Installing' -message 'ZSH has been set as the default shell.'
 
-# Generate .zshenv to avoid errors on oh-my-zsh
-touch ~/.zshenv
-terminal-notifier -title 'Installing' -message '.zshenv has been generated to avoid errors on oh-my-zsh.'
-
