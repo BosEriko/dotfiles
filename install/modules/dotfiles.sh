@@ -16,9 +16,6 @@ ln -s ~/.dotfiles/vscodium/settings.json ~/Library/Application\ Support/VSCodium
 # =====> VSCodium Keybindings
 rm ~/Library/Application\ Support/VSCodium/User/keybindings.json
 ln -s ~/.dotfiles/vscodium/keybindings.json ~/Library/Application\ Support/VSCodium/User/keybindings.json
-# =====> .zsh_history
-rm ~/.zsh_history
-ln -s ~/.dotfiles/zsh/history ~/.zsh_history
 # =====> Generate .zshrc, .tmux.conf and init.vim
 ~/.dotfiles/generate.sh
 # Notify the user

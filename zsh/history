@@ -4950,3 +4950,7 @@ TAGLINE="El Psy Congroo\
 : 1580898033:0;vi
 : 1580898056:0;yarn start
 : 1580912132:0;exit
+: 1580949982:0;g d
+: 1580949984:0;g s
+: 1580949985:0;g d
+: 1580950008:0;g g "remove symlink for zsy_history"
