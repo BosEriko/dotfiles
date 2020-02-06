@@ -4954,3 +4954,5 @@ TAGLINE="El Psy Congroo\
 : 1580949984:0;g s
 : 1580949985:0;g d
 : 1580950008:0;g g "remove symlink for zsy_history"
+: 1580950552:0;g d
+: 1580950673:0;down && g g "remove .zshenv"
