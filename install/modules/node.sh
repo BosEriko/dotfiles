@@ -5,25 +5,25 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | sh
 terminal-notifier -title 'Installing' -message 'NVM has been installed.'
 
 # Install packages using NPM (https://nodejs.org/)
-npm install --global @vue/cli
-npm install --global electron
-npm install --global electron-packager
-npm install --global eslint
-npm install --global expo-cli
-npm install --global firebase-tools
-npm install --global gatsby-cli
-npm install --global gtop
-npm install --global http-server
-npm install --global live-server
-npm install --global neovim
-npm install --global ngrok
-npm install --global nodemon
-npm install --global now
-npm install --global parrotsay
-npm install --global spaceship-prompt
-npm install --global speed-test
-npm install --global tldr
-npm install --global typescript
+yarn global add @vue/cli
+yarn global add electron
+yarn global add electron-packager
+yarn global add eslint
+yarn global add expo-cli
+yarn global add firebase-tools
+yarn global add gatsby-cli
+yarn global add gtop
+yarn global add http-server
+yarn global add live-server
+yarn global add neovim
+yarn global add ngrok
+yarn global add nodemon
+yarn global add now
+yarn global add parrotsay
+yarn global add spaceship-prompt
+yarn global add speed-test
+yarn global add tldr
+yarn global add typescript
 terminal-notifier -title 'Installing' -message 'NPM apps have been installed.'
 
 # Avoid running postinstall scripts from packages

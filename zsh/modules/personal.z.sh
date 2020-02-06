@@ -32,9 +32,9 @@ BOS_HELP_MESSAGE="
                                 cpu-usage               Start gtop
                                 cpu-temp                Start istats
                                 clearbin                Clear system trash
-                                npm-list                List global npm packages
-                                npm-outdated            List global outdated npm packages
-                                npm-update              Update global npm packages
+                                yarn-list               List global yarn packages
+                                yarn-interactive        Upgrade global yarn packages interactively
+                                yarn-upgrade            Upgrade global yarn packages
                                 rbenv-rehash            Run Rehash on rbenv
                                 external-ip             Show external IP address
                                 restart-zsh             Restart ZSH
@@ -122,12 +122,12 @@ bos() {
                 istats
             elif [ "$2" = "clearbin" ]; then
                 rm -rf ~/.local/share/Trash/*
-            elif [ "$2" = "npm-list" ]; then
-                npm list -g --depth=0
-            elif [ "$2" = "npm-outdated" ]; then
-                npm outdated -g --depth=0
-            elif [ "$2" = "npm-update" ]; then
-                npm update -g
+            elif [ "$2" = "yarn-list" ]; then
+                yarn global list
+            elif [ "$2" = "yarn-interactive" ]; then
+                yarn global upgrade-interactive
+            elif [ "$2" = "yarn-upgrade" ]; then
+                yarn global upgrade --latest
             elif [ "$2" = "rbenv-rehash" ]; then
                 rm ~/.rbenv/shims/.rbenv-shim; rbenv rehash;
             elif [ "$2" = "external-ip" ]; then
