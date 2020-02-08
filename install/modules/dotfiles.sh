@@ -16,6 +16,9 @@ ln -s ~/.dotfiles/vscodium/settings.json ~/Library/Application\ Support/VSCodium
 # =====> VSCodium Keybindings
 rm ~/Library/Application\ Support/VSCodium/User/keybindings.json
 ln -s ~/.dotfiles/vscodium/keybindings.json ~/Library/Application\ Support/VSCodium/User/keybindings.json
+# =====> Google Chrome Bookmarks
+rm ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
+ln -s ~/.dotfiles/google-chrome/Bookmarks ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
 # =====> Generate .zshrc, .tmux.conf and init.vim
 ~/.dotfiles/generate.sh
 # Notify the user
