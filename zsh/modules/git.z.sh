@@ -15,7 +15,6 @@ GIT_HELP_MESSAGE="
     a                           Alias for add
     b                           Alias for branch
     bd, branch-delete           Delete a branch locally and remotely
-    bg, branch-generate         Generate a branch name with a timestamp included
     bnc, branch-name-copy       Copy the current branch name to clipboard
     c                           Alias for commit
     co                          Alias for checkout
@@ -56,16 +55,6 @@ g() {
     git push -u origin HEAD
   elif [ "$1" = "w" ] || [ "$1" = "wtf" ]; then
     git commit -m "[AUTO] $(curl -s http://whatthecommit.com/index.txt)"
-  elif [ "$1" = "bg" ] || [ "$1" = "branch-generate" ]; then
-    if [ -z "$2" ]; then
-      echo "Please specify a branch and then an optional branch type (feature/bugfix/etc)"
-    else
-      if [ -z "$3" ]; then
-        git checkout -b "general/$(date +%s)/$2"
-      else
-        git checkout -b "$3/$(date +%s)/$2"
-      fi
-    fi
   elif [ "$1" = "bnc" ] || [ "$1" = "branch-name-copy" ]; then
     git branch | grep \* | cut -d ' ' -f2 | pbcopy
   elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
