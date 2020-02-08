@@ -5045,3 +5045,30 @@ TAGLINE="El Psy Congroo\
 : 1581144470:0;vi
 : 1581144547:0;g d
 : 1581144576:0;down && g g "update vscodium extension command"
+: 1581144706:0;la
+: 1581144851:0;~/Library/Application\ Support/
+: 1581144852:0;la
+: 1581144866:0;~/Library/Application\ Support/Google
+: 1581144867:0;la
+: 1581144871:0;~/Library/Application\ Support/Google/Chrome
+: 1581144872:0;la
+: 1581144901:0;~/Library/Application\ Support/Google/Chrome
+: 1581144963:0;~/Library/Application\ Support/Google/Chrome/System\ Profile
+: 1581144964:0;la
+: 1581144971:0;~/Library/Application\ Support/Google/Chrome
+: 1581144981:0;la
+: 1581144994:0;vi
+: 1581145094:0;~/Library/Application\ Support/Google/Chrome/Default
+: 1581145095:0;la
+: 1581145107:0;~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
+: 1581145118:0;vi ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
+: 1581145146:0;cd ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
+: 1581145190:0;jt dotfiles
+: 1581145192:0;la
+: 1581145208:0;mkdir google-chrome
+: 1581145230:0;cp ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks ~/.dotfiles/google-chrome/Bookmarks
+: 1581145232:0;g d
+: 1581145233:0;g s
+: 1581145239:0;vi
+: 1581145296:0;g d
+: 1581145318:0;down && g g "add bookmarks"
