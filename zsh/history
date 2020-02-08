@@ -5072,3 +5072,19 @@ TAGLINE="El Psy Congroo\
 : 1581145239:0;vi
 : 1581145296:0;g d
 : 1581145318:0;down && g g "add bookmarks"
+: 1581145385:0;~/.dotfiles/install/modules/dotfiles.sh
+: 1581145398:0;g d
+: 1581145399:0;g s
+: 1581145422:0;~/Library/Application\ Support/Google/Chrome/Default/
+: 1581145423:0;la
+: 1581145432:0;rm ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks\
+
+: 1581145438:0;la
+: 1581145450:0;ln -s ~/.dotfiles/google-chrome/Bookmarks ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
+: 1581145451:0;la
+: 1581145467:0;g d
+: 1581145469:0;g s
+: 1581145472:0;la
+: 1581147275:0;g d
+: 1581147309:0;g s
+: 1581147322:0;down && g g "update personal script"
