@@ -5042,3 +5042,6 @@ TAGLINE="El Psy Congroo\
 : 1581132511:0;vi
 : 1581132620:0;g d
 : 1581132632:0;down && g g "disable md formats"
+: 1581144470:0;vi
+: 1581144547:0;g d
+: 1581144576:0;down && g g "update vscodium extension command"
