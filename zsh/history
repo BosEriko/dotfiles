@@ -5106,3 +5106,5 @@ TAGLINE="El Psy Congroo\
 : 1581147694:0;vi
 : 1581147708:0;g d
 : 1581147717:0;down && g g "update the help instructions of my personal script"
+: 1581148267:0;g d
+: 1581148289:0;down && g g "add gc bookmarks options to personal script"
