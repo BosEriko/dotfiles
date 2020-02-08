@@ -21,6 +21,8 @@ BOS_HELP_MESSAGE="
                                 install                 Install VSCodium extensions from the list
 
     -gc, --google-chrome        open                    Start Google Chrome
+                                backup-bookmarks        Backup the bookmarks
+                                install-bookmarks       Install the bookmarks
 
     -cpu                        usage                   Start gtop
                                 temp                    Start istats
@@ -144,6 +146,14 @@ bos() {
                 else
                     open -a "Google Chrome" $3
                 fi
+            elif [ "$2" = "backup-bookmarks" ]; then
+                rm ~/.dotfiles/google-chrome/Bookmarks
+                cp ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks ~/.dotfiles/google-chrome/Bookmarks
+                echo "Google Chrome bookmarks have been updated over on the dotfiles."
+            elif [ "$2" = "install-bookmarks" ]; then
+                rm ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
+                cp ~/.dotfiles/google-chrome/Bookmarks ~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
+                echo "Google Chrome bookmarks have been installed."
             else
                 echo "Usage: -gc <command> or --google-chrome <command>"
             fi
