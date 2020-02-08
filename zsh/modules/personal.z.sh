@@ -1,7 +1,7 @@
 
 # =============================================================================== [Personal] ===== #
 
-FIGLET_MESSAGE="El Psy Congroo!"
+FIGLET_MESSAGE="Lakad Matatag!"
 BOS_HELP_MESSAGE="
 
     This is a helper showing all your Bos commands.
