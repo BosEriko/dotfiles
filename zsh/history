@@ -5136,3 +5136,23 @@ TAGLINE="El Psy Congroo\
 : 1581155110:0;bos -h
 : 1581155138:0;g d
 : 1581155161:0;down && g g "change personal script message to lakad matatag" && up
+: 1581155274:0;bos -h
+: 1581156872:0;g d
+: 1581156874:0;vi
+: 1581156893:0;bos -h
+: 1581156904:0;g d
+: 1581157816:0;jt personal
+: 1581157822:0;la
+: 1581157825:0;cd barangay
+: 1581157826:0;la
+: 1581157946:0;cd server
+: 1581157946:0;la
+: 1581157948:0;g d
+: 1581158301:0;curl -sLf https://spacevim.org/install.sh | vi
+: 1581159146:0;la
+: 1581159149:0;jt personal
+: 1581159149:0;la
+: 1581159155:0;jt dotfiles
+: 1581159156:0;vi
+: 1581159182:0;g d
+: 1581159206:0;down && g g "remove branch-generate" && up
