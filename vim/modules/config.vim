@@ -92,3 +92,13 @@ let g:list_of_visual_keys   = ["h", "j", "k", "l", "-", "+"]
 let g:list_of_insert_keys   = []
 let g:list_of_disabled_keys = ["<UP>", "<DOWN>", "<LEFT>", "<RIGHT>"]
 
+" Markdown
+let g:vim_markdown_override_foldtext        = 0
+let g:vim_markdown_emphasis_multiline       = 0
+let g:vim_markdown_conceal                  = 0
+let g:vim_markdown_conceal_code_blocks      = 0
+let g:vim_markdown_follow_anchor            = 0
+let g:vim_markdown_folding_disabled         = 1
+let g:vim_markdown_folding_level            = 1
+let g:vim_markdown_no_default_key_mappings  = 1
+
