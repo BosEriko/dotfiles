@@ -5039,3 +5039,6 @@ TAGLINE="El Psy Congroo\
 : 1581061510:0;down
 : 1581131837:0;g d
 : 1581131856:0;down && g g "fix typo on hard time"
+: 1581132511:0;vi
+: 1581132620:0;g d
+: 1581132632:0;down && g g "disable md formats"
