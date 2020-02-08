@@ -28,20 +28,22 @@ BOS_HELP_MESSAGE="
 
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
+                                md                      Start Typora
+                                clearbin                Clear system trash
+                                path                    Print out the list of paths
+                                restart-zsh             Restart ZSH
+
+    -y, --yarn                  list                    List global yarn packages
+                                interactive             Upgrade global yarn packages interactively
+                                upgrade                 Upgrade global yarn packages
+
+    -p, --programming           external-ip             Show external IP address
                                 ssh-key                 Copy Main SSH Key to clipboard
+                                deploy                  Deploy the current folder
+                                rbenv-rehash            Run Rehash on rbenv
                                 localhost               Start http-server
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
-                                md                      Start Typora
-                                deploy                  Deploy the current folder
-                                clearbin                Clear system trash
-                                yarn-list               List global yarn packages
-                                yarn-interactive        Upgrade global yarn packages interactively
-                                yarn-upgrade            Upgrade global yarn packages
-                                rbenv-rehash            Run Rehash on rbenv
-                                external-ip             Show external IP address
-                                restart-zsh             Restart ZSH
-                                path                    Print out the list of paths
 
 "
 bos() {
@@ -65,9 +67,6 @@ bos() {
                 sudo shutdown -h now
             elif [ "$2" = "restart" ]; then
                 sudo shutdown -r now
-            elif [ "$2" = "ssh-key" ]; then
-                cat ~/.ssh/id_rsa.pub | pbcopy
-                echo "SSH Key has been copied to clipboard."
             elif [ "$2" = "localhost" ]; then
                 if [ -z "$3" ]; then
                     http-server
@@ -80,32 +79,16 @@ bos() {
                 else
                     live-server $3
                 fi
-            elif [ "$2" = "ngrok" ]; then
-                if [ -z "$3" ]; then
-                    echo "Please specify a port"
-                else
-                    ngrok http --region=ap $3
-                fi
             elif [ "$2" = "md" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a path"
                 else
                     open -a "Typora" $3
                 fi
-            elif [ "$2" = "deploy" ]; then
-              now
             elif [ "$2" = "clearbin" ]; then
                 rm -rf ~/.local/share/Trash/*
-            elif [ "$2" = "yarn-list" ]; then
-                yarn global list
-            elif [ "$2" = "yarn-interactive" ]; then
-                yarn global upgrade-interactive
-            elif [ "$2" = "yarn-upgrade" ]; then
-                yarn global upgrade --latest
             elif [ "$2" = "rbenv-rehash" ]; then
                 rm ~/.rbenv/shims/.rbenv-shim; rbenv rehash;
-            elif [ "$2" = "external-ip" ]; then
-                curl ipinfo.io/ip
             elif [ "$2" = "restart-zsh" ]; then
                 source ~/.zshrc
                 terminal-notifier -title 'ZSH' -message 'ZSH has been restarted!'
@@ -154,6 +137,47 @@ bos() {
                 istats
             else
                 echo "Usage: -cpu <command>"
+            fi
+        elif [ "$1" = "-y" ] || [ "$1" = "--yarn" ]; then
+            if [ "$2" = "list" ]; then
+                yarn global list
+            elif [ "$2" = "interactive" ]; then
+                yarn global upgrade-interactive
+            elif [ "$2" = "upgrade" ]; then
+                yarn global upgrade --latest
+            else
+                echo "Usage: -y <command> or --yarn <command>"
+            fi
+        elif [ "$1" = "-p" ] || [ "$1" = "--programming" ]; then
+            if [ "$2" = "external-ip" ]; then
+                curl ipinfo.io/ip
+            elif [ "$2" = "ssh-key" ]; then
+                cat ~/.ssh/id_rsa.pub | pbcopy
+                echo "SSH Key has been copied to clipboard."
+            elif [ "$2" = "deploy" ]; then
+              now
+            elif [ "$2" = "rbenv-rehash" ]; then
+                rm ~/.rbenv/shims/.rbenv-shim; rbenv rehash;
+            elif [ "$2" = "localhost" ]; then
+                if [ -z "$3" ]; then
+                    http-server
+                else
+                    http-server $3
+                fi
+            elif [ "$2" = "localhost-live" ]; then
+                if [ -z "$3" ]; then
+                    live-server
+                else
+                    live-server $3
+                fi
+            elif [ "$2" = "ngrok" ]; then
+                if [ -z "$3" ]; then
+                    echo "Please specify a port"
+                else
+                    ngrok http --region=ap $3
+                fi
+            else
+                echo "Usage: -p <command> or --programming <command>"
             fi
         else
             echo "Command not found: $1"
