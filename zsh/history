@@ -5125,3 +5125,5 @@ TAGLINE="El Psy Congroo\
 : 1581150243:0;g lol
 : 1581150284:0;g d
 : 1581150313:0;down && g g "remove chrome-cli" && up
+: 1581150514:0;g d
+: 1581150549:0;down && g g "add qutebrowser" && up
