@@ -23,14 +23,9 @@ BOS_HELP_MESSAGE="
                                 localhost               Start http-server
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
-                                browser                 Start Google Chrome
                                 md                      Start Typora
                                 deploy                  Deploy the current folder
-                                vse-backup              Backup the currently installed VSCodium extensions
-                                vse-install             Install VSCodium extensions from the list
                                 qutebrowser             Start qutebrowser
-                                cpu-usage               Start gtop
-                                cpu-temp                Start istats
                                 clearbin                Clear system trash
                                 yarn-list               List global yarn packages
                                 yarn-interactive        Upgrade global yarn packages interactively
@@ -39,6 +34,14 @@ BOS_HELP_MESSAGE="
                                 external-ip             Show external IP address
                                 restart-zsh             Restart ZSH
                                 path                    Print out the list of paths
+
+    -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
+                                install                 Install VSCodium extensions from the list
+
+    -gc, --google-chrome        open                    Start Google Chrome
+
+    -cpu                        usage                   Start gtop
+                                temp                    Start istats
 
 "
 bos() {
@@ -83,12 +86,6 @@ bos() {
                 else
                     ngrok http --region=ap $3
                 fi
-            elif [ "$2" = "browser" ]; then
-                if [ -z "$3" ]; then
-                    echo "Please specify a path"
-                else
-                    open -a "Google Chrome" $3
-                fi
             elif [ "$2" = "md" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a path"
@@ -97,29 +94,12 @@ bos() {
                 fi
             elif [ "$2" = "deploy" ]; then
               now
-            elif [ "$2" = "vse-backup" ]; then
-                echo "Update VSCodium extensions list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
-                read
-                echo "Please wait..."
-                rm -rf ~/.dotfiles/vscodium/extensions.sh
-                codium --list-extensions | xargs -L 1 echo codium --install-extension > ~/.dotfiles/vscodium/extensions.sh
-                echo "VSCodium extensions list have been updated over on the dotfiles."
-            elif [ "$2" = "vse-install" ]; then
-                echo "Do you want to install VSCodium extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
-                read
-                echo "Please wait..."
-                sh ~/.dotfiles/vscodium/extensions.sh
-                echo "VSCodium extensions have been installed."
             elif [ "$2" = "qutebrowser" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a path"
                 else
                     open -a "qutebrowser" $3
                 fi
-            elif [ "$2" = "cpu-usage" ]; then
-                gtop
-            elif [ "$2" = "cpu-temp" ]; then
-                istats
             elif [ "$2" = "clearbin" ]; then
                 rm -rf ~/.local/share/Trash/*
             elif [ "$2" = "yarn-list" ]; then
@@ -139,6 +119,41 @@ bos() {
                 echo $PATH | tr \: \\n
             else
                 echo "Usage: -a <command> or --assist <command>"
+            fi
+        elif [ "$1" = "-vs" ] || [ "$1" = "--vscodium" ]; then
+            if [ "$2" = "backup" ]; then
+                echo "Update VSCodium extensions list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
+                read
+                echo "Please wait..."
+                rm -rf ~/.dotfiles/vscodium/extensions.sh
+                codium --list-extensions | xargs -L 1 echo codium --install-extension > ~/.dotfiles/vscodium/extensions.sh
+                echo "VSCodium extensions list have been updated over on the dotfiles."
+            elif [ "$2" = "install" ]; then
+                echo "Do you want to install VSCodium extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
+                read
+                echo "Please wait..."
+                sh ~/.dotfiles/vscodium/extensions.sh
+                echo "VSCodium extensions have been installed."
+            else
+                echo "Usage: -vs <command> or --vscodium <command>"
+            fi
+        elif [ "$1" = "-gc" ] || [ "$1" = "--google-chrome" ]; then
+            if [ "$2" = "open" ]; then
+                if [ -z "$3" ]; then
+                    echo "Please specify a path"
+                else
+                    open -a "Google Chrome" $3
+                fi
+            else
+                echo "Usage: -gc <command> or --google-chrome <command>"
+            fi
+        elif [ "$1" = "-cpu" ]; then
+            if [ "$2" = "usage" ]; then
+                gtop
+            elif [ "$2" = "temp" ]; then
+                istats
+            else
+                echo "Usage: -cpu <command>"
             fi
         else
             echo "Command not found: $1"
