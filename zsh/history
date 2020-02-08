@@ -5133,3 +5133,6 @@ TAGLINE="El Psy Congroo\
 : 1581154059:0;vi
 : 1581154240:0;g d
 : 1581154610:0;down && g g "organize personal script" && up
+: 1581155110:0;bos -h
+: 1581155138:0;g d
+: 1581155161:0;down && g g "change personal script message to lakad matatag" && up
