@@ -6,7 +6,6 @@ brew update
 
 # Install packages using Homebrew (https://brew.sh/)
 brew install antigen
-brew install chrome-cli
 brew install cmake
 brew install figlet
 brew install fzf

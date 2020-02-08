@@ -21,7 +21,6 @@ BOS_HELP_MESSAGE="
                                 install                 Install VSCodium extensions from the list
 
     -gc, --google-chrome        open                    Start Google Chrome
-                                cli-help                List chrome-cli options
 
     -cpu                        usage                   Start gtop
                                 temp                    Start istats
@@ -145,8 +144,6 @@ bos() {
                 else
                     open -a "Google Chrome" $3
                 fi
-            elif [ "$2" = "cli-help" ]; then
-                chrome-cli help
             else
                 echo "Usage: -gc <command> or --google-chrome <command>"
             fi
