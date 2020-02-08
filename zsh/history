@@ -5108,3 +5108,9 @@ TAGLINE="El Psy Congroo\
 : 1581147717:0;down && g g "update the help instructions of my personal script"
 : 1581148267:0;g d
 : 1581148289:0;down && g g "add gc bookmarks options to personal script"
+: 1581148396:0;bos -gc install-bookmarks
+: 1581148400:0;g d
+: 1581148714:0;vi
+: 1581148764:0;g d
+: 1581148787:0;g s
+: 1581148802:0;down && g g "remove google chrome bookmarks script"
