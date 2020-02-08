@@ -17,6 +17,14 @@ BOS_HELP_MESSAGE="
                                 parrotsay               Parrot Say
                                 train                   Let a train pass by
 
+    -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
+                                install                 Install VSCodium extensions from the list
+
+    -gc, --google-chrome        open                    Start Google Chrome
+
+    -cpu                        usage                   Start gtop
+                                temp                    Start istats
+
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
                                 ssh-key                 Copy Main SSH Key to clipboard
@@ -34,14 +42,6 @@ BOS_HELP_MESSAGE="
                                 external-ip             Show external IP address
                                 restart-zsh             Restart ZSH
                                 path                    Print out the list of paths
-
-    -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
-                                install                 Install VSCodium extensions from the list
-
-    -gc, --google-chrome        open                    Start Google Chrome
-
-    -cpu                        usage                   Start gtop
-                                temp                    Start istats
 
 "
 bos() {
