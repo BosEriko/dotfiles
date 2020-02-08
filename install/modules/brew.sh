@@ -35,6 +35,7 @@ brew cask install graphiql
 brew cask install hyper
 brew cask install keycastr
 brew cask install motrix
+brew cask install qutebrowser
 brew cask install typora
 brew cask install vscodium
 brew install php@7.3; brew install libidn2; brew install libpsl;

@@ -20,7 +20,8 @@ BOS_HELP_MESSAGE="
     -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
                                 install                 Install VSCodium extensions from the list
 
-    -gc, --google-chrome        open                    Start Google Chrome
+    -b, --browser               gc                      Start Google Chrome
+                                qute                    Start qutebrowser
 
     -cpu                        usage                   Start gtop
                                 temp                    Start istats
@@ -33,7 +34,6 @@ BOS_HELP_MESSAGE="
                                 ngrok                   Start ngrok
                                 md                      Start Typora
                                 deploy                  Deploy the current folder
-                                qutebrowser             Start qutebrowser
                                 clearbin                Clear system trash
                                 yarn-list               List global yarn packages
                                 yarn-interactive        Upgrade global yarn packages interactively
@@ -94,12 +94,6 @@ bos() {
                 fi
             elif [ "$2" = "deploy" ]; then
               now
-            elif [ "$2" = "qutebrowser" ]; then
-                if [ -z "$3" ]; then
-                    echo "Please specify a path"
-                else
-                    open -a "qutebrowser" $3
-                fi
             elif [ "$2" = "clearbin" ]; then
                 rm -rf ~/.local/share/Trash/*
             elif [ "$2" = "yarn-list" ]; then
@@ -137,12 +131,18 @@ bos() {
             else
                 echo "Usage: -vs <command> or --vscodium <command>"
             fi
-        elif [ "$1" = "-gc" ] || [ "$1" = "--google-chrome" ]; then
-            if [ "$2" = "open" ]; then
+        elif [ "$1" = "-b" ] || [ "$1" = "--browser" ]; then
+            if [ "$2" = "gc" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a path"
                 else
                     open -a "Google Chrome" $3
+                fi
+            elif [ "$2" = "qute" ]; then
+                if [ -z "$3" ]; then
+                    echo "Please specify a path"
+                else
+                    open -a "qutebrowser" $3
                 fi
             else
                 echo "Usage: -gc <command> or --google-chrome <command>"
