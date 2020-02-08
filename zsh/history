@@ -5088,3 +5088,21 @@ TAGLINE="El Psy Congroo\
 : 1581147275:0;g d
 : 1581147309:0;g s
 : 1581147322:0;down && g g "update personal script"
+: 1581147472:0;g d
+: 1581147476:0;bos
+: 1581147477:0;bos -h
+: 1581147482:0;bos -vs
+: 1581147484:0;bos -gc
+: 1581147487:0;bos -cpu
+: 1581147491:0;bos -cpu usage
+: 1581147498:0;bos -cpu temp
+: 1581147501:0;bos -h
+: 1581147513:0;bos --google-chrome open http://facebook.com/
+: 1581147538:0;bos --vs backup
+: 1581147543:0;bos -vs backup
+: 1581147556:0;g d
+: 1581147566:0;bos --vscodium install
+: 1581147596:0;bos -h
+: 1581147694:0;vi
+: 1581147708:0;g d
+: 1581147717:0;down && g g "update the help instructions of my personal script"
