@@ -5114,3 +5114,11 @@ TAGLINE="El Psy Congroo\
 : 1581148764:0;g d
 : 1581148787:0;g s
 : 1581148802:0;down && g g "remove google chrome bookmarks script"
+: 1581149333:0;brew install chrome-cli
+: 1581149401:0;g d
+: 1581149536:0;chrome-cli windows
+: 1581149547:0;chrome-cli list windows
+: 1581149650:0;chrome-cli -h
+: 1581149837:0;chrome-cli help
+: 1581149847:0;g d
+: 1581149864:0;down && g g "add chrome-cli" && up
