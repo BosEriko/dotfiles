@@ -8,9 +8,6 @@ set hidden
 set nobackup
 set nowritebackup
 
-" Better display for messages
-set cmdheight=2
-
 " You will have bad experience for diagnostic messages when it's default 4000.
 set updatetime=300
 
@@ -67,11 +64,11 @@ endfunction
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Remap for rename current word
-nmap <leader>rn <Plug>(coc-rename)
+nmap <leader><leader>rn <Plug>(coc-rename)
 
 " Remap for format selected region
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+xmap <leader><leader>f  <Plug>(coc-format-selected)
+nmap <leader><leader>f  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!
@@ -82,13 +79,13 @@ augroup mygroup
 augroup end
 
 " Remap for do codeAction of selected region, ex: `<leader>aap` for current paragraph
-xmap <leader>a  <Plug>(coc-codeaction-selected)
-nmap <leader>a  <Plug>(coc-codeaction-selected)
+xmap <leader><leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader><leader>a  <Plug>(coc-codeaction-selected)
 
 " Remap for do codeAction of current line
-nmap <leader>ac  <Plug>(coc-codeaction)
+nmap <leader><leader>ac  <Plug>(coc-codeaction)
 " Fix autofix problem of current line
-nmap <leader>qf  <Plug>(coc-fix-current)
+nmap <leader><leader>qf  <Plug>(coc-fix-current)
 
 " Create mappings for function text object, requires document symbols feature of languageserver.
 xmap if <Plug>(coc-funcobj-i)
