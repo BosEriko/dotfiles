@@ -5195,3 +5195,6 @@ TAGLINE="El Psy Congroo\
 : 1581237430:0;links wikipedia.com
 : 1581237461:0;g d
 : 1581237491:0;down && g g "add links to personal script" && up
+: 1581237603:0;bos -b
+: 1581237608:0;vi
+: 1581237645:0;down && g g "update browser usage instruction" && up
