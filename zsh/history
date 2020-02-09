@@ -5177,3 +5177,9 @@ TAGLINE="El Psy Congroo\
 : 1581217421:0;jt
 : 1581218426:0;g d
 : 1581218429:0;down
+: 1581218749:0;jt personal
+: 1581218749:0;la
+: 1581218856:0;jt dotfiles
+: 1581218861:0;vi
+: 1581219648:0;g d
+: 1581219664:0;down && g g "add extra line to vim plugins" && up
