@@ -135,7 +135,7 @@ bos() {
                     open -a "links" $3
                 fi
             else
-                echo "Usage: -gc <command> or --google-chrome <command>"
+                echo "Usage: -b <command> or --browser <command>"
             fi
         elif [ "$1" = "-cpu" ]; then
             if [ "$2" = "usage" ]; then
