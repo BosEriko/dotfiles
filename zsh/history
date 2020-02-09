@@ -5206,3 +5206,6 @@ TAGLINE="El Psy Congroo\
 : 1581240583:0;vi
 : 1581241598:0;g d
 : 1581241613:0;down && g g "remove coc install script" && up
+: 1581242347:0;vi
+: 1581242409:0;g d
+: 1581242422:0;down && g g "define coc" && up
