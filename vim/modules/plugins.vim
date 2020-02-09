@@ -1,3 +1,4 @@
+
 " ============================================= "
 call plug#begin('~/.local/share/nvim/plugged')
 " Plugin List Start =========================== "
@@ -49,3 +50,4 @@ call plug#end()
 let g:coc_global_extensions = [
   \ 'coc-prettier'
   \ ]
+
