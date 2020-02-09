@@ -5198,3 +5198,8 @@ TAGLINE="El Psy Congroo\
 : 1581237603:0;bos -b
 : 1581237608:0;vi
 : 1581237645:0;down && g g "update browser usage instruction" && up
+: 1581237786:0;bos -b terminal facebook.com
+: 1581237798:0;bos -b terminal http://facebook.com/
+: 1581237810:0;vi
+: 1581237823:0;g d
+: 1581237831:0;down && g g "fix links" && up
