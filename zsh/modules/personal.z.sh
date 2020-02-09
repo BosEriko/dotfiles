@@ -22,6 +22,7 @@ BOS_HELP_MESSAGE="
 
     -b, --browser               gc                      Start Google Chrome
                                 qute                    Start qutebrowser
+                                terminal                Start terminal browser
 
     -cpu                        usage                   Start gtop
                                 temp                    Start istats
@@ -126,6 +127,12 @@ bos() {
                     echo "Please specify a path"
                 else
                     open -a "qutebrowser" $3
+                fi
+            elif [ "$2" = "terminal" ]; then
+                if [ -z "$3" ]; then
+                    echo "Please specify a path"
+                else
+                    open -a "links" $3
                 fi
             else
                 echo "Usage: -gc <command> or --google-chrome <command>"
