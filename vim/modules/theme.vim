@@ -44,20 +44,6 @@ let g:gitgutter_sign_removed              = ''
 let g:gitgutter_sign_removed_first_line   = ''
 let g:gitgutter_sign_modified_removed     = ''
 
-" NERDTree Git Integration Symbols
-let g:NERDTreeIndicatorMapCustom = {
-    \ "Modified"  : "✹",
-    \ "Staged"    : "✚",
-    \ "Untracked" : "✭",
-    \ "Renamed"   : "➜",
-    \ "Unmerged"  : "═",
-    \ "Deleted"   : "✖",
-    \ "Dirty"     : "✗",
-    \ "Clean"     : "✔︎",
-    \ 'Ignored'   : " ",
-    \ "Unknown"   : "?"
-    \ }
-
 " Symbols
 let g:indentLine_char = '│'
 let g:startify_custom_header =

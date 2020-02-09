@@ -26,7 +26,6 @@ Plug 'tomtom/tcomment_vim'                      " Comment out function
 Plug 'tpope/vim-fugitive'                       " View any blob, tree, commit, or tag in the repository
 Plug 'Valloric/MatchTagAlways'                  " HTML Tag Matcher
 Plug 'w0rp/ale'                                 " Check syntax in Vim asynchronously
-Plug 'Xuyuanp/nerdtree-git-plugin'              " A plugin of NERDTree showing git status
 Plug 'yggdroot/indentline'                      " Indent lines
 
 " Syntax Highlight
