@@ -132,7 +132,7 @@ bos() {
                 if [ -z "$3" ]; then
                     echo "Please specify a path"
                 else
-                    open -a "links" $3
+                    links $3
                 fi
             else
                 echo "Usage: -b <command> or --browser <command>"
