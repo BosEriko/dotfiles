@@ -5185,3 +5185,5 @@ TAGLINE="El Psy Congroo\
 : 1581219664:0;down && g g "add extra line to vim plugins" && up
 : 1581220095:0;g d
 : 1581220111:0;down && g g "add coc.nvim file config" && up
+: 1581236829:0;g d
+: 1581236845:0;down && g g "change the border to shadow" && up
