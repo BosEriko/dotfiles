@@ -5203,3 +5203,6 @@ TAGLINE="El Psy Congroo\
 : 1581237810:0;vi
 : 1581237823:0;g d
 : 1581237831:0;down && g g "fix links" && up
+: 1581240583:0;vi
+: 1581241598:0;g d
+: 1581241613:0;down && g g "remove coc install script" && up
