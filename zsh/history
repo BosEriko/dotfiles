@@ -5187,3 +5187,11 @@ TAGLINE="El Psy Congroo\
 : 1581220111:0;down && g g "add coc.nvim file config" && up
 : 1581236829:0;g d
 : 1581236845:0;down && g g "change the border to shadow" && up
+: 1581237235:0;g d
+: 1581237311:0;brew info links
+: 1581237362:0;links facebook.com
+: 1581237408:0;g d
+: 1581237413:0;links boseriko.com
+: 1581237430:0;links wikipedia.com
+: 1581237461:0;g d
+: 1581237491:0;down && g g "add links to personal script" && up
