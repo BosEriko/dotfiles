@@ -5297,3 +5297,17 @@ TAGLINE="El Psy Congroo\
 : 1581335788:0;down
 : 1581335908:0;g d
 : 1581335910:0;down
+: 1581336003:0;jt personal
+: 1581336004:0;la
+: 1581336048:0;jt barangay
+: 1581336052:0;barangay
+: 1581336053:0;la
+: 1581336057:0;server
+: 1581336061:0;vi
+: 1581336117:0;yarn start
+: 1581336198:0;jt personal
+: 1581336201:0;jt dotfiles
+: 1581336202:0;vi
+: 1581336281:0;brew install jq
+: 1581336420:0;g d
+: 1581336441:0;down && g g "add jq and add hotkey for moving window to a new screen"
