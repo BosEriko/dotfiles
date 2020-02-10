@@ -5311,3 +5311,5 @@ TAGLINE="El Psy Congroo\
 : 1581336281:0;brew install jq
 : 1581336420:0;g d
 : 1581336441:0;down && g g "add jq and add hotkey for moving window to a new screen"
+: 1581336665:0;g d
+: 1581336694:0;down && g g "add create, destroy and fast move desktop" && up
