@@ -34,6 +34,7 @@ BOS_HELP_MESSAGE="
                                 clearbin                Clear system trash
                                 path                    Print out the list of paths
                                 restart-zsh             Restart ZSH
+                                skhd-keys               Print skhd keys
 
     -y, --yarn                  list                    List global yarn packages
                                 interactive             Upgrade global yarn packages interactively
@@ -71,6 +72,8 @@ bos() {
                 sudo shutdown -h now
             elif [ "$2" = "restart" ]; then
                 sudo shutdown -r now
+            elif [ "$2" = "skhd-keys" ]; then
+                less ~/dotfiles/skhdrc
             elif [ "$2" = "localhost" ]; then
                 if [ -z "$3" ]; then
                     http-server
