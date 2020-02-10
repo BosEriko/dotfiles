@@ -12,7 +12,6 @@ Plug 'alvan/vim-closetag'                       " Auto close HTML tags
 Plug 'dyng/ctrlsf.vim'                          " Word search inside directory
 Plug 'easymotion/vim-easymotion'                " Jump anywhere easily
 Plug 'editorconfig/editorconfig-vim'            " Editorconfig
-Plug 'jiangmiao/auto-pairs'                     " Auto close quotes, brackets and parenthesis
 Plug 'junegunn/fzf.vim'                         " FZF.vim Search
 Plug 'junegunn/fzf'                             " FZF Search
 Plug 'mattn/emmet-vim'                          " Emmet for VIM (Provides support for expanding abbreviations)
@@ -48,6 +47,6 @@ call plug#end()
 
 " ========================================================================= [COC Extensions] ===== "
 let g:coc_global_extensions = [
-  \ 'coc-prettier'
+  \ 'coc-pairs'
   \ ]
 
