@@ -18,6 +18,7 @@ brew install links
 brew install neovim
 brew install node
 brew install pastel
+brew install pipes-sh
 brew install python3
 brew install ranger
 brew install rbenv

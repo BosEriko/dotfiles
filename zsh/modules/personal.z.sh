@@ -16,6 +16,7 @@ BOS_HELP_MESSAGE="
     -f, --fun                   parrot                  Party Parrot
                                 parrotsay               Parrot Say
                                 train                   Let a train pass by
+                                pipes                   Run some pipes
 
     -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
                                 install                 Install VSCodium extensions from the list
@@ -60,6 +61,8 @@ bos() {
                 parrotsay
             elif [ "$2" = "train" ]; then
                 sl
+            elif [ "$2" = "pipes" ]; then
+                pipes.sh
             else
                 echo "Usage: -f <command> or --fun <command>"
             fi
