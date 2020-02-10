@@ -7,7 +7,10 @@ ln -s ~/.dotfiles/gitconfig ~/.gitconfig
 # =====> .hyper.js
 rm ~/.hyper.js
 ln -s ~/.dotfiles/hyper.js ~/.hyper.js
-# =====> .yabairc (https://github.com/koekeishiya/yabai/wiki/Configuration#configuration-file)
+# =====> .skhdrc
+rm ~/.skhdrc
+ln -s ~/.dotfiles/skhdrc ~/.skhdrc
+# =====> .yabairc
 rm ~/.yabairc
 ln -s ~/.dotfiles/yabairc ~/.yabairc
 # =====> VSCodium Settings
