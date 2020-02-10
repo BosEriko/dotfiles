@@ -73,7 +73,7 @@ bos() {
             elif [ "$2" = "restart" ]; then
                 sudo shutdown -r now
             elif [ "$2" = "skhd-keys" ]; then
-                less ~/dotfiles/skhdrc
+                less ~/.dotfiles/skhdrc
             elif [ "$2" = "localhost" ]; then
                 if [ -z "$3" ]; then
                     http-server
