@@ -5275,3 +5275,18 @@ TAGLINE="El Psy Congroo\
 
 : 1581321395:0;g d
 : 1581321399:0;down
+: 1581323359:0;ln -s ~/.dotfiles/skhdrc ~/.skhdrc
+: 1581323368:0;brew install koekeishiya/formulae/skhd
+: 1581323383:0;jt dotfiles
+: 1581323385:0;vi
+: 1581323451:0;brew services start skhd
+: 1581324905:0;jt dotfiles
+: 1581324907:0;vi
+: 1581326472:0;g d
+: 1581327031:0;brew services restart skhd
+: 1581327328:0;~/Scripts/qtb.sh
+: 1581327680:0;brew install pipes-sh
+: 1581327702:0;pipes-sh
+: 1581327739:0;pipes.sh
+: 1581327847:0;g d
+: 1581327864:0;down && g g "add pipes.sh" && up
