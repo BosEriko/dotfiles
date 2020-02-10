@@ -12,6 +12,7 @@ brew install fzf
 brew install git-flow
 brew install htop
 brew install hub
+brew install jq
 brew install koekeishiya/formulae/skhd
 brew install koekeishiya/formulae/yabai
 brew install links
