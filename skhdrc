@@ -227,8 +227,8 @@ shift + alt - b : yabai -m window --toggle border
           # yabai -m window --toggle pip
 
 # change layout of desktop
-# ctrl + alt - a : yabai -m space --layout bsp
-# ctrl + alt - d : yabai -m space --layout float
+ctrl + alt - a : yabai -m space --layout bsp
+ctrl + alt - d : yabai -m space --layout float
 
 # Skim-specific vim scroll bindings
 # h [
