@@ -5290,3 +5290,6 @@ TAGLINE="El Psy Congroo\
 : 1581327739:0;pipes.sh
 : 1581327847:0;g d
 : 1581327864:0;down && g g "add pipes.sh" && up
+: 1581328324:0;brew services restart skhd
+: 1581328379:0;g d
+: 1581331538:0;down && g g "add hotkeys for skhd" && up
