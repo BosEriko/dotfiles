@@ -5270,3 +5270,8 @@ TAGLINE="El Psy Congroo\
 : 1581315419:0;touch ~/.dotfiles/skhdrc
 : 1581315420:0;g d
 : 1581315583:0;down && g g "add skhdrc" && down
+: 1581315875:0;vi
+: 1581316673:0;ln -s ~/.dotfiles/skhdrc ~/.skhdrc\
+
+: 1581321395:0;g d
+: 1581321399:0;down
