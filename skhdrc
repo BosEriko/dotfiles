@@ -184,7 +184,7 @@ shift + ctrl - l : yabai -m window --resize right:-20:0
 # ctrl + alt - l : yabai -m window --insert east
 
 # rotate tree
-# alt - r : yabai -m space --rotate 90
+alt - r : yabai -m space --rotate 90
 
 # mirror tree y-axis
 # alt - y : yabai -m space --mirror y-axis
@@ -205,7 +205,7 @@ shift + ctrl - l : yabai -m window --resize right:-20:0
 # shift + alt - f : yabai -m window --toggle native-fullscreen
 
 # toggle window border
-# shift + alt - b : yabai -m window --toggle border
+shift + alt - b : yabai -m window --toggle border
 
 # toggle window split type
 # alt - e : yabai -m window --toggle split
@@ -250,4 +250,4 @@ shift + ctrl - l : yabai -m window --resize right:-20:0
 # hide focused window
 
 # restart yabai
-# ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+ctrl + alt + cmd - r : brew services restart yabai
