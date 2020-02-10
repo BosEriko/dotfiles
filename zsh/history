@@ -5219,3 +5219,54 @@ TAGLINE="El Psy Congroo\
 : 1581246387:0;g d
 : 1581246391:0;vi
 : 1581246401:0;down && g g "remove coc" up
+: 1581295397:0;vi
+: 1581301834:0;jt ops
+: 1581301842:0;g pl
+: 1581301869:0;vi
+: 1581301955:0;rc
+: 1581301957:0;rs
+: 1581302327:0;g d
+: 1581302328:0;g s
+: 1581302331:0;vi consoe.out
+: 1581302337:0;vi console.out
+: 1581302596:0;rake catalog_item:unique
+: 1581302601:0;rake catalog_items:unique
+: 1581302695:0;open tmp/catalog_item_makes.csv
+: 1581302717:0;rake catalog_items:unique
+: 1581303328:0;vi
+: 1581303353:0;rake catalog_items:unique
+: 1581303616:0;open tmp/catalog_item_makes.csv
+: 1581303649:0;rake catalog_items:unique
+: 1581303736:0;open tmp/catalog_item_makes.csv
+: 1581303783:0;rake catalog_items:unique
+: 1581303794:0;open tmp/catalog_item_makes.csv
+: 1581303821:0;rake catalog_items:unique
+: 1581304102:0;vi tmp/catalog_item_makes.csv
+: 1581304159:0;code tmp/catalog_item_makes.csv
+: 1581304250:0;rake catalog_items:unique
+: 1581304299:0;g st
+: 1581304366:0;rake catalog_items:export\[185\]
+: 1581304446:0;rake catalog_items:unique
+: 1581304460:0;vi tmp/catalog_item_makes.csv
+: 1581304469:0;open tmp/catalog_item_makes.csv
+: 1581304497:0;rake catalog_items:unique
+: 1581304634:0;rake catalog_items:makes
+: 1581304643:0;vi
+: 1581304797:0;rake catalog_items:makes
+: 1581304916:0;open tmp/catalog_item_makes.csv
+: 1581304927:0;vi tmp/catalog_item_makes.csv
+: 1581304966:0;open tmp
+: 1581305088:0;rake catalog_items:makes
+: 1581305113:0;open tmp
+: 1581305232:0;g st
+: 1581305256:0;vi
+: 1581314789:0;jt dotfiles
+: 1581314793:0;vi
+: 1581314862:0;g d
+: 1581314951:0;brew install koekeishiya/formulae/skhd
+: 1581315156:0;g d
+: 1581315181:0;skhd
+: 1581315197:0;touch skhdrc
+: 1581315419:0;touch ~/.dotfiles/skhdrc
+: 1581315420:0;g d
+: 1581315583:0;down && g g "add skhdrc" && down
