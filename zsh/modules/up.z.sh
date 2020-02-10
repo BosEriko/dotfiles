@@ -8,9 +8,6 @@ up() {
   sh ~/.dotfiles/generate.sh
   nvim +PlugInstall +qall
   terminal-notifier -title 'Installing' -message 'Vim Extensions have been installed.'
-  brew services stop skhd
-  brew services start skhd
-  terminal-notifier -title 'skhd' -message 'skhd has been restarted!'
   brew services stop yabai
   brew services start yabai
   terminal-notifier -title 'Yabai' -message 'Yabai has been restarted!'
