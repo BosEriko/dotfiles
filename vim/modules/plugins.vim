@@ -47,6 +47,7 @@ call plug#end()
 
 " ========================================================================= [COC Extensions] ===== "
 let g:coc_global_extensions = [
-  \ 'coc-pairs'
+  \ 'coc-pairs',
+  \ 'coc-eslint'
   \ ]
 
