@@ -5293,3 +5293,5 @@ TAGLINE="El Psy Congroo\
 : 1581328324:0;brew services restart skhd
 : 1581328379:0;g d
 : 1581331538:0;down && g g "add hotkeys for skhd" && up
+: 1581335785:0;g d
+: 1581335788:0;down
