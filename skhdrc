@@ -218,5 +218,3 @@ ctrl + alt + cmd - r : brew services restart yabai
 	# "Skim" : skhd -k "right"
 # ]
 
-# hide focused window
-
