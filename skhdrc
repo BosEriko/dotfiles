@@ -1,9 +1,13 @@
 # List of Commands
 # > Open Terminal
-# > Focus Window
-# > Swap Window
-# > Move Window
-# > Balance Size of Windows
+# > Focus Window (alt) [h, j, k, l]
+# > Swap Window (shift + alt) [h, j, k, l]
+# > Move Window (shift + cmd) [h, j, k, l]
+# > Balance Size of Windows (shift + alt) [0]
+# > Make Floating Window Fill Screen (shift + alt) [up]
+# > Make Floating Window Fill Left-half of Screen (shift + alt) [left]
+# > Make Floating Window Fill Right-half of Screen (shift + alt) [right]
+# > Create Desktop, Move Window and Follow Focus (shift + cmd) [n]
 
 # Open Terminal
 # cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
@@ -29,16 +33,16 @@ shift + cmd - l : yabai -m window --warp east
 # Balance Size of Windows
 shift + alt - 0 : yabai -m space --balance
 
-# make floating window fill screen
+# Make Floating Window Fill Screen
 # shift + alt - up     : yabai -m window --grid 1:1:0:0:1:1
 
-# make floating window fill left-half of screen
+# Make Floating Window Fill Left-half of Screen
 # shift + alt - left   : yabai -m window --grid 1:2:0:0:1:1
 
-# make floating window fill right-half of screen
+# Make Floating Window Fill Right-half of Screen
 # shift + alt - right  : yabai -m window --grid 1:2:1:0:1:1
 
-# create desktop, move window and follow focus - uses jq for parsing json (brew install jq)
+# Create Desktop, Move Window and Follow Focus
 shift + cmd - n : yabai -m space --create && \
                   index="$(yabai -m query --spaces --display | jq 'map(select(."native-fullscreen" == 0))[-1].index')" && \
                   yabai -m window --space "${index}" && \
