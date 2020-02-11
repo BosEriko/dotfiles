@@ -10,6 +10,8 @@
 # > Create Desktop, Move Window and Follow Focus (shift + cmd) [n]
 # > Create Desktop and Follow Focus (cmd + alt) [n]
 # > Destroy Desktop (cmd + alt) [w]
+# > Fast Focus Desktop (cmd + alt) [z, x, c, 1..0]
+# > Send Window to Desktop and Follow Focus (shift + cmd) [z, x, c, 1..0]
 
 # Open Terminal
 # cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
@@ -58,7 +60,7 @@ cmd + alt - n : yabai -m space --create && \
 # Destroy Desktop
 cmd + alt - w : yabai -m space --destroy
 
-# fast focus desktop
+# Fast Focus Desktop
 cmd + alt - x : yabai -m space --focus recent
 cmd + alt - z : yabai -m space --focus prev
 cmd + alt - c : yabai -m space --focus next
@@ -73,7 +75,7 @@ cmd + alt - 8 : yabai -m space --focus 8
 cmd + alt - 9 : yabai -m space --focus 9
 cmd + alt - 0 : yabai -m space --focus 10
 
-# send window to desktop and follow focus
+# Send Window to Desktop and Follow Focus
 shift + cmd - x : yabai -m window --space recent; yabai -m space --focus recent
 shift + cmd - z : yabai -m window --space prev; yabai -m space --focus prev
 shift + cmd - c : yabai -m window --space next; yabai -m space --focus next
