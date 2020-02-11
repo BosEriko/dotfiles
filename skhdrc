@@ -8,6 +8,8 @@
 # > Make Floating Window Fill Left-half of Screen (shift + alt) [left]
 # > Make Floating Window Fill Right-half of Screen (shift + alt) [right]
 # > Create Desktop, Move Window and Follow Focus (shift + cmd) [n]
+# > Create Desktop and Follow Focus (cmd + alt) [n]
+# > Destroy Desktop (cmd + alt) [w]
 
 # Open Terminal
 # cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
@@ -48,12 +50,12 @@ shift + cmd - n : yabai -m space --create && \
                   yabai -m window --space "${index}" && \
                   yabai -m space --focus "${index}"
 
-# create desktop and follow focus - uses jq for parsing json (brew install jq)
+# Create Desktop and Follow Focus
 cmd + alt - n : yabai -m space --create && \
                 index="$(yabai -m query --spaces --display | jq 'map(select(."native-fullscreen" == 0))[-1].index')" && \
                 yabai -m space --focus "${index}"
 
-# destroy desktop
+# Destroy Desktop
 cmd + alt - w : yabai -m space --destroy
 
 # fast focus desktop
