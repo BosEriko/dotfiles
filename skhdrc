@@ -1,38 +1,38 @@
 # Table of Contents
-# > Open Terminal
-# > Focus Window (alt) [h, j, k, l]
-# > Swap Window (shift + alt) [h, j, k, l]
-# > Move Window (shift + cmd) [h, j, k, l]
-# > Balance Size of Windows (shift + alt) [0]
-# > Make Floating Window Fill Screen (shift + alt) [up]
-# > Make Floating Window Fill Left-half of Screen (shift + alt) [left]
-# > Make Floating Window Fill Right-half of Screen (shift + alt) [right]
-# > Create Desktop, Move Window and Follow Focus (shift + cmd) [n]
-# > Create Desktop and Follow Focus (cmd + alt) [n]
-# > Destroy Desktop (cmd + alt) [w]
-# > Fast Focus Desktop (cmd + alt) [x, z, c, 1..0]
-# > Send Window to Desktop and Follow Focus (shift + cmd) [x, z, c, 1..0]
-# > Focus Monitor (ctrl + alt) [x, z, c, 1..3]
-# > Send Window to Monitor and Follow Focus (ctrl + cmd) [x, z, c, 1..3]
-# > Move Window (shift + ctrl) [a, s, w, d]
-# > Increase Window Size (shift + ctrl) [y, u, i, o]
-# > Decrease Window Size (shift + ctrl) [h, j, k, l]
-# > Set Insertion Point in Focused Container (ctrl + alt) [h, j, k, l]
-# > Rotate Tree (alt) [r]
-# > Mirror Tree Y-axis (alt) [y]
-# > Mirror Tree X-axis (alt) [x]
-# > Toggle Desktop Offset (alt) [a]
-# > Toggle Window Parent Zoom (alt) [d]
-# > Toggle Window Fullscreen Zoom (alt) [f]
-# > Toggle Window Native Fullscreen (shift + alt) [f]
-# > Toggle Window Border (shift + alt) [b]
-# > Toggle Window Split Type (alt) [e]
-# > Float / Unfloat Window and Center on Screen (alt) [t]
-# > Toggle Sticky (alt) [s]
-# > Toggle Topmost (alt) [o]
-# > Toggle Sticky(+float), Topmost, Border and Picture-in-picture (alt) [p]
-# > Change Layout of Desktop (ctrl + alt) [a, d]
-# > Restart Yabai (ctrl + alt + cmd) [r]
+# [ ] Open Terminal (cmd) [return]
+# [x] Focus Window (alt) [h, j, k, l]
+# [x] Swap Window (shift + alt) [h, j, k, l]
+# [x] Move Window (shift + cmd) [h, j, k, l]
+# [x] Balance Size of Windows (shift + alt) [0]
+# [ ] Make Floating Window Fill Screen (shift + alt) [up]
+# [ ] Make Floating Window Fill Left-half of Screen (shift + alt) [left]
+# [ ] Make Floating Window Fill Right-half of Screen (shift + alt) [right]
+# [x] Create Desktop, Move Window and Follow Focus (shift + cmd) [n]
+# [x] Create Desktop and Follow Focus (cmd + alt) [n]
+# [x] Destroy Desktop (cmd + alt) [w]
+# [x] Fast Focus Desktop (cmd + alt) [x, z, c, 1..0]
+# [x] Send Window to Desktop and Follow Focus (shift + cmd) [x, z, c, 1..0]
+# [ ] Focus Monitor (ctrl + alt) [x, z, c, 1..3]
+# [ ] Send Window to Monitor and Follow Focus (ctrl + cmd) [x, z, c, 1..3]
+# [ ] Move Window (shift + ctrl) [a, s, w, d]
+# [x] Increase Window Size (shift + ctrl) [y, u, i, o]
+# [x] Decrease Window Size (shift + ctrl) [h, j, k, l]
+# [ ] Set Insertion Point in Focused Container (ctrl + alt) [h, j, k, l]
+# [x] Rotate Tree (alt) [r]
+# [ ] Mirror Tree Y-axis (alt) [y]
+# [ ] Mirror Tree X-axis (alt) [x]
+# [ ] Toggle Desktop Offset (alt) [a]
+# [ ] Toggle Window Parent Zoom (alt) [d]
+# [ ] Toggle Window Fullscreen Zoom (alt) [f]
+# [ ] Toggle Window Native Fullscreen (shift + alt) [f]
+# [x] Toggle Window Border (shift + alt) [b]
+# [ ] Toggle Window Split Type (alt) [e]
+# [ ] Float / Unfloat Window and Center on Screen (alt) [t]
+# [ ] Toggle Sticky (alt) [s]
+# [ ] Toggle Topmost (alt) [o]
+# [ ] Toggle Sticky(+float), Topmost, Border and Picture-in-picture (alt) [p]
+# [x] Change Layout of Desktop (ctrl + alt) [a, d]
+# [x] Restart Yabai (ctrl + alt + cmd) [r]
 
 # Open Terminal
 # cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
@@ -133,13 +133,13 @@ shift + cmd - 0 : yabai -m window --space 10; yabai -m space --focus 10
 # shift + ctrl - w : yabai -m window --move rel:0:-20
 # shift + ctrl - d : yabai -m window --move rel:20:0
 
-# Increase Window size
+# Increase Window Size
 shift + ctrl - y : yabai -m window --resize left:-20:0
 shift + ctrl - u : yabai -m window --resize bottom:0:20
 shift + ctrl - i : yabai -m window --resize top:0:-20
 shift + ctrl - o : yabai -m window --resize right:20:0
 
-# Decrease Window size
+# Decrease Window Size
 shift + ctrl - h : yabai -m window --resize left:20:0
 shift + ctrl - j : yabai -m window --resize bottom:0:-20
 shift + ctrl - k : yabai -m window --resize top:0:20
