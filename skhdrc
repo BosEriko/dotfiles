@@ -31,10 +31,8 @@
 # > Toggle Sticky (alt) [s]
 # > Toggle Topmost (alt) [o]
 # > Toggle Sticky(+float), Topmost, Border and Picture-in-picture (alt) [p]
-
-# Change Layout of Desktop
-ctrl + alt - a : yabai -m space --layout bsp
-ctrl + alt - d : yabai -m space --layout float
+# > Change Layout of Desktop (ctrl + alt) [a, d]
+# > Restart Yabai (ctrl + alt + cmd) [r]
 
 # Open Terminal
 # cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
@@ -196,9 +194,12 @@ shift + alt - b : yabai -m window --toggle border
           # yabai -m window --toggle border;\
           # yabai -m window --toggle pip
 
-# change layout of desktop
+# Change Layout of Desktop
 ctrl + alt - a : yabai -m space --layout bsp
 ctrl + alt - d : yabai -m space --layout float
+
+# Restart Yabai
+ctrl + alt + cmd - r : brew services restart yabai
 
 # Skim-specific vim scroll bindings
 # h [
@@ -219,5 +220,3 @@ ctrl + alt - d : yabai -m space --layout float
 
 # hide focused window
 
-# restart yabai
-ctrl + alt + cmd - r : brew services restart yabai
