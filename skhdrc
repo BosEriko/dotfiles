@@ -10,8 +10,11 @@
 # > Create Desktop, Move Window and Follow Focus (shift + cmd) [n]
 # > Create Desktop and Follow Focus (cmd + alt) [n]
 # > Destroy Desktop (cmd + alt) [w]
-# > Fast Focus Desktop (cmd + alt) [z, x, c, 1..0]
-# > Send Window to Desktop and Follow Focus (shift + cmd) [z, x, c, 1..0]
+# > Fast Focus Desktop (cmd + alt) [x, z, c, 1..0]
+# > Send Window to Desktop and Follow Focus (shift + cmd) [x, z, c, 1..0]
+# > Focus Monitor (ctrl + alt) [x, z, c, 1..3]
+# > Send Window to Monitor and Follow Focus (ctrl + cmd) [x, z, c, 1..3]
+# > Move Window (shift + ctrl) [a, s, w, d]
 
 # Open Terminal
 # cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
@@ -90,15 +93,15 @@ shift + cmd - 8 : yabai -m window --space  8; yabai -m space --focus 8
 shift + cmd - 9 : yabai -m window --space  9; yabai -m space --focus 9
 shift + cmd - 0 : yabai -m window --space 10; yabai -m space --focus 10
 
-# focus monitor
+# Focus Monitor
 # ctrl + alt - x  : yabai -m display --focus recent
 # ctrl + alt - z  : yabai -m display --focus prev
 # ctrl + alt - c  : yabai -m display --focus next
-# ctrl + alt - l  : yabai -m display --focus 1
-# ctrl + alt - h  : yabai -m display --focus 2
+# ctrl + alt - 1  : yabai -m display --focus 1
+# ctrl + alt - 2  : yabai -m display --focus 2
 # ctrl + alt - 3  : yabai -m display --focus 3
 
-# send window to monitor and follow focus
+# Send Window to Monitor and Follow Focus
 # ctrl + cmd - x  : yabai -m window --display recent; yabai -m display --focus recent
 # ctrl + cmd - z  : yabai -m window --display prev; yabai -m display --focus prev
 # ctrl + cmd - c  : yabai -m window --display next; yabai -m display --focus next
@@ -106,7 +109,7 @@ shift + cmd - 0 : yabai -m window --space 10; yabai -m space --focus 10
 # ctrl + cmd - 2  : yabai -m window --display 2; yabai -m display --focus 2
 # ctrl + cmd - 3  : yabai -m window --display 3; yabai -m display --focus 3
 
-# move window
+# Move Window
 # shift + ctrl - a : yabai -m window --move rel:-20:0
 # shift + ctrl - s : yabai -m window --move rel:0:20
 # shift + ctrl - w : yabai -m window --move rel:0:-20
