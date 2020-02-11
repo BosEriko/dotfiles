@@ -1,4 +1,4 @@
-# List of Commands
+# Table of Contents
 # > Open Terminal
 # > Focus Window (alt) [h, j, k, l]
 # > Swap Window (shift + alt) [h, j, k, l]
@@ -26,6 +26,15 @@
 # > Toggle Window Fullscreen Zoom (alt) [f]
 # > Toggle Window Native Fullscreen (shift + alt) [f]
 # > Toggle Window Border (shift + alt) [b]
+# > Toggle Window Split Type (alt) [e]
+# > Float / Unfloat Window and Center on Screen (alt) [t]
+# > Toggle Sticky (alt) [s]
+# > Toggle Topmost (alt) [o]
+# > Toggle Sticky(+float), Topmost, Border and Picture-in-picture (alt) [p]
+
+# Change Layout of Desktop
+ctrl + alt - a : yabai -m space --layout bsp
+ctrl + alt - d : yabai -m space --layout float
 
 # Open Terminal
 # cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
@@ -168,20 +177,20 @@ alt - r : yabai -m space --rotate 90
 # Toggle Window Border
 shift + alt - b : yabai -m window --toggle border
 
-# toggle window split type
+# Toggle Window Split Type
 # alt - e : yabai -m window --toggle split
 
-# float / unfloat window and center on screen
+# Float / Unfloat Window and Center on Screen
 # alt - t : yabai -m window --toggle float;\
           # yabai -m window --grid 4:4:1:1:2:2
 
-# toggle sticky (show on all spaces)
+# Toggle Sticky
 # alt - s : yabai -m window --toggle sticky
 
-# toggle topmost (keep above other windows)
+# Toggle Topmost
 # alt - o : yabai -m window --toggle topmost
 
-# toggle sticky(+float), topmost, border and picture-in-picture
+# Toggle Sticky(+float), Topmost, Border and Picture-in-picture
 # alt - p : yabai -m window --toggle sticky;\
           # yabai -m window --toggle topmost;\
           # yabai -m window --toggle border;\
