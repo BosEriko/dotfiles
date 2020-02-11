@@ -5313,3 +5313,15 @@ TAGLINE="El Psy Congroo\
 : 1581336441:0;down && g g "add jq and add hotkey for moving window to a new screen"
 : 1581336665:0;g d
 : 1581336694:0;down && g g "add create, destroy and fast move desktop" && up
+: 1581410504:0;bos -a skhd-keys
+: 1581413283:0;jt personal
+: 1581413284:0;la
+: 1581423416:0;jt dotfiles
+: 1581423419:0;g d
+: 1581423521:0;bos -h
+: 1581423533:0;bos -f pipes
+: 1581423546:0;bos -a skhd-keys
+: 1581424453:0;brew services restart yabai
+: 1581424507:0;vi
+: 1581424521:0;g d
+: 1581424524:0;down
