@@ -19,6 +19,13 @@
 # > Decrease Window Size (shift + ctrl) [h, j, k, l]
 # > Set Insertion Point in Focused Container (ctrl + alt) [h, j, k, l]
 # > Rotate Tree (alt) [r]
+# > Mirror Tree Y-axis (alt) [y]
+# > Mirror Tree X-axis (alt) [x]
+# > Toggle Desktop Offset (alt) [a]
+# > Toggle Window Parent Zoom (alt) [d]
+# > Toggle Window Fullscreen Zoom (alt) [f]
+# > Toggle Window Native Fullscreen (shift + alt) [f]
+# > Toggle Window Border (shift + alt) [b]
 
 # Open Terminal
 # cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
@@ -140,25 +147,25 @@ shift + ctrl - l : yabai -m window --resize right:-20:0
 # Rotate Tree
 alt - r : yabai -m space --rotate 90
 
-# mirror tree y-axis
+# Mirror Tree Y-axis
 # alt - y : yabai -m space --mirror y-axis
 
-# mirror tree x-axis
+# Mirror Tree X-axis
 # alt - x : yabai -m space --mirror x-axis
 
-# toggle desktop offset
+# Toggle Desktop Offset
 # alt - a : yabai -m space --toggle padding; yabai -m space --toggle gap
 
-# toggle window parent zoom
+# Toggle Window Parent Zoom
 # alt - d : yabai -m window --toggle zoom-parent
 
-# toggle window fullscreen zoom
+# Toggle Window Fullscreen Zoom
 # alt - f : yabai -m window --toggle zoom-fullscreen
 
-# toggle window native fullscreen
+# Toggle Window Native Fullscreen
 # shift + alt - f : yabai -m window --toggle native-fullscreen
 
-# toggle window border
+# Toggle Window Border
 shift + alt - b : yabai -m window --toggle border
 
 # toggle window split type
