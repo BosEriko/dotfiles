@@ -2,6 +2,7 @@
 
 rm ~/.zshrc
 cat ~/.dotfiles/zsh/modules/config.z.sh      \
+    ~/.dotfiles/zsh/modules/colors.z.sh      \
     ~/.dotfiles/zsh/modules/plugins.z.sh     \
     ~/.dotfiles/zsh/modules/vim.z.sh         \
     ~/.dotfiles/zsh/modules/hotkeys.z.sh     \
