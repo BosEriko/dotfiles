@@ -16,7 +16,7 @@ Open [Karabiner-Elements](https://pqrs.org/osx/karabiner/) and enable the follow
 
 After setting [Karabiner-Elements](https://pqrs.org/osx/karabiner/) you can now close it and then proceed to installing [Alfred](https://www.alfredapp.com/) then do the following:
 - Disable Spotlight's hotkeys
-- Set Alfred's hotkey to `Command + Spacebar`
+- Set [Alfred](https://www.alfredapp.com/)'s hotkey to `Command + Spacebar`
 - Enable Web Bookmarks under the Features tab
 - Update the [Web Searches](markdown/alfred.md)
 
