@@ -24,10 +24,9 @@ You also need to setup Mission Control to be able to work with [Yabai](http://gi
 - Enable "Display have separate Spaces"
 - Disable "Automatically rearrange Spaces based on most recent use"
 
-I also prefer having less animation and transparency. Open System Preferences and choose Accessibility then choose the following:
-- Select Display from the list of options on the left
-- Enable Reduce motion
-- Enable Reduce transparency
+[Yabai](http://github.com/koekeishiya/yabai) will also be using the hotkey for taking screenshots and screencasts so that needs to be updated. Open the Keyboard section inside System Preferences then do the following:
+- Select Screenshots from the list of options on the left
+- Change the hotkey of "Screenshots and recording options" to `option + cmd + p`
 
 Close Accessibility's setting and then install [Dash](https://kapeli.com/dash) and [Contexts](https://contexts.co/). Be sure to set Dash and Contexts to dark mode after installing them!
 
