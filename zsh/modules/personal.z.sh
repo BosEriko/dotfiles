@@ -9,7 +9,7 @@ BOS_HELP_MESSAGE="
 
     Usage: bos [option] [command]
 
-\033[1m
+${B_GREEN}
     Options:                    Commands:               Description:
 ${RESET}
 
