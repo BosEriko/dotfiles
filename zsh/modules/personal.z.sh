@@ -11,7 +11,7 @@ BOS_HELP_MESSAGE="
 
 \033[1m
     Options:                    Commands:               Description:
-\033[0m
+${RESET}
 
     -f, --fun                   parrot                  Party Parrot
                                 parrotsay               Parrot Say
