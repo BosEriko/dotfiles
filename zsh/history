@@ -5361,3 +5361,29 @@ TAGLINE="El Psy Congroo\
 : 1581642918:0;~
 : 1581647265:0;ranger
 : 1581647569:0;down
+: 1581647804:0;jt ops
+: 1581647805:0;vi
+: 1581653977:0;rsync -rI /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/ ~/Desktop/saResourcesBackup
+: 1581653996:0;jt Personal
+: 1581653998:0;jt personal
+: 1581654004:0;git clone git@github.com:tsujp/square-macos-windows.git
+: 1581654088:0;~
+: 1581654088:0;la
+: 1581654092:0;..
+: 1581654092:0;la
+: 1581654094:0;..
+: 1581654095:0;la
+: 1581654099:0;..
+: 1581654100:0;la
+: 1581654105:0;/System
+: 1581654112:0;cd /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/
+: 1581654114:0;la
+: 1581654231:0;cp ~/Documents/Codes/Personal/square-macos-windows/DarkAquaAppearance/Edited/DarkAquaAppearance.car DarkAquaAppearance.car
+: 1581654238:0;sudo cp ~/Documents/Codes/Personal/square-macos-windows/DarkAquaAppearance/Edited/DarkAquaAppearance.car DarkAquaAppearance.car
+: 1581654271:0;jt personal
+: 1581654272:0;la
+: 1581654281:0;jt dotfiles
+: 1581654281:0;la
+: 1581654283:0;vi
+: 1581654306:0;brew services restart yabai
+: 1581654455:0;down
