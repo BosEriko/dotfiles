@@ -5346,3 +5346,18 @@ TAGLINE="El Psy Congroo\
 : 1581556642:0;vi
 : 1581556744:0;g d
 : 1581556758:0;down && g g "add colors to zsh" && up
+: 1581642845:0;jt vol
+: 1581642845:0;la
+: 1581642847:0;cd Bos
+: 1581642848:0;la
+: 1581642864:0;rm -rf ._Reyes,\ Bos\ Eriko\ 1902.pdf Reyes,\ Bos\ Eriko\ 1902.pdf
+: 1581642866:0;la
+: 1581642901:0;cd System\ Volume\ Information
+: 1581642901:0;vi
+: 1581642910:0;g d
+: 1581642912:0;la
+: 1581642913:0;..
+: 1581642913:0;la
+: 1581642918:0;~
+: 1581647265:0;ranger
+: 1581647569:0;down
