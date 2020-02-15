@@ -1,13 +1,13 @@
 
 # ================================================================================= [Config] ===== #
 
-# Fortune inside Cowsay
-fortune | cowsay -f ghostbusters | lolcat
-
 # Load Tmux
 if [ "$TMUX" = "" ]; then
   tmux attach-session || tmux new -s default
 fi
+
+# Fortune inside Cowsay
+fortune | cowsay -f ghostbusters | lolcat
 
 # Path to your oh-my-zsh installation
 export ZSH=$HOME/.oh-my-zsh
