@@ -18,6 +18,7 @@ ${RESET}
                                 train                   Let a train pass by
                                 pipes                   Run some pipes
                                 matrix                  Enter the matrix
+                                cowsay                  Get a random fortune
 
     -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
                                 install                 Install VSCodium extensions from the list
@@ -67,6 +68,8 @@ bos() {
                 pipes.sh
             elif [ "$2" = "matrix" ]; then
                 cmatrix
+            elif [ "$2" = "cowsay" ]; then
+                fortune | cowsay -f ghostbusters | lolcat
             else
                 echo "Usage: -f <command> or --fun <command>"
             fi
