@@ -5435,3 +5435,7 @@ TAGLINE="El Psy Congroo\
 : 1581733299:0;g d
 : 1581733311:0;down && g g "add colors to cowsay" && up
 : 1581733416:0;down && g g "add colors to personal script" && up
+: 1581733597:0;vi
+: 1581733604:0;brew install doge
+: 1581733659:0;g d
+: 1581733668:0;down && g g "add cowsay" && up
