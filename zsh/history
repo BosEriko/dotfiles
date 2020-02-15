@@ -5439,3 +5439,82 @@ TAGLINE="El Psy Congroo\
 : 1581733604:0;brew install doge
 : 1581733659:0;g d
 : 1581733668:0;down && g g "add cowsay" && up
+: 1581742823:0;jt personal
+: 1581742824:0;la
+: 1581742853:0;g clone git@github.com:BosEriko/tldr.git
+: 1581743041:0;la
+: 1581743043:0;cd tldr
+: 1581743060:0;git remote add upstream git@github.com:tldr-pages/tldr.git
+: 1581743065:0;g pl upstream master
+: 1581743076:0;g ps -u origin master
+: 1581743105:0;vi
+: 1581743144:0;g br figlet
+: 1581743148:0;g b figlet
+: 1581743165:0;mv pages/linux/figlet.md pages/common/figlet.md
+: 1581743167:0;g d
+: 1581743172:0;g b figlet
+: 1581743174:0;g co figlet
+: 1581743179:0;g ps -u origin figlet
+: 1581743246:0;g ps
+: 1581743251:0;g d
+: 1581743254:0;g lol
+: 1581743255:0;g s
+: 1581743270:0;g g "move figlet to common pages"
+: 1581744776:0;..
+: 1581744777:0;la
+: 1581744780:0;mkdir home
+: 1581744782:0;cd home
+: 1581744783:0;git init
+: 1581744784:0;g so
+: 1581744790:0;vi
+: 1581744794:0;touch README.md
+: 1581744822:0;g add . && g commit -m "Initial Commit"
+: 1581744827:0;g ps -u origin master
+: 1581745123:0;yarn init -y
+: 1581745130:0;g g "add package.json"
+: 1581745225:0;echo "node_modules" >> .gitignore
+: 1581745229:0;g g "add gitignore"
+: 1581746163:0;rm -rf .gitignore
+: 1581746177:0;cp ../barangay/server/.gitignore .gitignore
+: 1581746178:0;g d
+: 1581746197:0;g g "update gitignore"
+: 1581746618:0;yarn add next react react-dom
+: 1581746687:0;g g "add next files"
+: 1581746859:0;mkdir pages
+: 1581746867:0;touch pages/index.tsx
+: 1581746878:0;g g "create a simple page"
+: 1581746948:0;yarn dev
+: 1581746974:0;yarn add --dev typescript @types/react @types/node
+: 1581746990:0;g g "add types for react and node"
+: 1581747042:0;yarn dev
+: 1581747051:0;g d
+: 1581747052:0;g s
+: 1581747071:0;g d
+: 1581747072:0;g s
+: 1581747079:0;g g "add tsconfig and ignore .next"
+: 1581747195:0;yarn build
+: 1581747213:0;g s
+: 1581747794:0;jt dotfiles
+: 1581747795:0;vi
+: 1581747820:0;now
+: 1581747873:0;npm i -g now@latest
+: 1581747898:0;g d
+: 1581747903:0;g g "add a deploy script"
+: 1581748283:0;jt dotfiles
+: 1581748286:0;vi
+: 1581748868:0;g d
+: 1581748880:0;yarn start
+: 1581748951:0;g d
+: 1581748963:0;yarn dev
+: 1581748987:0;vi
+: 1581749000:0;yarn deploy
+: 1581749038:0;g d
+: 1581749040:0;g s
+: 1581749053:0;ganp
+: 1581749068:0;g commit -m "add .now to gitignore" && g ps
+: 1581749115:0;g d
+: 1581749121:0;g g "update the index page"
+: 1581749185:0;yarn add now
+: 1581749201:0;g d
+: 1581749208:0;g g "add now to the list of packages needed"
+: 1581749824:0;down
