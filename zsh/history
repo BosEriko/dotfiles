@@ -5399,3 +5399,29 @@ TAGLINE="El Psy Congroo\
 : 1581732559:0;fortune | cowsay
 : 1581732636:0;g d
 : 1581732676:0;down && g g "add fortune and cowsay" && up
+: 1581732742:0;vi
+: 1581732913:0;cowsay -h
+: 1581732919:0;cowsay --help
+: 1581732933:0;cowsay -l
+: 1581732952:0;fortune | cowsay -f bunny
+: 1581732956:0;fortune | cowsay -f cower
+: 1581732960:0;fortune | cowsay -f daemon
+: 1581732969:0;fortune -l && fortune | cowsay -f daemon
+: 1581732977:0;cowsay -l && fortune | cowsay -f daemon
+: 1581732983:0;cowsay -l && fortune | cowsay -f beavis.zen
+: 1581732989:0;cowsay -l && fortune | cowsay -f blowfish
+: 1581732994:0;cowsay -l && fortune | cowsay -f www
+: 1581733000:0;cowsay -l && fortune | cowsay -f vader-koala
+: 1581733004:0;cowsay -l && fortune | cowsay -f vader
+: 1581733009:0;cowsay -l && fortune | cowsay -f udder
+: 1581733011:0;cowsay -l && fortune | cowsay -f tux
+: 1581733014:0;cowsay -l && fortune | cowsay -f turtle
+: 1581733018:0;cowsay -l && fortune | cowsay -f turkey
+: 1581733024:0;cowsay -l && fortune | cowsay -f three-eyes
+: 1581733028:0;cowsay -l && fortune | cowsay -f telebears
+: 1581733037:0;cowsay -l && fortune | cowsay -f surgery
+: 1581733042:0;cowsay -l && fortune | cowsay -f supermilker
+: 1581733048:0;cowsay -l && fortune | cowsay -f small
+: 1581733061:0;cowsay -l && fortune | cowsay -f ghostbusters
+: 1581733067:0;vi
+: 1581733095:0;down && g g "change cowsay to ghostbusters" && up
