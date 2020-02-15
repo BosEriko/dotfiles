@@ -5518,3 +5518,12 @@ TAGLINE="El Psy Congroo\
 : 1581749201:0;g d
 : 1581749208:0;g g "add now to the list of packages needed"
 : 1581749824:0;down
+: 1581752192:0;jt dotfiles
+: 1581752198:0;vi
+: 1581752236:0;jt dotfiles
+: 1581752237:0;la
+: 1581752238:0;vi
+: 1581752897:0;jt dotfiles
+: 1581752898:0;vi
+: 1581752921:0;g d
+: 1581752934:0;down && g g "move cowsay so that tmux loads first" && up
