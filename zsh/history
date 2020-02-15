@@ -5395,3 +5395,7 @@ TAGLINE="El Psy Congroo\
 : 1581732261:0;vi
 : 1581732307:0;g d
 : 1581732407:0;down && g g "add matrix" && up
+: 1581732513:0;brew install fortune && brew install cowsay
+: 1581732559:0;fortune | cowsay
+: 1581732636:0;g d
+: 1581732676:0;down && g g "add fortune and cowsay" && up
