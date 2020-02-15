@@ -2,7 +2,7 @@
 # ================================================================================= [Config] ===== #
 
 # Fortune inside Cowsay
-fortune | cowsay -f ghostbusters
+fortune | cowsay -f ghostbusters | lolcat
 
 # Load Tmux
 if [ "$TMUX" = "" ]; then
