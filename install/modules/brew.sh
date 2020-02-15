@@ -8,7 +8,9 @@ brew update
 brew install antigen
 brew install cmake
 brew install cmatrix
+brew install cowsay
 brew install figlet
+brew install fortune
 brew install fzf
 brew install git-flow
 brew install htop

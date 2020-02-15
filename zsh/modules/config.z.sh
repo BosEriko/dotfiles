@@ -1,6 +1,9 @@
 
 # ================================================================================= [Config] ===== #
 
+# Fortune inside Cowsay
+fortune | cowsay
+
 # Load Tmux
 if [ "$TMUX" = "" ]; then
   tmux attach-session || tmux new -s default
