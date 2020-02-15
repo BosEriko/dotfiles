@@ -5425,3 +5425,12 @@ TAGLINE="El Psy Congroo\
 : 1581733061:0;cowsay -l && fortune | cowsay -f ghostbusters
 : 1581733067:0;vi
 : 1581733095:0;down && g g "change cowsay to ghostbusters" && up
+: 1581733186:0;shuf [1, 2]
+: 1581733190:0;shuf
+: 1581733252:0;lolcat
+: 1581733254:0;brew install lolcat
+: 1581733269:0;vi
+: 1581733294:0;fortune | cowsay -f ghostbusters | lolcat\
+
+: 1581733299:0;g d
+: 1581733311:0;down && g g "add colors to cowsay" && up
