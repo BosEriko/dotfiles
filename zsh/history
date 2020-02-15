@@ -5387,3 +5387,11 @@ TAGLINE="El Psy Congroo\
 : 1581654283:0;vi
 : 1581654306:0;brew services restart yabai
 : 1581654455:0;down
+: 1581671818:0;htop
+: 1581732121:0;brew install cmatrix
+: 1581732245:0;cmatrix
+: 1581732253:0;htop
+: 1581732260:0;jt dotfiles
+: 1581732261:0;vi
+: 1581732307:0;g d
+: 1581732407:0;down && g g "add matrix" && up
