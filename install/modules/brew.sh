@@ -7,6 +7,7 @@ brew update
 # Install packages using Homebrew (https://brew.sh/)
 brew install antigen
 brew install cmake
+brew install cmatrix
 brew install figlet
 brew install fzf
 brew install git-flow
