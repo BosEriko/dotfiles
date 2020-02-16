@@ -6,11 +6,11 @@ brew update
 
 # Install packages using Homebrew (https://brew.sh/)
 brew install antigen                                              # The plugin manager for zsh (https://github.com/zsh-users/antigen)
-brew install cmake                                                #
+brew install cmake                                                # CMake is an open-source, cross-platform family of tools designed to build, test and package software (https://cmake.org/)
 brew install cmatrix                                              # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
 brew install cowsay                                               # Let the cow talk (https://github.com/schacon/cowsay)
-brew install figlet                                               #
-brew install fortune                                              #
+brew install figlet                                               # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
+brew install fortune                                              # 
 brew install fzf                                                  #
 brew install git-flow                                             #
 brew install htop                                                 #
