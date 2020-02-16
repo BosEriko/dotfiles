@@ -4,7 +4,7 @@
 brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
-# Install packages using Homebrew (https://brew.sh/)
+# Install packages using Homebrew (https://formulae.brew.sh/formula/FORMULAE_NAME)
 brew install antigen                                              # The plugin manager for zsh (https://github.com/zsh-users/antigen)
 brew install cmake                                                # CMake is an open-source, cross-platform family of tools designed to build, test and package software (https://cmake.org/)
 brew install cmatrix                                              # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
@@ -26,14 +26,14 @@ brew install pipes-sh                                             # Animated pip
 brew install python3                                              # Python is a programming language that lets you work quickly and integrate systems more effectively (https://www.python.org/)
 brew install ranger                                               # A VIM-inspired filemanager for the console (https://github.com/ranger/ranger)
 brew install rbenv                                                # Groom your app’s Ruby environment (https://github.com/rbenv/rbenv)
-brew install sl                                                   #
-brew install stow                                                 #
-brew install terminal-notifier                                    #
-brew install tmux                                                 #
-brew install tree                                                 #
-brew install yarn                                                 #
-brew install zsh                                                  #
-brew cask install beaker-browser                                  #
+brew install sl                                                   # SL(1): Cure your bad habit of mistyping (https://github.com/mtoyoda/sl)
+brew install stow                                                 # GNU Stow is a symlink farm manager (https://www.gnu.org/software/stow/)
+brew install terminal-notifier                                    # Send User Notifications on macOS from the command-line (https://github.com/julienXX/terminal-notifier)
+brew install tmux                                                 # tmux source code (https://github.com/tmux/tmux)
+brew install tree                                                 # Display directories as trees (with optional color/HTML output) (https://formulae.brew.sh/formula/tree)
+brew install yarn                                                 # Fast, reliable, and secure dependency management (https://github.com/yarnpkg/yarn)
+brew install zsh                                                  # Zsh is a shell designed for interactive use (http://www.zsh.org/)
+brew cask install beaker-browser                                  # 
 brew cask install brave-browser                                   #
 brew cask install figma                                           #
 brew cask install firefox                                         #
