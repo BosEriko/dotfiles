@@ -10,10 +10,10 @@ brew install cmake                                                # CMake is an 
 brew install cmatrix                                              # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
 brew install cowsay                                               # Let the cow talk (https://github.com/schacon/cowsay)
 brew install figlet                                               # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
-brew install fortune                                              # 
-brew install fzf                                                  #
-brew install git-flow                                             #
-brew install htop                                                 #
+brew install fortune                                              # Fortune cookie
+brew install fzf                                                  # A command-line fuzzy finder (https://github.com/junegunn/fzf)
+brew install git-flow                                             # Git workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+brew install htop                                                 # htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top' (https://github.com/hishamhm/htop)
 brew install hub                                                  #
 brew install jq                                                   #
 brew install koekeishiya/formulae/skhd                            #
