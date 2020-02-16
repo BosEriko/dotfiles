@@ -45,9 +45,9 @@ brew cask install motrix                                          #
 brew cask install qutebrowser                                     #
 brew cask install typora                                          #
 brew cask install vscodium                                        #
-brew install php@7.3; brew install libidn2; brew install libpsl;  #
-brew tap heroku/brew && brew install heroku                       #
-brew tap homebrew/cask-fonts && brew cask install font-fira-code  #
+brew install php@7.3; brew install libidn2; brew install libpsl;  # The PHP Interpreter (https://github.com/php/php-src)
+brew tap heroku/brew && brew install heroku                       # Heroku CLI (https://github.com/heroku/cli)
+brew tap homebrew/cask-fonts && brew cask install font-fira-code  # Monospaced font with programming ligatures (https://github.com/tonsky/FiraCode)
 terminal-notifier -title 'Installing' -message 'Brew apps have been installed.'
 
 # Cleanup for Homebrew (https://brew.sh/)
