@@ -33,18 +33,18 @@ brew install tmux                                                 # tmux source 
 brew install tree                                                 # Display directories as trees (with optional color/HTML output) (https://formulae.brew.sh/formula/tree)
 brew install yarn                                                 # Fast, reliable, and secure dependency management (https://github.com/yarnpkg/yarn)
 brew install zsh                                                  # Zsh is a shell designed for interactive use (http://www.zsh.org/)
-brew cask install beaker-browser                                  # 
-brew cask install brave-browser                                   #
-brew cask install figma                                           #
-brew cask install firefox                                         #
-brew cask install google-chrome                                   #
-brew cask install graphiql                                        #
-brew cask install hyper                                           #
-brew cask install keycastr                                        #
-brew cask install motrix                                          #
-brew cask install qutebrowser                                     #
-brew cask install typora                                          #
-brew cask install vscodium                                        #
+brew cask install beaker-browser                                  # An experimental peer-to-peer Web browser (https://github.com/beakerbrowser/beaker)
+brew cask install brave-browser                                   # Next generation Brave browser for macOS, Windows, Linux, and eventually Android (https://github.com/brave/brave-browser)
+brew cask install figma                                           # Collaborative interface design tool (https://github.com/figma)
+brew cask install firefox                                         # Mozilla Firefox Browser (https://github.com/mozilla)
+brew cask install google-chrome                                   # Google Chrome Browser (https://www.google.com/intl/en_in/chrome/)
+brew cask install graphiql                                        # GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools (https://github.com/graphql/graphiql)
+brew cask install hyper                                           # A terminal built on web technologies (https://github.com/zeit/hyper)
+brew cask install keycastr                                        # KeyCastr, an open-source keystroke visualizer (https://github.com/keycastr/keycastr)
+brew cask install motrix                                          # A full-featured download manager (https://github.com/agalwood/Motrix)
+brew cask install qutebrowser                                     # A keyboard-driven, vim-like browser based on PyQt5 (https://github.com/qutebrowser/qutebrowser)
+brew cask install typora                                          # Markdown Reader (https://github.com/typora/)
+brew cask install vscodium                                        # Binary releases of VS Code without MS branding/telemetry/licensing (https://github.com/VSCodium/vscodium)
 brew install php@7.3; brew install libidn2; brew install libpsl;  # The PHP Interpreter (https://github.com/php/php-src)
 brew tap heroku/brew && brew install heroku                       # Heroku CLI (https://github.com/heroku/cli)
 brew tap homebrew/cask-fonts && brew cask install font-fira-code  # Monospaced font with programming ligatures (https://github.com/tonsky/FiraCode)
