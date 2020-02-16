@@ -5527,3 +5527,22 @@ TAGLINE="El Psy Congroo\
 : 1581752898:0;vi
 : 1581752921:0;g d
 : 1581752934:0;down && g g "move cowsay so that tmux loads first" && up
+: 1581821072:0;brew install stow
+: 1581821090:0;jt dotfiles
+: 1581821090:0;la
+: 1581821091:0;vi
+: 1581821101:0;g d
+: 1581821132:0;git add install/modules/brew.sh
+: 1581821144:0;g commit -m "add stow to brew"
+: 1581821145:0;g ps
+: 1581821191:0;tldr stow
+: 1581821768:0;jt personal
+: 1581822492:0;stow --version
+: 1581822501:0;jt dotfiles
+: 1581822505:0;touch bos-test
+: 1581822517:0;stow bos-test
+: 1581822524:0;la
+: 1581822529:0;rm -rf bos-test
+: 1581822564:0;la
+: 1581822573:0;g d
+: 1581822576:0;down
