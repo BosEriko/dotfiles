@@ -37,6 +37,7 @@ ${RESET}
                                 path                    Print out the list of paths
                                 restart-zsh             Restart ZSH
                                 skhd-keys               Print skhd keys
+                                speed-test              Test the connection speed
 
     -y, --yarn                  list                    List global yarn packages
                                 interactive             Upgrade global yarn packages interactively
@@ -80,6 +81,8 @@ bos() {
                 sudo shutdown -r now
             elif [ "$2" = "skhd-keys" ]; then
                 less ~/.dotfiles/skhdrc
+            elif [ "$2" = "speed-test" ]; then
+                speed-test
             elif [ "$2" = "localhost" ]; then
                 if [ -z "$3" ]; then
                     http-server

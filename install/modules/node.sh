@@ -12,15 +12,15 @@ yarn global add eslint              # Find and fix problems in your JavaScript c
 yarn global add expo-cli            # Tools for making Expo apps (https://github.com/expo/expo-cli)
 yarn global add firebase-tools      # The Firebase Command Line Tools (https://github.com/firebase/firebase-tools)
 yarn global add gatsby-cli          # The Gatsby command line interface (CLI) (https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-cli)
-yarn global add gtop                #
-yarn global add http-server         #
-yarn global add live-server         #
-yarn global add neovim              #
-yarn global add ngrok               #
-yarn global add nodemon             #
-yarn global add now                 #
-yarn global add parrotsay           #
-yarn global add spaceship-prompt    #
+yarn global add gtop                # System monitoring dashboard for terminal (https://github.com/aksakalli/gtop)
+yarn global add http-server         # A simple zero-configuration command-line http server (https://github.com/http-party/http-server)
+yarn global add live-server         # A simple development http server with live reload capability (https://github.com/tapio/live-server)
+yarn global add neovim              # Vim-fork focused on extensibility and usability (https://github.com/neovim/neovim)
+yarn global add ngrok               # Introspected tunnels to localhost (https://github.com/inconshreveable/ngrok)
+yarn global add nodemon             # Monitor for any changes in your node.js application and automatically restart the server - perfect for development (https://github.com/remy/nodemon)
+yarn global add now                 # The easiest way to deploy websites (https://github.com/zeit/now)
+yarn global add parrotsay           # The Party Parrot on your terminal (https://github.com/matheuss/parrotsay)
+yarn global add spaceship-prompt    # A Zsh prompt for Astronauts (https://github.com/denysdovhan/spaceship-prompt)
 yarn global add speed-test          #
 yarn global add tldr                #
 yarn global add typescript          #
