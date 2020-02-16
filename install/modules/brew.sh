@@ -13,7 +13,7 @@ brew install figlet                                               # FIGlet is a 
 brew install fortune                                              # Fortune CLI (https://gist.github.com/zlorb/4a3eff8981fcec8ca1c7)
 brew install fzf                                                  # A command-line fuzzy finder (https://github.com/junegunn/fzf)
 brew install git-flow                                             # Git workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-brew install htop                                                 # htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top' (https://github.com/hishamhm/htop)
+brew install htop                                                 # Htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top' (https://github.com/hishamhm/htop)
 brew install hub                                                  # A command-line tool that makes git easier to use with GitHub (https://github.com/github/hub)
 brew install jq                                                   # Command-line JSON processor (https://github.com/stedolan/jq)
 brew install koekeishiya/formulae/skhd                            # Simple hotkey daemon for macOS (https://github.com/koekeishiya/skhd)
