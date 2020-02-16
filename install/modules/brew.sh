@@ -22,10 +22,10 @@ brew install links                                                # Terminal bas
 brew install neovim                                               # Vim-fork focused on extensibility and usability (https://github.com/neovim/neovim)
 brew install node                                                 # Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine (https://nodejs.org/en/)
 brew install pastel                                               # A command-line tool to generate, analyze, convert and manipulate colors (https://github.com/sharkdp/pastel)
-brew install pipes-sh                                             #
-brew install python3                                              #
-brew install ranger                                               #
-brew install rbenv                                                #
+brew install pipes-sh                                             # Animated pipes terminal screensaver (https://github.com/pipeseroni/pipes.sh)
+brew install python3                                              # Python is a programming language that lets you work quickly and integrate systems more effectively (https://www.python.org/)
+brew install ranger                                               # A VIM-inspired filemanager for the console (https://github.com/ranger/ranger)
+brew install rbenv                                                # Groom your app’s Ruby environment (https://github.com/rbenv/rbenv)
 brew install sl                                                   #
 brew install stow                                                 #
 brew install terminal-notifier                                    #
