@@ -20,8 +20,8 @@ brew install koekeishiya/formulae/skhd                            # Simple hotke
 brew install koekeishiya/formulae/yabai                           # A tiling window manager for macOS based on binary space partitioning (https://github.com/koekeishiya/yabai)
 brew install links                                                # Terminal based browser (http://links.twibright.com/)
 brew install neovim                                               # Vim-fork focused on extensibility and usability (https://github.com/neovim/neovim)
-brew install node                                                 #
-brew install pastel                                               #
+brew install node                                                 # Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine (https://nodejs.org/en/)
+brew install pastel                                               # A command-line tool to generate, analyze, convert and manipulate colors (https://github.com/sharkdp/pastel)
 brew install pipes-sh                                             #
 brew install python3                                              #
 brew install ranger                                               #
