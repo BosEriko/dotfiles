@@ -5,13 +5,13 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | sh
 terminal-notifier -title 'Installing' -message 'NVM has been installed.'
 
 # Install packages using NPM (https://nodejs.org/)
-yarn global add @vue/cli            #
+yarn global add @vue/cli            # Standard Tooling for Vue.js Development (https://github.com/vuejs/vue-cli)
 yarn global add electron            # Build cross-platform desktop apps with JavaScript, HTML, and CSS (https://github.com/electron/electron)
-yarn global add electron-packager   #
-yarn global add eslint              #
-yarn global add expo-cli            #
-yarn global add firebase-tools      #
-yarn global add gatsby-cli          #
+yarn global add electron-packager   # Customize and package your Electron app with OS-specific bundles (.app, .exe, etc.) via JS or CLI (https://github.com/electron/electron-packager)
+yarn global add eslint              # Find and fix problems in your JavaScript code (https://github.com/eslint/eslint)
+yarn global add expo-cli            # Tools for making Expo apps (https://github.com/expo/expo-cli)
+yarn global add firebase-tools      # The Firebase Command Line Tools (https://github.com/firebase/firebase-tools)
+yarn global add gatsby-cli          # The Gatsby command line interface (CLI) (https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-cli)
 yarn global add gtop                #
 yarn global add http-server         #
 yarn global add live-server         #
