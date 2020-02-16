@@ -5,10 +5,10 @@ brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Ho
 brew update
 
 # Install packages using Homebrew (https://brew.sh/)
-brew install antigen                                              #
+brew install antigen                                              # The plugin manager for zsh (https://github.com/zsh-users/antigen)
 brew install cmake                                                #
-brew install cmatrix                                              #
-brew install cowsay                                               #
+brew install cmatrix                                              # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
+brew install cowsay                                               # Let the cow talk (https://github.com/schacon/cowsay)
 brew install figlet                                               #
 brew install fortune                                              #
 brew install fzf                                                  #
