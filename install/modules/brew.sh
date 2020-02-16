@@ -10,16 +10,16 @@ brew install cmake                                                # CMake is an 
 brew install cmatrix                                              # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
 brew install cowsay                                               # Let the cow talk (https://github.com/schacon/cowsay)
 brew install figlet                                               # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
-brew install fortune                                              # Fortune cookie
+brew install fortune                                              # Fortune CLI (https://gist.github.com/zlorb/4a3eff8981fcec8ca1c7)
 brew install fzf                                                  # A command-line fuzzy finder (https://github.com/junegunn/fzf)
 brew install git-flow                                             # Git workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 brew install htop                                                 # htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top' (https://github.com/hishamhm/htop)
-brew install hub                                                  #
-brew install jq                                                   #
-brew install koekeishiya/formulae/skhd                            #
-brew install koekeishiya/formulae/yabai                           #
-brew install links                                                #
-brew install neovim                                               #
+brew install hub                                                  # A command-line tool that makes git easier to use with GitHub (https://github.com/github/hub)
+brew install jq                                                   # Command-line JSON processor (https://github.com/stedolan/jq)
+brew install koekeishiya/formulae/skhd                            # Simple hotkey daemon for macOS (https://github.com/koekeishiya/skhd)
+brew install koekeishiya/formulae/yabai                           # A tiling window manager for macOS based on binary space partitioning (https://github.com/koekeishiya/yabai)
+brew install links                                                # Terminal based browser (http://links.twibright.com/)
+brew install neovim                                               # Vim-fork focused on extensibility and usability (https://github.com/neovim/neovim)
 brew install node                                                 #
 brew install pastel                                               #
 brew install pipes-sh                                             #
