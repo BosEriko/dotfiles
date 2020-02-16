@@ -21,9 +21,9 @@ yarn global add nodemon             # Monitor for any changes in your node.js ap
 yarn global add now                 # The easiest way to deploy websites (https://github.com/zeit/now)
 yarn global add parrotsay           # The Party Parrot on your terminal (https://github.com/matheuss/parrotsay)
 yarn global add spaceship-prompt    # A Zsh prompt for Astronauts (https://github.com/denysdovhan/spaceship-prompt)
-yarn global add speed-test          #
-yarn global add tldr                #
-yarn global add typescript          #
+yarn global add speed-test          # Test your internet connection speed and ping using speedtest.net from the CLI (https://github.com/sindresorhus/speed-test)
+yarn global add tldr                # Simplified and community-driven man pages (https://github.com/tldr-pages/tldr)
+yarn global add typescript          # TypeScript is a superset of JavaScript that compiles to clean JavaScript output (https://github.com/Microsoft/TypeScript)
 terminal-notifier -title 'Installing' -message 'NPM apps have been installed.'
 
 # Avoid running postinstall scripts from packages
