@@ -5563,3 +5563,43 @@ TAGLINE="El Psy Congroo\
 : 1581822654:0;g d
 : 1581822655:0;g s
 : 1581822659:0;down
+: 1581852249:0;jt personal
+: 1581852252:0;la
+: 1581852330:0;tldr figlet
+: 1581852609:0;~
+: 1581852760:0;jt personal
+: 1581852760:0;la
+: 1581854132:0;tree
+: 1581854215:0;la
+: 1581854219:0;tldr tree
+: 1581854227:0;tree -d
+: 1581854231:0;tldr tree
+: 1581854818:0;jt dotfiles
+: 1581854833:0;la
+: 1581854834:0;vi
+: 1581858373:0;g d
+: 1581858383:0;mkdir stow-test
+: 1581858395:0;touch ~/stow-test-file
+: 1581858400:0;cd ~
+: 1581858401:0;la
+: 1581858431:0;rm -rf stow-test
+: 1581858431:0;la
+: 1581858440:0;g d
+: 1581858444:0;g s
+: 1581858456:0;mkdir stow-test
+: 1581858464:0;echo "test" >> stow-test/stow-test-file
+: 1581858466:0;stow stow-test
+: 1581858486:0;la stow-test
+: 1581858496:0;stow stow-test
+: 1581858507:0;rm ~/stow-test-file && stow stow-test
+: 1581858511:0;g d
+: 1581858512:0;la
+: 1581858518:0;rm -rf stow-test-file
+: 1581858519:0;la
+: 1581858528:0;rm -rf stow-test
+: 1581858529:0;g d
+: 1581858531:0;g s
+: 1581858533:0;g d
+: 1581858534:0;la
+: 1581858536:0;g d
+: 1581858538:0;down
