@@ -19,6 +19,7 @@ brew install jq                                                   # Command-line
 brew install koekeishiya/formulae/skhd                            # Simple hotkey daemon for macOS (https://github.com/koekeishiya/skhd)
 brew install koekeishiya/formulae/yabai                           # A tiling window manager for macOS based on binary space partitioning (https://github.com/koekeishiya/yabai)
 brew install links                                                # Terminal based browser (http://links.twibright.com/)
+brew install lolcat                                               # Rainbows and unicorns (https://github.com/busyloop/lolcat)
 brew install neovim                                               # Vim-fork focused on extensibility and usability (https://github.com/neovim/neovim)
 brew install node                                                 # Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine (https://nodejs.org/en/)
 brew install pastel                                               # A command-line tool to generate, analyze, convert and manipulate colors (https://github.com/sharkdp/pastel)
