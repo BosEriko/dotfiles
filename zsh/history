@@ -5603,3 +5603,16 @@ TAGLINE="El Psy Congroo\
 : 1581858534:0;la
 : 1581858536:0;g d
 : 1581858538:0;down
+: 1581904961:0;git --help
+: 1581904964:0;git --help | lolcolor
+: 1581905584:0;brew install lolcolor
+: 1581905797:0;jt dotfiles
+: 1581905798:0;vi
+: 1581905834:0;brew install lolcat
+: 1581905853:0;vi
+: 1581905927:0;brew install lolcat
+: 1581906005:0;git --help | lolcat
+: 1581906018:0;bos -h | lolcat
+: 1581906030:0;figlet "Norly" | lolcat
+: 1581906144:0;g d
+: 1581906157:0;down && g g "add lolcat to the list"
