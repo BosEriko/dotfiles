@@ -5675,3 +5675,96 @@ TAGLINE="El Psy Congroo\
 : 1582023018:0;vi
 : 1582024259:0;yarn dev
 : 1582024377:0;down
+: 1582024462:0;yarn add -D tailwindcss autoprefixer @fullhuman/postcss-purgecss
+: 1582024527:0;touch postcss.config.js
+: 1582024628:0;g d
+: 1582024630:0;g s
+: 1582024641:0;g g "create postcss and add tailwind"
+: 1582024647:0;g lol
+: 1582024650:0;g pl
+: 1582024665:0;g co yarn add -D @zeit/next-css
+: 1582024682:0;g co issue-1-Add_TailwindCSS
+: 1582024685:0;g ps
+: 1582024711:0;g co master
+: 1582024721:0;la
+: 1582024722:0;g lol
+: 1582024743:0;g ps
+: 1582024798:0;yarn add -D @zeit/next-css
+: 1582024817:0;g d
+: 1582024825:0;g g "add next-css"
+: 1582024838:0;touch next.config.js
+: 1582024854:0;g g "add next config"
+: 1582024873:0;touch styles.css
+: 1582024884:0;vi
+: 1582024902:0;g d
+: 1582024903:0;g s
+: 1582024907:0;g g "add styles.css"
+: 1582025026:0;yarn dev
+: 1582025273:0;..
+: 1582025278:0;la
+: 1582025281:0;mv home home-old
+: 1582025286:0;npx create-next-app home
+: 1582025358:0;la
+: 1582025367:0;rm -rf home/.git
+: 1582025374:0;mv home-old/.git home
+: 1582025377:0;cd home
+: 1582025378:0;g d
+: 1582025402:0;g g "use the default starter on next"
+: 1582025453:0;vi
+: 1582025471:0;yarn deploy
+: 1582025558:0;vi .gitignore
+: 1582025566:0;yarn dev
+: 1582025600:0;g d
+: 1582025605:0;g g "add deploy script"
+: 1582025682:0;g co issue-1-Add_TailwindCSS
+: 1582025686:0;yarn add -D tailwindcss autoprefixer @fullhuman/postcss-purgecss
+: 1582026202:0;g d
+: 1582026214:0;g g "add tailwindcss, autoprefixer and postcss-purgecss"
+: 1582026253:0;touch postcss.config.js
+: 1582026273:0;g d
+: 1582026274:0;g s
+: 1582026283:0;g g "add postcss config"
+: 1582026309:0;yarn add -D @zeit/next-css
+: 1582026318:0;g d
+: 1582026325:0;g g "add next-css"
+: 1582026349:0;const withCSS = require("@zeit/next-css");\
+\
+module.exports = withCSS({}); fg
+: 1582026356:0;touch next.config.js
+: 1582026367:0;g d
+: 1582026368:0;g s
+: 1582026373:0;g g "add next config"
+: 1582026375:0;yarn dev
+: 1582026399:0;g g "add styles.css"
+: 1582026434:0;la
+: 1582026437:0;vi
+: 1582026459:0;g co master
+: 1582026461:0;g d
+: 1582026463:0;vi
+: 1582026483:0;g co issue-1-Add_TailwindCSS
+: 1582026532:0;git reset --hard origin/master
+: 1582026534:0;g lol
+: 1582026547:0;g g "reset to master"
+: 1582026564:0;g ps --force
+: 1582029823:0;jt dotfiles
+: 1582029823:0;vi
+: 1582030111:0;touch test1 test2
+: 1582030111:0;la
+: 1582030118:0;g d
+: 1582030121:0;g s
+: 1582030125:0;rm -rf test1 test2
+: 1582030129:0;g s
+: 1582030273:0;cp ~/.dotfiles/gitconfig ~/.dotfiles/config/.gitconfig
+: 1582030277:0;mkdir config
+: 1582030279:0;cp ~/.dotfiles/gitconfig ~/.dotfiles/config/.gitconfig
+: 1582030302:0;cp ~/.dotfiles/hyper.js ~/.dotfiles/config/.hyper.js
+: 1582030323:0;cp ~/.dotfiles/skhdrc ~/.dotfiles/config/.skhdrc
+: 1582030343:0;cp ~/.dotfiles/yabairc ~/.dotfiles/config/.yabairc
+: 1582030377:0;mkdir config/Library
+: 1582030384:0;mkdir config/Library/Application\ Support/
+: 1582030435:0;mkdir config/Library/Application\ Support/VSCodium
+: 1582030443:0;mkdir config/Library/Application\ Support/VSCodium/User
+: 1582030475:0;cp ~/.dotfiles/vscodium/settings.json ~/.dotfiles/config/Library/Application\ Support/VSCodium/User/settings.json
+: 1582030492:0;cp ~/.dotfiles/vscodium/keybindings.json ~/.dotfiles/config/Library/Application\ Support/VSCodium/User/keybindings.json
+: 1582030495:0;g s
+: 1582030500:0;down
