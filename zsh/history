@@ -5768,3 +5768,14 @@ module.exports = withCSS({}); fg
 : 1582030492:0;cp ~/.dotfiles/vscodium/keybindings.json ~/.dotfiles/config/Library/Application\ Support/VSCodium/User/keybindings.json
 : 1582030495:0;g s
 : 1582030500:0;down
+: 1582031522:0;la
+: 1582031524:0;la config
+: 1582031524:0;la
+: 1582031567:0;rm ~/.gitconfig ~/.hyper.js ~/.skhdrc ~/.yabairc && stow ~/.dotfiles/config
+: 1582031575:0;la
+: 1582031576:0;g d
+: 1582031577:0;g s
+: 1582031582:0;git status
+: 1582031592:0;stow config
+: 1582031643:0;g d
+: 1582031656:0;down && g g "fix the stow command"
