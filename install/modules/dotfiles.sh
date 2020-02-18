@@ -3,7 +3,7 @@
 # Install the dotfiles
 # =====> Stow config
 rm ~/.gitconfig ~/.hyper.js ~/.skhdrc ~/.yabairc
-stow ~/.dotfiles/config
+(cd ~/.dotfiles && stow config)
 # =====> VSCodium Settings
 rm ~/Library/Application\ Support/VSCodium/User/settings.json
 ln -s ~/.dotfiles/vscodium/settings.json ~/Library/Application\ Support/VSCodium/User/settings.json
