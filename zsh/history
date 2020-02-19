@@ -5782,3 +5782,41 @@ module.exports = withCSS({}); fg
 : 1582032230:0;rm ~/.gitconfig ~/.hyper.js ~/.skhdrc ~/.yabairc && rm ~/Library/Application\ Support/VSCodium/User/settings.json && rm ~/Library/Application\ Support/VSCodium/User/keybindings.json && (cd ~/.dotfiles && stow config)
 : 1582032472:0;g d
 : 1582032480:0;down
+: 1582076408:0;g d
+: 1582076410:0;g s
+: 1582076413:0;g clean -fd
+: 1582076415:0;g lol
+: 1582076440:0;brew services restart yabai && brew services restart skhd
+: 1582076487:0;g d
+: 1582076494:0;vi
+: 1582076750:0;jt ops
+: 1582076751:0;g pl
+: 1582078780:0;story_branch create
+: 1582078794:0;g bnc
+: 1582078799:0;g ps -u origin rake-task-to-update-catalog-item-details-171346507\
+
+: 1582078890:0;vi
+: 1582079070:0;ganp
+: 1582079080:0;gwip initial rake task
+: 1582079081:0;g ps
+: 1582081001:0;g g "first part"
+: 1582085151:0;g d
+: 1582085173:0;g g "second part"
+: 1582085176:0;rc
+: 1582085501:0;rake catatalog_items:update_catalog_items\["oneoff/1_catalog_item_update_feb_2020.csv"\]
+: 1582085510:0;rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_feb_2020.csv"\]
+: 1582086073:0;script/backpack -l --skip-assets
+: 1582086764:0;rake db:drop \\
+&& rake db:create \\
+&& script/backpack -R \\
+&& rake db:migrate \\
+&& rails test:prepare \\
+&& rails api:parallel_cache
+: 1582088450:0;rake catalog_items:update_catalog_items\["oneoff/1_catalog_item_update_feb_2020.csv"\]
+: 1582088474:0;rc
+: 1582088885:0;rs
+: 1582089928:0;g d
+: 1582089936:0;g g "third step"
+: 1582100823:0;jt dotfiles
+: 1582100825:0;g d
+: 1582100826:0;down
