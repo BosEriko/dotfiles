@@ -5820,3 +5820,13 @@ module.exports = withCSS({}); fg
 : 1582100823:0;jt dotfiles
 : 1582100825:0;g d
 : 1582100826:0;down
+: 1582102029:0;g d
+: 1582102032:0;down
+: 1582102094:0;jt personal
+: 1582102094:0;la
+: 1582102115:0;rm -rf tldr playground girudo gatsby-nuntium firerails devise cheatsheets boseriko.com .DS_Store
+: 1582102147:0;la
+: 1582102456:0;jt dotfiles
+: 1582102470:0;vi
+: 1582102499:0;g d
+: 1582102513:0;down && g g "add skhd to yabai.sh"
