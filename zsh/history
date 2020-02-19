@@ -5850,3 +5850,19 @@ module.exports = withCSS({}); fg
 : 1582120832:0;vi
 : 1582120889:0;down
 : 1582120902:0;down && g g "add joplin to list of brew" && brew cask install joplin
+: 1582121300:0;brew install joplin\
+
+: 1582121505:0;joplin
+: 1582121526:0;vi /usr/local/etc/bash_completion.d
+: 1582121560:0;node --version
+: 1582121576:0;joplin
+: 1582121635:0;brew list |grep "joplin"
+: 1582121667:0;joplin
+: 1582121683:0;brew cask uninstall joplin
+: 1582121699:0;brew uninstall joplin
+: 1582121706:0;brew install joplin
+: 1582121750:0;joplin
+: 1582121831:0;jt dotfiles
+: 1582121831:0;vi
+: 1582121899:0;g d
+: 1582121923:0;down && g g "fix joplin" && up
