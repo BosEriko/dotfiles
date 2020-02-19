@@ -2,7 +2,7 @@
 # =================================================================================== [Down] ===== #
 
 down() {
-  (cd ~/.dotfiles && git log)
+  (cd ~/.dotfiles && git diff ~/.dotfiles/zsh/history)
   echo "Do you want to push your ZSH History? (Ctrl-C to abort, or press enter to continue)"
   read
   (cd ~/.dotfiles && git add ~/.dotfiles/zsh/history)
