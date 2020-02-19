@@ -39,6 +39,7 @@ ${RESET}
                                 skhd-keys               Print skhd keys
                                 speed-test              Test the connection speed
                                 pastel                  Colors generator
+                                notes                   Open Joplin notes
 
     -y, --yarn                  list                    List global yarn packages
                                 interactive             Upgrade global yarn packages interactively
@@ -86,6 +87,8 @@ bos() {
                 speed-test
             elif [ "$2" = "pastel" ]; then
                 pastel
+            elif [ "$2" = "notes" ]; then
+                joplin
             elif [ "$2" = "localhost" ]; then
                 if [ -z "$3" ]; then
                     http-server
