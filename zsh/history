@@ -5830,3 +5830,11 @@ module.exports = withCSS({}); fg
 : 1582102470:0;vi
 : 1582102499:0;g d
 : 1582102513:0;down && g g "add skhd to yabai.sh"
+: 1582103040:0;vi
+: 1582103524:0;jt personal
+: 1582103525:0;la
+: 1582103535:0;git clone https://github.com/flutter/flutter.git -b stable ./.flutter
+: 1582103651:0;la
+: 1582103654:0;rm -rf .flutter
+: 1582103660:0;g d
+: 1582103676:0;down && g g "move flutter to its own install script" && up
