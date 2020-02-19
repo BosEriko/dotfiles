@@ -41,6 +41,7 @@ brew cask install firefox                                         # Mozilla Fire
 brew cask install google-chrome                                   # Google Chrome Browser (https://www.google.com/intl/en_in/chrome/)
 brew cask install graphiql                                        # GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools (https://github.com/graphql/graphiql)
 brew cask install hyper                                           # A terminal built on web technologies (https://github.com/zeit/hyper)
+brew cask install joplin                                          # Open source note taking and to-do application (https://github.com/laurent22/joplin)
 brew cask install keycastr                                        # KeyCastr, an open-source keystroke visualizer (https://github.com/keycastr/keycastr)
 brew cask install motrix                                          # A full-featured download manager (https://github.com/agalwood/Motrix)
 brew cask install qutebrowser                                     # A keyboard-driven, vim-like browser based on PyQt5 (https://github.com/qutebrowser/qutebrowser)
