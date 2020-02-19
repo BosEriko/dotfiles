@@ -5838,3 +5838,15 @@ module.exports = withCSS({}); fg
 : 1582103654:0;rm -rf .flutter
 : 1582103660:0;g d
 : 1582103676:0;down && g g "move flutter to its own install script" && up
+: 1582111033:0;la
+: 1582111043:0;vi .zshrc.zwc
+: 1582111053:0;la |grep "."
+: 1582111058:0;la |grep "\."
+: 1582111144:0;rm -rf .nanorc
+: 1582111151:0;jt dotfiles
+: 1582111155:0;vi
+: 1582111651:0;la
+: 1582111653:0;down
+: 1582120832:0;vi
+: 1582120889:0;down
+: 1582120902:0;down && g g "add joplin to list of brew" && brew cask install joplin
