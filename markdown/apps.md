@@ -27,7 +27,6 @@
 - [Blender](https://www.blender.org/download/)
 - [Dash](https://kapeli.com/dash)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
-- [Flutter](https://flutter.dev/docs/get-started/install/macos)
 - [Postman](https://www.getpostman.com/downloads/)
 - [Unity](https://store.unity.com/download?ref=personal)
 - [Xcode](https://itunes.apple.com/ph/app/xcode/id497799835)

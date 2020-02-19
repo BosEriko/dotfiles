@@ -7,6 +7,7 @@
 ~/.dotfiles/install/modules/rust.sh
 ~/.dotfiles/install/modules/composer.sh
 ~/.dotfiles/install/modules/ranger-icon.sh
+~/.dotfiles/install/modules/flutter.sh
 ~/.dotfiles/install/modules/laravel.sh
 ~/.dotfiles/install/modules/node.sh
 ~/.dotfiles/install/modules/rbenv.sh
