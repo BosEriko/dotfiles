@@ -10,7 +10,6 @@
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [belenaEtcher](https://www.balena.io/etcher/)
 - [Contexts](https://contexts.co/)
-- [HabitMinder](https://apps.apple.com/ph/app/habitminder/id1415257374?mt=12)
 - [Vanilla](https://matthewpalmer.net/vanilla/)
 
 ## Media
@@ -41,4 +40,5 @@
 - [Restream Chat](https://restream.io/en/chat)
 
 ## Social
+- [Discord](https://discordapp.com/)
 - [Keybase](https://keybase.io/docs/the_app/install_macos)
