@@ -24,7 +24,6 @@
 
 ## Programming
 - [Android Studio](https://developer.android.com/studio/index.html)
-- [Blender](https://www.blender.org/download/)
 - [Dash](https://kapeli.com/dash)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
 - [Postman](https://www.getpostman.com/downloads/)
@@ -33,6 +32,7 @@
 
 ## Design
 - [Affinity Photo](https://affinity.serif.com/en-gb/photo/desktop/)
+- [Blender](https://www.blender.org/download/)
 
 ## Stream
 - [iShowU Audio Capture](https://support.shinywhitebox.com/hc/en-us/articles/360030800592) [[?](https://obsproject.com/forum/resources/os-x-capture-audio-with-ishowu-audio-capture.505/)]
