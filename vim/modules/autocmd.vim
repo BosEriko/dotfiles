@@ -10,3 +10,6 @@ autocmd BufWritePost ~/.dotfiles/tmux/modules/* !~/.dotfiles/tmux/generate.sh
 " zsh
 autocmd BufWritePost ~/.dotfiles/zsh/modules/* !~/.dotfiles/zsh/generate.sh
 
+" yabai
+autocmd BufWritePost ~/.dotfiles/config/.yabairc !brew services restart yabai
+
