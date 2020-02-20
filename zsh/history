@@ -5866,3 +5866,13 @@ module.exports = withCSS({}); fg
 : 1582121831:0;vi
 : 1582121899:0;g d
 : 1582121923:0;down && g g "fix joplin" && up
+: 1582159716:0;joplin
+: 1582166196:0;jt ops
+: 1582168288:0;vi
+: 1582168319:0;g log
+: 1582168592:0;bos -h
+: 1582168596:0;bos -a skhd-keys
+: 1582168606:0;jt dotfiles
+: 1582168607:0;vi
+: 1582168641:0;g d
+: 1582168658:0;down && g g "fix the skhdrc" && up
