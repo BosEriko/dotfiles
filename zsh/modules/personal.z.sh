@@ -82,7 +82,7 @@ bos() {
             elif [ "$2" = "restart" ]; then
                 sudo shutdown -r now
             elif [ "$2" = "skhd-keys" ]; then
-                less ~/.dotfiles/skhdrc
+                less ~/.dotfiles/config/.skhdrc
             elif [ "$2" = "speed-test" ]; then
                 speed-test
             elif [ "$2" = "pastel" ]; then
