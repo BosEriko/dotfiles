@@ -5876,3 +5876,12 @@ module.exports = withCSS({}); fg
 : 1582168607:0;vi
 : 1582168641:0;g d
 : 1582168658:0;down && g g "fix the skhdrc" && up
+: 1582187445:0;brew services restart yabai
+: 1582187478:0;jt ops
+: 1582187561:0;script/deploy -B --skip-migrations -f
+: 1582187711:0;jt dotfiles
+: 1582187715:0;g d
+: 1582187729:0;vi 
+: 1582187760:0;brew services restart yabai
+: 1582187775:0;g d
+: 1582187798:0;down && g g "change the unselected windows to white border on yabai"
