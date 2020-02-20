@@ -5898,3 +5898,12 @@ module.exports = withCSS({}); fg
 : 1582194979:0;vi
 : 1582194995:0;g d
 : 1582195012:0;down && g g "update yabai and remove its opacity" && brew services restart yabai
+: 1582202479:0;joplin
+: 1582206727:0;ranger
+: 1582206746:0;ranger --help
+: 1582206770:0;ranger
+: 1582209994:0;vi
+: 1582210351:0;generate.sh
+: 1582210358:0;~/.dotfiles/generate.sh
+: 1582210376:0;g d
+: 1582210386:0;down && g g "and add autocmd"
