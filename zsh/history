@@ -5885,3 +5885,16 @@ module.exports = withCSS({}); fg
 : 1582187760:0;brew services restart yabai
 : 1582187775:0;g d
 : 1582187798:0;down && g g "change the unselected windows to white border on yabai"
+: 1582194737:0;brew services restart yabai
+: 1582194926:0;jt personal
+: 1582194927:0;la
+: 1582194932:0;rm -rf home-old
+: 1582194934:0;cd home
+: 1582194935:0;la
+: 1582194936:0;g remote -v
+: 1582194942:0;g co master
+: 1582194950:0;yarn dev
+: 1582194977:0;jt dotfiles
+: 1582194979:0;vi
+: 1582194995:0;g d
+: 1582195012:0;down && g g "update yabai and remove its opacity" && brew services restart yabai
