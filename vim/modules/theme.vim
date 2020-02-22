@@ -30,9 +30,6 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-" Airline Tabline Setting
-let g:airline#extensions#tabline#fnamemod = ':t'
-
 " Icons
 let g:NERDTreeDirArrowExpandable          = ''
 let g:NERDTreeDirArrowCollapsible         = ''
