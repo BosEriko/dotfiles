@@ -2,7 +2,7 @@
 " ================================================================================== [Theme] ===== "
 
 " This file is for the theme, colors, icons and symbols configuration
-" Fore more icons to use you can go to:
+" For more icons to use you can go to:
 " https://www.nerdfonts.com/cheat-sheet
 
 " True Colors
