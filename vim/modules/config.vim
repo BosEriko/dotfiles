@@ -76,6 +76,7 @@ let g:DevIconsEnableFoldersOpenClose        = 1
 let g:airline_enable_branch               = 1
 let g:airline_enable_syntastic            = 1
 let g:airline#extensions#tabline#enabled  = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
 
 " Startify
 let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
@@ -101,7 +102,4 @@ let g:vim_markdown_follow_anchor            = 0
 let g:vim_markdown_folding_disabled         = 1
 let g:vim_markdown_folding_level            = 1
 let g:vim_markdown_no_default_key_mappings  = 1
-
-" Airline Tabline Setting
-let g:airline#extensions#tabline#fnamemod = ':t'
 
