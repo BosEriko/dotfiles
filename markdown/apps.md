@@ -3,6 +3,7 @@
 ## Cloud Storage
 - [Dropbox](https://www.dropbox.com/install)
 - [Google Drive](https://www.google.com/drive/download/)
+- [Google Photos](https://photos.google.com/apps)
 - [MEGA](https://mega.nz/sync)
 
 ## Utilities
