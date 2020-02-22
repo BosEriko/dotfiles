@@ -43,13 +43,13 @@ let g:fzf_colors =
 " Icons
 let g:NERDTreeDirArrowExpandable          = ''
 let g:NERDTreeDirArrowCollapsible         = ''
-let g:ale_sign_error                      = ''
-let g:ale_sign_warning                    = ''
-let g:gitgutter_sign_added                = ''
-let g:gitgutter_sign_modified             = ''
-let g:gitgutter_sign_removed              = ''
-let g:gitgutter_sign_removed_first_line   = ''
-let g:gitgutter_sign_modified_removed     = ''
+let g:ale_sign_error                      = ''
+let g:ale_sign_warning                    = ''
+let g:gitgutter_sign_added                = ''
+let g:gitgutter_sign_modified             = ''
+let g:gitgutter_sign_removed              = ''
+let g:gitgutter_sign_removed_first_line   = ''
+let g:gitgutter_sign_modified_removed     = ''
 
 " Symbols
 let g:indentLine_char = '│'
