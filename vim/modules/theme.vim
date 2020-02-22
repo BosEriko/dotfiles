@@ -5,6 +5,16 @@
 " Fore more icons to use you can go to:
 " https://www.nerdfonts.com/cheat-sheet
 
+" True Colors
+if (empty($TMUX))
+  if (has("nvim"))
+    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+  endif
+  if (has("termguicolors"))
+    set termguicolors
+  endif
+endif
+
 " Theme
 colorscheme onedark
 let g:airline_theme = 'onedark'
