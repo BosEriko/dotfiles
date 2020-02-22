@@ -5907,3 +5907,18 @@ module.exports = withCSS({}); fg
 : 1582210358:0;~/.dotfiles/generate.sh
 : 1582210376:0;g d
 : 1582210386:0;down && g g "and add autocmd"
+: 1582381089:0;vi
+: 1582381235:0;g d
+: 1582381404:0;jt personal
+: 1582381406:0;g d
+: 1582381408:0;la
+: 1582381526:0;joplin
+: 1582381991:0;ranger
+: 1582382330:0;la
+: 1582382333:0;cd tldr
+: 1582382335:0;echo HEAD
+: 1582382342:0;echo $HEAD
+: 1582382347:0;g co master
+: 1582382932:0;jt dotfiles
+: 1582382936:0;g d
+: 1582382939:0;down
