@@ -43,8 +43,6 @@ let g:fzf_colors =
 " Icons
 let g:NERDTreeDirArrowExpandable          = ''
 let g:NERDTreeDirArrowCollapsible         = ''
-let g:ale_sign_error                      = ''
-let g:ale_sign_warning                    = ''
 let g:gitgutter_sign_added                = ''
 let g:gitgutter_sign_modified             = ''
 let g:gitgutter_sign_removed              = ''
