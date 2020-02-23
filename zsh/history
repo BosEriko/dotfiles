@@ -5922,3 +5922,36 @@ module.exports = withCSS({}); fg
 : 1582382932:0;jt dotfiles
 : 1582382936:0;g d
 : 1582382939:0;down
+: 1582448436:0;jt personal
+: 1582448436:0;la
+: 1582448439:0;cd barangay
+: 1582448685:0;jt personal
+: 1582448694:0;cd barangay
+: 1582448697:0;cd server
+: 1582448698:0;la
+: 1582448699:0;vi
+: 1582448706:0;la
+: 1582448715:0;yarn build
+: 1582448732:0;yarn watch
+: 1582448735:0;yarn start
+: 1582448869:0;la
+: 1582448870:0;..
+: 1582448871:0;la
+: 1582448874:0;mkdir koa-test
+: 1582448877:0;cd koa-test
+: 1582448877:0;la
+: 1582448879:0;npm init
+: 1582448883:0;yarn init -y
+: 1582448913:0;node --version
+: 1582448915:0;npm --version
+: 1582448920:0;yarn --version
+: 1582448949:0;yarn add koa
+: 1582448960:0;ls node_modules
+: 1582448973:0;vi
+: 1582448999:0;la
+: 1582449002:0;touch app.js
+: 1582449003:0;vi
+: 1582449111:0;jt dotfiles
+: 1582449115:0;vi
+: 1582449189:0;g d
+: 1582449200:0;down && g g "add extra line on plugins of vim"
