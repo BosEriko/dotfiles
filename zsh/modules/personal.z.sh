@@ -183,7 +183,7 @@ bos() {
                 cat ~/.ssh/id_rsa.pub | pbcopy
                 echo "SSH Key has been copied to clipboard."
             elif [ "$2" = "deploy" ]; then
-              now
+                now
             elif [ "$2" = "rbenv-rehash" ]; then
                 rm ~/.rbenv/shims/.rbenv-shim; rbenv rehash;
             elif [ "$2" = "localhost" ]; then
@@ -212,4 +212,3 @@ bos() {
         fi
     fi
 }
-
