@@ -48,8 +48,10 @@ call plug#end()
 let g:coc_global_extensions = [
   \ 'coc-css',
   \ 'coc-eslint',
+  \ 'coc-json',
   \ 'coc-pairs',
   \ 'coc-prettier',
+  \ 'coc-snippets',
   \ 'coc-tslint',
   \ 'coc-tsserver'
   \ ]
