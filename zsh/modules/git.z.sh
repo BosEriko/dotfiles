@@ -40,7 +40,11 @@ GIT_HELP_MESSAGE="
 
 "
 g() {
-  if [ "$1" = "g" ] || [ "$1" = "go" ]; then
+  if [ "$1" = "h" ] || [ "$1" = "help" ]; then
+    git-help
+  elif [ "$1" = "r" ] || [ "$1" = "rework" ]; then
+    git-rework
+  elif [ "$1" = "g" ] || [ "$1" = "go" ]; then
     git add .
     if [ -z "$2" ]; then
       git commit -m "[AUTO] $(curl -s http://whatthecommit.com/index.txt)"
