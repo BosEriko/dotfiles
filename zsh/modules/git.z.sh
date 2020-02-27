@@ -55,12 +55,7 @@ g() {
   elif [ "$1" = "so" ] || [ "$1" = "set-origin" ]; then
     git-set-origin
   elif [ "$1" = "sc" ] || [ "$1" = "sync" ]; then
-    if [ -z "$2" ]; then
-      echo "Please specify a branch"
-    else
-      git pull origin $2
-      git push origin $2
-    fi
+    git-sync
   elif [ "$1" = "t" ] || [ "$1" = "tag" ]; then
     if [ -z "$2" ]; then
       echo "Please specify a release name"
@@ -129,5 +124,15 @@ git-set-origin() {
   git remote set-url --add --push origin git@gitlab.com:${git_slug}.git
   git remote set-url --add --push origin git@bitbucket.org:${git_slug}.git
   git remote -v
+}
+
+# Sync
+git-sync() {
+  if [ -z "$2" ]; then
+    echo "Please specify a branch"
+  else
+    git pull origin $2
+    git push origin $2
+  fi
 }
 
