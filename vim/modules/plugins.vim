@@ -34,7 +34,7 @@ Plug 'hiukkanen/vim-hamlc'                      " HAMLC (Remove once it becomes 
 Plug 'mhinz/vim-startify'                       " Welcome message
 
 " Design Plugin
-Plug 'joshdick/onedark.vim'                     " One Dark Theme
+Plug 'arzg/vim-colors-xcode'                    " XCode Theme
 Plug 'vim-airline/vim-airline'                  " Bottom toolbar
 Plug 'vim-airline/vim-airline-themes'           " Themes for the bottom toolbar
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
