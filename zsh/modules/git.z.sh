@@ -57,14 +57,7 @@ g() {
   elif [ "$1" = "sc" ] || [ "$1" = "sync" ]; then
     git-sync
   elif [ "$1" = "t" ] || [ "$1" = "tag" ]; then
-    if [ -z "$2" ]; then
-      echo "Please specify a release name"
-    else
-      echo "Do you want to tag and push '$2'? (Ctrl-C to abort, or press enter to continue)"
-      read
-      git tag $2 -a
-      git push origin $2
-    fi
+    git-tag
   else
     git $@
   fi
@@ -132,6 +125,18 @@ git-sync() {
     echo "Please specify a branch"
   else
     git pull origin $2
+    git push origin $2
+  fi
+}
+
+# Tag
+git-tag() {
+  if [ -z "$2" ]; then
+    echo "Please specify a release name"
+  else
+    echo "Do you want to tag and push '$2'? (Ctrl-C to abort, or press enter to continue)"
+    read
+    git tag $2 -a
     git push origin $2
   fi
 }
