@@ -53,17 +53,7 @@ g() {
   elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
     git-branch-delete
   elif [ "$1" = "so" ] || [ "$1" = "set-origin" ]; then
-    git remote rm origin
-    echo "Please specify the git slug [e.g.: BosEriko/dotfiles]:"
-    read git_slug
-    git remote add origin git@github.com:${git_slug}.git
-    git remote add github git@github.com:${git_slug}.git
-    git remote add gitlab git@gitlab.com:${git_slug}.git
-    git remote add bitbucket git@bitbucket.org:${git_slug}.git
-    git remote set-url --add --push origin git@github.com:${git_slug}.git
-    git remote set-url --add --push origin git@gitlab.com:${git_slug}.git
-    git remote set-url --add --push origin git@bitbucket.org:${git_slug}.git
-    git remote -v
+    git-set-origin
   elif [ "$1" = "sc" ] || [ "$1" = "sync" ]; then
     if [ -z "$2" ]; then
       echo "Please specify a branch"
@@ -124,5 +114,20 @@ git-branch-delete() {
   else
     git branch -D "$2"
   fi
+}
+
+# Set Origin
+git-set-origin() {
+  git remote rm origin
+  echo "Please specify the git slug [e.g.: BosEriko/dotfiles]:"
+  read git_slug
+  git remote add origin git@github.com:${git_slug}.git
+  git remote add github git@github.com:${git_slug}.git
+  git remote add gitlab git@gitlab.com:${git_slug}.git
+  git remote add bitbucket git@bitbucket.org:${git_slug}.git
+  git remote set-url --add --push origin git@github.com:${git_slug}.git
+  git remote set-url --add --push origin git@gitlab.com:${git_slug}.git
+  git remote set-url --add --push origin git@bitbucket.org:${git_slug}.git
+  git remote -v
 }
 
