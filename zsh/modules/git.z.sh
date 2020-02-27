@@ -51,11 +51,7 @@ g() {
   elif [ "$1" = "bnc" ] || [ "$1" = "branch-name-copy" ]; then
     git-branch-name-copy
   elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
-    if [ -z "$2" ]; then
-      echo "Please specify a branch"
-    else
-      git branch -D "$2"
-    fi
+    git-branch-delete
   elif [ "$1" = "so" ] || [ "$1" = "set-origin" ]; then
     git remote rm origin
     echo "Please specify the git slug [e.g.: BosEriko/dotfiles]:"
@@ -119,5 +115,14 @@ git-wtf() {
 # Branch Name Copy
 git-branch-name-copy() {
   git branch | grep \* | cut -d ' ' -f2 | pbcopy
+}
+
+# Branch Delete
+git-branch-delete() {
+  if [ -z "$2" ]; then
+    echo "Please specify a branch"
+  else
+    git branch -D "$2"
+  fi
 }
 
