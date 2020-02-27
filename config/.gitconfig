@@ -15,16 +15,16 @@
   d       = diff
   dt      = difftool
   graph   = log --graph --decorate --pretty=oneline --abbrev-commit --all
-  h       = "!sh -c 'git-help'"
-  help    = "!sh -c 'git-help'"
+  h       = "!git-help"
+  help    = "!git-help"
   lg      = log -p
   lol     = log --decorate --pretty=oneline --abbrev-commit
   ls      = ls-files
   pl      = pull
   ps      = push
-  r       = "!sh -c 'git-rework'"
+  r       = "!git-rework"
   re      = reset
-  rework  = "!sh -c 'git-rework'"
+  rework  = "!git-rework"
   rl      = tag -n1
   s       = status
   st      = stash
