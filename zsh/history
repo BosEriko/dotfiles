@@ -5978,3 +5978,37 @@ module.exports = withCSS({}); fg
 : 1582800878:0;vi
 : 1582801008:0;g d
 : 1582801010:0;down
+: 1582804011:0;Library
+: 1582804012:0;la
+: 1582804021:0;Application\ Support
+: 1582804026:0;la
+: 1582804029:0;Mozilla
+: 1582804030:0;la
+: 1582804037:0;a
+: 1582804038:0;la
+: 1582804041:0;sl
+: 1582804071:0;la
+: 1582804986:0;jt personal
+: 1582804989:0;vi
+: 1582805016:0;jt dotfiles
+: 1582805017:0;vi
+: 1582805810:0;code -h
+: 1582806210:0;vi
+: 1582806301:0;g d
+: 1582806305:0;g s
+: 1582806319:0;git add vscodium config
+: 1582806334:0;git commit -m "move windows setting for vscode to config"
+: 1582806623:0;vi
+: 1582807253:0;g test
+: 1582807256:0;git test
+: 1582807309:0;g test
+: 1582807321:0;vi
+: 1582807347:0;g test
+: 1582807350:0;vi
+: 1582807403:0;g test
+: 1582807405:0;vi
+: 1582807509:0;g d
+: 1582807524:0;g s
+: 1582807530:0;git add zsh/modules config
+: 1582807543:0;git commit -m "move rework on git config"
+: 1582807547:0;down
