@@ -49,7 +49,7 @@ g() {
   elif [ "$1" = "w" ] || [ "$1" = "wtf" ]; then
     git-wtf
   elif [ "$1" = "bnc" ] || [ "$1" = "branch-name-copy" ]; then
-    git branch | grep \* | cut -d ' ' -f2 | pbcopy
+    git-branch-name-copy
   elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
     if [ -z "$2" ]; then
       echo "Please specify a branch"
@@ -89,15 +89,18 @@ g() {
   fi
 }
 
+# Rework
 git-rework() {
   git stash
   git clean -fd
 }
 
+# Help
 git-help() {
   figlet 'Save time!' && echo -e $GIT_HELP_MESSAGE
 }
 
+# Go
 git-go() {
   git add .
   if [ -z "$2" ]; then
@@ -108,7 +111,13 @@ git-go() {
   git push -u origin HEAD
 }
 
+# WTF
 git-wtf() {
   git commit -m "[AUTO] $(curl -s http://whatthecommit.com/index.txt)"
+}
+
+# Branch Name Copy
+git-branch-name-copy() {
+  git branch | grep \* | cut -d ' ' -f2 | pbcopy
 }
 
