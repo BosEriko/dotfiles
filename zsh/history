@@ -6012,3 +6012,30 @@ module.exports = withCSS({}); fg
 : 1582807530:0;git add zsh/modules config
 : 1582807543:0;git commit -m "move rework on git config"
 : 1582807547:0;down
+: 1582809199:0;vi
+: 1582809316:0;g d
+: 1582809344:0;g s
+: 1582809348:0;git add zsh/modules
+: 1582809359:0;g commit -m "move wtf and go downwards"
+: 1582809362:0;g ps
+: 1582809509:0;vi
+: 1582809594:0;g d
+: 1582809609:0;git add zsh/modules
+: 1582809610:0;g s
+: 1582809637:0;git commit -m "move bnc downwards"
+: 1582809638:0;g ps
+: 1582809668:0;vi
+: 1582809740:0;g d
+: 1582809763:0;g s
+: 1582809769:0;git add zsh/modules
+: 1582809778:0;git commit -m "move branch delete downwards"
+: 1582809791:0;g ps
+: 1582809818:0;vi
+: 1582809871:0;g d
+: 1582809892:0;g a zsh/modules
+: 1582809898:0;git commit -m "move set origin downwards"
+: 1582809899:0;g ps
+: 1582809927:0;vi
+: 1582810304:0;g s
+: 1582810305:0;g d
+: 1582810364:0;down && g g "move sync downwards"
