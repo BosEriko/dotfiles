@@ -8,22 +8,24 @@
 [core]
   compression = 0
 [alias]
-  a = add
-  b = branch
-  c = commit
-  co = checkout
-  d = diff
-  dt = difftool
-  graph = log --graph --decorate --pretty=oneline --abbrev-commit --all
-  lg = log -p
-  lol = log --decorate --pretty=oneline --abbrev-commit
-  ls = ls-files
-  pl = pull
-  ps = push
-  re = reset
-  rl = tag -n1
-  s = status
-  st = stash
+  a       = add
+  b       = branch
+  c       = commit
+  co      = checkout
+  d       = diff
+  dt      = difftool
+  graph   = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  lg      = log -p
+  lol     = log --decorate --pretty=oneline --abbrev-commit
+  ls      = ls-files
+  pl      = pull
+  ps      = push
+  re      = reset
+  rl      = tag -n1
+  s       = status
+  st      = stash
+  r       = "!sh -c 'git-rework'"
+  rework  = "!sh -c 'git-rework'"
 [color]
   ui = auto
 [hub]

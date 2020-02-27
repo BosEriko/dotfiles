@@ -42,9 +42,6 @@ GIT_HELP_MESSAGE="
 g() {
   if [ "$1" = "h" ] || [ "$1" = "help" ]; then
     figlet 'Save time!' && echo -e $GIT_HELP_MESSAGE
-  elif [ "$1" = "r" ] || [ "$1" = "rework" ]; then
-    git stash
-    git clean -fd
   elif [ "$1" = "g" ] || [ "$1" = "go" ]; then
     git add .
     if [ -z "$2" ]; then
@@ -94,5 +91,10 @@ g() {
   else
     git $@
   fi
+}
+
+git-rework() {
+  git stash
+  git clean -fd
 }
 
