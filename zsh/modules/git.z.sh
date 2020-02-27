@@ -45,15 +45,9 @@ g() {
   elif [ "$1" = "r" ] || [ "$1" = "rework" ]; then
     git-rework
   elif [ "$1" = "g" ] || [ "$1" = "go" ]; then
-    git add .
-    if [ -z "$2" ]; then
-      git commit -m "[AUTO] $(curl -s http://whatthecommit.com/index.txt)"
-    else
-      git commit -m "$2"
-    fi
-    git push -u origin HEAD
+    git-go
   elif [ "$1" = "w" ] || [ "$1" = "wtf" ]; then
-    git commit -m "[AUTO] $(curl -s http://whatthecommit.com/index.txt)"
+    git-wtf
   elif [ "$1" = "bnc" ] || [ "$1" = "branch-name-copy" ]; then
     git branch | grep \* | cut -d ' ' -f2 | pbcopy
   elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
@@ -102,5 +96,19 @@ git-rework() {
 
 git-help() {
   figlet 'Save time!' && echo -e $GIT_HELP_MESSAGE
+}
+
+git-go() {
+  git add .
+  if [ -z "$2" ]; then
+    git commit -m "[AUTO] $(curl -s http://whatthecommit.com/index.txt)"
+  else
+    git commit -m "$2"
+  fi
+  git push -u origin HEAD
+}
+
+git-wtf() {
+  git commit -m "[AUTO] $(curl -s http://whatthecommit.com/index.txt)"
 }
 
