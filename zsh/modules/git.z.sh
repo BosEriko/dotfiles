@@ -12,7 +12,7 @@ GIT_HELP_MESSAGE="
     Options:                    Description:
 \033[0m
 
-    a                           Alias for add
+    a, add                      Interactively add files
     b                           Alias for branch
     bd, branch-delete           Delete a branch locally and remotely
     bnc, branch-name-copy       Copy the current branch name to clipboard
