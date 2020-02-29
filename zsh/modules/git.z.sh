@@ -42,6 +42,8 @@ GIT_HELP_MESSAGE="
 g() {
   if [ "$1" = "h" ] || [ "$1" = "help" ]; then
     git-help
+  elif [ "$1" = "a" ] || [ "$1" = "add" ]; then
+    git-add
   elif [ "$1" = "r" ] || [ "$1" = "rework" ]; then
     git-rework
   elif [ "$1" = "g" ] || [ "$1" = "go" ]; then
@@ -139,5 +141,11 @@ git-tag() {
     git tag $2 -a
     git push origin $2
   fi
+}
+
+# Interactive Add
+git-add() {
+  git add -N .
+  git add -p
 }
 
