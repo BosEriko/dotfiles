@@ -6048,3 +6048,31 @@ module.exports = withCSS({}); fg
 : 1582880892:0;vi
 : 1582884952:0;g d
 : 1582884955:0;down
+: 1582940285:0;jt personal
+: 1582940286:0;la
+: 1582940290:0;cd barangay
+: 1582940292:0;cd server
+: 1582940292:0;la
+: 1582940293:0;vi
+: 1582941038:0;...
+: 1582941043:0;mkdir typescript-practice
+: 1582941046:0;cd typescript-practice
+: 1582941067:0;touch index.html
+: 1582941076:0;vi
+: 1582941247:0;git init
+: 1582941254:0;git add "initial commit"
+: 1582941259:0;git add .
+: 1582941264:0;git commit -m "initial commit"
+: 1582941305:0;git add .
+: 1582941310:0;git commit -m "add script file to index.html"
+: 1582941323:0;git add 
+: 1582941324:0;git add .
+: 1582941328:0;git commit -m "add defer to script"
+: 1582941363:0;touch app.ts
+: 1582941396:0;tsc app.ts
+: 1582941427:0;..
+: 1582941428:0;la
+: 1582941430:0;rm -rf typescript-practice
+: 1582948920:0;jt dotfiles
+: 1582948923:0;vi
+: 1582949005:0;down
