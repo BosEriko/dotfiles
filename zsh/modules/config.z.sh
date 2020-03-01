@@ -10,7 +10,7 @@ fi
 export ZSH=$HOME/.oh-my-zsh
 
 # History Configuration
-HISTFILE="$HOME/.dotfiles/zsh/history"
+HISTFILE="$HOME/.history/zsh/history"
 HISTSIZE=10000
 SAVEHIST=10000
 
