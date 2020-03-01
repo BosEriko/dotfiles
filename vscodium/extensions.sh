@@ -7,7 +7,6 @@ codium --install-extension eamodio.gitlens
 codium --install-extension Equinusocio.vsc-material-theme
 codium --install-extension karunamurti.haml
 codium --install-extension LaurentTreguier.vscode-simple-icons
-codium --install-extension misogi.ruby-rubocop
 codium --install-extension ms-vsliveshare.vsliveshare
 codium --install-extension octref.vetur
 codium --install-extension oderwat.indent-rainbow

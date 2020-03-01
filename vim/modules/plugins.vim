@@ -10,12 +10,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 Plug 'airblade/vim-gitgutter'                   " Show git difference in the gutter
 Plug 'alvan/vim-closetag'                       " Auto close HTML tags
 Plug 'dyng/ctrlsf.vim'                          " Word search inside directory
-Plug 'easymotion/vim-easymotion'                " Jump anywhere easily
-Plug 'editorconfig/editorconfig-vim'            " Editorconfig
 Plug 'junegunn/fzf.vim'                         " FZF.vim Search
 Plug 'junegunn/fzf'                             " FZF Search
-Plug 'mattn/emmet-vim'                          " Emmet for VIM (Provides support for expanding abbreviations)
-Plug 'ngmy/vim-rubocop'                         " The Vim RuboCop plugin runs RuboCop and displays the results in Vim.
 Plug 'rizzatti/dash.vim'                        " API Lookup
 Plug 'scrooloose/nerdtree'                      " Tree file explorer
 Plug 'takac/vim-hardtime'                       " Plugin to help you stop repeating the basic movement keys
@@ -28,7 +24,6 @@ Plug 'yggdroot/indentline'                      " Indent lines
 
 " Syntax Highlight
 Plug 'sheerun/vim-polyglot'                     " Language Pack
-Plug 'hiukkanen/vim-hamlc'                      " HAMLC (Remove once it becomes available on vim-olyglot)
 
 " Party tricks Plugin
 Plug 'mhinz/vim-startify'                       " Welcome message

@@ -21,7 +21,6 @@ nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --excl
 
 " Leader Shortcuts
 nnoremap <silent> <leader>l :set list!<CR>
-nnoremap <silent> <leader>r :RuboCop<CR>
 nnoremap <silent> <leader>w :set wrap!<CR>
 nnoremap <silent> <leader>g :Gblame<CR>
 nnoremap <silent> <leader>n :noh<CR>
