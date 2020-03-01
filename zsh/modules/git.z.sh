@@ -47,19 +47,19 @@ g() {
   elif [ "$1" = "r" ] || [ "$1" = "rework" ]; then
     git-rework
   elif [ "$1" = "g" ] || [ "$1" = "go" ]; then
-    git-go
+    git-go $2
   elif [ "$1" = "w" ] || [ "$1" = "wtf" ]; then
     git-wtf
   elif [ "$1" = "bnc" ] || [ "$1" = "branch-name-copy" ]; then
     git-branch-name-copy
   elif [ "$1" = "bd" ] || [ "$1" = "branch-delete" ]; then
-    git-branch-delete
+    git-branch-delete $2
   elif [ "$1" = "so" ] || [ "$1" = "set-origin" ]; then
     git-set-origin
   elif [ "$1" = "sc" ] || [ "$1" = "sync" ]; then
-    git-sync
+    git-sync $2
   elif [ "$1" = "t" ] || [ "$1" = "tag" ]; then
-    git-tag
+    git-tag $2
   else
     git $@
   fi
@@ -79,10 +79,10 @@ git-help() {
 # Go
 git-go() {
   git add .
-  if [ -z "$2" ]; then
+  if [ -z "$1" ]; then
     git commit -m "[AUTO] $(curl -s http://whatthecommit.com/index.txt)"
   else
-    git commit -m "$2"
+    git commit -m "$1"
   fi
   git push -u origin HEAD
 }
@@ -99,10 +99,10 @@ git-branch-name-copy() {
 
 # Branch Delete
 git-branch-delete() {
-  if [ -z "$2" ]; then
+  if [ -z "$1" ]; then
     echo "Please specify a branch"
   else
-    git branch -D "$2"
+    git branch -D "$1"
   fi
 }
 
@@ -123,23 +123,23 @@ git-set-origin() {
 
 # Sync
 git-sync() {
-  if [ -z "$2" ]; then
+  if [ -z "$1" ]; then
     echo "Please specify a branch"
   else
-    git pull origin $2
-    git push origin $2
+    git pull origin $1
+    git push origin $1
   fi
 }
 
 # Tag
 git-tag() {
-  if [ -z "$2" ]; then
+  if [ -z "$1" ]; then
     echo "Please specify a release name"
   else
-    echo "Do you want to tag and push '$2'? (Ctrl-C to abort, or press enter to continue)"
+    echo "Do you want to tag and push '$1'? (Ctrl-C to abort, or press enter to continue)"
     read
-    git tag $2 -a
-    git push origin $2
+    git tag $1 -a
+    git push origin $1
   fi
 }
 
