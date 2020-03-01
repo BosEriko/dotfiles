@@ -6076,3 +6076,26 @@ module.exports = withCSS({}); fg
 : 1582948920:0;jt dotfiles
 : 1582948923:0;vi
 : 1582949005:0;down
+: 1582951249:0;vi
+: 1582961087:0;g d
+: 1582961090:0;g s
+: 1582961095:0;g add zsh/modules
+: 1582961174:0;g commit -m "take out cowsay"
+: 1582961174:0;g ps
+: 1582961235:0;vi
+: 1582961354:0;g a
+: 1582961361:0;g add
+: 1582961365:0;g a
+: 1582961404:0;git commit -m "make the interactive add the default add for git"
+: 1582961407:0;g ps
+: 1582961456:0;vi
+: 1582962811:0;g d
+: 1582962817:0;g a
+: 1582962839:0;g c "add the word add on git help"
+: 1582962852:0;g c -m "add the word add on git help"
+: 1582962854:0;g ps
+: 1582963144:0;g h
+: 1582963152:0;bos -h
+: 1582963167:0;vi
+: 1582963809:0;g dt
+: 1583051313:0;down
