@@ -10,8 +10,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine
 Plug 'airblade/vim-gitgutter'                   " Show git difference in the gutter
 Plug 'alvan/vim-closetag'                       " Auto close HTML tags
 Plug 'dyng/ctrlsf.vim'                          " Word search inside directory
-Plug 'junegunn/fzf.vim'                         " FZF.vim Search
 Plug 'junegunn/fzf'                             " FZF Search
+Plug 'junegunn/fzf.vim'                         " FZF.vim Search
 Plug 'rizzatti/dash.vim'                        " API Lookup
 Plug 'scrooloose/nerdtree'                      " Tree file explorer
 Plug 'takac/vim-hardtime'                       " Plugin to help you stop repeating the basic movement keys
@@ -30,10 +30,10 @@ Plug 'mhinz/vim-startify'                       " Welcome message
 
 " Design Plugin
 Plug 'arzg/vim-colors-xcode'                    " XCode Theme
+Plug 'ryanoasis/vim-devicons'                   " Devicons (Always load this last)
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
 Plug 'vim-airline/vim-airline'                  " Bottom toolbar
 Plug 'vim-airline/vim-airline-themes'           " Themes for the bottom toolbar
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
-Plug 'ryanoasis/vim-devicons'                   " Devicons (Always load this last)
 
 " Plugin List End ============================= "
 call plug#end()
