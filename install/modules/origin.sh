@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 # Update origin for dotfiles
+(cd ~/.dotfiles && git remote rm origin)
 (cd ~/.dotfiles && git remote add origin git@github.com:BosEriko/dotfiles.git)
 (cd ~/.dotfiles && git remote add github git@github.com:BosEriko/dotfiles.git)
 (cd ~/.dotfiles && git remote add gitlab git@gitlab.com:BosEriko/dotfiles.git)
@@ -10,6 +11,7 @@
 (cd ~/.dotfiles && git remote set-url --add --push origin git@bitbucket.org:BosEriko/dotfiles.git)
 
 # Update origin for history
+(cd ~/.history && git remote rm origin)
 (cd ~/.history && git remote add origin git@github.com:BosEriko/history.git)
 (cd ~/.history && git remote add github git@github.com:BosEriko/history.git)
 (cd ~/.history && git remote add gitlab git@gitlab.com:BosEriko/history.git)
