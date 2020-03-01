@@ -10,4 +10,5 @@ terminal-notifier -title 'Installing' -message 'ZSH has been set as the default 
 
 # Pull history (https://github.com/BosEriko/history)
 git clone https://github.com/BosEriko/history.git ~/.history
+terminal-notifier -title 'Installing' -message 'ZSH history repository has been pulled.'
 
