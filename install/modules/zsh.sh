@@ -8,7 +8,7 @@ terminal-notifier -title 'Installing' -message 'oh-my-zsh has been installed.'
 chsh -s /bin/zsh
 terminal-notifier -title 'Installing' -message 'ZSH has been set as the default shell.'
 
-# Pull history (https://github.com/BosEriko/history)
+# Pull ZSH history (https://github.com/BosEriko/history)
 git clone https://github.com/BosEriko/history.git ~/.history
 terminal-notifier -title 'Installing' -message 'ZSH history repository has been pulled.'
 

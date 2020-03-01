@@ -2,7 +2,7 @@
 # ===================================================================================== [Up] ===== #
 
 up() {
-  (cd ~/.dotfiles && git checkout ~/.history/zsh/history)
+  (cd ~/.history && git checkout ~/.history/zsh/history)
   terminal-notifier -title 'ZSH' -message 'History has been synced.'
   (cd ~/.dotfiles && git pull)
   sh ~/.dotfiles/generate.sh
