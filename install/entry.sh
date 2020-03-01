@@ -21,5 +21,6 @@
 ~/.dotfiles/install/modules/nvim.sh
 ~/.dotfiles/install/modules/key-repeat.sh
 ~/.dotfiles/install/modules/vscodium.sh
+~/.dotfiles/install/modules/origin.sh
 ~/.dotfiles/install/modules/ssh.sh
 
