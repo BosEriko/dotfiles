@@ -7,6 +7,7 @@ up() {
   (cd ~/.dotfiles && git pull)
   sh ~/.dotfiles/generate.sh
   nvim +PlugInstall +qall
+  nvim +PlugClean +qall
   terminal-notifier -title 'Installing' -message 'Vim Extensions have been installed.'
   brew services stop yabai
   brew services start yabai
