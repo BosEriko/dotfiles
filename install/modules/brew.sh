@@ -46,6 +46,7 @@ brew cask install keycastr                                        # KeyCastr, an
 brew cask install motrix                                          # A full-featured download manager (https://github.com/agalwood/Motrix)
 brew cask install qutebrowser                                     # A keyboard-driven, vim-like browser based on PyQt5 (https://github.com/qutebrowser/qutebrowser)
 brew cask install typora                                          # Markdown Reader (https://github.com/typora/)
+brew cask install vlc                                             # VLC media player (https://github.com/videolan/vlc)
 brew cask install vscodium                                        # Binary releases of VS Code without MS branding/telemetry/licensing (https://github.com/VSCodium/vscodium)
 brew install php@7.3; brew install libidn2; brew install libpsl;  # The PHP Interpreter (https://github.com/php/php-src)
 brew tap heroku/brew && brew install heroku                       # Heroku CLI (https://github.com/heroku/cli)
