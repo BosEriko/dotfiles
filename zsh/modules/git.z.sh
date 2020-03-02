@@ -8,9 +8,9 @@ GIT_HELP_MESSAGE="
 
     Usage: g [option] [parameter]
 
-\033[1m
+${B_GREEN}
     Options:                    Description:
-\033[0m
+${RESET}
 
     a, add                      Interactively add files
     b                           Alias for branch
