@@ -14,6 +14,7 @@ yarn global add firebase-tools      # The Firebase Command Line Tools (https://g
 yarn global add gatsby-cli          # The Gatsby command line interface (CLI) (https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-cli)
 yarn global add gtop                # System monitoring dashboard for terminal (https://github.com/aksakalli/gtop)
 yarn global add http-server         # A simple zero-configuration command-line http server (https://github.com/http-party/http-server)
+yarn global add jake                # JavaScript build tool, similar to Make or Rake. Built to work with Node.js (https://github.com/jakejs/jake)
 yarn global add live-server         # A simple development http server with live reload capability (https://github.com/tapio/live-server)
 yarn global add neovim              # Vim-fork focused on extensibility and usability (https://github.com/neovim/neovim)
 yarn global add ngrok               # Introspected tunnels to localhost (https://github.com/inconshreveable/ngrok)
