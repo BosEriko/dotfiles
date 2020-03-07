@@ -24,6 +24,7 @@ yarn global add parrotsay           # The Party Parrot on your terminal (https:/
 yarn global add spaceship-prompt    # A Zsh prompt for Astronauts (https://github.com/denysdovhan/spaceship-prompt)
 yarn global add speed-test          # Test your internet connection speed and ping using speedtest.net from the CLI (https://github.com/sindresorhus/speed-test)
 yarn global add tldr                # Simplified and community-driven man pages (https://github.com/tldr-pages/tldr)
+yarn global add ts-node             # TypeScript execution and REPL for node.js (https://github.com/TypeStrong/ts-node)
 yarn global add typescript          # TypeScript is a superset of JavaScript that compiles to clean JavaScript output (https://github.com/Microsoft/TypeScript)
 terminal-notifier -title 'Installing' -message 'NPM apps have been installed.'
 
