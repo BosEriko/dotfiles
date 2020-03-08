@@ -6,6 +6,7 @@ terminal-notifier -title 'Installing' -message 'NVM has been installed.'
 
 # Set Node global version (https://github.com/nvm-sh/nvm)
 nvm install 12.16.1
+nvm use 12.16.1
 terminal-notifier -title 'Installing' -message 'Set Node to the LTS version.'
 
 # Install packages using NPM (https://nodejs.org/)
