@@ -4,6 +4,10 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | sh
 terminal-notifier -title 'Installing' -message 'NVM has been installed.'
 
+# Set Node global version (https://github.com/nvm-sh/nvm)
+nvm install 12.16.1
+terminal-notifier -title 'Installing' -message 'Set Node to the LTS version.'
+
 # Install packages using NPM (https://nodejs.org/)
 yarn global add @vue/cli            # Standard Tooling for Vue.js Development (https://github.com/vuejs/vue-cli)
 yarn global add electron            # Build cross-platform desktop apps with JavaScript, HTML, and CSS (https://github.com/electron/electron)
