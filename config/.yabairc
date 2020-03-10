@@ -8,12 +8,12 @@
 # $ brew services restart yabai
 
 # bar settings
-yabai -m config status_bar                   off
+yabai -m config status_bar                   on
 yabai -m config status_bar_text_font         "Helvetica Neue:Bold:12.0"
-yabai -m config status_bar_icon_font         "FontAwesome:Regular:12.0"
+yabai -m config status_bar_icon_font         "Font Awesome 5 Free:Solid:12"
 yabai -m config status_bar_background_color  0xff202020
 yabai -m config status_bar_foreground_color  0xffa8a8a8
-yabai -m config status_bar_space_icon_strip  I II III IV V VI VII VIII IX X
+yabai -m config status_bar_space_icon_strip    
 yabai -m config status_bar_power_icon_strip   
 yabai -m config status_bar_space_icon        
 yabai -m config status_bar_clock_icon        
@@ -44,9 +44,9 @@ yabai -m config mouse_action2                resize
 
 # General Space Settings
 yabai -m config layout                       bsp
-yabai -m config top_padding                  0
-yabai -m config bottom_padding               0
-yabai -m config left_padding                 0
-yabai -m config right_padding                0
-yabai -m config window_gap                   0
+yabai -m config top_padding                  10
+yabai -m config bottom_padding               10
+yabai -m config left_padding                 10
+yabai -m config right_padding                10
+yabai -m config window_gap                   10
 
