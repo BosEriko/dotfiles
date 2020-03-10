@@ -50,7 +50,9 @@ brew cask install vlc                                             # VLC media pl
 brew cask install vscodium                                        # Binary releases of VS Code without MS branding/telemetry/licensing (https://github.com/VSCodium/vscodium)
 brew install php@7.3; brew install libidn2; brew install libpsl;  # The PHP Interpreter (https://github.com/php/php-src)
 brew tap heroku/brew && brew install heroku                       # Heroku CLI (https://github.com/heroku/cli)
-brew tap homebrew/cask-fonts && brew cask install font-fira-code  # Monospaced font with programming ligatures (https://github.com/tonsky/FiraCode)
+brew tap homebrew/cask-fonts                                      # Cask of Fonts (https://github.com/Homebrew/homebrew-cask-fonts)
+brew cask install font-fira-code                                  # Monospaced font with programming ligatures (https://github.com/tonsky/FiraCode)
+brew cask install font-fontawesome                                # The iconic SVG, font, and CSS toolkit (https://github.com/FortAwesome/Font-Awesome)
 terminal-notifier -title 'Installing' -message 'Brew apps have been installed.'
 
 # Cleanup for Homebrew (https://brew.sh/)
