@@ -38,6 +38,10 @@ You also need to setup Mission Control to be able to work with [Yabai](http://gi
 - Select Screenshots from the list of options on the left
 - Change the hotkey of "Screenshots and recording options" to `option + cmd + p`
 
+Lastly, since [Yabai](http://github.com/koekeishiya/yabai) will replace the default status bar as well, we need to adjust one last thing:
+- Open System preferences and go to General
+- Check "Automatically hide and show the menu bar"
+
 Close Accessibility's setting and then install [Dash](https://kapeli.com/dash) and [Contexts](https://contexts.co/). Be sure to set Dash and Contexts to dark mode after installing them!
 
 That's it! You can now open Hyper or VSCodium.
