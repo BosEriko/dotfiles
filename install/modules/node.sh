@@ -31,6 +31,7 @@ yarn global add speed-test          # Test your internet connection speed and pi
 yarn global add tldr                # Simplified and community-driven man pages (https://github.com/tldr-pages/tldr)
 yarn global add ts-node             # TypeScript execution and REPL for node.js (https://github.com/TypeStrong/ts-node)
 yarn global add typescript          # TypeScript is a superset of JavaScript that compiles to clean JavaScript output (https://github.com/Microsoft/TypeScript)
+yarn global add jake                # JavaScript build tool, similar to Make or Rake. Built to work with Node.js.
 terminal-notifier -title 'Installing' -message 'NPM apps have been installed.'
 
 # Avoid running postinstall scripts from packages
