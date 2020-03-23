@@ -13,7 +13,6 @@ Plug 'alvan/vim-closetag'                       " Auto close HTML tags
 Plug 'dyng/ctrlsf.vim'                          " Word search inside directory
 Plug 'junegunn/fzf'                             " FZF Search
 Plug 'junegunn/fzf.vim'                         " FZF.vim Search
-Plug 'majutsushi/tagbar'                        " Displays tags in a window, ordered by scope
 Plug 'rizzatti/dash.vim'                        " API Lookup
 Plug 'scrooloose/nerdtree'                      " Tree file explorer
 Plug 'takac/vim-hardtime'                       " Plugin to help you stop repeating the basic movement keys
