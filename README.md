@@ -43,7 +43,7 @@ Close System Preferences and then install [Dash](https://kapeli.com/dash) and [C
 That's it! You can now open Hyper or VSCodium.
 
 ## Note
-I also have some [Chrome Extensions](markdown/chrome-extensions.md), [Apps](markdown/apps.md) and [Games](markdown/games.md) that I frequently use.
+I also have some [Brave Extensions](markdown/brave-extensions.md), [Apps](markdown/apps.md) and [Games](markdown/games.md) that I frequently use.
 
 ## Call to action
 If you want to share some ideas you can email me at mail@boseriko.com.

@@ -1,5 +1,5 @@
-# Chrome Extensions
-Be sure to enable them all for incognito mode and do not allow access to file URLs!
+# Brave Extensions
+Be sure to enable them all for private mode and do not allow access to file URLs!
 
 ## Visible
 - [Marinara: Pomodoro® Assistant](https://chrome.google.com/webstore/detail/marinara-pomodoro%C2%AE-assist/lojgmehidjdhhbmpjfamhpkpodfcodef)
