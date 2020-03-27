@@ -26,7 +26,10 @@
 - [Android Studio](https://developer.android.com/studio/index.html)
 - [Dash](https://kapeli.com/dash)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
+- [Insomnia](https://insomnia.rest/)
+- [Postbird](https://www.electronjs.org/apps/postbird)
 - [Postman](https://www.getpostman.com/downloads/)
+- [SeeQL](https://www.electronjs.org/apps/seeql)
 - [Unity](https://store.unity.com/download?ref=personal)
 - [Xcode](https://itunes.apple.com/ph/app/xcode/id497799835)
 
