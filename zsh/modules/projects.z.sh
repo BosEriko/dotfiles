@@ -15,11 +15,8 @@ jt() {
     "dotfiles")
         cd ~/.dotfiles
         ;;
-    "ops")
-        cd ~/development/OpsManager
-        ;;
     *)
-        echo "Jump to: personal, work, vol, dotfiles or ops."
+        echo "Jump to: personal, work, vol or dotfiles."
         ;;
     esac
 }
