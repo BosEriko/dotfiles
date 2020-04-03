@@ -27,7 +27,7 @@ module.exports = {
     letterSpacing: 0,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: '#30A9DE',
+    cursorColor: '#87D787',
 
     // terminal text color under BLOCK cursor
     cursorAccentColor: '#000',
@@ -49,7 +49,7 @@ module.exports = {
     selectionColor: 'rgba(248,28,229,0.3)',
 
     // border color (window, tabs)
-    borderColor: '#30A9DE',
+    borderColor: '#87D787',
 
     // custom CSS to embed in the main window
     css: 'header { display: none; } .hyper_main { border-width: 0; }',
@@ -75,7 +75,7 @@ module.exports = {
     colors: {
       black: '#000000',
       red: '#C51E14',
-      green: '#30A9DE',
+      green: '#87D787',
       yellow: '#feee7d',
       blue: '#0A2FC4',
       magenta: '#C839C5',

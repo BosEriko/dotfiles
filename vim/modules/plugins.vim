@@ -29,7 +29,7 @@ Plug 'sheerun/vim-polyglot'                     " Language Pack
 Plug 'mhinz/vim-startify'                       " Welcome message
 
 " Design Plugin
-Plug 'arzg/vim-colors-xcode'                    " XCode Theme
+Plug 'joshdick/onedark.vim'                     " One Dark Theme
 Plug 'ryanoasis/vim-devicons'                   " Devicons (Always load this last)
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra syntax and highlight for nerdtree files
 Plug 'vim-airline/vim-airline'                  " Bottom toolbar

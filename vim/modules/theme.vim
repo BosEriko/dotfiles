@@ -16,15 +16,8 @@ if (empty($TMUX))
 endif
 
 " Theme
-colorscheme xcodedark
-let g:airline_theme = 'lucius'
-
-" Italic Fonts
-augroup vim-colors-xcode
-    autocmd!
-augroup END
-autocmd vim-colors-xcode ColorScheme * hi Comment        cterm=italic gui=italic
-autocmd vim-colors-xcode ColorScheme * hi SpecialComment cterm=italic gui=italic
+colorscheme onedark
+let g:airline_theme = 'onedark'
 
 " Colors
 hi VertSplit ctermfg=bg ctermbg=bg
