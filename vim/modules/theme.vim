@@ -32,6 +32,7 @@ hi ColorColumn ctermbg=bg
 hi EndOfBuffer ctermfg=bg ctermbg=bg
 hi NonText ctermfg=237 guifg=grey23
 hi SpecialKey ctermfg=237 guifg=grey23
+hi StatusLine ctermbg=bg ctermfg=fg
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
   \ 'bg':      ['bg', 'Normal'],
@@ -60,4 +61,7 @@ let g:gitgutter_sign_modified_removed     = ''
 let g:indentLine_char = '│'
 let g:startify_custom_header =
   \ startify#fortune#cowsay('*','─','│','╭','╮','╯','╰')
+
+" Hide Statusline
+set statusline=%=
 
