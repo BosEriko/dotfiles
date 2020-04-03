@@ -55,6 +55,3 @@ let g:indentLine_char = '│'
 let g:startify_custom_header =
   \ startify#fortune#cowsay('*','─','│','╭','╮','╯','╰')
 
-" Hide Statusline
-set statusline=%=
-
