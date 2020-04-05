@@ -71,19 +71,12 @@ let NERDTreeMinimalUI                       = 1
 let NERDTreeShowHidden                      = 1
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 let g:DevIconsEnableFoldersOpenClose        = 1
-augroup nerdtreehidecwd
-	autocmd!
-	autocmd FileType nerdtree setlocal conceallevel=3 | syntax match NERDTreeHideCWD #^[</].*$# conceal
-augroup end
 
 " Airline
 let g:airline_enable_branch               = 1
 let g:airline_enable_syntastic            = 1
 let g:airline#extensions#tabline#enabled  = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
-
-" Hide Statusline
-set statusline=%=
 
 " Startify
 let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
