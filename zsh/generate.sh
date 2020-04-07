@@ -11,7 +11,6 @@ cat ~/.dotfiles/zsh/modules/config.z.sh      \
     ~/.dotfiles/zsh/modules/docker.z.sh      \
     ~/.dotfiles/zsh/modules/tmux.z.sh        \
     ~/.dotfiles/zsh/modules/projects.z.sh    \
-    ~/.dotfiles/zsh/modules/ops.z.sh         \
     ~/.dotfiles/zsh/modules/fzf.z.sh         \
     ~/.dotfiles/zsh/modules/nvm.z.sh         \
     ~/.dotfiles/zsh/modules/rvm.z.sh         \
