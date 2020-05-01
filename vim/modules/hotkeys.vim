@@ -20,13 +20,14 @@ nnoremap <C-g> :%s/old/new/g
 nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --exclude-standard --others --cached')."\<cr>"
 
 " Leader Shortcuts
-nnoremap <silent> <leader>l :set list!<CR>
-nnoremap <silent> <leader>w :set wrap!<CR>
-nnoremap <silent> <leader>g :Gblame<CR>
-nnoremap <silent> <leader>n :noh<CR>
-nnoremap <silent> <leader>s :Startify<CR>
 nnoremap <silent> <leader>d :Dash!<CR>
 nnoremap <silent> <leader>e :PlugInstall!<CR>
+nnoremap <silent> <leader>g :Gblame<CR>
+nnoremap <silent> <leader>l :set list!<CR>
+nnoremap <silent> <leader>n :noh<CR>
+nnoremap <silent> <leader>r :g/^/m0<CR>
+nnoremap <silent> <leader>s :Startify<CR>
 nnoremap <silent> <leader>t :ToggleWorkspace<CR>
+nnoremap <silent> <leader>w :set wrap!<CR>
 set pastetoggle=<leader>p
 
