@@ -25,6 +25,7 @@ nnoremap <silent> <leader>e :PlugInstall!<CR>
 nnoremap <silent> <leader>g :Gblame<CR>
 nnoremap <silent> <leader>l :set list!<CR>
 nnoremap <silent> <leader>n :noh<CR>
+nnoremap <silent> <leader>o :'<,'>sort<CR>
 nnoremap <silent> <leader>r :g/^/m0<CR>
 nnoremap <silent> <leader>s :Startify<CR>
 nnoremap <silent> <leader>t :ToggleWorkspace<CR>
