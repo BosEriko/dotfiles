@@ -94,7 +94,7 @@ git-wtf() {
 
 # Branch Name Copy
 git-branch-name-copy() {
-  git branch | grep \* | cut -d ' ' -f2 | pbcopy
+  git branch | grep \* | cut -d ' ' -f2 | tr -d '\n' | pbcopy
 }
 
 # Branch Delete
