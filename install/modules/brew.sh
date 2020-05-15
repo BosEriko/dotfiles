@@ -9,6 +9,7 @@ brew install antigen                                              # The plugin m
 brew install cmake                                                # CMake is an open-source, cross-platform family of tools designed to build, test and package software (https://cmake.org/)
 brew install cmatrix                                              # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
 brew install cowsay                                               # Let the cow talk (https://github.com/schacon/cowsay)
+brew install deno                                                 # A secure JavaScript and TypeScript runtime (https://github.com/denoland/deno)
 brew install figlet                                               # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
 brew install fortune                                              # Fortune CLI (https://gist.github.com/zlorb/4a3eff8981fcec8ca1c7)
 brew install fzf                                                  # A command-line fuzzy finder (https://github.com/junegunn/fzf)
