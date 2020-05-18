@@ -2,7 +2,7 @@
 " ================================================================================ [Hotkeys] ===== "
 
 " Change mapleader
-let mapleader=";"
+let mapleader="\<space>"
 
 " Control Shortcuts
 nnoremap <silent> <C-\> :NERDTreeToggle<CR>
