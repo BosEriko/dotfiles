@@ -5,6 +5,7 @@ brew help || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Ho
 brew update
 
 # Install packages using Homebrew (https://formulae.brew.sh/formula/FORMULAE_NAME)
+brew install ack                                                  # ack is a grep-like search tool optimized for source code (https://github.com/beyondgrep/ack3/)
 brew install antigen                                              # The plugin manager for zsh (https://github.com/zsh-users/antigen)
 brew install cmake                                                # CMake is an open-source, cross-platform family of tools designed to build, test and package software (https://cmake.org/)
 brew install cmatrix                                              # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
