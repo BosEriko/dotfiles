@@ -26,6 +26,7 @@ brew install neovim                                               # Vim-fork foc
 brew install node                                                 # Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine (https://nodejs.org/en/)
 brew install pastel                                               # A command-line tool to generate, analyze, convert and manipulate colors (https://github.com/sharkdp/pastel)
 brew install pipes-sh                                             # Animated pipes terminal screensaver (https://github.com/pipeseroni/pipes.sh)
+brew install postgresql                                           # Free and open-source relational database (https://github.com/postgres/postgres/)
 brew install python3                                              # Python is a programming language that lets you work quickly and integrate systems more effectively (https://www.python.org/)
 brew install ranger                                               # A VIM-inspired filemanager for the console (https://github.com/ranger/ranger)
 brew install rbenv                                                # Groom your app’s Ruby environment (https://github.com/rbenv/rbenv)
