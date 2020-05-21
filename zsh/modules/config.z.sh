@@ -14,6 +14,9 @@ HISTFILE="$HOME/.history/zsh/history"
 HISTSIZE=10000
 SAVEHIST=10000
 
+# Disable Compfix
+ZSH_DISABLE_COMPFIX=true
+
 # Source ZSH
 source $ZSH/oh-my-zsh.sh
 
