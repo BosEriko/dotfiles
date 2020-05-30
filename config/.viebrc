@@ -1,2 +1,4 @@
 nmap <C-h> <action.previousTab>
 nmap <C-l> <action.nextTab>
+nmap <C-x> <action.closeTab>
+nmap <C-q> :q<CR>
