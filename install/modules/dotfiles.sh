@@ -2,7 +2,7 @@
 
 # Install the dotfiles
 # =====> Stow config
-rm ~/.gitconfig ~/.hyper.js ~/.skhdrc ~/.yabairc
+rm ~/.gitconfig ~/.hyper.js ~/.viebrc ~/.skhdrc ~/.yabairc
 rm ~/Library/Application\ Support/VSCodium/User/settings.json
 rm ~/Library/Application\ Support/VSCodium/User/keybindings.json
 (cd ~/.dotfiles && stow config)
