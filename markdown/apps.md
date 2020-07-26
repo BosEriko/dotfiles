@@ -41,6 +41,7 @@
 - [Keycastr](https://github.com/keycastr/keycastr)
 - [OBS](https://obsproject.com/)
 - [Restream Chat](https://restream.io/en/chat)
+- [Streamlabs](https://streamlabs.com/)
 - [Twitch Studio](https://www.twitch.tv/broadcast/studio)
 - [iShowU Audio Capture](https://support.shinywhitebox.com/hc/en-us/articles/360030800592) [[?](https://obsproject.com/forum/resources/os-x-capture-audio-with-ishowu-audio-capture.505/)]
 
