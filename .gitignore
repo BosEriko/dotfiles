@@ -1,9 +1,8 @@
+# General
 .DS_Store
 
-# Ignore everything for VSCodium...
-config/Library/Application Support/VSCodium/User/
-
-# ...besides these.
-!config/Library/Application Support/VSCodium/User/keybindings.json
-!config/Library/Application Support/VSCodium/User/settings.json
-!config/Library/Application Support/VSCodium/User/settings.win.json
+# VSCodium
+config/Library/Application\ Support/VSCodium/*
+!config/Library/Application\ Support/VSCodium/User/keybindings.json
+!config/Library/Application\ Support/VSCodium/User/settings.json
+!config/Library/Application\ Support/VSCodium/User/settings.win.json
