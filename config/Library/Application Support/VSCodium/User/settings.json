@@ -47,7 +47,6 @@
   "git.autofetch": true,
   "git.autofetchPeriod": 1000,
   "git.enabled": true,
-  "search.location": "panel",
   "telemetry.enableTelemetry": false,
   "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
   "terminal.integrated.shell.osx": "zsh",
