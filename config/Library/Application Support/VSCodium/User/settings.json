@@ -30,7 +30,7 @@
   "editor.formatOnPaste": true,
   "editor.insertSpaces": true,
   "editor.lineNumbers": "relative",
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "all",
   "editor.rulers": [ 100 ],
@@ -38,7 +38,7 @@
   "editor.tabSize": 4,
   "editor.wordWrap": "off",
   "explorer.openEditors.visible": 0,
-  "extensions.autoUpdate": false,
+  "extensions.autoUpdate": true,
   "files.associations": { "*.hamlc": "haml" },
   "files.autoSave": "off",
   "files.insertFinalNewline": true,
@@ -65,7 +65,6 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Material Theme",
   "workbench.editor.enablePreview": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.showTabs": true,
@@ -79,5 +78,6 @@
   "zenMode.hideActivityBar": true,
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
-  "zenMode.hideTabs": false
+  "zenMode.hideTabs": false,
+  "terminal.integrated.rendererType": "dom"
 }
