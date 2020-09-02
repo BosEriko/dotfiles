@@ -1,24 +1,48 @@
 {
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "l"],
-      "commands": ["editor.action.toggleRenderWhitespace"]
-    },
-    {
-      "before": ["<leader>", "w"],
-      "commands": ["editor.action.toggleWordWrap"]
-    },
-    {
-      "before": ["<leader>", "g"],
-      "commands": ["gitlens.toggleFileBlame"]
-    },
-    {
       "before": ["<leader>", "d"],
       "commands": ["extension.dash.specific"]
     },
     {
       "before": ["<leader>", "e"],
       "commands": ["workbench.extensions.action.updateAllExtensions"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["gitlens.toggleFileBlame"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["editor.action.toggleRenderWhitespace"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": []
+    },
+    {
+      "before": ["<leader>", "o"],
+      "commands": []
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": []
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": []
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": []
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["editor.action.toggleWordWrap"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": []
     }
   ],
   "breadcrumbs.enabled": true,
