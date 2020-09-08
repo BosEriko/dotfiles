@@ -10,6 +10,7 @@
 [alias]
   b       = branch
   c       = commit
+  cp      = cherry-pick
   co      = checkout
   d       = diff
   dt      = difftool

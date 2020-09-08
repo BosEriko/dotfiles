@@ -17,6 +17,7 @@ ${RESET}
     bd, branch-delete           Delete a branch locally and remotely
     bnc, branch-name-copy       Copy the current branch name to clipboard
     c                           Alias for commit
+    cp                          Alias for cherry-pick
     co                          Alias for checkout
     d                           Alias for diff
     dt                          Alias for difftool
