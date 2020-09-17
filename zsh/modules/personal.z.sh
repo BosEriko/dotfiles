@@ -127,6 +127,13 @@ bos() {
                 rm -rf ~/.dotfiles/vscodium/extensions.sh
                 codium --list-extensions | xargs -L 1 echo codium --install-extension > ~/.dotfiles/vscodium/extensions.sh
                 echo "VSCodium extensions list have been updated over on the dotfiles."
+                (cd ~/.dotfiles && git diff ~/.dotfiles/vscodium/extensions.sh)
+                echo "Do you want to push the changes to git? (Ctrl-C to abort, or press enter to continue)"
+                read
+                echo "Please wait..."
+                (cd ~/.dotfiles && git add ~/.dotfiles/vscodium/extensions.sh)
+                (cd ~/.dotfiles && git commit -m ":pencil: VSCodium extension update #$(date +%s)")
+                (cd ~/.dotfiles && git push origin master)
             elif [ "$2" = "install" ]; then
                 echo "Do you want to install VSCodium extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
                 read
