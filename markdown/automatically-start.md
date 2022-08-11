@@ -1,5 +1,4 @@
 ## How to Run AutoHotKey Script on Startup Windows 10 Using a Shortcut
-
 Windows has a particular folder named Startup where you can add application shortcuts that you want to start with the system. The only downside is that you have to add the application shortcut rather than the full exe file. Let’s see how it is done.
 
 **Step 1:** First of all, we need to create the shortcut to the AutoHotKey script. To do this, find the AutoHotKey script you want to add to the startup, select it, **hold the Alt key, and drag it to the same folder.**
