@@ -23,7 +23,7 @@ git clone https://github.com/BosEriko/dotfiles-windows.git ~/.files
 ```
 
 ## Note
-I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use.
+I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play.
 
 ## Call to action
 If you want to share some ideas you can email me at boseriko@duck.com.
