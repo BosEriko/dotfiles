@@ -24,6 +24,12 @@ Download [PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys
 - `Win (Left)` `Alt (Left)` `S` to `Win (Left)` `Shift (Left)` `S` for **All Apps**
 - `Win (Left)` `Alt (Left)` `W` to `Alt (Left)` `F4` for **All Apps**
 
+## Switcheroo
+Download [Switcheroo](https://github.com/kvakulo/Switcheroo) and bind the hotkey to `Ctrl (Left)` `Space`. You can also enable it to run on startup inside Switcheroo itself.
+
+## WSL
+[Turn on Developer Mode on the settings](https://www.howtogeek.com/292914/what-is-developer-mode-in-windows-10/) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete.
+
 ## Installation
 Run this inside WSL.
 ``` sh
