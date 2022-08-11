@@ -36,3 +36,9 @@ Run this inside WSL.
 git clone https://github.com/BosEriko/dotfiles-windows.git ~/.files
 ~/.files/install/entry.sh
 ```
+
+## Note
+I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use.
+
+## Call to action
+If you want to share some ideas you can email me at boseriko@duck.com.
