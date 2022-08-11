@@ -7,7 +7,12 @@ Download [AutoHotkey](https://www.autohotkey.com/) current version and put both 
 Note: If you want to play games you can just turn off both the script by closing AutoHotkey on the programs on the right side of the bottom Windows bar and then reopen the scripts again on the Desktop when you’re done playing games.
 
 ## PowerToys
-Download [PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD) for PowerToys Run and Keyboard Manager.
+Download [PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD) for PowerToys Run and Keyboard Manager. Set up Keyboard Manager with the following settings:
+
+**Keys**
+- `Esc` to ```
+
+**Shortcuts**
 
 ## Installation
 Run this inside WSL.
