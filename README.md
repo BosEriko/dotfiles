@@ -13,10 +13,10 @@ Download [PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys
 - `Esc` to `` ` ``
 
 **Shortcuts**
-- `Alt (Right)` `H` to  `Left`
-- `Alt (Right)` `J` to  `Down`
-- `Alt (Right)` `K` to  `Up`
-- `Alt (Right)` `L` to  `Right`
+- `Alt (Right)` `H` to `Left` for **All Apps**
+- `Alt (Right)` `J` to `Down` for **All Apps**
+- `Alt (Right)` `K` to `Up` for **All Apps**
+- `Alt (Right)` `L` to `Right` for **All Apps**
 
 ## Installation
 Run this inside WSL.
