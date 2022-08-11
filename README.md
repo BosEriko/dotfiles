@@ -10,7 +10,7 @@ Note: If you want to play games you can just turn off both the script by closing
 Download [PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD) for PowerToys Run and Keyboard Manager. Set up Keyboard Manager with the following settings:
 
 **Keys**
-- `Esc` to ```
+- `Esc` to `\``
 
 **Shortcuts**
 
