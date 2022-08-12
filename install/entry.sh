@@ -1,4 +1,12 @@
 #/usr/bin/env sh
 
 ~/.files/install/modules/apt.sh
-
+~/.files/install/modules/plug.sh
+~/.files/install/modules/node.sh
+~/.files/install/modules/rbenv.sh
+~/.files/install/modules/gem.sh
+~/.files/install/modules/mkdir.sh
+~/.files/install/modules/zsh.sh
+~/.files/install/modules/dotfiles.sh
+~/.files/install/modules/origin.sh
+~/.files/install/modules/ssh.sh
