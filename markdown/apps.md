@@ -1,1 +1,11 @@
-...
+# Apps
+- [VMagicMirror](https://malaybaku.github.io/VMagicMirror/en/)
+- [Vieb](https://vieb.dev/)
+- [OBS Studio](https://obsproject.com/download)
+- [Notion](https://www.notion.so/desktop)
+- [NZXT CAM](https://nzxt.com/software/cam)
+- [MEGAsync](https://mega.io/desktop)
+- [Google Drive](https://www.google.com/drive/download/)
+- [Blender](https://www.blender.org/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- [Brave](https://brave.com/download/)
