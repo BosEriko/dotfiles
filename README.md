@@ -24,6 +24,9 @@ git clone https://github.com/BosEriko/dotfiles-windows.git ~/.files
 ~/.files/install/entry.sh
 ```
 
+## Visual Studio Code
+Download [Visual Studio Code](https://code.visualstudio.com/) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings.
+
 ## Note
 I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play.
 
