@@ -1,4 +1,6 @@
 # Windows Terminal (Keybinds)
+Delete all keybindings first to avoid duplicate keybinds.
+
 ## Tab
 - **New tab:** `ctrl` `t`
 - **Restore the last closed pane or tab:** `ctrl` `shift` `t`
