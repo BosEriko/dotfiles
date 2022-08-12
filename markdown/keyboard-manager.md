@@ -1,9 +1,9 @@
 # Keyboard Manager
-**Keys**
+## Keys
 - `Ctrl (Right)` to `Esc`
 - `Esc` to `` ` ``
 
-**Shortcuts**
+## Shortcuts
 - `Alt (Right)` `H` to `Left` for **All Apps**
 - `Alt (Right)` `J` to `Down` for **All Apps**
 - `Alt (Right)` `K` to `Up` for **All Apps**
