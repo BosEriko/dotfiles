@@ -1,0 +1,30 @@
+[user]
+  email = bos.eriko@gmail.com
+  name = BosEriko
+[credential]
+  helper = cache --timeout=36000
+[http]
+  postBuffer = 1048576000
+[core]
+  compression = 0
+[alias]
+  b       = branch
+  c       = commit
+  cp      = cherry-pick
+  co      = checkout
+  d       = diff
+  dt      = difftool
+  graph   = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  lg      = log -p
+  lol     = log --decorate --pretty=oneline --abbrev-commit
+  ls      = ls-files
+  pl      = pull
+  ps      = push
+  re      = reset
+  rl      = tag -n1
+  s       = status
+  st      = stash
+[color]
+  ui = auto
+[hub]
+  protocol = ssh
