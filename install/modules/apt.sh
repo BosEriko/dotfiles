@@ -8,11 +8,11 @@ sudo apt install -y nodejs                              # Node.js® is a JavaScr
 sudo apt install -y ruby                                # A dynamic, open source programming language (https://www.ruby-lang.org/en/)
 sudo apt install -y rbenv                               # Groom your app’s Ruby environment (https://github.com/rbenv/rbenv)
 sudo apt install -y zsh-antigen                         # The plugin manager for zsh (https://github.com/zsh-users/antigen)
+sudo apt install -y cmatrix                             # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
+sudo apt install -y cowsay                              # Let the cow talk (https://github.com/schacon/cowsay)
 
 echo "Installing: Brew apps have been installed."
 
-# brew install cmatrix                                              # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
-# brew install cowsay                                               # Let the cow talk (https://github.com/schacon/cowsay)
 # brew install figlet                                               # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
 # brew install fortune                                              # Fortune CLI (https://gist.github.com/zlorb/4a3eff8981fcec8ca1c7)
 # brew install git-flow                                             # Git workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
