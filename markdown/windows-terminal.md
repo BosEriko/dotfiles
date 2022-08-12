@@ -9,11 +9,11 @@ Delete all keybindings first to avoid duplicate keybinds.
 - **Next tab:** `ctrl` `l`
 
 ## Pane
-- **Split pane, split: down:** `ctrl` `-`
-- **Split pane, split: right:** `ctrl` `|`
-- **Move focus to the next pane in order:** `ctrl` `shift` `l`
-- **Move focus to the previous pane in order:** `ctrl` `shift` `h`
+- **Split pane, split: down:** `ctrl` `minus`
+- **Split pane, split: right:** `ctrl` `\`
 - **Close pane:** `ctrl` `shift` `w`
+- **Move focus to the previous pane in order:** `ctrl` `shift` `h`
+- **Move focus to the next pane in order:** `ctrl` `shift` `l`
 
 ## Movement
 - **Scroll up:** `ctrl` `k`
