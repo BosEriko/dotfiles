@@ -81,7 +81,7 @@ git-help() {
 git-go() {
   git add .
   if [ -z "$1" ]; then
-    git commit -m "[AUTO] $(curl -s http://whatthecommit.com/index.txt)"
+    git-wtf
   else
     git commit -m "$1"
   fi
@@ -149,4 +149,3 @@ git-add() {
   git add -N .
   git add -p
 }
-
