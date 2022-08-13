@@ -8,8 +8,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | sh
 echo "Installing: NVM has been installed."
 
 # Set Node global version (https://github.com/nvm-sh/nvm)
-nvm install --lts
-nvm use --lts
+nvm install v16.16.0
+nvm use v16.16.0
 echo "Installing: Set Node to the LTS version."
 
 # Install packages using NPM (https://nodejs.org/)
