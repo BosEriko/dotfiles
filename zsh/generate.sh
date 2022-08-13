@@ -15,5 +15,6 @@ cat ~/.files/zsh/modules/config.z.sh      \
     ~/.files/zsh/modules/personal.z.sh    \
     ~/.files/zsh/modules/up.z.sh          \
     ~/.files/zsh/modules/down.z.sh        \
+    ~/.files/zsh/modules/path.z.sh        \
     > ~/.zshrc
 echo "Generating: The .zshrc file has been generated."
