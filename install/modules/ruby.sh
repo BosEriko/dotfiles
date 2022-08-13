@@ -16,4 +16,5 @@ echo "Installing: rbenv has been initialized."
 # Install packages using Gem (https://rubygems.org/)
 gem install bundler
 gem install rails
+gem install lolcat
 echo "Installing: Gem apps have been installed."
