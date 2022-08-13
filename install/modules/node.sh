@@ -1,8 +1,11 @@
 #!/usr/bin/env sh
 
+# Install Yarn (https://github.com/yarnpkg/yarn)
+npm install --global yarn
+
 # Install NVM (https://github.com/nvm-sh/nvm)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | sh
-echo "Installing: "
+echo "Installing: NVM has been installed."
 
 # Set Node global version (https://github.com/nvm-sh/nvm)
 nvm install lts
