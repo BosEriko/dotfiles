@@ -5,3 +5,5 @@
 - Main Monitor: N/A
 - Left Monitor: N/A
 - Right Monitor: N/A
+- Table: N/A
+- Chair: N/A
