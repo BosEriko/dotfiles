@@ -89,7 +89,7 @@ bos() {
             fi
         elif [ "$1" = "-dl" ] || [ "$1" = "--download" ]; then
             if [ "$2" = "movie" ]; then
-                ~/.dotfiles/scripts/movie.sh
+                ~/.files/scripts/movie.sh
             elif [ "$2" = "anime" ]; then
                 ani-cli -v -q 1080
             elif [ "$2" = "youtube" ]; then
