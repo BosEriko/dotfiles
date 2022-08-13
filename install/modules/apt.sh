@@ -6,7 +6,6 @@ sudo apt install -y zsh                                                         
 sudo apt install -y nodejs                                                                          # Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine (https://nodejs.org/en/)
 sudo apt install -y npm                                                                             # Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine (https://nodejs.org/en/)
 sudo apt install -y rbenv                                                                           # Groom your app’s Ruby environment (https://github.com/rbenv/rbenv)
-sudo apt install -y zsh-antigen                                                                     # The plugin manager for zsh (https://github.com/zsh-users/antigen)
 sudo apt install -y cmatrix                                                                         # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
 sudo apt install -y cowsay                                                                          # Let the cow talk (https://github.com/schacon/cowsay)
 sudo apt install -y figlet                                                                          # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)

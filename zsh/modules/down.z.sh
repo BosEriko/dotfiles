@@ -8,6 +8,5 @@ down() {
   (cd ~/.history && git add .)
   (cd ~/.history && git commit -m ":pencil: History #$(date +%s)")
   (cd ~/.history && git push origin master)
-  terminal-notifier -title 'History Repository' -message 'Pushed successfully.'
+  echo "History Repository: Pushed successfully."
 }
-
