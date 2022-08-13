@@ -1,7 +1,5 @@
 ; Map Capslock to Control
 ; Map press & release of Capslock with no other key to Esc
-; Press both shift keys together to toggle Capslock
-
 *Capslock::
     Send {Blind}{LControl down}
     return
@@ -22,6 +20,7 @@ RemoveTooltip(){
     return
 }
 
+; Press left control to toggle Capslock
 ToggleCaps(){
     ; this is needed because by default, AHK turns CapsLock off before doing Send
     SetStoreCapsLockMode, Off
@@ -29,7 +28,8 @@ ToggleCaps(){
     SetStoreCapsLockMode, On
     return
 }
-LShift & RShift::ToggleCaps()
-RShift & LShift::ToggleCaps()
+LControl::ToggleCaps()
 
-; ^!r::Reload
+; Map esc to ` and ~
+esc::`
+LShift & esc::~
