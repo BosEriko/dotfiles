@@ -2,8 +2,8 @@
 Delete all keybindings first to avoid duplicate keybinds.
 
 ## Tab
-- **New tab:** `ctrl` `t`
-- **Restore the last closed pane or tab:** `ctrl` `shift` `t`
+- **New tab:** `ctrl` `n`
+- **Restore the last closed pane or tab:** `ctrl` `shift` `n`
 - **Close tab:** `ctrl` `x`
 - **Previous tab:** `ctrl` `h`
 - **Next tab:** `ctrl` `l`
