@@ -232,7 +232,7 @@ bos() {
             if [ "$2" = "external-ip" ]; then
                 curl ipinfo.io/ip
             elif [ "$2" = "ssh-key" ]; then
-                cat ~/.ssh/id_rsa.pub | pbcopy
+                cat ~/.ssh/id_rsa.pub | clip.exe
                 echo "SSH Key has been copied to clipboard."
             elif [ "$2" = "deploy" ]; then
                 now
