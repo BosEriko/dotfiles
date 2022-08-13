@@ -9,6 +9,7 @@ cat ~/.files/zsh/modules/config.z.sh      \
     ~/.files/zsh/modules/alias.z.sh       \
     ~/.files/zsh/modules/docker.z.sh      \
     ~/.files/zsh/modules/projects.z.sh    \
+    ~/.files/zsh/modules/fzf.z.sh         \
     ~/.files/zsh/modules/node.z.sh        \
     ~/.files/zsh/modules/ruby.z.sh        \
     ~/.files/zsh/modules/git.z.sh         \
