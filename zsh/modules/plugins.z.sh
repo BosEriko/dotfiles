@@ -16,6 +16,3 @@ antigen theme spaceship-prompt/spaceship-prompt     # A Zsh prompt for Astronaut
 
 # Apply Antigen Plugins
 antigen apply
-
-# Set Spaceship ZSH as the theme
-ZSH_THEME="spaceship"
