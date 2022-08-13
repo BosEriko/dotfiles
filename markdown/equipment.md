@@ -1,4 +1,4 @@
-# Peripherals
+# Equipment
 - Keyboard: [Razer Huntsman Mini 60%](https://www.razer.com/gaming-keyboards/razer-huntsman-mini)
 - Mouse: [Logitech G Pro Wireless Gaming Mouse](https://www.logitechg.com/en-ph/products/gaming-mice/pro-wireless-mouse.910-005274.html) (Not Owned)
 - Headset: [Steelseries Arctis 7 Wireless Gaming Headset](https://steelseries.com/gaming-headsets/arctis-7)
