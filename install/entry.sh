@@ -2,6 +2,7 @@
 
 ~/.files/install/modules/apt.sh
 ~/.files/install/modules/fzf.sh
+~/.files/install/modules/pipes.sh
 ~/.files/install/modules/node.sh
 ~/.files/install/modules/ruby.sh
 ~/.files/install/modules/mkdir.sh
