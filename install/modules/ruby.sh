@@ -12,3 +12,8 @@ rbenv install 3.1.2
 rbenv global 3.1.2
 rbenv rehash
 echo "Installing: rbenv has been initialized."
+
+# Install packages using Gem (https://rubygems.org/)
+gem install bundler
+gem install rails
+echo "Installing: Gem apps have been installed."
