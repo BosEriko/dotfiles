@@ -1,7 +1,7 @@
 
-# =================================================================================== [Down] ===== #
+# ============================================================================ [End Session] ===== #
 
-down() {
+end-session() {
   (cd ~/.history && git diff)
   echo "Do you want to push your History Repository? (Ctrl-C to abort, or press enter to continue)"
   read
