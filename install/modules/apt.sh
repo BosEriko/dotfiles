@@ -11,7 +11,7 @@ sudo apt install -y zsh-antigen                         # The plugin manager for
 sudo apt install -y cmatrix                             # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
 sudo apt install -y cowsay                              # Let the cow talk (https://github.com/schacon/cowsay)
 
-echo "Installing: Brew apps have been installed."
+echo "Installing: Apt apps have been installed."
 
 # brew install figlet                                               # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
 # brew install fortune                                              # Fortune CLI (https://gist.github.com/zlorb/4a3eff8981fcec8ca1c7)

@@ -28,7 +28,7 @@ git clone https://github.com/BosEriko/dotfiles-windows.git ~/.files
 Download [Visual Studio Code](https://code.visualstudio.com/) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings. Your keyboard hotkeys can be found [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ba96cfa3c35d4d7ca5c386d73c8c0a78).
 
 ## Note
-I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play.
+I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play along with the [peripherals](markdown/peripherals.md) of my choice.
 
 ## Call to action
 If you want to share some ideas you can email me at boseriko@duck.com.
