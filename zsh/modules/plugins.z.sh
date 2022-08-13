@@ -3,7 +3,6 @@
 
 # Source Antigen
 source /usr/share/zsh-antigen/antigen.zsh
-sudo curl -o /usr/share/zsh-antigen/antigen.zsh -sL git.io/antigen
 
 # Plugins Config
 export ZSH_PLUGINS_ALIAS_TIPS_TEXT="Has alias: "
