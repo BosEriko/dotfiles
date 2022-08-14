@@ -25,6 +25,6 @@ Delete all keybindings first to avoid duplicate keybinds.
 - **Close window:** `alt` `f4`
 - **Toggle command pallete:** `ctrl` `shift` `p`
 - **Copy text:** `ctrl` `c`
-- **Find:** `ctrl` `f`
+- **Find:** `ctrl` `/`
 - **Paste:** `ctrl` `v`
 - **Reset font size:** `ctrl` `0`
