@@ -1,0 +1,12 @@
+# Visual Studio Code Extensions
+- [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
+- [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+- [Simple icons](https://marketplace.visualstudio.com/items?itemName=ShaneLiesegang.vscode-simple-icons-rev)
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+- [VSCode Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby)
+- [Comment Anchors](https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+- [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
