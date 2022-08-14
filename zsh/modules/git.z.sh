@@ -21,6 +21,7 @@ ${RESET}
     co                          Alias for checkout
     d                           Alias for diff
     dt                          Alias for difftool
+    f, fzf                      Alias for fzf-git
     g, go                       Instantly add, commit and push
     graph                       Show graph of branches
     h, help                     Show the list of custom Git commands
@@ -59,6 +60,8 @@ g() {
     git-set-origin
   elif [ "$1" = "sc" ] || [ "$1" = "sync" ]; then
     git-sync $2
+  elif [ "$1" = "f" ] || [ "$1" = "fzf" ]; then
+    git-fzf $2
   elif [ "$1" = "t" ] || [ "$1" = "tag" ]; then
     git-tag $2
   else
@@ -129,6 +132,31 @@ git-sync() {
   else
     git pull origin $1
     git push origin $1
+  fi
+}
+
+# git-fzf
+git-fzf() {
+  if [ -z "$1" ]; then
+    echo "Please specify a key"
+    echo "f - Files"
+    echo "b - Branches"
+    echo "t - Tags"
+    echo "r - Remotes"
+    echo "c - Commits"
+    echo "s - Stashes"
+  elif [ "$1" = "f" ]; then
+    $(_fzf_git_files)\e\C-e\er
+  elif [ "$1" = "b" ]; then
+    $(_fzf_git_branches)\e\C-e\er
+  elif [ "$1" = "t" ]; then
+    $(_fzf_git_tags)\e\C-e\er
+  elif [ "$1" = "r" ]; then
+    $(_fzf_git_remotes)\e\C-e\er
+  elif [ "$1" = "c" ]; then
+    $(_fzf_git_hashes)\e\C-e\er
+  elif [ "$1" = "s" ]; then
+    $(_fzf_git_stashes)\e\C-e\er
   fi
 }
 
