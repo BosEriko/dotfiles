@@ -146,17 +146,17 @@ git-fzf() {
     echo "c - Commits"
     echo "s - Stashes"
   elif [ "$1" = "f" ]; then
-    $(_fzf_git_files)\e\C-e\er
+    _fzf_git_files
   elif [ "$1" = "b" ]; then
-    $(_fzf_git_branches)\e\C-e\er
+    _fzf_git_branches
   elif [ "$1" = "t" ]; then
-    $(_fzf_git_tags)\e\C-e\er
+    _fzf_git_tags
   elif [ "$1" = "r" ]; then
-    $(_fzf_git_remotes)\e\C-e\er
+    _fzf_git_remotes
   elif [ "$1" = "c" ]; then
-    $(_fzf_git_hashes)\e\C-e\er
+    _fzf_git_hashes
   elif [ "$1" = "s" ]; then
-    $(_fzf_git_stashes)\e\C-e\er
+    _fzf_git_stashes
   fi
 }
 
