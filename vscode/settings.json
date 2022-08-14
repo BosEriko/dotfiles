@@ -78,6 +78,7 @@
     "vim.easymotionMarkerBackgroundColor": "black",
     "vim.easymotionMarkerFontWeight": "normal",
     "vim.easymotionMarkerForegroundColorOneChar": "white",
+    "vim.easymotionKeys": "asdfjkl;",
     "vim.leader": "<space>",
     "vim.useSystemClipboard": true,
     "workbench.activityBar.visible": true,
