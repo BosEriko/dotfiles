@@ -10,7 +10,10 @@ Download [AutoHotkey](https://www.autohotkey.com/) current version and put both 
 Download [PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD) for PowerToys Run and Keyboard Manager. Set up Keyboard Manager with [these settings](markdown/keyboard-manager.md).
 
 ## Switcheroo
-Download [Switcheroo](https://github.com/kvakulo/Switcheroo) and bind the hotkey to `Ctrl (Left)` `Space`. You can also enable it to run on startup inside Switcheroo itself.
+Download [Switcheroo](https://github.com/kvakulo/Switcheroo) and bind the hotkey to `Ctrl (Left)` `Space`. Enable the following settings:
+- Run on Startup
+- Activate Switcheroo with `Alt` + `Tab`
+- Automatically switch window when releasing `Alt` + `Tab`
 
 ## Powerline fonts
 1. Open a Powershell session as administrator.
