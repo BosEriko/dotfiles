@@ -31,16 +31,8 @@ ${RESET}
                                 delete-mega-movies      Delete MEGA movies
                                 delete-youtube-videos   Delete YouTube videos
 
-    -a, --assist                shutdown                Shutdown the computer
-                                restart                 Restart the computer
-                                md                      Start Typora
-                                clearbin                Clear system trash
-                                path                    Print out the list of paths
+    -a, --assist                path                    Print out the list of paths
                                 restart-zsh             Restart ZSH
-                                skhd-keys               Print skhd keys
-                                speed-test              Test the connection speed
-                                pastel                  Colors generator
-                                notes                   Open Joplin notes
 
     -y, --yarn                  list                    List global yarn packages
                                 interactive             Upgrade global yarn packages interactively
@@ -115,45 +107,11 @@ bos() {
                 echo "Usage: -m <command> or --media <command>"
             fi
         elif [ "$1" = "-a" ] || [ "$1" = "--assist" ]; then
-            if [ "$2" = "shutdown" ]; then
-                sudo shutdown -h now
-            elif [ "$2" = "restart" ]; then
-                sudo shutdown -r now
-            elif [ "$2" = "skhd-keys" ]; then
-                less ~/.dotfiles/config/.skhdrc
-            elif [ "$2" = "speed-test" ]; then
-                speed-test
-            elif [ "$2" = "pastel" ]; then
-                pastel
-            elif [ "$2" = "notes" ]; then
-                joplin
-            elif [ "$2" = "localhost" ]; then
-                if [ -z "$3" ]; then
-                    http-server
-                else
-                    http-server $3
-                fi
-            elif [ "$2" = "localhost-live" ]; then
-                if [ -z "$3" ]; then
-                    live-server
-                else
-                    live-server $3
-                fi
-            elif [ "$2" = "md" ]; then
-                if [ -z "$3" ]; then
-                    echo "Please specify a path"
-                else
-                    open -a "Typora" $3
-                fi
-            elif [ "$2" = "clearbin" ]; then
-                rm -rf ~/.local/share/Trash/*
-            elif [ "$2" = "rbenv-rehash" ]; then
-                rm ~/.rbenv/shims/.rbenv-shim; rbenv rehash;
+            elif [ "$2" = "path" ]; then
+                echo $PATH | tr \: \\n
             elif [ "$2" = "restart-zsh" ]; then
                 source ~/.zshrc
                 terminal-notifier -title 'ZSH' -message 'ZSH has been restarted!'
-            elif [ "$2" = "path" ]; then
-                echo $PATH | tr \: \\n
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
