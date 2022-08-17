@@ -31,16 +31,6 @@ ${RESET}
                                 delete-mega-movies      Delete MEGA movies
                                 delete-youtube-videos   Delete YouTube videos
 
-    -vs, --vscodium             backup                  Backup the currently installed VSCodium extensions
-                                install                 Install VSCodium extensions from the list
-
-    -b, --browser               gc                      Start Google Chrome
-                                qute                    Start qutebrowser
-                                terminal                Start terminal browser
-
-    -cpu                        usage                   Start gtop
-                                temp                    Start istats
-
     -a, --assist                shutdown                Shutdown the computer
                                 restart                 Restart the computer
                                 md                      Start Typora
@@ -166,60 +156,6 @@ bos() {
                 echo $PATH | tr \: \\n
             else
                 echo "Usage: -a <command> or --assist <command>"
-            fi
-        elif [ "$1" = "-vs" ] || [ "$1" = "--vscodium" ]; then
-            if [ "$2" = "backup" ]; then
-                echo "Update VSCodium extensions list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
-                read
-                echo "Please wait..."
-                rm -rf ~/.dotfiles/vscodium/extensions.sh
-                codium --list-extensions | xargs -L 1 echo codium --install-extension > ~/.dotfiles/vscodium/extensions.sh
-                echo "VSCodium extensions list have been updated over on the dotfiles."
-                (cd ~/.dotfiles && git diff ~/.dotfiles/vscodium/extensions.sh)
-                echo "Do you want to push the changes to git? (Ctrl-C to abort, or press enter to continue)"
-                read
-                echo "Please wait..."
-                (cd ~/.dotfiles && git add ~/.dotfiles/vscodium/extensions.sh)
-                (cd ~/.dotfiles && git commit -m ":pencil: VSCodium extension update #$(date +%s)")
-                (cd ~/.dotfiles && git push origin master)
-            elif [ "$2" = "install" ]; then
-                echo "Do you want to install VSCodium extensions from the list located at your dotfiles? (Ctrl-C to abort, or press enter to continue)"
-                read
-                echo "Please wait..."
-                sh ~/.dotfiles/vscodium/extensions.sh
-                echo "VSCodium extensions have been installed."
-            else
-                echo "Usage: -vs <command> or --vscodium <command>"
-            fi
-        elif [ "$1" = "-b" ] || [ "$1" = "--browser" ]; then
-            if [ "$2" = "gc" ]; then
-                if [ -z "$3" ]; then
-                    echo "Please specify a path"
-                else
-                    open -a "Google Chrome" $3
-                fi
-            elif [ "$2" = "qute" ]; then
-                if [ -z "$3" ]; then
-                    echo "Please specify a path"
-                else
-                    open -a "qutebrowser" $3
-                fi
-            elif [ "$2" = "terminal" ]; then
-                if [ -z "$3" ]; then
-                    echo "Please specify a path"
-                else
-                    links $3
-                fi
-            else
-                echo "Usage: -b <command> or --browser <command>"
-            fi
-        elif [ "$1" = "-cpu" ]; then
-            if [ "$2" = "usage" ]; then
-                gtop
-            elif [ "$2" = "temp" ]; then
-                istats
-            else
-                echo "Usage: -cpu <command>"
             fi
         elif [ "$1" = "-y" ] || [ "$1" = "--yarn" ]; then
             if [ "$2" = "list" ]; then
