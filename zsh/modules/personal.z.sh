@@ -64,6 +64,9 @@ ${RESET}
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
 
+    -s, --session               start                   Start programming session
+                                end                     End programming session
+
 "
 bos() {
     if [ -z "$1" ]; then
@@ -258,6 +261,14 @@ bos() {
                 fi
             else
                 echo "Usage: -p <command> or --programming <command>"
+            fi
+        elif [ "$1" = "-s" ] || [ "$1" = "--session" ]; then
+            if [ "$2" = "start" ]; then
+                start-session
+            elif [ "$2" = "end" ]; then
+                end-session
+            else
+                echo "Usage: -s <command> or --session <command>"
             fi
         else
             echo "Command not found: $1"
