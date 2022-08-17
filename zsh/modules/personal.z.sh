@@ -107,7 +107,7 @@ bos() {
                 echo "Usage: -m <command> or --media <command>"
             fi
         elif [ "$1" = "-a" ] || [ "$1" = "--assist" ]; then
-            elif [ "$2" = "path" ]; then
+            if [ "$2" = "path" ]; then
                 echo $PATH | tr \: \\n
             elif [ "$2" = "restart-zsh" ]; then
                 source ~/.zshrc
