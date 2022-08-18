@@ -88,11 +88,11 @@ bos() {
             if [ "$2" = "delete-movies" ]; then
                 echo "Do you want to delete movies? (Ctrl-C to abort, or press enter to continue)"
                 read
-                rm -rf ~/Movies/Movies/*
+                rm -rf /mnt/d/Movies/*
             elif [ "$2" = "delete-youtube-videos" ]; then
                 echo "Do you want to delete YouTube videos? (Ctrl-C to abort, or press enter to continue)"
                 read
-                rm -rf ~/Movies/YouTube/*
+                rm -rf /mnt/d/YouTube/*
             else
                 echo "Usage: -m <command> or --media <command>"
             fi
