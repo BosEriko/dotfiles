@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 
+# Install Node (https://github.com/nodesource/distributions/blob/master/README.md)
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 # Install Yarn (https://github.com/yarnpkg/yarn)
 npm install --global yarn
 
@@ -8,8 +12,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | sh
 echo "Installing: NVM has been installed."
 
 # Set Node global version (https://github.com/nvm-sh/nvm)
-nvm install v16.16.0
-nvm use v16.16.0
+nvm install 18
+nvm use 18
 echo "Installing: Set Node to the LTS version."
 
 # Install packages using NPM (https://nodejs.org/)
