@@ -133,7 +133,7 @@ bos() {
                 cat ~/.ssh/id_rsa.pub | clip.exe
                 echo "SSH Key has been copied to clipboard."
             elif [ "$2" = "deploy" ]; then
-                now
+                vercel
             elif [ "$2" = "rbenv-rehash" ]; then
                 rm ~/.rbenv/shims/.rbenv-shim; rbenv rehash;
             elif [ "$2" = "localhost" ]; then

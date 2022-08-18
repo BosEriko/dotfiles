@@ -4,7 +4,7 @@
 npm install --global yarn
 
 # Install NVM (https://github.com/nvm-sh/nvm)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | sh
 echo "Installing: NVM has been installed."
 
 # Set Node global version (https://github.com/nvm-sh/nvm)
@@ -25,6 +25,7 @@ yarn global add typescript          # TypeScript is a superset of JavaScript tha
 yarn global add verdaccio           # A lightweight private npm proxy registry (https://github.com/verdaccio/verdaccio)
 yarn global add peerflix            # Peerflix can be used with a magnet link or a torrent file. (https://github.com/mafintosh/peerflix)
 yarn global add webtorrent-cli      # WebTorrent is the first BitTorrent client that works in the browser (https://github.com/webtorrent/webtorrent-cli)
+yarn global add vercel              # The easiest way to deploy websites (https://github.com/zeit/now)
 echo "Installing: NPM apps have been installed."
 
 # Avoid running postinstall scripts from packages
