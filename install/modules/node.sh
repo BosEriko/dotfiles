@@ -1,9 +1,5 @@
 #!/usr/bin/env sh
 
-# Install Node (https://github.com/nodesource/distributions/blob/master/README.md)
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
-sudo apt-get install -y nodejs
-
 # Install Yarn (https://github.com/yarnpkg/yarn)
 npm install --global yarn
 
