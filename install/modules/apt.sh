@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
 
+# Update and Upgrade apt
 sudo apt update -y && sudo apt upgrade -y                                                           # Update and upgrade Ubuntu
+
+# Install packages
 sudo apt install -y stow                                                                            # GNU Stow is a symlink farm manager (https://www.gnu.org/software/stow/)
 sudo apt install -y ranger                                                                          # A VIM-inspired filemanager for the console (https://github.com/ranger/ranger)
 sudo apt install -y zsh                                                                             # Zsh is a shell designed for interactive use (http://www.zsh.org/)
@@ -12,10 +15,14 @@ sudo apt install -y fortune                                                     
 sudo apt install -y git-flow                                                                        # Git workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 sudo apt install -y sl                                                                              # SL(1): Cure your bad habit of mistyping (https://github.com/mtoyoda/sl)
 sudo apt install -y python3-pip                                                                     # Python is an interpreted, interactive, object-oriented programming language (https://www.python.org/)
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -                              # Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine (https://nodejs.org/en/)
-sudo apt install -y nodejs                                                                          # Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine (https://nodejs.org/en/)
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0                       # GitHub’s official command line tool (https://github.com/cli/cli)
-sudo apt-add-repository https://cli.github.com/packages                                             # GitHub’s official command line tool (https://github.com/cli/cli)
-sudo apt install -y gh                                                                              # GitHub’s official command line tool (https://github.com/cli/cli)
+
+# Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine (https://nodejs.org/en/)
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+sudo apt install -y nodejs
+
+# GitHub’s official command line tool (https://github.com/cli/cli)
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt install -y gh
 
 echo "Installing: Apt apps have been installed."
