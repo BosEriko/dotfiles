@@ -127,7 +127,8 @@ bos() {
             fi
         elif [ "$1" = "-p" ] || [ "$1" = "--programming" ]; then
             if [ "$2" = "external-ip" ]; then
-                curl ipinfo.io/ip
+                EXTERNALIP=$(curl -sS ipinfo.io/ip)
+                echo $EXTERNALIP
             elif [ "$2" = "ssh-key" ]; then
                 cat ~/.ssh/id_rsa.pub | clip.exe
                 echo "SSH Key has been copied to clipboard."
