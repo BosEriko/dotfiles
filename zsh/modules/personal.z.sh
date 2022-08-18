@@ -135,7 +135,7 @@ bos() {
             elif [ "$2" = "deploy" ]; then
                 vercel
             elif [ "$2" = "rbenv-rehash" ]; then
-                rm ~/.rbenv/shims/.rbenv-shim; rbenv rehash;
+                rbenv rehash
             elif [ "$2" = "localhost" ]; then
                 if [ -z "$3" ]; then
                     http-server
