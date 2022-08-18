@@ -26,9 +26,7 @@ ${RESET}
                                 youtube                 Download from YouTube
                                 anime                   Watch anime using VLC
 
-    -m, --media                 move-local-to-mega      Move local movies to MEGA
-                                delete-local-movies     Delete local movies
-                                delete-mega-movies      Delete MEGA movies
+    -m, --media                 delete-movies           Delete movies
                                 delete-youtube-videos   Delete YouTube videos
 
     -a, --assist                path                    Print out the list of paths
@@ -87,18 +85,10 @@ bos() {
                 echo "Usage: -dl <command> or --download <command>"
             fi
         elif [ "$1" = "-m" ] || [ "$1" = "--media" ]; then
-            if [ "$2" = "move-local-to-mega" ]; then
-                echo "Do you want to move local movies to MEGA? (Ctrl-C to abort, or press enter to continue)"
+            if [ "$2" = "delete-movies" ]; then
+                echo "Do you want to delete movies? (Ctrl-C to abort, or press enter to continue)"
                 read
-                mv -nv ~/Movies/Local/* ~/Movies/Mega\ Movies
-            elif [ "$2" = "delete-local-movies" ]; then
-                echo "Do you want to delete local movies? (Ctrl-C to abort, or press enter to continue)"
-                read
-                rm -rf ~/Movies/Local/*
-            elif [ "$2" = "delete-mega-movies" ]; then
-                echo "Do you want to delete MEGA movies? (Ctrl-C to abort, or press enter to continue)"
-                read
-                rm -rf ~/Movies/Mega\ Movies/*
+                rm -rf ~/Movies/Movies/*
             elif [ "$2" = "delete-youtube-videos" ]; then
                 echo "Do you want to delete YouTube videos? (Ctrl-C to abort, or press enter to continue)"
                 read
