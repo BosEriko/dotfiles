@@ -14,3 +14,7 @@ ZSH_DISABLE_COMPFIX=true
 
 # Source ZSH
 source $ZSH/oh-my-zsh.sh
+
+# Use Visual Studio Code as the editor
+export VISUAL=code
+export EDITOR=code
