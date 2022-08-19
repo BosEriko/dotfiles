@@ -4,6 +4,7 @@
 - [OBS Studio](https://obsproject.com/download)
 - [Notion](https://www.notion.so/desktop)
 - [Obsidian](https://obsidian.md/)
+- [Todoist](https://todoist.com/downloads)
 - [NZXT CAM](https://nzxt.com/software/cam)
 - [MEGAsync](https://mega.io/desktop)
 - [Google Drive](https://www.google.com/drive/download/)
