@@ -7,4 +7,4 @@ else
     query=$1
 fi
 
-youtube-dl "$query" -o "~/Movies/YouTube/%(title)s-%(id)s.%(ext)s"
+youtube-dl "$query" -o "/mnt/d/YouTube/%(title)s-%(id)s.%(ext)s"
