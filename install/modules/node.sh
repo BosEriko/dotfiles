@@ -23,7 +23,6 @@ yarn global add tldr                # Simplified and community-driven man pages 
 yarn global add ts-node             # TypeScript execution and REPL for node.js (https://github.com/TypeStrong/ts-node)
 yarn global add typescript          # TypeScript is a superset of JavaScript that compiles to clean JavaScript output (https://github.com/Microsoft/TypeScript)
 yarn global add verdaccio           # A lightweight private npm proxy registry (https://github.com/verdaccio/verdaccio)
-yarn global add peerflix            # Peerflix can be used with a magnet link or a torrent file. (https://github.com/mafintosh/peerflix)
 yarn global add webtorrent-cli      # WebTorrent is the first BitTorrent client that works in the browser (https://github.com/webtorrent/webtorrent-cli)
 yarn global add vercel              # The easiest way to deploy websites (https://github.com/zeit/now)
 echo "Installing: NPM apps have been installed."
