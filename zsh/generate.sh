@@ -6,6 +6,7 @@ cat ~/.files/zsh/modules/config.z.sh            \
     ~/.files/zsh/modules/plugins.z.sh           \
     ~/.files/zsh/modules/hotkeys.z.sh           \
     ~/.files/zsh/modules/dir.z.sh               \
+    ~/.files/zsh/modules/src.z.sh               \
     ~/.files/zsh/modules/alias.z.sh             \
     ~/.files/zsh/modules/docker.z.sh            \
     ~/.files/zsh/modules/projects.z.sh          \
