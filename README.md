@@ -39,10 +39,10 @@ Set-ExecutionPolicy Default
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Once the restart is done open the Windows Terminal JSON file inside Settings and replace the contents with [this](windows-terminal/settings.json).
 
 ## Installation
-Run this inside Ubuntu on WSL.
+Run this inside Ubuntu on WSL. Don't forget to change the proper location for the STORAGE env on the script below as well as inside this [file](zsh/modules/environment.z.sh).
 ``` sh
 git clone https://github.com/BosEriko/dotfiles-windows.git ~/.files
-~/.files/install/entry.sh
+export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 ```
 
 ## Visual Studio Code
