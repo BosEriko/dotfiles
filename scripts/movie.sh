@@ -6,7 +6,6 @@
 
 mkdir -p $HOME/.cache/notflix
 
-menu="dmenu -i -l 25"
 baseurl="https://1337x.wtf"
 cachedir="$HOME/.cache/notflix"
 
