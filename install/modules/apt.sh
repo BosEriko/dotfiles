@@ -19,7 +19,8 @@ sudo apt install -y ffmpeg                                                      
 # A cli to browse and watch anime. This tool scrapes the site gogoanime. (https://github.com/pystardust/ani-cli)
 wget -qO- https://Wiener234.github.io/ani-cli-ppa/KEY.gpg | sudo tee /etc/apt/trusted.gpg.d/ani-cli.asc
 wget -qO- https://Wiener234.github.io/ani-cli-ppa/ani-cli-debian.list | sudo tee /etc/apt/sources.list.d/ani-cli-debian.list
-sudo apt install ani-cli
+sudo apt update
+sudo apt install -y ani-cli
 
 # Python is an interpreted, interactive, object-oriented programming language (https://www.python.org/)
 sudo apt install -y python3-pip
