@@ -18,3 +18,4 @@
 - [Google Drive](https://www.google.com/drive/download/)
 ## Miscellaneous
 - [NZXT CAM](https://nzxt.com/software/cam)
+- [Spotify](https://open.spotify.com/download)
