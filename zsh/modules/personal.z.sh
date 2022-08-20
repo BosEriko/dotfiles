@@ -75,7 +75,7 @@ bos() {
             if [ "$2" = "movie" ]; then
                 ~/.files/scripts/movie.sh
             elif [ "$2" = "anime" ]; then
-                ani-cli -v -q 1080
+                ~/.files/scripts/anime.sh
             elif [ "$2" = "youtube" ]; then
                 ~/.files/scripts/youtube.sh
             elif [ "$2" = "music" ]; then
