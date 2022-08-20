@@ -16,6 +16,11 @@ sudo apt install -y git-flow                                                    
 sudo apt install -y sl                                                                              # SL(1): Cure your bad habit of mistyping (https://github.com/mtoyoda/sl)
 sudo apt install -y ffmpeg                                                                          # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
 
+# A cli to browse and watch anime. This tool scrapes the site gogoanime. (https://github.com/pystardust/ani-cli)
+wget -qO- https://Wiener234.github.io/ani-cli-ppa/KEY.gpg | sudo tee /etc/apt/trusted.gpg.d/ani-cli.asc
+wget -qO- https://Wiener234.github.io/ani-cli-ppa/ani-cli-debian.list | sudo tee /etc/apt/sources.list.d/ani-cli-debian.list
+sudo apt install ani-cli
+
 # Python is an interpreted, interactive, object-oriented programming language (https://www.python.org/)
 sudo apt install -y python3-pip
 sudo apt install -y python-is-python3
