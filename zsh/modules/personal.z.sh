@@ -20,14 +20,14 @@ ${RESET}
                                 matrix                  Enter the matrix
                                 cowsay                  Get a random fortune
 
-    -dl, --download             movie                   Download movies
+    -dl, --download             movie                   Download a movie
                                 music                   Download music
-                                redownload-music        Redownload music
-                                youtube                 Download from YouTube
-                                anime                   Watch anime using VLC
+                                youtube                 Download a YouTube Video
+                                anime                   Download anime
 
-    -m, --media                 delete-movies           Delete movies
-                                delete-youtube-videos   Delete YouTube videos
+    -dm, --delete-media         movies                  Delete movies
+                                youtube                 Delete YouTube videos
+                                music                   Delete music
 
     -a, --assist                path                    Print out the list of paths
                                 restart-zsh             Restart ZSH
@@ -80,22 +80,24 @@ bos() {
                 ~/.files/scripts/youtube.sh
             elif [ "$2" = "music" ]; then
                 spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output $STORAGE/Music
-            elif [ "$2" = "redownload-music" ]; then
-                rm -rf $STORAGE/Music/* && spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output $STORAGE/Music
             else
                 echo "Usage: -dl <command> or --download <command>"
             fi
-        elif [ "$1" = "-m" ] || [ "$1" = "--media" ]; then
-            if [ "$2" = "delete-movies" ]; then
-                echo "Do you want to delete movies? (Ctrl-C to abort, or press enter to continue)"
+        elif [ "$1" = "-dm" ] || [ "$1" = "--delete-media" ]; then
+            if [ "$2" = "movies" ]; then
+                echo "Do you want to delete your movies? (Ctrl-C to abort, or press enter to continue)"
                 read
                 rm -rf $STORAGE/Movies/*
-            elif [ "$2" = "delete-youtube-videos" ]; then
+            elif [ "$2" = "youtube" ]; then
                 echo "Do you want to delete YouTube videos? (Ctrl-C to abort, or press enter to continue)"
                 read
                 rm -rf $STORAGE/YouTube/*
+            elif [ "$2" = "music" ]; then
+                echo "Do you want to delete your music library? (Ctrl-C to abort, or press enter to continue)"
+                read
+                rm -rf $STORAGE/Music/*
             else
-                echo "Usage: -m <command> or --media <command>"
+                echo "Usage: -dm <command> or --delete-media <command>"
             fi
         elif [ "$1" = "-a" ] || [ "$1" = "--assist" ]; then
             if [ "$2" = "path" ]; then
