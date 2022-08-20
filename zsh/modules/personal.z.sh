@@ -79,9 +79,9 @@ bos() {
             elif [ "$2" = "youtube" ]; then
                 ~/.files/scripts/youtube.sh
             elif [ "$2" = "music" ]; then
-                spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output /mnt/d/Music
+                spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output $STORAGE/Music
             elif [ "$2" = "redownload-music" ]; then
-                rm -rf /mnt/d/Music/* && spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output /mnt/d/Music
+                rm -rf $STORAGE/Music/* && spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output $STORAGE/Music
             else
                 echo "Usage: -dl <command> or --download <command>"
             fi
@@ -89,11 +89,11 @@ bos() {
             if [ "$2" = "delete-movies" ]; then
                 echo "Do you want to delete movies? (Ctrl-C to abort, or press enter to continue)"
                 read
-                rm -rf /mnt/d/Movies/*
+                rm -rf $STORAGE/Movies/*
             elif [ "$2" = "delete-youtube-videos" ]; then
                 echo "Do you want to delete YouTube videos? (Ctrl-C to abort, or press enter to continue)"
                 read
-                rm -rf /mnt/d/YouTube/*
+                rm -rf $STORAGE/YouTube/*
             else
                 echo "Usage: -m <command> or --media <command>"
             fi

@@ -3,6 +3,7 @@
 rm ~/.zshrc
 cat ~/.files/zsh/modules/config.z.sh            \
     ~/.files/zsh/modules/colors.z.sh            \
+    ~/.files/zsh/modules/environment.z.sh       \
     ~/.files/zsh/modules/plugins.z.sh           \
     ~/.files/zsh/modules/hotkeys.z.sh           \
     ~/.files/zsh/modules/dir.z.sh               \

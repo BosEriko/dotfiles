@@ -4,10 +4,10 @@
 jt() {
     case "$1" in
     "personal")
-        cd /mnt/d/Codes/Personal
+        cd $STORAGE/Codes/Personal
         ;;
     "work")
-        cd /mnt/d/Codes/Work
+        cd $STORAGE/Codes/Work
         ;;
     "dotfiles")
         cd ~/.files
