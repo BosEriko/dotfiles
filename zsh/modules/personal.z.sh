@@ -33,6 +33,7 @@ ${RESET}
     -a, --assist                path                    Print out the list of paths
                                 restart-zsh             Restart ZSH
                                 generate                Generate config files
+                                anime                   Search anime information
 
     -y, --yarn                  list                    List global yarn packages
                                 interactive             Upgrade global yarn packages interactively
@@ -114,6 +115,8 @@ bos() {
                 echo "Do you want to generate config files? (Ctrl-C to abort, or press enter to continue)"
                 read
                 ~/.files/generate.sh
+            elif [ "$2" = "anime" ]; then
+                ~/.files/scripts/anime-info.sh
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
