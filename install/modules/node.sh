@@ -25,6 +25,7 @@ yarn global add typescript          # TypeScript is a superset of JavaScript tha
 yarn global add verdaccio           # A lightweight private npm proxy registry (https://github.com/verdaccio/verdaccio)
 yarn global add webtorrent-cli      # WebTorrent is the first BitTorrent client that works in the browser (https://github.com/webtorrent/webtorrent-cli)
 yarn global add vercel              # The easiest way to deploy websites (https://github.com/zeit/now)
+yarn global add @genzyy/anime-cli   # A commandline app for searching about animes, its seasons, number of seasons and airing status (https://github.com/genzyy/anime-cli)
 echo "Installing: NPM apps have been installed."
 
 # Avoid running postinstall scripts from packages
