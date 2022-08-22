@@ -64,8 +64,20 @@ sed -e '1,6d' $cachedir/data.bw |
   awk 'NR % 6 == 0' |
   head -19 >> $cachedir/downloads.bw
 
+# Clearning up some data to display
+awk '{print NR " - [Size:"$0""}' $cachedir/size.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/size.bw
+awk '{print "| S:"$0""}' $cachedir/seeders.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/seeders.bw
+awk '{print "| L:"$0"] —"}' $cachedir/leechers.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/leechers.bw
+
 # Magnet links
 grep -o '<a href="magnet.*</a>' $cachedir/base.html |
   awk '{ print substr ($0, 10 ) }' |
   awk '{ print substr( $0, 1, length($0)-40 ) }' |
   head -20 > $cachedir/magnet.bw
+
+# Getting the line number
+echo "$(paste -d\  $cachedir/size.bw $cachedir/seeders.bw $cachedir/leechers.bw $cachedir/title.bw)"
+echo "Select your stream"
+read LINE
+
+echo $LINE

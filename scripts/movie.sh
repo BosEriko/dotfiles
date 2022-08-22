@@ -49,11 +49,11 @@ grep -E '/torrent/' $cachedir/tmp.html |
 sed 's/\./ /g; s/\-/ /g' $cachedir/titles.bw |
   sed 's/[^A-Za-z0-9 ]//g' | tr -s " " > $cachedir/tmp && mv $cachedir/tmp $cachedir/titles.bw
 
-awk '{print NR " - ["$0"]"}' $cachedir/size.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/size.bw
-awk '{print "[S:"$1 ", L:"$2"]" }' $cachedir/seedleech.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/seedleech.bw
+awk '{print NR " - [Size:"$0" "}' $cachedir/size.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/size.bw
+awk '{print "| S:"$1 " | L:"$2"] —" }' $cachedir/seedleech.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/seedleech.bw
 
 # Getting the line number
-echo "$(paste -d\  $cachedir/size.bw $cachedir/titles.bw $cachedir/seedleech.bw)"
+echo "$(paste -d\  $cachedir/size.bw $cachedir/seedleech.bw $cachedir/titles.bw)"
 echo "Select your stream"
 read LINE
 
