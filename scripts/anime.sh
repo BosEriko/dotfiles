@@ -80,4 +80,14 @@ echo "$(paste -d\  $cachedir/size.bw $cachedir/seeders.bw $cachedir/leechers.bw 
 echo "Select your stream"
 read LINE
 
-echo $LINE
+if [ -z "$LINE" ]; then
+  echo "😔 No Result selected. Exiting... 🔴"
+  exit 0
+fi
+echo "🔍 Searching Magnet seeds 🧲"
+
+# Get the magnet
+magnet=$(head -$LINE $cachedir/magnet.bw | tail -1)
+
+# Download the file
+webtorrent "$magnet" --out $STORAGE/Anime

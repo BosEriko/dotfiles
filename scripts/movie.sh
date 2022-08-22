@@ -62,12 +62,12 @@ if [ -z "$LINE" ]; then
   exit 0
 fi
 echo "🔍 Searching Magnet seeds 🧲"
+
+# Get the magnet
 url=$(head -n $LINE $cachedir/links.bw | tail -n +$LINE)
 fullURL="${baseurl}${url}/"
-
-# Requesting page for magnet link
 curl -s $fullURL > $cachedir/tmp.html
 magnet=$(grep -Eo "magnet:\?xt=urn:btih:[a-zA-Z0-9]*" $cachedir/tmp.html | head -n 1)
 
-# peerflix "$magnet" --vlc -- --fullscreen
+# Download the file
 webtorrent "$magnet" --out $STORAGE/Movies
