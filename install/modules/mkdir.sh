@@ -12,6 +12,10 @@ echo "Installing: Music folder has been created."
 mkdir -p $STORAGE/Movies
 echo "Installing: Movies folder has been created."
 
+# Make the directory for your Anime
+mkdir -p $STORAGE/Anime
+echo "Installing: Anime folder has been created."
+
 # Make the directory for YouTube videos
 mkdir -p $STORAGE/YouTube
 echo "Installing: YouTube videos folder has been created."
