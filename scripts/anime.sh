@@ -1,17 +1,14 @@
 #!/bin/bash
 
 # Dependencies - webtorrent, mpv
-# https://github.com/BreadMoncher/notflix
-# https://github.com/Bugswriter/notflix
 
 mkdir -p $HOME/.cache/aniflix
 
-menu="dmenu -i -l 25"
-baseurl="https://1337x.wtf"
-cachedir="$HOME/.cache/notflix"
+baseurl="https://nyaa.si"
+cachedir="$HOME/.cache/aniflix"
 
 if [ -z $1 ]; then
-  echo "Search for Shows:  "
+  echo "Search for Anime:  "
   read query
 else
   query=$1
@@ -19,11 +16,14 @@ fi
 
 query="$(echo $query | sed 's/ /+/g')"
 
-#curl -s https://1337x.to/category-search/$query/Movies/1/ > $cachedir/tmp.html
-curl -s $baseurl/search/$query/1/ > $cachedir/tmp.html
+curl -s $baseurl/?f=0&c=0_0&q=$query&p=1 > $cachedir/tmp.html
+
+# Remove comment line
+sed -n '/<tr class="default">/,/<\/tr>/p' $cachedir/tmp.html > $cachedir/tmp.html
+grep -v '<i class="fa fa-comments-o"></i>' $cachedir/tmp.html > clean-tmp.html
 
 # Get Titles
-grep -o '<a href="/torrent/.*</a>' $cachedir/tmp.html |
+grep -o '<a href="/view/.*</a>' $cachedir/tmp.html |
   sed 's/<[^>]*>//g' > $cachedir/titles.bw
 
 result_count=$(wc -l $cachedir/titles.bw | awk '{print $1}')
@@ -31,6 +31,8 @@ if [ "$result_count" -lt 1 ]; then
   echo "😔 No Result found. Try again 🔴"
   exit 0
 fi
+
+# ANCHOR
 
 # Seeders and Leechers
 grep -o '<td class="coll-2 seeds.*</td>\|<td class="coll-3 leeches.*</td>' $cachedir/tmp.html |
