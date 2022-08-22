@@ -20,14 +20,15 @@ ${RESET}
                                 matrix                  Enter the matrix
                                 cowsay                  Get a random fortune
 
-    -dl, --download             movie                   Download a movie
+    -dl, --download             anime                   Download anime
+                                movie                   Download a movie
                                 music                   Download music
                                 youtube                 Download a YouTube Video
-                                anime                   Download anime
 
-    -dm, --delete-media         movies                  Delete movies
-                                youtube                 Delete YouTube videos
+    -dm, --delete-media         anime                   Delete anime
+                                movies                  Delete movies
                                 music                   Delete music
+                                youtube                 Delete YouTube videos
 
     -a, --assist                path                    Print out the list of paths
                                 restart-zsh             Restart ZSH
@@ -92,6 +93,10 @@ bos() {
                 echo "Do you want to delete YouTube videos? (Ctrl-C to abort, or press enter to continue)"
                 read
                 rm -rf $STORAGE/YouTube/*
+            elif [ "$2" = "anime" ]; then
+                echo "Do you want to delete Anime videos? (Ctrl-C to abort, or press enter to continue)"
+                read
+                rm -rf $STORAGE/Anime/*
             elif [ "$2" = "music" ]; then
                 echo "Do you want to delete your music library? (Ctrl-C to abort, or press enter to continue)"
                 read

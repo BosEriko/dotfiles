@@ -9,20 +9,23 @@ jt() {
     "work")
         cd $STORAGE/Codes/Work
         ;;
+    "anime")
+        cd $STORAGE/Anime
+        ;;
     "movies")
         cd $STORAGE/Movies
         ;;
-    "youtube")
-        cd $STORAGE/YouTube
-        ;;
     "music")
         cd $STORAGE/Music
+        ;;
+    "youtube")
+        cd $STORAGE/YouTube
         ;;
     ".files")
         cd ~/.files
         ;;
     *)
-        echo "Jump to: personal, work, movies, youtube, music or .files."
+        echo "Jump to: personal, work, anime, movies, music, youtube or .files."
         ;;
     esac
 }
