@@ -16,14 +16,15 @@ fi
 
 query="$(echo $query | sed 's/ /+/g')"
 
-curl -s $baseurl/?f=0&c=0_0&q=$query&p=1 > $cachedir/tmp.html
+curl -s $baseurl/?f=0&c=0_0&q=$query&p=1 > $cachedir/base.html
 
-# Remove comment line
-sed -n '/<tr class="default">/,/<\/tr>/p' $cachedir/tmp.html > $cachedir/tmp.html
-grep -v '<i class="fa fa-comments-o"></i>' $cachedir/tmp.html > clean-tmp.html
+# Clean Data
+sed -n '/<tr class="default">/,/<\/tr>/p' $cachedir/base.html > $cachedir/base.html
+grep -v '<i class="fa fa-comments-o"></i>' $cachedir/base.html > $cachedir/tmp.html
+sed 's/<[^>]*>//g' $cachedir/tmp.html > $cachedir/tmp.html
 
 # Get Titles
-grep -o '<a href="/view/.*</a>' $cachedir/tmp.html |
+grep -o '<a href="/view/.*</a>' $cachedir/clean.html |
   sed 's/<[^>]*>//g' > $cachedir/titles.bw
 
 result_count=$(wc -l $cachedir/titles.bw | awk '{print $1}')
@@ -31,8 +32,6 @@ if [ "$result_count" -lt 1 ]; then
   echo "😔 No Result found. Try again 🔴"
   exit 0
 fi
-
-# ANCHOR
 
 # Seeders and Leechers
 grep -o '<td class="coll-2 seeds.*</td>\|<td class="coll-3 leeches.*</td>' $cachedir/tmp.html |
