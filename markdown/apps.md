@@ -13,6 +13,7 @@
 - [OBS Studio](https://obsproject.com/download)
 ## Software Development
 - [Blender](https://www.blender.org/)
+- [Zeal](https://zealdocs.org/)
 ## Cloud Storage
 - [MEGAsync](https://mega.io/desktop)
 - [Google Drive](https://www.google.com/drive/download/)
