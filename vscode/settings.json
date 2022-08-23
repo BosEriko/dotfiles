@@ -2,7 +2,7 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["<leader>", "d"],
-            "commands": []
+            "commands": ["extension.devDocs"]
         },
         {
             "before": ["<leader>", "e"],
