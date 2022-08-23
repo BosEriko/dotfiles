@@ -36,7 +36,9 @@ Set-ExecutionPolicy Default
 ```
 
 ## Windows Terminal + Ubuntu on WSL
-[Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Once the restart is done open the Windows Terminal JSON file inside Settings and replace the contents with [this](windows-terminal/settings.json).
+[Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete. You also need to update your Windows Terminal (Ubuntu) font to `Fira Mono for Powerline` after you're done restarting.
+
+**Note:** You can set Ubuntu as your Default profile on the Startup Settings of the Windows Terminal to make it easier for you.
 
 ## Installation
 Run this inside Ubuntu on WSL. Don't forget to change the proper location for the STORAGE env on the script below as well as inside this [environment.z.sh](zsh/modules/environment.z.sh).
