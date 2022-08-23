@@ -64,7 +64,7 @@ sed -e '1,6d' $cachedir/data.bw |
   awk 'NR % 6 == 0' |
   head -19 >> $cachedir/downloads.bw
 
-# Clearning up some data to display
+# Cleaning up some data to display
 awk '{print NR " - [Size:"$0""}' $cachedir/size.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/size.bw
 awk '{print "| S:"$0""}' $cachedir/seeders.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/seeders.bw
 awk '{print "| L:"$0"] —"}' $cachedir/leechers.bw > $cachedir/tmp && mv $cachedir/tmp $cachedir/leechers.bw
