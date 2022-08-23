@@ -32,6 +32,12 @@ sed -e '1,1d' $cachedir/data.bw |
   awk 'NR % 6 == 0' |
   head -19 >> $cachedir/title.bw
 
+result_count=$(wc -l $cachedir/title.bw | awk '{print $1}')
+if [ "$result_count" -lt 1 ]; then
+  echo "😔 No Result found. Try again 🔴"
+  exit 0
+fi
+
 # Size
 cat $cachedir/data.bw |
   head -2 |
