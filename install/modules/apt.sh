@@ -15,6 +15,7 @@ sudo apt install -y fortune                                                     
 sudo apt install -y git-flow                                                                        # Git workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 sudo apt install -y sl                                                                              # SL(1): Cure your bad habit of mistyping (https://github.com/mtoyoda/sl)
 sudo apt install -y ffmpeg                                                                          # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
+sudo apt install -y tmux                                                                            # tmux source code (https://github.com/tmux/tmux)
 
 # Python is an interpreted, interactive, object-oriented programming language (https://www.python.org/)
 sudo apt install -y python3-pip
