@@ -19,3 +19,4 @@
 ## Miscellaneous
 - [NZXT CAM](https://nzxt.com/software/cam)
 - [Spotify](https://open.spotify.com/download)
+- [VLC media player](https://www.videolan.org/vlc/)
