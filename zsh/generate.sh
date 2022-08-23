@@ -15,6 +15,7 @@ cat ~/.files/zsh/modules/config.z.sh            \
     ~/.files/zsh/modules/node.z.sh              \
     ~/.files/zsh/modules/ruby.z.sh              \
     ~/.files/zsh/modules/git.z.sh               \
+    ~/.files/zsh/modules/tmux.z.sh              \
     ~/.files/zsh/modules/personal.z.sh          \
     ~/.files/zsh/modules/start-session.z.sh     \
     ~/.files/zsh/modules/end-session.z.sh       \
