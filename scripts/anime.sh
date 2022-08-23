@@ -16,7 +16,7 @@ fi
 
 query="$(echo $query | sed 's/ /+/g')"
 
-curl -s "$baseurl/?f=0&c=0_0&q=$query&p=1" > $cachedir/base.html
+curl -s "$baseurl/?f=2&c=1_2&q=$query&p=1" > $cachedir/base.html
 
 # Clean Data
 grep -v '<i class="fa fa-comments-o"></i>' $cachedir/base.html |
