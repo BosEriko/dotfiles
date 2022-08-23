@@ -20,7 +20,7 @@ curl -s "$baseurl/?f=2&c=1_2&q=$query&p=1" > $cachedir/base.html
 
 # Clean Data
 grep -v '<i class="fa fa-comments-o"></i>' $cachedir/base.html |
-  sed -n -e '/<tr class="/,/<\/tr>/p' |
+  sed -n -e '/<tr class="success">/,/<\/tr>/p' |
   sed 's/<[^>]*>//g' |
   sed -e 's/^\s*//' -e '/^$/d' > $cachedir/data.bw
 
