@@ -2,7 +2,6 @@
 source ~/.files/zsh/config.z.sh
 source ~/.files/zsh/colors.z.sh
 source ~/.files/zsh/plugins.z.sh
-source ~/.files/zsh/hotkeys.z.sh
 source ~/.files/zsh/dir.z.sh
 source ~/.files/zsh/src.z.sh
 source ~/.files/zsh/alias.z.sh
