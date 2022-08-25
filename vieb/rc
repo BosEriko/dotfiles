@@ -1,0 +1,6 @@
+set adblocker=update
+nmap <C-h> <action.previousTab>
+nmap <C-l> <action.nextTab>
+nmap <C-x> <:close>
+nmap <C-q> :q<CR>
+nmap <C-k> :help<CR>

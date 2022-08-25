@@ -50,6 +50,9 @@ export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 ## Visual Studio Code
 Download [Visual Studio Code](https://code.visualstudio.com/) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings. Your keyboard hotkeys can be found [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ba96cfa3c35d4d7ca5c386d73c8c0a78).
 
+## Vieb
+Download [Vieb](https://vieb.dev/) and update its [config](vieb/rc) file. If you're unsure where the config file is located on windows you can run `:mkv full` and take note of the message on the lower right of the Vieb window. It's usually on `%APPDATA%` then `Vieb/viebrc`.
+
 ## Note
 I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play along with the [equipment](markdown/equipment.md) of my choice.
 

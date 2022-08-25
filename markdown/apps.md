@@ -1,6 +1,5 @@
 # Apps
 ## Browser
-- [Vieb](https://vieb.dev/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Brave](https://brave.com/download/)
 ## Productivity
