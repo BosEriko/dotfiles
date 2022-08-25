@@ -1,6 +1,10 @@
 {
     "vim.normalModeKeyBindingsNonRecursive": [
         {
+            "before": ["leader", "f"],
+            "after": ["leader", "leader", "s"]
+        },
+        {
             "before": ["<leader>", "d"],
             "commands": ["extension.devDocs"]
         },
@@ -81,13 +85,13 @@
     "vim.easymotionKeys": "asdfjkl;",
     "vim.leader": "<space>",
     "vim.useSystemClipboard": true,
-    "workbench.activityBar.visible": true,
     "workbench.editor.enablePreview": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.showTabs": true,
     "workbench.iconTheme": "minimalistic-icons",
-    "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.visible": true,
-    "editor.guides.indentation": true
+    "editor.guides.indentation": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.sideBar.location": "right"
 }
