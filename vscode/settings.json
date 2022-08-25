@@ -89,11 +89,5 @@
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.visible": true,
-    "zenMode.centerLayout": false,
-    "zenMode.fullScreen": false,
-    "zenMode.hideActivityBar": true,
-    "zenMode.hideLineNumbers": false,
-    "zenMode.hideStatusBar": false,
-    "zenMode.hideTabs": false,
     "editor.guides.indentation": true
 }

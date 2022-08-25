@@ -1,7 +1,21 @@
 [
     {
         "key": "ctrl+\\",
-        "command": "workbench.action.toggleZenMode"
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletVisible"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletVisible"
     },
     {
         "key": "ctrl+t",
