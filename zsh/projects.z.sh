@@ -21,6 +21,9 @@ jt() {
     "youtube")
         cd $STORAGE/YouTube
         ;;
+    "obsidian")
+        cd $STORAGE/Obsidian
+        ;;
     ".files")
         cd ~/.files
         ;;
