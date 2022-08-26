@@ -5,7 +5,6 @@
 ## Productivity
 - [Pomofocus](https://pomofocus.io/)
 - [Todoist](https://todoist.com/downloads)
-- [Obsidian](https://obsidian.md/)
 - [Notion](https://www.notion.so/desktop)
 ## Streaming
 - [VMagicMirror](https://malaybaku.github.io/VMagicMirror/en/)
