@@ -1,104 +1,45 @@
 #!/usr/bin/env sh
 
+# Set origins
+set-origins() {
+    (cd $1 && git remote rm origin)
+    (cd $1 && git remote add origin git@github.com:$2.git)
+    (cd $1 && git remote add github git@github.com:$2.git)
+    (cd $1 && git remote add gitlab git@gitlab.com:$2.git)
+    (cd $1 && git remote add bitbucket git@bitbucket.org:$2.git)
+    (cd $1 && git remote set-url --add --push origin git@github.com:$2.git)
+    (cd $1 && git remote set-url --add --push origin git@gitlab.com:$2.git)
+    (cd $1 && git remote set-url --add --push origin git@bitbucket.org:$2.git)
+}
+
 # Update origin for .files
-(cd ~/.files && git remote rm origin)
-(cd ~/.files && git remote add origin git@github.com:BosEriko/dotfiles-windows.git)
-(cd ~/.files && git remote add github git@github.com:BosEriko/dotfiles-windows.git)
-(cd ~/.files && git remote add gitlab git@gitlab.com:BosEriko/dotfiles-windows.git)
-(cd ~/.files && git remote add bitbucket git@bitbucket.org:BosEriko/dotfiles-windows.git)
-(cd ~/.files && git remote set-url --add --push origin git@github.com:BosEriko/dotfiles-windows.git)
-(cd ~/.files && git remote set-url --add --push origin git@gitlab.com:BosEriko/dotfiles-windows.git)
-(cd ~/.files && git remote set-url --add --push origin git@bitbucket.org:BosEriko/dotfiles-windows.git)
+set-origins ~/.files BosEriko/dotfiles-windows
 
 # Update origin for history
-(cd ~/.history && git remote rm origin)
-(cd ~/.history && git remote add origin git@github.com:BosEriko/history.git)
-(cd ~/.history && git remote add github git@github.com:BosEriko/history.git)
-(cd ~/.history && git remote add gitlab git@gitlab.com:BosEriko/history.git)
-(cd ~/.history && git remote add bitbucket git@bitbucket.org:BosEriko/history.git)
-(cd ~/.history && git remote set-url --add --push origin git@github.com:BosEriko/history.git)
-(cd ~/.history && git remote set-url --add --push origin git@gitlab.com:BosEriko/history.git)
-(cd ~/.history && git remote set-url --add --push origin git@bitbucket.org:BosEriko/history.git)
-
+set-origins ~/.history BosEriko/history
 
 # Update origin for obsidian
-(cd $STORAGE/Obsidian && git remote rm origin)
-(cd $STORAGE/Obsidian && git remote add origin git@github.com:BosEriko/obsidian.git)
-(cd $STORAGE/Obsidian && git remote add github git@github.com:BosEriko/obsidian.git)
-(cd $STORAGE/Obsidian && git remote add gitlab git@gitlab.com:BosEriko/obsidian.git)
-(cd $STORAGE/Obsidian && git remote add bitbucket git@bitbucket.org:BosEriko/obsidian.git)
-(cd $STORAGE/Obsidian && git remote set-url --add --push origin git@github.com:BosEriko/obsidian.git)
-(cd $STORAGE/Obsidian && git remote set-url --add --push origin git@gitlab.com:BosEriko/obsidian.git)
-(cd $STORAGE/Obsidian && git remote set-url --add --push origin git@bitbucket.org:BosEriko/obsidian.git)
+set-origins $STORAGE/Obsidian BosEriko/obsidian
 
 # Update origin for obsidian-personal
-(cd $STORAGE/Obsidian/personal && git remote rm origin)
-(cd $STORAGE/Obsidian/personal && git remote add origin git@github.com:BosEriko/obsidian-personal.git)
-(cd $STORAGE/Obsidian/personal && git remote add github git@github.com:BosEriko/obsidian-personal.git)
-(cd $STORAGE/Obsidian/personal && git remote add gitlab git@gitlab.com:BosEriko/obsidian-personal.git)
-(cd $STORAGE/Obsidian/personal && git remote add bitbucket git@bitbucket.org:BosEriko/obsidian-personal.git)
-(cd $STORAGE/Obsidian/personal && git remote set-url --add --push origin git@github.com:BosEriko/obsidian-personal.git)
-(cd $STORAGE/Obsidian/personal && git remote set-url --add --push origin git@gitlab.com:BosEriko/obsidian-personal.git)
-(cd $STORAGE/Obsidian/personal && git remote set-url --add --push origin git@bitbucket.org:BosEriko/obsidian-personal.git)
+set-origins $STORAGE/Obsidian/personal BosEriko/obsidian-personal
 
 # Update origin for obsidian-games
-(cd $STORAGE/Obsidian/games && git remote rm origin)
-(cd $STORAGE/Obsidian/games && git remote add origin git@github.com:BosEriko/obsidian-games.git)
-(cd $STORAGE/Obsidian/games && git remote add github git@github.com:BosEriko/obsidian-games.git)
-(cd $STORAGE/Obsidian/games && git remote add gitlab git@gitlab.com:BosEriko/obsidian-games.git)
-(cd $STORAGE/Obsidian/games && git remote add bitbucket git@bitbucket.org:BosEriko/obsidian-games.git)
-(cd $STORAGE/Obsidian/games && git remote set-url --add --push origin git@github.com:BosEriko/obsidian-games.git)
-(cd $STORAGE/Obsidian/games && git remote set-url --add --push origin git@gitlab.com:BosEriko/obsidian-games.git)
-(cd $STORAGE/Obsidian/games && git remote set-url --add --push origin git@bitbucket.org:BosEriko/obsidian-games.git)
+set-origins $STORAGE/Obsidian/games BosEriko/obsidian-games
 
 # Update origin for obsidian-professional
-(cd $STORAGE/Obsidian/professional && git remote rm origin)
-(cd $STORAGE/Obsidian/professional && git remote add origin git@github.com:BosEriko/obsidian-professional.git)
-(cd $STORAGE/Obsidian/professional && git remote add github git@github.com:BosEriko/obsidian-professional.git)
-(cd $STORAGE/Obsidian/professional && git remote add gitlab git@gitlab.com:BosEriko/obsidian-professional.git)
-(cd $STORAGE/Obsidian/professional && git remote add bitbucket git@bitbucket.org:BosEriko/obsidian-professional.git)
-(cd $STORAGE/Obsidian/professional && git remote set-url --add --push origin git@github.com:BosEriko/obsidian-professional.git)
-(cd $STORAGE/Obsidian/professional && git remote set-url --add --push origin git@gitlab.com:BosEriko/obsidian-professional.git)
-(cd $STORAGE/Obsidian/professional && git remote set-url --add --push origin git@bitbucket.org:BosEriko/obsidian-professional.git)
+set-origins $STORAGE/Obsidian/professional BosEriko/obsidian-professional
 
 # Update origin for obsidian-til
-(cd $STORAGE/Obsidian/til && git remote rm origin)
-(cd $STORAGE/Obsidian/til && git remote add origin git@github.com:BosEriko/obsidian-til.git)
-(cd $STORAGE/Obsidian/til && git remote add github git@github.com:BosEriko/obsidian-til.git)
-(cd $STORAGE/Obsidian/til && git remote add gitlab git@gitlab.com:BosEriko/obsidian-til.git)
-(cd $STORAGE/Obsidian/til && git remote add bitbucket git@bitbucket.org:BosEriko/obsidian-til.git)
-(cd $STORAGE/Obsidian/til && git remote set-url --add --push origin git@github.com:BosEriko/obsidian-til.git)
-(cd $STORAGE/Obsidian/til && git remote set-url --add --push origin git@gitlab.com:BosEriko/obsidian-til.git)
-(cd $STORAGE/Obsidian/til && git remote set-url --add --push origin git@bitbucket.org:BosEriko/obsidian-til.git)
+set-origins $STORAGE/Obsidian/til BosEriko/obsidian-til
 
 # Update origin for obsidian-morning-ritual
-(cd $STORAGE/Obsidian/morning-ritual && git remote rm origin)
-(cd $STORAGE/Obsidian/morning-ritual && git remote add origin git@github.com:BosEriko/obsidian-morning-ritual.git)
-(cd $STORAGE/Obsidian/morning-ritual && git remote add github git@github.com:BosEriko/obsidian-morning-ritual.git)
-(cd $STORAGE/Obsidian/morning-ritual && git remote add gitlab git@gitlab.com:BosEriko/obsidian-morning-ritual.git)
-(cd $STORAGE/Obsidian/morning-ritual && git remote add bitbucket git@bitbucket.org:BosEriko/obsidian-morning-ritual.git)
-(cd $STORAGE/Obsidian/morning-ritual && git remote set-url --add --push origin git@github.com:BosEriko/obsidian-morning-ritual.git)
-(cd $STORAGE/Obsidian/morning-ritual && git remote set-url --add --push origin git@gitlab.com:BosEriko/obsidian-morning-ritual.git)
-(cd $STORAGE/Obsidian/morning-ritual && git remote set-url --add --push origin git@bitbucket.org:BosEriko/obsidian-morning-ritual.git)
+set-origins $STORAGE/Obsidian/morning-ritual BosEriko/obsidian-morning-ritual
 
 # Update origin for obsidian-daily-journal
-(cd $STORAGE/Obsidian/daily-journal && git remote rm origin)
-(cd $STORAGE/Obsidian/daily-journal && git remote add origin git@github.com:BosEriko/obsidian-daily-journal.git)
-(cd $STORAGE/Obsidian/daily-journal && git remote add github git@github.com:BosEriko/obsidian-daily-journal.git)
-(cd $STORAGE/Obsidian/daily-journal && git remote add gitlab git@gitlab.com:BosEriko/obsidian-daily-journal.git)
-(cd $STORAGE/Obsidian/daily-journal && git remote add bitbucket git@bitbucket.org:BosEriko/obsidian-daily-journal.git)
-(cd $STORAGE/Obsidian/daily-journal && git remote set-url --add --push origin git@github.com:BosEriko/obsidian-daily-journal.git)
-(cd $STORAGE/Obsidian/daily-journal && git remote set-url --add --push origin git@gitlab.com:BosEriko/obsidian-daily-journal.git)
-(cd $STORAGE/Obsidian/daily-journal && git remote set-url --add --push origin git@bitbucket.org:BosEriko/obsidian-daily-journal.git)
+set-origins $STORAGE/Obsidian/daily-journal BosEriko/obsidian-daily-journal
 
 # Update origin for obsidian-blogs
-(cd $STORAGE/Obsidian/blogs && git remote rm origin)
-(cd $STORAGE/Obsidian/blogs && git remote add origin git@github.com:BosEriko/obsidian-blogs.git)
-(cd $STORAGE/Obsidian/blogs && git remote add github git@github.com:BosEriko/obsidian-blogs.git)
-(cd $STORAGE/Obsidian/blogs && git remote add gitlab git@gitlab.com:BosEriko/obsidian-blogs.git)
-(cd $STORAGE/Obsidian/blogs && git remote add bitbucket git@bitbucket.org:BosEriko/obsidian-blogs.git)
-(cd $STORAGE/Obsidian/blogs && git remote set-url --add --push origin git@github.com:BosEriko/obsidian-blogs.git)
-(cd $STORAGE/Obsidian/blogs && git remote set-url --add --push origin git@gitlab.com:BosEriko/obsidian-blogs.git)
-(cd $STORAGE/Obsidian/blogs && git remote set-url --add --push origin git@bitbucket.org:BosEriko/obsidian-blogs.git)
+set-origins $STORAGE/Obsidian/blogs BosEriko/obsidian-blogs
 
 echo "Installing: Remote origins has been updated."
