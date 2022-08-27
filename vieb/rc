@@ -4,12 +4,29 @@
 
 " Config
 set adblocker=update
+set devtoolsposition=split
+set norestoretabs
+set permissioncamera=ask
+set permissiondisplaycapture=ask
+set permissionmediadevices=allow
+set permissionmicrophone=ask
+set permissionpersistentstorage=allow
+set redirecttohttp
+set splitbelow
+set tabclosefocusright
+set tabreopenposition=previous
+set noshowcmd
+set notimeout
 
 " Hotkeys
 nmap <C-h> <action.previousTab>
 nmap <C-l> <action.nextTab>
 nmap <C-x> <:close>
 nmap <C-q> :q<CR>
+nmap <C--> <:split>
+nmap <C-\\> <:vsplit>
+nmap rr <refreshTab>
+nmap RR <refreshTabWithoutCache>
 
 " Redirects
 set search=https://duckduckgo.com/?kae=d&kav=1&ko=1&q=%s&ia=web
