@@ -17,6 +17,6 @@
 ## Miscellaneous
 - [NZXT CAM](https://nzxt.com/software/cam)
 - [Spotify](https://open.spotify.com/download)
-- [VLC media player](https://www.videolan.org/vlc/)
+- [VLC media player](https://www.videolan.org/vlc/) with [Rich Presence](https://github.com/Pigpog/vlc-discord-rpc/releases)
 ## Tools
 - [LastPass](https://www.lastpass.com/)
