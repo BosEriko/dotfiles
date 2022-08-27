@@ -9,6 +9,7 @@
 ~/.files/install/modules/pip.sh
 ~/.files/install/modules/mkdir.sh
 ~/.files/install/modules/zsh.sh
+~/.files/install/modules/pull.sh
 ~/.files/install/modules/config.sh
 ~/.files/install/modules/origin.sh
 ~/.files/install/modules/ssh.sh
