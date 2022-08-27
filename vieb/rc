@@ -6,11 +6,6 @@
 set adblocker=update
 set devtoolsposition=split
 set norestoretabs
-set permissioncamera=ask
-set permissiondisplaycapture=ask
-set permissionmediadevices=allow
-set permissionmicrophone=ask
-set permissionpersistentstorage=allow
 set redirecttohttp
 set splitbelow
 set tabclosefocusright
@@ -18,13 +13,33 @@ set tabreopenposition=previous
 set noshowcmd
 set notimeout
 
+" Permissions
+set permissioncamera=ask
+set permissionclipboardread=allow
+set permissionclosepage=allow
+set permissiondisplaycapture=block
+set permissionfullscreen=allow
+set permissiongeolocation=block
+set permissionmediadevices=allow
+set permissionmicrophone=block
+set permissionmidi=ask
+set permissionmidisysex=ask
+set permissionnotifications=ask
+set permissionopenexternal=ask
+set permissionpersistentstorage=block
+set permissionpointerlock=block
+set permissionsallowed=
+set permissionsasked=
+set permissionsblocked=
+set permissionunknown=block
+
 " Hotkeys
 nmap <C-h> <action.previousTab>
 nmap <C-l> <action.nextTab>
 nmap <C-x> <:close>
 nmap <C-q> :q<CR>
 nmap <C--> <:split>
-nmap <C-\\> <:vsplit>
+nmap <C-Bslash> <:vsplit>
 nmap rr <refreshTab>
 nmap RR <refreshTabWithoutCache>
 
