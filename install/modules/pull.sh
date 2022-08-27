@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 
+# Pull Password (https://github.com/BosEriko/password)
+git clone https://github.com/BosEriko/password.git $STORAGE/Password
+echo "Installing: Password repository has been pulled."
+
 # Pull ZSH history (https://github.com/BosEriko/history)
 git clone https://github.com/BosEriko/history.git ~/.history
 echo "Installing: ZSH history repository has been pulled."

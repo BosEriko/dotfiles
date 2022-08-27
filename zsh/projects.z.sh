@@ -21,6 +21,9 @@ jt() {
     "youtube")
         cd $STORAGE/YouTube
         ;;
+    "password")
+        cd $STORAGE/Password
+        ;;
     "obsidian")
         cd $STORAGE/Obsidian
         ;;
@@ -28,7 +31,7 @@ jt() {
         cd ~/.files
         ;;
     *)
-        echo "Jump to: personal, work, anime, movies, music, youtube or .files."
+        echo "Jump to: personal, work, anime, movies, music, youtube, password, obsidian or .files."
         ;;
     esac
 }

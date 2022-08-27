@@ -18,6 +18,9 @@ set-origins ~/.files BosEriko/dotfiles-windows
 # Update origin for history
 set-origins ~/.history BosEriko/history
 
+# Update origin for password
+set-origins $STORAGE/Password BosEriko/password
+
 # Update origin for obsidian
 set-origins $STORAGE/Obsidian BosEriko/obsidian
 

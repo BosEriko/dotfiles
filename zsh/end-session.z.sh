@@ -18,6 +18,8 @@ auto-push() {
 end-session() {
   # .history
   auto-push ~/.history "History"
+  # password
+  auto-push $STORAGE/Password "Password"
   # obsidian-personal
   auto-push $STORAGE/Obsidian/personal "Personal Obsidian"
   # obsidian-games
