@@ -42,4 +42,7 @@ set-origins $STORAGE/Obsidian/daily-journal BosEriko/obsidian-daily-journal
 # Update origin for obsidian-blogs
 set-origins $STORAGE/Obsidian/blogs BosEriko/obsidian-blogs
 
+# Update origin for obsidian-dreams
+set-origins $STORAGE/Obsidian/dreams BosEriko/obsidian-dreams
+
 echo "Installing: Remote origins has been updated."

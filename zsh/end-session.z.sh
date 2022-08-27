@@ -32,6 +32,8 @@ end-session() {
   auto-push $STORAGE/Obsidian/daily-journal "Daily Journal Obsidian"
   # obsidian-blogs
   auto-push $STORAGE/Obsidian/blogs "Blogs Obsidian"
+  # obsidian-dreams
+  auto-push $STORAGE/Obsidian/dreams "Dreams Obsidian"
   # obsidian
   auto-push $STORAGE/Obsidian "Obsidian"
 }
