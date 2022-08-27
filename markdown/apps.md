@@ -21,4 +21,4 @@
 ## Social
 - [Discord](https://discord.com/)
 ## Tools
-- [LastPass](https://www.lastpass.com/)
+- [KeePass](https://keepass.info/download.html)
