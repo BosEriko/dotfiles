@@ -38,7 +38,7 @@ nmap <C-h> <action.previousTab>
 nmap <C-l> <action.nextTab>
 nmap <C-x> <:close>
 nmap <C-q> :q<CR>
-nmap <C-d> <:devtools>
+nmap <C-p> <:devtools>
 nmap <C--> <:split>
 nmap <C-Bslash> <:vsplit>
 nmap rr <refreshTab>
