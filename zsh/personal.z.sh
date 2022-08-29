@@ -33,7 +33,7 @@ ${RESET}
     -a, --assist                path                    Print out the list of paths
                                 restart-zsh             Restart ZSH
                                 anime                   Search anime information
-                                clean-name              Remove extra details inside file name
+                                clean-anime-name        Clean anime names in the Anime folder
 
     -y, --yarn                  list                    List global yarn packages
                                 interactive             Upgrade global yarn packages interactively
@@ -114,7 +114,7 @@ bos() {
                 terminal-notifier -title 'ZSH' -message 'ZSH has been restarted!'
             elif [ "$2" = "anime" ]; then
                 ~/.files/scripts/anime-info.sh
-            elif [ "$2" = "clean-name" ]; then
+            elif [ "$2" = "clean-anime-name" ]; then
                 ~/.files/scripts/clean-name.sh
             else
                 echo "Usage: -a <command> or --assist <command>"
