@@ -1,6 +1,3 @@
 #!/bin/bash
 
-for anime in $STORAGE/Anime/*
-do
-    mv "$file" $(echo $query | sed "s/[[][^]]*[]]//g" | sed "s/[(][^)]*[)]//g")
-done
+(cd $STORAGE/Anime; for anime in *.mkv; do mv "$anime" "$(echo $anime | sed 's/[[][^]]*[]]//g' | sed 's/[(][^)]*[)]//g' | sed -e 's/^\s*//' -e '/^$/d')"; done)
