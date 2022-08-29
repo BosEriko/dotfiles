@@ -45,6 +45,7 @@ ${RESET}
                                 localhost               Start http-server
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
+                                upload                  Upload a file online
 
     -s, --session               start                   Start programming session
                                 end                     End programming session
@@ -153,6 +154,12 @@ bos() {
                     echo "Please specify a port"
                 else
                     ngrok http --region=ap $3
+                fi
+            elif [ "$2" = "upload" ]; then
+                if [ -z "$3" ]; then
+                    echo "Please specify a file"
+                else
+                    curl -s --upload-file $3 https://transfer.sh/$3 | clip.exe
                 fi
             else
                 echo "Usage: -p <command> or --programming <command>"
