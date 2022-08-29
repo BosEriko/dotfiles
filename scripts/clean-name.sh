@@ -7,4 +7,4 @@ else
     query=$1
 fi
 
-echo "$query" | sed "s/[[][^)]*[]]//g" | sed "s/[(][^)]*[)]//g"
+echo "$query" | sed "s/[[][^]]*[]]//g" | sed "s/[(][^)]*[)]//g"
