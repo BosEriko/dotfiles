@@ -17,6 +17,10 @@ sudo apt install -y sl                                                          
 sudo apt install -y ffmpeg                                                                          # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
 sudo apt install -y tmux                                                                            # tmux source code (https://github.com/tmux/tmux)
 
+# Elixir is a dynamic, functional language for building scalable and maintainable applications (https://elixir-lang.org/)
+wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb
+sudo apt-get update; sudo apt-get install esl-erlang; sudo apt-get install elixir;
+
 # Python is an interpreted, interactive, object-oriented programming language (https://www.python.org/)
 sudo apt install -y python3-pip
 sudo apt install -y python-is-python3
