@@ -6,6 +6,7 @@
 ~/.files/install/modules/pipes.sh
 ~/.files/install/modules/node.sh
 ~/.files/install/modules/ruby.sh
+~/.files/install/modules/elixir.sh
 ~/.files/install/modules/pip.sh
 ~/.files/install/modules/mkdir.sh
 ~/.files/install/modules/zsh.sh
