@@ -115,7 +115,7 @@ bos() {
             elif [ "$2" = "anime" ]; then
                 ~/.files/scripts/anime-info.sh
             elif [ "$2" = "clean-anime-name" ]; then
-                ~/.files/scripts/clean-name.sh
+                ~/.files/scripts/clean-anime-name.sh
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
