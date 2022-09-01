@@ -20,5 +20,6 @@
 - [VLC media player](https://www.videolan.org/vlc/) with [Discord Rich Presence](https://github.com/Pigpog/vlc-discord-rpc/releases)
 ## Social
 - [Discord](https://discord.com/)
+- [Google Chat](https://chat.google.com/download/)
 ## Tools
 - [KeePass](https://keepass.info/download.html)
