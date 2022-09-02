@@ -16,8 +16,11 @@ sudo apt install -y git-flow                                                    
 sudo apt install -y sl                                                                              # SL(1): Cure your bad habit of mistyping (https://github.com/mtoyoda/sl)
 sudo apt install -y ffmpeg                                                                          # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
 sudo apt install -y tmux                                                                            # tmux source code (https://github.com/tmux/tmux)
-sudo apt install -y neovim                                                                          # Neovim is a project that seeks to aggressively refactor Vim (https://github.com/neovim/neovim)
 sudo apt install -y ripgrep                                                                         # ripgrep recursively searches directories for a regex pattern while respecting your gitignore  (https://github.com/BurntSushi/ripgrep)
+
+# Neovim is a project that seeks to aggressively refactor Vim (https://github.com/neovim/neovim)
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update; sudo apt install -y neovim;
 
 # Elixir is a dynamic, functional language for building scalable and maintainable applications (https://elixir-lang.org/)
 wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb
