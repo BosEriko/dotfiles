@@ -32,6 +32,7 @@ ${RESET}
 
     -a, --assist                path                    Print out the list of paths
                                 restart-zsh             Restart ZSH
+                                restow                  Restow your config
                                 anime                   Search anime information
                                 clean-anime-name        Clean anime names in the Anime folder
 
@@ -112,6 +113,10 @@ bos() {
             elif [ "$2" = "restart-zsh" ]; then
                 source ~/.zshrc
                 terminal-notifier -title 'ZSH' -message 'ZSH has been restarted!'
+            elif [ "$2" = "restow" ]; then
+                echo "Do you want to restow your config? (Ctrl-C to abort, or press enter to continue)"
+                read
+                ~/.files/install/modules/config.sh
             elif [ "$2" = "anime" ]; then
                 ~/.files/scripts/anime-info.sh
             elif [ "$2" = "clean-anime-name" ]; then
