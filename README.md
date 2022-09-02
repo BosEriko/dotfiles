@@ -43,7 +43,7 @@ Set-ExecutionPolicy Default
 ## Installation
 Run this inside Ubuntu on WSL. Don't forget to change the proper location for the STORAGE env on the script below as well as inside this [environment.z.sh](zsh/modules/environment.z.sh).
 ``` sh
-git clone --recurse-submodules https://github.com/BosEriko/dotfiles-windows.git ~/.files
+git clone https://github.com/BosEriko/dotfiles-windows.git ~/.files
 export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 ```
 
