@@ -97,3 +97,6 @@ magnet=$(head -$LINE $cachedir/magnet.bak | tail -1)
 
 # Download the file
 webtorrent "$magnet" --out $STORAGE/Anime
+
+# Clean Anime Name
+~/.files/scripts/clean-anime-name.sh
