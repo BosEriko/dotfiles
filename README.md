@@ -16,7 +16,7 @@ Download [Switcheroo](https://github.com/kvakulo/Switcheroo) and bind the hotkey
 - Automatically switch window when releasing `Alt` + `Tab`
 
 ## Nerd font
-Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/releases) and install every font from it.
+Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/releases) and install every font from the downloaded file.
 
 ## Windows Terminal + Ubuntu on WSL
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete. You also need to update your Windows Terminal (Ubuntu) font to `FuraMono Nerd Font` after you're done restarting.
