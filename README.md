@@ -19,7 +19,7 @@ Download [Switcheroo](https://github.com/kvakulo/Switcheroo) and bind the hotkey
 1. Open a Powershell session as administrator.
 2. Download and expand the Powerline fonts repository:
 ```
-powershell -command "& { iwr https://github.com/powerline/fonts/archive/master.zip -OutFile ~\fonts.zip }"
+powershell -command "& { iwr https://github.com/ryanoasis/nerd-fonts/archive/refs/heads/master.zip -OutFile ~\fonts.zip }"
 Expand-Archive -Path ~\fonts.zip -DestinationPath ~
 ```
 3. Update the execution policy to allow the installation of the fonts:
@@ -28,7 +28,7 @@ Set-ExecutionPolicy Bypass
 ```
 4. Run the installation script:
 ```
-~\fonts-master\install.ps1
+~\fonts-master\install.ps1 FiraMono
 ```
 5. Revert the execution policy back the default value:
 ```
@@ -36,7 +36,7 @@ Set-ExecutionPolicy Default
 ```
 
 ## Windows Terminal + Ubuntu on WSL
-[Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete. You also need to update your Windows Terminal (Ubuntu) font to `Fira Mono for Powerline` after you're done restarting.
+[Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete. You also need to update your Windows Terminal (Ubuntu) font to `Fira Mono Nerd Font` after you're done restarting.
 
 **Note:** You can set Ubuntu as your Default profile on the Startup Settings of the Windows Terminal to make it easier for you.
 
