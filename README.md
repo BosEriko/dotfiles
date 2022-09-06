@@ -21,6 +21,9 @@ Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.c
 ## Windows Terminal + Ubuntu on WSL
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete. You also need to update your Windows Terminal (Ubuntu) font to `FuraMono Nerd Font` after you're done restarting.
 
+## Alacritty
+Download [Alacritty](https://alacritty.org/) and update its [config](alacritty/alacritty.yml) file. It's usually on `%APPDATA%\alacritty\alacritty.yml`.
+
 **Note:** You can set Ubuntu as your Default profile on the Startup Settings of the Windows Terminal to make it easier for you.
 
 ## Installation
@@ -34,7 +37,7 @@ export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 Download [Visual Studio Code](https://code.visualstudio.com/) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings. Your keyboard hotkeys can be found [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ba96cfa3c35d4d7ca5c386d73c8c0a78).
 
 ## Vieb
-Download [Vieb](https://vieb.dev/) and update its [config](vieb/rc) file. It's usually on `%APPDATA%` then `Vieb/viebrc` but if you're unsure where the config file is located on windows you can run `:mkv full` inside Vieb and then take note of the message on the lower right of the Vieb window. You can check out your Vieb hotkeys [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ccad9bd920524df8b66880da8b68cc35).
+Download [Vieb](https://vieb.dev/) and update its [config](vieb/rc) file. It's usually on `%APPDATA%\Vieb\viebrc` but if you're unsure where the config file is located on windows you can run `:mkv full` inside Vieb and then take note of the message on the lower right of the Vieb window. You can check out your Vieb hotkeys [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ccad9bd920524df8b66880da8b68cc35).
 
 ## Obsidian
 Download [Obsidian](https://obsidian.md/) to make use of the pulled obsidian folders from the installation script.
