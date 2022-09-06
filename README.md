@@ -24,8 +24,6 @@ Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.c
 ## Alacritty
 Download [Alacritty](https://alacritty.org/) and update its [config](alacritty/alacritty.yml) file. It's usually on `%APPDATA%\alacritty\alacritty.yml`.
 
-**Note:** You can set Ubuntu as your Default profile on the Startup Settings of the Windows Terminal to make it easier for you.
-
 ## Installation
 Run this inside Ubuntu on WSL. Don't forget to change the proper location for the STORAGE env on the script below as well as inside this [environment.z.sh](zsh/modules/environment.z.sh).
 ``` sh
