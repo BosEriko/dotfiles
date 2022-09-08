@@ -27,11 +27,14 @@ jt() {
     "obsidian")
         cd $STORAGE/Obsidian
         ;;
+    "nvim")
+        cd ~/.files/config/.config/nvim
+        ;;
     ".files")
         cd ~/.files
         ;;
     *)
-        echo "Jump to: personal, work, anime, movies, music, youtube, password, obsidian or .files."
+        echo "Jump to: personal, work, anime, movies, music, youtube, password, obsidian, nvim or .files."
         ;;
     esac
 }
