@@ -2,18 +2,21 @@
 
 # Set origins
 set-origins() {
-    (cd $1 && git remote rm origin)
-    (cd $1 && git remote add origin git@github.com:$2.git)
-    (cd $1 && git remote add github git@github.com:$2.git)
-    (cd $1 && git remote add gitlab git@gitlab.com:$2.git)
-    (cd $1 && git remote add bitbucket git@bitbucket.org:$2.git)
-    (cd $1 && git remote set-url --add --push origin git@github.com:$2.git)
-    (cd $1 && git remote set-url --add --push origin git@gitlab.com:$2.git)
-    (cd $1 && git remote set-url --add --push origin git@bitbucket.org:$2.git)
+  (cd $1 && git remote rm origin)
+  (cd $1 && git remote add origin git@github.com:$2.git)
+  (cd $1 && git remote add github git@github.com:$2.git)
+  (cd $1 && git remote add gitlab git@gitlab.com:$2.git)
+  (cd $1 && git remote add bitbucket git@bitbucket.org:$2.git)
+  (cd $1 && git remote set-url --add --push origin git@github.com:$2.git)
+  (cd $1 && git remote set-url --add --push origin git@gitlab.com:$2.git)
+  (cd $1 && git remote set-url --add --push origin git@bitbucket.org:$2.git)
 }
 
 # Update origin for .files
 set-origins ~/.files BosEriko/dotfiles-windows
+
+# Update origin for nvim
+set-origins ~/.files/config/.config/nvim BosEriko/nvim
 
 # Update origin for history
 set-origins ~/.history BosEriko/history
