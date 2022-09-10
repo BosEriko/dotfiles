@@ -18,7 +18,7 @@ Download [Switcheroo](https://github.com/kvakulo/Switcheroo) and bind the hotkey
 ## Nerd font
 Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/releases) and install every font from the downloaded file.
 
-## Ubuntu on WSL
+## Ubuntu on WSL + Windows Terminal
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete then update Windows Terminal's [settings](windows-terminal/settings.json).
 
 ## Installation
@@ -29,7 +29,7 @@ export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 ```
 
 ## Visual Studio Code
-Download [Visual Studio Code](https://code.visualstudio.com/) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings. Your keyboard hotkeys can be found [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ba96cfa3c35d4d7ca5c386d73c8c0a78).
+Download [Visual Studio Code](https://code.visualstudio.com/) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings. Your keyboard hotkeys can be found [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ba96cfa3c35d4d7ca5c386d73c8c0a78). Visual Studio Code will be used when pair programming with someone to avoid confusion if they don't know [Neovim](https://neovim.io/).
 
 ## Vieb
 Download [Vieb](https://vieb.dev/) and update its [config](vieb/rc) file. It's usually on `%APPDATA%\Vieb\viebrc` but if you're unsure where the config file is located on windows you can run `:mkv full` inside Vieb and then take note of the message on the lower right of the Vieb window. You can check out your Vieb hotkeys [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ccad9bd920524df8b66880da8b68cc35).
