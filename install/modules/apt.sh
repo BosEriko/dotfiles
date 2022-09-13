@@ -18,11 +18,6 @@ sudo apt install -y ffmpeg                                                      
 sudo apt install -y tmux                                                                            # tmux source code (https://github.com/tmux/tmux)
 sudo apt install -y ripgrep                                                                         # ripgrep recursively searches directories for a regex pattern while respecting your gitignore (https://github.com/BurntSushi/ripgrep)
 
-# Docker helps developers bring their ideas to life by conquering the complexity of app development (https://github.com/docker)
-sudo apt-get remove docker docker-engine docker.io containerd runc
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-
 # Neovim is a project that seeks to aggressively refactor Vim (https://github.com/neovim/neovim)
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update; sudo apt install -y neovim;
