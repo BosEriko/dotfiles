@@ -5,6 +5,7 @@
 ~/.files/install/modules/youtube-dl.sh
 ~/.files/install/modules/pipes.sh
 ~/.files/install/modules/node.sh
+~/.files/install/modules/docker.sh
 ~/.files/install/modules/ruby.sh
 ~/.files/install/modules/elixir.sh
 ~/.files/install/modules/pip.sh
