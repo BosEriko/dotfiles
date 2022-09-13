@@ -4,10 +4,10 @@
 jt() {
     case "$1" in
     "personal")
-        cd $STORAGE/Codes/Personal
+        cd ~/Documents/Codes/Personal
         ;;
     "work")
-        cd $STORAGE/Codes/Work
+        cd ~/Documents/Codes/Work
         ;;
     "anime")
         cd $STORAGE/Anime

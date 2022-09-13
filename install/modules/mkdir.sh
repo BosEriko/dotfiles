@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Make the directories for Personal/Work
-mkdir -p $STORAGE/Codes/Work $STORAGE/Codes/Personal
+mkdir -p ~/Documents/Codes/Work ~/Documents/Codes/Personal
 echo "Installing: Work and Personal folder have been created."
 
 # Make the directory for your Music
