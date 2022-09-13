@@ -11,6 +11,7 @@
 - [OBS Studio](https://obsproject.com/download)
 ## Software Development
 - [Blender](https://www.blender.org/)
+- [Insomnia](https://insomnia.rest/download)
 ## Cloud Storage
 - [MEGAsync](https://mega.io/desktop)
 - [Google Drive](https://www.google.com/drive/download/)
