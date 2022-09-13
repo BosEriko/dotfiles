@@ -2,7 +2,7 @@
 # =================================================================== [Docker-compose Alias] ===== #
 
 alias dr:start="sudo service docker start"
-alias dr:web="sudo docker-compose run web"
+alias dr:bash="sudo docker-compose exec web bash"
 alias dr:up="sudo docker-compose up"
 alias dr:down="sudo docker-compose down"
 alias dr:restart="sudo docker-compose down && sudo docker-compose up"
