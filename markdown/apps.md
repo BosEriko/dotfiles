@@ -23,3 +23,6 @@
 - [Google Chat](https://chat.google.com/download/)
 ## Tools
 - [KeePass](https://keepass.info/download.html)
+## Work
+- [Slack](https://slack.com/downloads/windows)
+- [Gather](https://www.gather.town/download)
