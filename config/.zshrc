@@ -18,3 +18,7 @@ source ~/.files/zsh/start-session.z.sh
 source ~/.files/zsh/end-session.z.sh
 source ~/.files/zsh/environment.z.sh
 source ~/.files/zsh/path.z.sh
+
+# fnm
+export PATH=/home/boseriko/.fnm:$PATH
+eval "`fnm env`"

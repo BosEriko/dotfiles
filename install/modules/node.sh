@@ -3,14 +3,9 @@
 # Install Yarn (https://github.com/yarnpkg/yarn)
 npm install --global yarn
 
-# Install NVM (https://github.com/nvm-sh/nvm)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | sh
-echo "Installing: NVM has been installed."
-
-# Set Node global version (https://github.com/nvm-sh/nvm)
-nvm install 18
-nvm use 18
-echo "Installing: Set Node to the LTS version."
+# Install fnm (https://github.com/Schniz/fnm)
+curl -fsSL https://fnm.vercel.app/install | bash
+echo "Installing: fnm has been installed."
 
 # Install packages using NPM (https://nodejs.org/)
 yarn global add http-server                 # A simple zero-configuration command-line http server (https://github.com/http-party/http-server)
