@@ -38,7 +38,7 @@ Download [Vieb](https://vieb.dev/) and update its [config](vieb/rc) file. It's u
 Download [Obsidian](https://obsidian.md/) to make use of the pulled obsidian folders from the installation script.
 
 ## TaskbarX
-Download [TaskbarX](https://chrisandriessen.nl/taskbarx) to pimp your windows. Be sure to make it [automatically start](markdown/automatically-start.md) on startup.
+Download [TaskbarX](https://chrisandriessen.nl/taskbarx) to pimp your windows.
 
 ## Note
 I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play along with the [equipment](markdown/equipment.md) of my choice.
