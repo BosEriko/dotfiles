@@ -6,9 +6,6 @@ Download [AutoHotkey](https://www.autohotkey.com/) current version and put both 
 
 **Note:** If you want to play games you can just suspend both the AutoHotkey script on the programs on the right side of the bottom Windows bar and then activate the scripts again on the Desktop when you’re done playing games.
 
-## bug.n
-Download [bug.n](https://github.com/fuhsjr00/bug.n) for your [Tiling Window Manager](https://en.wikipedia.org/wiki/Tiling_window_manager). This uses [AutoHotkey](https://www.autohotkey.com/) as well. Be sure to make them [automatically start](markdown/automatically-start.md) on startup, too.
-
 ## PowerToys
 Download [PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD) for PowerToys Run and Keyboard Manager. Set up Keyboard Manager with [these settings](markdown/keyboard-manager.md).
 
