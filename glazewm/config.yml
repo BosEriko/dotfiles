@@ -109,9 +109,9 @@ keybindings:
   - command: "reload config"
     binding: "LMenu+Shift+R"
 
-  # Launch CMD terminal (LMenuernatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
+  # Launch CMD terminal (Alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
-  - command: "exec cmd"
+  - command: "exec wt"
     binding: "LMenu+Enter"
 
   - command: "focus workspace 1"
