@@ -48,7 +48,7 @@ If you want to play games please close the following applications:
 - TaskbarX
 - GlazeWM
 
-**Tip:** You can create desktop shortcuts for the apps listed above so you can easily open them again once you're done playing.
+**Tip:** You can create desktop shortcuts for the applications listed above so you can easily open them again once you're done playing.
 
 ## Miscellaneous
 I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play along with the [equipment](markdown/equipment.md) of my choice.
