@@ -30,7 +30,7 @@ export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 Download [Visual Studio Code](https://code.visualstudio.com/) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings. Your keyboard hotkeys can be found [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ba96cfa3c35d4d7ca5c386d73c8c0a78). Visual Studio Code will be used when pair programming with someone to avoid confusion if they don't know [Neovim](https://neovim.io/).
 
 ## Vieb
-Download [Vieb](https://vieb.dev/) and update its [config](vieb/rc) file. It's usually on `%APPDATA%\Vieb\viebrc` but if you're unsure where the config file is located on windows you can run `:mkv full` inside Vieb and then take note of the message on the lower right of the Vieb window. You can check out your Vieb hotkeys [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ccad9bd920524df8b66880da8b68cc35).
+Download [Vieb](https://vieb.dev/) and update its [config](vieb/viebrc) file. It's usually on `%APPDATA%\Vieb\viebrc` but if you're unsure where the config file is located on windows you can run `:mkv full` inside Vieb and then take note of the message on the lower right of the Vieb window. You can check out your Vieb hotkeys [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ccad9bd920524df8b66880da8b68cc35).
 
 ## Obsidian
 Download [Obsidian](https://obsidian.md/) to make use of the pulled obsidian folders from the installation script.
@@ -39,7 +39,7 @@ Download [Obsidian](https://obsidian.md/) to make use of the pulled obsidian fol
 Download [TaskbarX](https://chrisandriessen.nl/taskbarx) to pimp your windows.
 
 ## GlazeWM
-Download [GlazeWM](https://github.com/lars-berger/GlazeWM/releases) for your Window Manager. Update its config and change all instances of `Alt` to `LMenu`. Be sure to make it [automatically start](markdown/automatically-start.md) on startup.
+Download [GlazeWM](https://github.com/lars-berger/GlazeWM/releases) as your [Tiling Window Manager](https://en.wikipedia.org/wiki/Tiling_window_manager) and update its [config](glazewm/config.yml) file. Refer to its [configuration](https://github.com/lars-berger/GlazeWM#configuration) to know where the config file is located. Be sure to make it [automatically start](markdown/automatically-start.md) on startup.
 
 ## Note
 If you want to play games please close the following applications:
