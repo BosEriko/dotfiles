@@ -20,7 +20,7 @@ Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.c
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete then update Windows Terminal's [settings](windows-terminal/settings.json).
 
 ## Installation
-Run this inside Ubuntu on WSL. Don't forget to change the proper location for the STORAGE env on the script below as well as inside [environment.z.sh](zsh/modules/environment.z.sh).
+Run this inside Ubuntu on WSL. Don't forget to change the proper location for the STORAGE env on the script below as well as inside [environment.z.sh](zsh/environment.z.sh).
 ``` sh
 git clone --recurse-submodules https://github.com/BosEriko/dotfiles-windows.git ~/.files
 export STORAGE="/mnt/d" && ~/.files/install/entry.sh
