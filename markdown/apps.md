@@ -6,7 +6,6 @@
 - [Pomofocus](https://pomofocus.io/)
 - [Todoist](https://todoist.com/downloads)
 - [Notion](https://www.notion.so/desktop)
-- [Files App](https://www.microsoft.com/store/productId/9NGHP3DX8HDX)
 ## Streaming
 - [VMagicMirror](https://malaybaku.github.io/VMagicMirror/en/)
 - [OBS Studio](https://obsproject.com/download)
