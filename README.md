@@ -41,7 +41,7 @@ Download [Obsidian](https://obsidian.md/) to make use of the pulled obsidian fol
 Download [TaskbarX](https://chrisandriessen.nl/taskbarx) to pimp your windows.
 
 ## GlazeWM
-Download [GlazeWM](https://github.com/lars-berger/GlazeWM/releases) for your Window Manager. Update its config and change all instances of `Alt` to `LMenu`. Be sure to make them [automatically start](markdown/automatically-start.md) on startup.
+Download [GlazeWM](https://github.com/lars-berger/GlazeWM/releases) for your Window Manager. Update its config and change all instances of `Alt` to `LMenu`. Be sure to make it [automatically start](markdown/automatically-start.md) on startup.
 
 ## Note
 I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play along with the [equipment](markdown/equipment.md) of my choice.
