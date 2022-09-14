@@ -4,8 +4,6 @@ This dotfiles is meant to be run on Windows 10 only.
 ## AutoHotkey
 Download [AutoHotkey](https://www.autohotkey.com/) current version and put both [Overload Capslock](ahk/overload-capslock.ahk) and [Hide Mouse When Typing](ahk/hide-mouse-when-typing.ahk) on the Desktop. Be sure to make them [automatically start](markdown/automatically-start.md) on startup.
 
-**Note:** If you want to play games you can just suspend both the AutoHotkey script on the programs on the right side of the bottom Windows bar and then activate the scripts again on the Desktop when you’re done playing games.
-
 ## PowerToys
 Download [PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD) for PowerToys Run and Keyboard Manager. Set up Keyboard Manager with [these settings](markdown/keyboard-manager.md).
 
@@ -44,6 +42,13 @@ Download [TaskbarX](https://chrisandriessen.nl/taskbarx) to pimp your windows.
 Download [GlazeWM](https://github.com/lars-berger/GlazeWM/releases) for your Window Manager. Update its config and change all instances of `Alt` to `LMenu`. Be sure to make it [automatically start](markdown/automatically-start.md) on startup.
 
 ## Note
+If you want to play games please close the following applications:
+- Overload Capslock (AutoHotkey)
+- Hide Mouse When Typing (AutoHotkey)
+- TaskbarX
+- GlazeWM
+
+## Miscellaneous
 I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play along with the [equipment](markdown/equipment.md) of my choice.
 
 ## Call to action
