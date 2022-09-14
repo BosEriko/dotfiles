@@ -47,7 +47,6 @@ If you want to play games please close the following applications:
 - Hide Mouse When Typing (AutoHotkey)
 - TaskbarX
 - GlazeWM
-
 **Tip:** You can create desktop shortcuts for the applications listed above so you can easily open them again once you're done playing games.
 
 ## Miscellaneous
