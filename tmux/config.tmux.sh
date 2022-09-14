@@ -49,3 +49,7 @@ set-option -g set-titles-string "#T - #W"
 
 # TMUX color
 set -g default-terminal 'screen-256color'
+
+# Statusline config
+set -g @dracula-show-location false
+set -g @dracula-show-fahrenheit false
