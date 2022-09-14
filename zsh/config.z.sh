@@ -23,6 +23,6 @@ source $ZSH/oh-my-zsh.sh
 # Disable power status on spaceship prompt
 export SPACESHIP_BATTERY_SHOW=false
 
-# Use Visual Studio Code as the editor
-export VISUAL=code
-export EDITOR=code
+# Use nvim as the editor
+export VISUAL=nvim
+export EDITOR=nvim
