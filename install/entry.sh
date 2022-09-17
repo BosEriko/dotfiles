@@ -10,6 +10,7 @@
 ~/.files/install/modules/elixir.sh
 ~/.files/install/modules/pip.sh
 ~/.files/install/modules/mkdir.sh
+~/.files/install/modules/clipboard.sh
 ~/.files/install/modules/zsh.sh
 ~/.files/install/modules/tmux.sh
 ~/.files/install/modules/pull.sh
