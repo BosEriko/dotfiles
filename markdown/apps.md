@@ -23,7 +23,7 @@
 - [Discord](https://discord.com/)
 - [Google Chat](https://chat.google.com/download/)
 ## Tools
-- [KeePass](https://keepass.info/download.html)
+- [KeePass 2](https://keepass.info/download.html)
 ## Work
 - [Slack](https://slack.com/downloads/windows)
 - [Gather](https://www.gather.town/download)
