@@ -31,15 +31,16 @@ workspaces:
   - name: 4
     display_name: "ﴘ"
   - name: 5
-    display_name: ""
+    display_name: ""
   - name: 6
-    display_name: "嗢"
+    display_name: ""
   - name: 7
-    display_name: ""
+    display_name: "嗢"
   - name: 8
-    display_name: ""
+    display_name: ""
   - name: 9
     display_name: "ﭮ"
+    bind_to_monitor: 2
 
 window_rules:
   # Task Manager requires admin privileges to manage and should be ignored unless running
