@@ -46,8 +46,10 @@ nmap <C-Bslash> <:vsplit>
 nmap rr <refreshTab>
 nmap RR <refreshTabWithoutCache>
 
-" Redirects
+" Startup
 set startuppages=https://boseriko.notion.site/boseriko/Tools-b2c3c2bbd54543c280195920e3516d56
+
+" Search
 set search=https://duckduckgo.com/?kae=d&kav=1&ko=1&q=%s&ia=web
 set searchwords=
 set searchwords+=vd~https://vid.puffyan.us/search?q=%s
