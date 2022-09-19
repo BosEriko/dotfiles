@@ -7,4 +7,7 @@ alias npm="echo 'Do you really want to use NPM instead of Yarn? (Ctrl-C to abort
 alias vi="nvim"
 alias vim="nvim"
 alias v="nvim"
+
+# Change path accordingly if broken
 alias v:glaze="nvim /mnt/c/Users/Bos/.glaze-wm/config.yaml"
+alias v:vieb="nvim /mnt/c/Users/Bos/AppData/Roaming/Vieb/viebrc"
