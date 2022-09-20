@@ -37,8 +37,8 @@ workspaces:
     display_name: "嗢"
     bind_to_monitor: 1
   - name: 6
-    display_name: ""
-    bind_to_monitor: 3
+    display_name: "פֿ"
+    bind_to_monitor: 1
   - name: 7
     display_name: ""
     bind_to_monitor: 2
