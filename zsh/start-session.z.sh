@@ -5,7 +5,7 @@ auto-pull() {
   (
     cd $1
     git checkout .
-    git pull
+    git pull origin master
     echo "${GREEN}${2} Repository has been synced successfully.${RESET}"
   )
 }
