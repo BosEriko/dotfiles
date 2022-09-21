@@ -13,10 +13,10 @@ auto-pull() {
 start-session() {
   # .history
   auto-pull ~/.history "History"
-  # .history
-  auto-pull $STORAGE/Obsidian "Obsidian"
   # password
   auto-pull $STORAGE/Password "Password"
+  # obsidian
+  auto-pull $STORAGE/Obsidian "Obsidian"
   # .files
   auto-pull ~/.files "Dotfiles"
   # Source ZSH

@@ -21,22 +21,14 @@ end-session() {
   auto-push ~/.history "History"
   # password
   auto-push $STORAGE/Password "Password"
-  # obsidian-personal
-  auto-push $STORAGE/Obsidian/personal "Personal Obsidian"
-  # obsidian-games
-  auto-push $STORAGE/Obsidian/games "Games Obsidian"
-  # obsidian-professional
-  auto-push $STORAGE/Obsidian/professional "Professional Obsidian"
-  # obsidian-til
-  auto-push $STORAGE/Obsidian/til "TIL Obsidian"
-  # obsidian-morning-ritual
-  auto-push $STORAGE/Obsidian/morning-ritual "Morning Ritual Obsidian"
-  # obsidian-daily-journal
-  auto-push $STORAGE/Obsidian/daily-journal "Daily Journal Obsidian"
-  # obsidian-blogs
-  auto-push $STORAGE/Obsidian/blogs "Blogs Obsidian"
-  # obsidian-dreams
-  auto-push $STORAGE/Obsidian/dreams "Dreams Obsidian"
   # obsidian
+  auto-push $STORAGE/Obsidian/personal "Personal Obsidian"
+  auto-push $STORAGE/Obsidian/games "Games Obsidian"
+  auto-push $STORAGE/Obsidian/professional "Professional Obsidian"
+  auto-push $STORAGE/Obsidian/til "TIL Obsidian"
+  auto-push $STORAGE/Obsidian/morning-ritual "Morning Ritual Obsidian"
+  auto-push $STORAGE/Obsidian/daily-journal "Daily Journal Obsidian"
+  auto-push $STORAGE/Obsidian/blogs "Blogs Obsidian"
+  auto-push $STORAGE/Obsidian/dreams "Dreams Obsidian"
   auto-push $STORAGE/Obsidian "Obsidian"
 }
