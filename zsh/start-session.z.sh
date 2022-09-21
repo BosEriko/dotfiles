@@ -24,8 +24,8 @@ start-session() {
   read answer
   if [ "$answer" != "${answer#[Yy]}" ] ;then
     source ~/.zshrc
-    echo "${GREEN}${2} ZSH has been sourced successfully.${RESET}"
+    echo "${GREEN}${2}ZSH has been sourced successfully.${RESET}"
   else
-    echo "${YELLOW}${2} ZSH has not been sourced.${RESET}"
+    echo "${YELLOW}${2}ZSH has not been sourced.${RESET}"
   fi
 }
