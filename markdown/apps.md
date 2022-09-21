@@ -22,8 +22,6 @@
 ## Social
 - [Discord](https://discord.com/)
 - [Google Chat](https://chat.google.com/download/)
-## Tools
-- [KeePassXC](https://keepassxc.org/download/#windows)
 ## Work
 - [Slack](https://slack.com/downloads/windows)
 - [Gather](https://www.gather.town/download)

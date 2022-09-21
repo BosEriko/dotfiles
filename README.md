@@ -35,6 +35,9 @@ Download [Vieb](https://vieb.dev/download) and update its [config](vieb/viebrc) 
 ## Obsidian
 Download [Obsidian](https://obsidian.md/) to make use of the pulled obsidian folders from the installation script.
 
+## KeePassXC
+Download [KeePassXC](https://keepassxc.org/download/#windows) to make use of the pulled password folder from the installation script.
+
 ## Pimp your Windows
 ### TaskbarX
 Download [TaskbarX](https://chrisandriessen.nl/taskbarx) to pimp your taskbar. Adjust the theme according to how you see fit!
