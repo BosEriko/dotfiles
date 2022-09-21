@@ -4,9 +4,14 @@
 auto-pull() {
   (
     cd $1
-    git checkout .
-    git pull origin master
-    echo "${GREEN}${2} Repository has been synced successfully.${RESET}"
+    git fetch
+    if [[ `git status --porcelain` ]]; then
+      git checkout .
+      git pull origin master
+      echo "${GREEN}${2} Repository has been synced successfully.${RESET}"
+    else
+      echo "${YELLOW}No changes to the ${2} Repository. Skipping.${RESET}"
+    fi
   )
 }
 
