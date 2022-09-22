@@ -4,9 +4,6 @@ This dotfiles is meant to be run on Windows 10 only.
 ## AutoHotkey
 Download [AutoHotkey](https://www.autohotkey.com/) current version and put both [Overload Capslock](ahk/overload-capslock.ahk) and [Hide Mouse When Typing](ahk/hide-mouse-when-typing.ahk) on the Desktop. Be sure to make them [automatically start](markdown/automatically-start.md) on startup.
 
-## PowerToys
-Download [PowerToys](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD) for PowerToys Run and Keyboard Manager. Set up Keyboard Manager with [these settings](markdown/keyboard-manager.md).
-
 ## Switcheroo
 Download [Switcheroo](https://github.com/kvakulo/Switcheroo/releases) and bind the hotkey to `Ctrl (Left)` `Space`. You also need to enable the following settings:
 - Run on Startup
@@ -19,12 +16,15 @@ Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.c
 ## Ubuntu on WSL + Windows Terminal
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete then update Windows Terminal's [settings](windows-terminal/settings.json).
 
-## Installation
+## Installation Script
 Run this inside Ubuntu on WSL. Don't forget to change the proper location for the STORAGE env on the script below as well as inside [environment.z.sh](zsh/environment.z.sh).
 ``` sh
 git clone --recurse-submodules https://github.com/BosEriko/dotfiles-windows.git ~/.files
 export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 ```
+
+## Installation Tools
+- [PowerToys](markdown/readme/powertoys.md)
 
 ## Visual Studio Code
 Download [Visual Studio Code](https://code.visualstudio.com/Download) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings. Your keyboard hotkeys can be found [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ba96cfa3c35d4d7ca5c386d73c8c0a78). Visual Studio Code will be used when pair programming with someone to avoid confusion if they don't know [Neovim](https://neovim.io/).
