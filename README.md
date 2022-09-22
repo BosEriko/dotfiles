@@ -20,9 +20,7 @@ export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 ## Installation Tools
 - [PowerToys](markdown/readme/powertoys.md)
 - [Switcheroo](markdown/readme/switcheroo.md)
-
-## Visual Studio Code
-Download [Visual Studio Code](https://code.visualstudio.com/Download) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings. Your keyboard hotkeys can be found [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ba96cfa3c35d4d7ca5c386d73c8c0a78). Visual Studio Code will be used when pair programming with someone to avoid confusion if they don't know [Neovim](https://neovim.io/).
+- [Visual Studio Code](markdown/readme/visual-studio-code.md)
 
 ## Vieb
 Download [Vieb](https://vieb.dev/download) and update its [config](vieb/viebrc) file. It's usually on `%APPDATA%\Vieb\viebrc` but if you're unsure where the config file is located on windows you can run `:mkv full` inside Vieb and then take note of the message on the lower right of the Vieb window. You can check out your Vieb hotkeys [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ccad9bd920524df8b66880da8b68cc35).
