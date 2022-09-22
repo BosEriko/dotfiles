@@ -17,7 +17,8 @@ git clone --recurse-submodules https://github.com/BosEriko/dotfiles-windows.git 
 export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 ```
 
-## Installation Tools
+## Workflow Tools
+There are individual install instructions for the workflow tools I use. Refer below to learn more:
 - [PowerToys](markdown/readme/powertoys.md)
 - [Switcheroo](markdown/readme/switcheroo.md)
 - [Visual Studio Code](markdown/readme/visual-studio-code.md)
