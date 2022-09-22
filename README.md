@@ -4,12 +4,6 @@ This dotfiles is meant to be run on Windows 10 only.
 ## AutoHotkey
 Download [AutoHotkey](https://www.autohotkey.com/) current version and put both [Overload Capslock](ahk/overload-capslock.ahk) and [Hide Mouse When Typing](ahk/hide-mouse-when-typing.ahk) on the Desktop. Be sure to make them [automatically start](markdown/automatically-start.md) on startup.
 
-## Switcheroo
-Download [Switcheroo](https://github.com/kvakulo/Switcheroo/releases) and bind the hotkey to `Ctrl (Left)` `Space`. You also need to enable the following settings:
-- Run on Startup
-- Activate Switcheroo with `Alt` + `Tab`
-- Automatically switch window when releasing `Alt` + `Tab`
-
 ## Nerd font
 Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/releases) and install every font from the downloaded file.
 
@@ -25,6 +19,7 @@ export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 
 ## Installation Tools
 - [PowerToys](markdown/readme/powertoys.md)
+- [Switcheroo](markdown/readme/switcheroo.md)
 
 ## Visual Studio Code
 Download [Visual Studio Code](https://code.visualstudio.com/Download) and [sign in using GitHub](https://code.visualstudio.com/docs/editor/settings-sync) to sync your settings. Your keyboard hotkeys can be found [here](https://boseriko-professional.notion.site/boseriko-professional/92045538d4be4360a6486d9d8d5178aa?v=ba96cfa3c35d4d7ca5c386d73c8c0a78). Visual Studio Code will be used when pair programming with someone to avoid confusion if they don't know [Neovim](https://neovim.io/).
