@@ -24,9 +24,7 @@ There are individual install instructions for the workflow tools I use. Refer be
 - [Visual Studio Code](markdown/readme/visual-studio-code.md)
 - [Vieb](markdown/readme/vieb.md)
 - [Obsidian](markdown/readme/obsidian.md)
-
-## KeePassXC
-Download [KeePassXC](https://keepassxc.org/download/#windows) to make use of the pulled password folder from the installation script.
+- [KeePassXC](markdown/readme/keepassxc.md)
 
 ## Pimp your Windows
 ### TaskbarX
