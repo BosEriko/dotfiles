@@ -4,7 +4,7 @@ This dotfiles is meant to be run on Windows 10 only.
 # Scoop
 Download [Scoop](https://scoop.sh/) as your Windows package manager.
 ``` sh
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 ```
 
