@@ -3,3 +3,5 @@ Download [Switcheroo](https://github.com/crar01/Switcheroo/releases) and bind th
 - Run on Startup
 - Activate Switcheroo with `Alt` + `Tab`
 - Automatically switch window when releasing `Alt` + `Tab`
+- Run as Administrator
+- Set the theme to `Dark`
