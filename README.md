@@ -3,6 +3,10 @@ This dotfiles is meant to be run on Windows 10 only.
 
 # Scoop
 Download [Scoop](https://scoop.sh/) as your Windows package manager.
+``` sh
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
+irm get.scoop.sh | iex
+```
 
 ## AutoHotkey
 Download [AutoHotkey](https://scoop.sh/#/apps?q=autohotkey&s=0&d=1&o=true) using [Scoop](https://scoop.sh/) and put both [Overload Capslock](ahk/overload-capslock.ahk) and [Hide Mouse When Typing](ahk/hide-mouse-when-typing.ahk) on the Desktop. Be sure to make them [automatically start](markdown/automatically-start.md) on startup.
