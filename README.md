@@ -1,8 +1,11 @@
 # Windows Dotfiles
 This dotfiles is meant to be run on Windows 10 only.
 
+# Scoop
+Download [Scoop](https://scoop.sh/) as your Windows package manager.
+
 ## AutoHotkey
-Download [AutoHotkey](https://www.autohotkey.com/) current version and put both [Overload Capslock](ahk/overload-capslock.ahk) and [Hide Mouse When Typing](ahk/hide-mouse-when-typing.ahk) on the Desktop. Be sure to make them [automatically start](markdown/automatically-start.md) on startup.
+Download [AutoHotkey](https://scoop.sh/#/apps?q=autohotkey&s=0&d=1&o=true) using [Scoop](https://scoop.sh/) and put both [Overload Capslock](ahk/overload-capslock.ahk) and [Hide Mouse When Typing](ahk/hide-mouse-when-typing.ahk) on the Desktop. Be sure to make them [automatically start](markdown/automatically-start.md) on startup.
 
 ## Nerd font
 Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/releases) and install every font from the downloaded file.
@@ -20,7 +23,6 @@ export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 ## Workflow Tools
 There are individual install instructions for the workflow tools I use. Refer below to learn more:
 - [PowerToys](markdown/readme/powertoys.md)
-- [Scoop](markdown/readme/scoop.md)
 - [Switcheroo](markdown/readme/switcheroo.md)
 - [Visual Studio Code](markdown/readme/visual-studio-code.md)
 - [Vieb](markdown/readme/vieb.md)
