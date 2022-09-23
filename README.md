@@ -20,6 +20,7 @@ export STORAGE="/mnt/d" && ~/.files/install/entry.sh
 ## Workflow Tools
 There are individual install instructions for the workflow tools I use. Refer below to learn more:
 - [PowerToys](markdown/readme/powertoys.md)
+- [Scoop](markdown/readme/scoop.md)
 - [Switcheroo](markdown/readme/switcheroo.md)
 - [Visual Studio Code](markdown/readme/visual-studio-code.md)
 - [Vieb](markdown/readme/vieb.md)
