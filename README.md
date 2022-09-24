@@ -1,7 +1,7 @@
 # Windows Dotfiles
 This dotfiles is meant to be run on Windows 10 only.
 
-# Scoop
+## Scoop
 Download [Scoop](https://scoop.sh/) as your Windows package manager. Run the command below on Windows PowerShell.
 ``` sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
