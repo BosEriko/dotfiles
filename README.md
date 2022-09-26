@@ -22,7 +22,8 @@ Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.c
 Run this inside Ubuntu on WSL. Don't forget to change the proper location for the STORAGE env on the script below as well as inside [environment.z.sh](zsh/environment.z.sh).
 ``` sh
 git clone --recurse-submodules https://github.com/BosEriko/dotfiles-windows.git ~/.files
-export STORAGE="/mnt/d" && ~/.files/install/entry.sh
+export STORAGE="/mnt/d"
+~/.files/install/entry.sh
 ```
 
 ## Workflow Tools
