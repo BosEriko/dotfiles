@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Install git
-scoop install git
+# Install Applications
+scoop install git             # git
 
-# Install qutebrowser
+# Add extra bucket
 scoop bucket add extras
 
-# Install qutebrowser
-scoop install qutebrowser
-
-# Install OBS
-scoop install obs-studio
+# Install Extras
+scoop install qutebrowser     # qutebrowser
+scoop install obs-studio      # OBS
+scoop install autohotkey      # AutoHotkey
