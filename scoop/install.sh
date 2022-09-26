@@ -10,3 +10,7 @@ scoop bucket add extras
 scoop install qutebrowser     # qutebrowser
 scoop install obs-studio      # OBS
 scoop install autohotkey      # AutoHotkey
+
+# Install Fira Mono
+scoop bucket add nerd-fonts
+scoop install FiraMono-NF

@@ -9,9 +9,6 @@ irm get.scoop.sh | iex
 irm https://raw.githubusercontent.com/BosEriko/dotfiles-windows/master/scoop/install.sh | iex
 ```
 
-## Nerd font
-Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/releases) and install every font from the downloaded file.
-
 ## Ubuntu on WSL + Windows Terminal
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete then update Windows Terminal's [settings](windows-terminal/settings.json).
 
