@@ -9,9 +9,6 @@ irm get.scoop.sh | iex
 irm https://raw.githubusercontent.com/BosEriko/dotfiles-windows/master/scoop/install.sh | iex
 ```
 
-## AutoHotkey
-Download [AutoHotkey](https://scoop.sh/#/apps?q=autohotkey&s=0&d=1&o=true) using [Scoop](https://scoop.sh/) and put both [Overload Capslock](ahk/overload-capslock.ahk) and [Hide Mouse When Typing](ahk/hide-mouse-when-typing.ahk) on the Desktop. Be sure to make them [automatically start](markdown/automatically-start.md) on startup.
-
 ## Nerd font
 Download `FiraMono.zip` from the latest release of [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/releases) and install every font from the downloaded file.
 
@@ -28,6 +25,7 @@ export STORAGE="/mnt/d"
 
 ## Workflow Tools
 There are individual install instructions for the workflow tools I use. Refer below to learn more:
+- [AutoHotkey](markdown/readme/autohotkey.md)
 - [PowerToys](markdown/readme/powertoys.md)
 - [Switcheroo](markdown/readme/switcheroo.md)
 - [Visual Studio Code](markdown/readme/visual-studio-code.md)
