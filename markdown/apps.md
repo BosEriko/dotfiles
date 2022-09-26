@@ -8,7 +8,6 @@
 - [Notion](https://www.notion.so/desktop)
 ## Streaming
 - [VMagicMirror](https://malaybaku.github.io/VMagicMirror/en/)
-- [OBS Studio](https://obsproject.com/download)
 ## Software Development
 - [Blender](https://www.blender.org/)
 - [Insomnia](https://insomnia.rest/download)
