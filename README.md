@@ -25,7 +25,6 @@ There are individual install instructions for the workflow tools I use. Refer be
 - [AutoHotkey](markdown/readme/autohotkey.md)
 - [PowerToys](markdown/readme/powertoys.md)
 - [Switcheroo](markdown/readme/switcheroo.md)
-- [Visual Studio Code](markdown/readme/visual-studio-code.md)
 - [Vieb](markdown/readme/vieb.md)
 - [Obsidian](markdown/readme/obsidian.md)
 - [KeePassXC](markdown/readme/keepassxc.md)
