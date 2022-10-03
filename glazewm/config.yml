@@ -56,7 +56,7 @@ window_rules:
   - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "steam"
 
-  - command: "resize borders 0px -10px -10px -10px"
+  - command: "resize borders 0px -9px -9px -9px"
     match_process_name: "Telegram"
 
 keybindings:
