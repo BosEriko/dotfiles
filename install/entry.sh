@@ -7,6 +7,7 @@
 ~/.files/install/modules/node.sh
 ~/.files/install/modules/docker.sh
 ~/.files/install/modules/ruby.sh
+~/.files/install/modules/heroku.sh
 ~/.files/install/modules/elixir.sh
 ~/.files/install/modules/pip.sh
 ~/.files/install/modules/mkdir.sh
