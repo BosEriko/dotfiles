@@ -56,6 +56,9 @@ window_rules:
   - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "steam"
 
+  - command: "resize borders 0px -15px -15px -15px"
+    match_process_name: "Telegram"
+
 keybindings:
   - command: "focus left"
     bindings: ["LMenu+H", "LMenu+Left"]
