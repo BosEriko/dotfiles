@@ -47,6 +47,7 @@ ${RESET}
                                 localhost-live          Start live-server
                                 ngrok                   Start ngrok
                                 upload                  Upload a file online
+                                start-psql              Start PostgreSQL
 
     -s, --session               start                   Start programming session
                                 end                     End programming session
@@ -166,6 +167,10 @@ bos() {
                 else
                     curl -s --upload-file $3 https://transfer.sh/$3 | clip.exe
                 fi
+            elif [ "$2" = "start-psql" ]; then
+                echo "Do you want to start PostgreSQL? (Ctrl-C to abort, or press enter to continue)"
+                read
+                sudo systemctl start postgresql.service
             else
                 echo "Usage: -p <command> or --programming <command>"
             fi
