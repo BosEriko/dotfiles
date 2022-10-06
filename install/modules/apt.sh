@@ -20,11 +20,16 @@ sudo apt install -y ripgrep                                                     
 
 # Neovim is a project that seeks to aggressively refactor Vim (https://github.com/neovim/neovim)
 sudo add-apt-repository ppa:neovim-ppa/stable
-sudo apt-get update; sudo apt install -y neovim;
+sudo apt update -y; sudo apt install -y neovim;
+
+# Redis is an in-memory database (https://github.com/redis/redis)
+curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+sudo apt update -y; sudo apt install -y redis;
 
 # Elixir is a dynamic, functional language for building scalable and maintainable applications (https://elixir-lang.org/)
 wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb
-sudo apt-get update; sudo apt-get install esl-erlang; sudo apt-get install elixir;
+sudo apt update -y; sudo apt install -y esl-erlang; sudo apt install -y elixir;
 
 # Python is an interpreted, interactive, object-oriented programming language (https://www.python.org/)
 sudo apt install -y python3-pip
