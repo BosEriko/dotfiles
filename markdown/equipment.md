@@ -1,10 +1,10 @@
 # Equipment
+- Laptop: [frame.work](https://frame.work/) with [dbrand](https://www.youtube.com/watch?v=Rd61cLOEtdA)
 - Keyboard: [Razer Huntsman Mini 60%](https://www.razer.com/gaming-keyboards/razer-huntsman-mini)
-- Mouse: [Logitech G Pro Wireless Gaming Mouse](https://www.logitechg.com/en-ph/products/gaming-mice/pro-wireless-mouse.910-005274.html) (Not Owned)
+- Mouse: [Logitech G Pro Wireless Gaming Mouse](https://www.logitechg.com/en-ph/products/gaming-mice/pro-wireless-mouse.910-005274.html)
 - Headset: [Steelseries Arctis 7 Wireless Gaming Headset](https://steelseries.com/gaming-headsets/arctis-7)
 - Main Monitor: N/A
 - Left Monitor: N/A
 - Right Monitor: N/A
-- Laptop: [Razer Blade 14](https://www.razer.com/gaming-laptops/Razer-Blade-14-/RZ09-0370CEA3-R3U1) with [dbrand](https://www.youtube.com/watch?v=Tp0JJdiuZ5Y) (Not Owned)
 - Table: N/A
 - Chair: N/A
