@@ -5,6 +5,6 @@
 - Main Monitor: N/A
 - Left Monitor: N/A
 - Right Monitor: N/A
-- Laptop: [Lenovo ThinkPad X1 Carbon](https://www.lenovo.com/ph/en/laptops/thinkpad/thinkpad-x1/ThinkPad-X1-Carbon-Gen-10-14-inch-Intel/p/LEN101T0009?orgRef=https%253A%252F%252Fwww.google.com%252F) (Not Owned)
+- Laptop: [Razer Blade 14](https://www.razer.com/gaming-laptops/Razer-Blade-14-/RZ09-0370CEA3-R3U1) (Not Owned)
 - Table: N/A
 - Chair: N/A
