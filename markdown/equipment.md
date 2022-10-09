@@ -1,5 +1,6 @@
 # Equipment
-- Laptop: [frame.work](https://frame.work/) with [dbrand](https://www.youtube.com/watch?v=Rd61cLOEtdA)
+- Windows Laptop: [frame.work](https://frame.work/) with [dbrand](https://www.youtube.com/watch?v=Rd61cLOEtdA)
+- Apple Laptop: [MacBook Pro 13-inch 2017](https://support.apple.com/kb/SP754?locale=en_US)
 - Keyboard: [Razer Huntsman Mini 60%](https://www.razer.com/gaming-keyboards/razer-huntsman-mini)
 - Mouse: [Logitech G Pro Wireless Gaming Mouse](https://www.logitechg.com/en-ph/products/gaming-mice/pro-wireless-mouse.910-005274.html)
 - Headset: [Steelseries Arctis Pro Wireless Gaming Headset](https://steelseries.com/gaming-headsets/arctis-pro-wireless?color=white)
