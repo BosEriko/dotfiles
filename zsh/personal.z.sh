@@ -84,7 +84,7 @@ bos() {
                 ~/.files/scripts/youtube.sh
             elif [ "$2" = "music" ]; then
                 spotdl "https://open.spotify.com/playlist/306g28MRDf9bctpRaKcX3F?si=d4da5b76a7a94a58" --output $STORAGE/Music
-                echo "${YELLOW}Downloaded! If you're using Spotify as your player don't forget to reindex the songs by toggling the music directory you chose under the \"Show songs from\" settings.${RESET}"
+                echo "${YELLOW}Downloaded! If you're using Spotify as your player don't forget to reindex the songs by toggling on and off the music directory you have your music on under the \"Show songs from\" settings.${RESET}"
             else
                 echo "Usage: -dl <command> or --download <command>"
             fi
