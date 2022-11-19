@@ -28,6 +28,7 @@ There are individual install instructions for the workflow tools I use. Refer be
 - [Vieb](markdown/readme/vieb.md)
 - [Obsidian](markdown/readme/obsidian.md)
 - [KeePassXC](markdown/readme/keepassxc.md)
+- [VeraCrypt](markdown/readme/veracrypt.md)
 - [Pimp your Windows](markdown/readme/pimp-your-windows.md)
 
 ## Note
