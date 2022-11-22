@@ -12,7 +12,6 @@ set tabclosefocusright
 set tabreopenposition=previous
 set noshowcmd
 set notimeout
-set useragent=%firefox
 
 " Permissions
 set permissioncamera=ask
