@@ -1,6 +1,7 @@
 [user]
   email = bos.eriko@gmail.com
   name = BosEriko
+  signingkey = 41DD0BEE7600FF40
 [credential]
   helper = cache --timeout=36000
 [http]
@@ -28,3 +29,7 @@
   ui = auto
 [hub]
   protocol = ssh
+[commit]
+  gpgsign = true
+[gpg]
+  program = gpg
