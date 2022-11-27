@@ -20,16 +20,18 @@ export STORAGE="/mnt/d"
 ~/.files/install/entry.sh
 ```
 
-## Workflow & Security Tools
+## Workflow Tools
 There are individual install instructions for the workflow tools I use. Refer below to learn more:
-- [GPG](markdown/readme/gpg.md)
 - [AutoHotkey](markdown/readme/autohotkey.md)
 - [PowerToys](markdown/readme/powertoys.md)
-- [Vieb](markdown/readme/vieb.md)
 - [Obsidian](markdown/readme/obsidian.md)
+- [Pimp your Windows](markdown/readme/pimp-your-windows.md)
+
+## Security Tools
+There are individual install instructions for the security tools I use. Refer below to learn more:
+- [GPG](markdown/readme/gpg.md)
 - [KeePassXC](markdown/readme/keepassxc.md)
 - [VeraCrypt](markdown/readme/veracrypt.md)
-- [Pimp your Windows](markdown/readme/pimp-your-windows.md)
 
 ## Note
 If you want to play games please close the following applications:
