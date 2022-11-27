@@ -20,7 +20,7 @@ export STORAGE="/mnt/d"
 ~/.files/install/entry.sh
 ```
 
-## Workflow Tools
+## Workflow & Security Tools
 There are individual install instructions for the workflow tools I use. Refer below to learn more:
 - [GPG](markdown/readme/gpg.md)
 - [AutoHotkey](markdown/readme/autohotkey.md)
