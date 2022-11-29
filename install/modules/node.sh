@@ -23,6 +23,7 @@ yarn global add webtorrent-cli              # WebTorrent is the first BitTorrent
 yarn global add vercel                      # The easiest way to deploy websites (https://github.com/zeit/now)
 yarn global add @genzyy/anime-cli           # A commandline app for searching about animes, its seasons, number of seasons and airing status (https://github.com/genzyy/anime-cli)
 yarn global add neovim                      # Neovim is a project that seeks to aggressively refactor Vim (https://github.com/neovim/neovim)
+yarn global add expo-cli                    # Tools for creating, running, and deploying universal Expo and React Native apps (https://github.com/expo/expo-cli)
 echo "Installing: NPM apps have been installed."
 
 # Avoid running postinstall scripts from packages
