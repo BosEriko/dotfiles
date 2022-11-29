@@ -1,22 +1,23 @@
 #!/usr/bin/env sh
 
 # Update and Upgrade apt
-sudo apt update -y && sudo apt upgrade -y                                                           # Update and upgrade Ubuntu
+sudo apt update -y && sudo apt upgrade -y                                                          # Update and upgrade Ubuntu
 
 # Install packages
-sudo apt install -y stow                                                                            # GNU Stow is a symlink farm manager (https://www.gnu.org/software/stow/)
-sudo apt install -y ranger                                                                          # A VIM-inspired filemanager for the console (https://github.com/ranger/ranger)
-sudo apt install -y zsh                                                                             # Zsh is a shell designed for interactive use (http://www.zsh.org/)
-sudo apt install -y rbenv                                                                           # Groom your app’s Ruby environment (https://github.com/rbenv/rbenv)
-sudo apt install -y cmatrix                                                                         # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
-sudo apt install -y cowsay                                                                          # Let the cow talk (https://github.com/schacon/cowsay)
-sudo apt install -y figlet                                                                          # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
-sudo apt install -y fortune                                                                         # Fortune CLI (https://gist.github.com/zlorb/4a3eff8981fcec8ca1c7)
-sudo apt install -y git-flow                                                                        # Git workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-sudo apt install -y sl                                                                              # SL(1): Cure your bad habit of mistyping (https://github.com/mtoyoda/sl)
-sudo apt install -y ffmpeg                                                                          # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
-sudo apt install -y tmux                                                                            # tmux source code (https://github.com/tmux/tmux)
-sudo apt install -y ripgrep                                                                         # ripgrep recursively searches directories for a regex pattern while respecting your gitignore (https://github.com/BurntSushi/ripgrep)
+sudo apt install -y stow                                                                           # GNU Stow is a symlink farm manager (https://www.gnu.org/software/stow/)
+sudo apt install -y ranger                                                                         # A VIM-inspired filemanager for the console (https://github.com/ranger/ranger)
+sudo apt install -y zsh                                                                            # Zsh is a shell designed for interactive use (http://www.zsh.org/)
+sudo apt install -y rbenv                                                                          # Groom your app’s Ruby environment (https://github.com/rbenv/rbenv)
+sudo apt install -y cmatrix                                                                        # Terminal based "The Matrix" like implementation (https://github.com/abishekvashok/cmatrix)
+sudo apt install -y cowsay                                                                         # Let the cow talk (https://github.com/schacon/cowsay)
+sudo apt install -y figlet                                                                         # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
+sudo apt install -y fortune                                                                        # Fortune CLI (https://gist.github.com/zlorb/4a3eff8981fcec8ca1c7)
+sudo apt install -y git-flow                                                                       # Git workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+sudo apt install -y sl                                                                             # SL(1): Cure your bad habit of mistyping (https://github.com/mtoyoda/sl)
+sudo apt install -y ffmpeg                                                                         # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
+sudo apt install -y tmux                                                                           # tmux source code (https://github.com/tmux/tmux)
+sudo apt install -y ripgrep                                                                        # ripgrep recursively searches directories for a regex pattern while respecting your gitignore (https://github.com/BurntSushi/ripgrep)
+sudo apt install openjdk-8-jre                                                                     # he place to collaborate on an open-source implementation of the Java Platform, Standard Edition, and related projects (https://openjdk.org/)
 
 # Neovim is a project that seeks to aggressively refactor Vim (https://github.com/neovim/neovim)
 sudo add-apt-repository ppa:neovim-ppa/stable
