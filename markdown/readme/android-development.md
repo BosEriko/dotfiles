@@ -31,3 +31,14 @@ Be sure to update the paths inside [java.z.sh](../../zsh/java.z.sh) accordingly 
 ```
 sdkmanager platform-tools
 ```
+## Check Both Versions
+Run the command below on CMD
+```
+# The path below depends on where you have installed Android
+C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools\adb.exe version
+```
+Run the command below on WSL
+```
+adb --version
+```
+Both versions inside Windows and WSL should match
