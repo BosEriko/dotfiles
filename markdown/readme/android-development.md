@@ -25,9 +25,9 @@ wget -O jdk-19.deb https://download.oracle.com/java/19/latest/jdk-19_linux-x64_b
 sudo apt-get -qqy install ./jdk-19.deb
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1919
 ```
+## Update the paths accordingly
+Be sure to update the paths inside [java.z.sh](../../zsh/java.z.sh) accordingly as well.
 ## Install Platform Tools
 ```
 sdkmanager platform-tools
 ```
-## Update the paths accordingly
-Be sure to update the paths inside [java.z.sh](../../zsh/java.z.sh) accordingly as well.
