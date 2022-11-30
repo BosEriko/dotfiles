@@ -35,7 +35,8 @@ sdkmanager platform-tools
 Run the command below on CMD
 ```
 # The path below depends on where you have installed Android
-C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools\adb.exe version
+cd C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools
+adb version
 ```
 Run the command below on WSL
 ```
