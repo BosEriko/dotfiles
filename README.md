@@ -33,6 +33,10 @@ There are individual install instructions for the security tools I use. Refer be
 - [KeePassXC](markdown/readme/keepassxc.md)
 - [VeraCrypt](markdown/readme/veracrypt.md)
 
+## Programming Tools
+There are individual install instructions for the programming tools I use. Refer below to learn more:
+- [Android Development](markdown/readme/android-development.md)
+
 ## Note
 If you want to play games please close the following applications:
 
