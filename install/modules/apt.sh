@@ -17,6 +17,7 @@ sudo apt install -y sl                                                          
 sudo apt install -y ffmpeg                                                                         # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
 sudo apt install -y tmux                                                                           # tmux source code (https://github.com/tmux/tmux)
 sudo apt install -y ripgrep                                                                        # ripgrep recursively searches directories for a regex pattern while respecting your gitignore (https://github.com/BurntSushi/ripgrep)
+sudo apt install -y openjdk-8-jre                                                                  # The place to collaborate on an open-source implementation (https://openjdk.org/)
 
 # Neovim is a project that seeks to aggressively refactor Vim (https://github.com/neovim/neovim)
 sudo add-apt-repository ppa:neovim-ppa/stable
