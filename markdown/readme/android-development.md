@@ -31,7 +31,7 @@ Be sure to update the paths inside [java.z.sh](../../zsh/java.z.sh) and [android
 ```
 sdkmanager platform-tools
 ```
-## Check if both versions are similar
+## Check if both versions of ADB are similar
 Run the command below on CMD
 ```
 # The path below depends on where you have installed Android
