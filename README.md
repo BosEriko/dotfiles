@@ -32,6 +32,7 @@ There are individual install instructions for the security tools I use. Refer be
 - [GPG](markdown/readme/gpg.md)
 - [KeePassXC](markdown/readme/keepassxc.md)
 - [VeraCrypt](markdown/readme/veracrypt.md)
+- [Proton VPN](markdown/readme/proton-vpn.md)
 
 ## Programming Tools
 There are individual install instructions for the programming tools I use. Refer below to learn more:
