@@ -44,7 +44,7 @@ adb --version
 ```
 Both versions inside Windows and WSL should match
 ## Start the ADB server on Windows
-Run the command below on CMD
+Run the command below on CMD and keep the window open while you're developing
 ```
 # The path below depends on where you have installed Android
 cd C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools
