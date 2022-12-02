@@ -28,7 +28,7 @@ sudo apt-get -qqy install ./jdk-19.deb
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1919
 ```
 ## Update the paths accordingly (WSL)
-Be sure to update the paths inside [java.z.sh](../../zsh/java.z.sh) and [android.z.sh](../../zsh/android.z.sh) accordingly as well.
+Be sure to update the paths inside [java.z.sh](../../zsh/java.z.sh) and [android.z.sh](../../zsh/android.z.sh) accordingly as well. Run the commands below to see if the paths are configured correctly.
 ```
 java --version
 sdkmanager --version
