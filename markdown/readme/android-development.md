@@ -29,8 +29,14 @@ sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/ja
 ```
 ## Update the paths accordingly
 Be sure to update the paths inside [java.z.sh](../../zsh/java.z.sh) and [android.z.sh](../../zsh/android.z.sh) accordingly as well.
-Run the command below on WSL
+
+Run the commands below on WSL
+```
+java --version
+sdkmanager --version
+```
 ## Install Platform Tools
+Run the command below on WSL
 ```
 sdkmanager platform-tools
 ```
