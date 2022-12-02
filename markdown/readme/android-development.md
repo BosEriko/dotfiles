@@ -1,6 +1,6 @@
 # Android Development
 Before installing anything on WSL you must first install [Android Studio](https://developer.android.com/studio) on windows itself. After you're done installing Android Studio on windows you can now install the dependencies needed on WSL.
-## [Install Android CLI](https://developer.android.com/studio)
+## Install Android CLI
 Run the command below on WSL
 ```
 cd ~
