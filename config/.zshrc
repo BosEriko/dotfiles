@@ -11,6 +11,7 @@ source ~/.files/zsh/vim.z.sh
 source ~/.files/zsh/node.z.sh
 source ~/.files/zsh/ruby.z.sh
 source ~/.files/zsh/android.z.sh
+source ~/.files/zsh/adb.z.sh
 source ~/.files/zsh/java.z.sh
 source ~/.files/zsh/git.z.sh
 source ~/.files/zsh/gpg.z.sh

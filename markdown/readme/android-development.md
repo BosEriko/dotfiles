@@ -43,3 +43,10 @@ Run the command below on WSL
 adb --version
 ```
 Both versions inside Windows and WSL should match
+## Start the ADB server on Windows
+Run the command below on CMD
+```
+# The path below depends on where you have installed Android
+cd C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools
+adb.exe -a -P 5037 nodaemon server
+```
