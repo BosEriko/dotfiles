@@ -40,7 +40,7 @@ sdkmanager platform-tools
 ## Check if both versions of ADB are similar
 Run the commands below on CMD
 ```
-# The path below depends on where you have installed Android
+# The path below depends on where you have installed Android on Windows
 cd C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools
 adb version
 ```
@@ -52,7 +52,7 @@ Both versions inside CMD and WSL should match
 ## Start the ADB server on Windows (CMD)
 Run the commands below on CMD and keep the window open while you're developing. This part is dependent on [adb.z.sh](../../zsh/adb.z.sh).
 ```
-# The path below depends on where you have installed Android
+# The path below depends on where you have installed Android on Windows
 cd C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools
 adb.exe -a -P 5037 nodaemon server
 ```
