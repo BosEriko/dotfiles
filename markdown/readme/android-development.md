@@ -2,7 +2,7 @@
 Before installing anything you must first install [Android Studio](https://developer.android.com/studio) on windows itself.
 
 After installing Android Studio we then need to adjust a few things.
-## Install Android CLI (WSL)
+## Install and configure Android CLI (WSL)
 ```
 cd ~
 sudo apt update
