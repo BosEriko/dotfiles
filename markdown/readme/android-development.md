@@ -1,7 +1,8 @@
 # Android Development
-Before installing anything on WSL you must first install [Android Studio](https://developer.android.com/studio) on windows itself. After you're done installing Android Studio on windows you can now install the dependencies needed on WSL.
-## Install Android CLI
-Run the commands below on WSL
+Before installing anything you must first install [Android Studio](https://developer.android.com/studio) on windows itself.
+
+After installing Android Studio we then need to adjust a few things.
+## Install Android CLI (WSL)
 ```
 cd ~
 sudo apt update
@@ -18,8 +19,7 @@ mv ~/Android/cmdline-tools/source.properties ~/Android/cmdline-tools/latest
 mv ~/Android/cmdline-tools/bin ~/Android/cmdline-tools/latest
 mv ~/Android/cmdline-tools/lib ~/Android/cmdline-tools/latest
 ```
-## Install Java
-Run the commands below on WSL
+## Install Java (WSL)
 ```
 cd ~
 # The download link is in https://www.oracle.com/downloads/#category-java
@@ -27,16 +27,13 @@ wget -O jdk-19.deb https://download.oracle.com/java/19/latest/jdk-19_linux-x64_b
 sudo apt-get -qqy install ./jdk-19.deb
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1919
 ```
-## Update the paths accordingly
+## Update the paths accordingly (WSL)
 Be sure to update the paths inside [java.z.sh](../../zsh/java.z.sh) and [android.z.sh](../../zsh/android.z.sh) accordingly as well.
-
-Run the commands below on WSL
 ```
 java --version
 sdkmanager --version
 ```
-## Install Platform Tools
-Run the command below on WSL
+## Install Platform Tools (WSL)
 ```
 sdkmanager platform-tools
 ```
@@ -51,8 +48,8 @@ Run the command below on WSL
 ```
 adb --version
 ```
-Both versions inside Windows and WSL should match
-## Start the ADB server on Windows
+Both versions inside CMD and WSL should match
+## Start the ADB server on Windows (WSL)
 Run the commands below on CMD and keep the window open while you're developing. This part is dependent on [adb.z.sh](../../zsh/adb.z.sh).
 ```
 # The path below depends on where you have installed Android
