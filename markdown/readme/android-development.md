@@ -1,7 +1,7 @@
 # Android Development
 Before installing anything on WSL you must first install [Android Studio](https://developer.android.com/studio) on windows itself. After you're done installing Android Studio on windows you can now install the dependencies needed on WSL.
 ## Install Android CLI
-Run the command below on WSL
+Run the commands below on WSL
 ```
 cd ~
 sudo apt update
@@ -19,7 +19,7 @@ mv ~/Android/cmdline-tools/bin ~/Android/cmdline-tools/latest
 mv ~/Android/cmdline-tools/lib ~/Android/cmdline-tools/latest
 ```
 ## Install Java
-Run the command below on WSL
+Run the commands below on WSL
 ```
 cd ~
 # The download link is in https://www.oracle.com/downloads/#category-java
@@ -41,7 +41,7 @@ Run the command below on WSL
 sdkmanager platform-tools
 ```
 ## Check if both versions of ADB are similar
-Run the command below on CMD
+Run the commands below on CMD
 ```
 # The path below depends on where you have installed Android
 cd C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools
@@ -53,7 +53,7 @@ adb --version
 ```
 Both versions inside Windows and WSL should match
 ## Start the ADB server on Windows
-Run the command below on CMD and keep the window open while you're developing. This part is dependent on [adb.z.sh](../../zsh/adb.z.sh).
+Run the commands below on CMD and keep the window open while you're developing. This part is dependent on [adb.z.sh](../../zsh/adb.z.sh).
 ```
 # The path below depends on where you have installed Android
 cd C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools
