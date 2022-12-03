@@ -54,5 +54,6 @@ Run the commands below on CMD and keep the window open while you're developing. 
 ```
 # The path below depends on where you have installed Android on Windows
 cd C:\Users\Bos\AppData\Local\Android\Sdk\platform-tools
+adb kill-server
 adb -a -P 5037 nodaemon server
 ```
