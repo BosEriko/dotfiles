@@ -6,7 +6,7 @@ Download [Scoop](https://scoop.sh/) as your Windows package manager. Run the com
 ``` sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
-irm https://raw.githubusercontent.com/BosEriko/dotfiles-windows/master/scoop/install.sh | iex
+irm https://raw.githubusercontent.com/BosEriko/dotfiles/master/scoop/install.sh | iex
 ```
 
 ## Ubuntu on WSL + Windows Terminal
@@ -15,7 +15,7 @@ irm https://raw.githubusercontent.com/BosEriko/dotfiles-windows/master/scoop/ins
 ## Installation Script
 Run this inside Ubuntu on WSL. Don't forget to change the proper location for the STORAGE env on the script below as well as inside [environment.z.sh](zsh/environment.z.sh).
 ``` sh
-git clone --recurse-submodules https://github.com/BosEriko/dotfiles-windows.git ~/.files
+git clone --recurse-submodules https://github.com/BosEriko/dotfiles.git ~/.files
 export STORAGE="/mnt/d"
 ~/.files/install/entry.sh
 ```
