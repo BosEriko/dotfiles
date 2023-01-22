@@ -31,12 +31,7 @@ There are individual install instructions for the workflow tools I use. Refer be
 There are individual install instructions for the security tools I use. Refer below to learn more:
 - [GPG](markdown/readme/gpg.md)
 - [KeePassXC](markdown/readme/keepassxc.md)
-- [VeraCrypt](markdown/readme/veracrypt.md)
 - [Proton VPN](markdown/readme/proton-vpn.md)
-
-## Programming Tools
-There are individual install instructions for the programming tools I use. Refer below to learn more:
-- [Android Development](markdown/readme/android-development.md)
 
 ## Note
 If you want to play games please close the following applications:
