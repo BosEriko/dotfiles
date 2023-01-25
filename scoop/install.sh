@@ -5,6 +5,10 @@ scoop install git             # git
 
 # Add extra bucket
 scoop bucket add extras
+scoop bucket add main
+
+# Install editor
+scoop install neovim          # Neovim
 
 # Install Extras
 scoop install qutebrowser     # qutebrowser
