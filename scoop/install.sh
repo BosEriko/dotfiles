@@ -1,13 +1,11 @@
 #!/bin/bash
 
-# Install Applications
-scoop install git             # git
-
 # Add extra bucket
 scoop bucket add extras
 scoop bucket add main
 
-# Install editor
+# Install Applications
+scoop install git             # git
 scoop install neovim          # Neovim
 
 # Install Extras
