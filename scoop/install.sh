@@ -7,6 +7,9 @@ scoop bucket add main
 # Install Applications
 scoop install git             # git
 scoop install neovim          # Neovim
+scoop install autohotkey      # AutoHotkey
+scoop install obsidian        # Obsidian
+scoop install taskbarx        # TaskbarX
 
 # Install Extras
 scoop install qutebrowser     # qutebrowser
