@@ -10,6 +10,7 @@ scoop install neovim          # Neovim
 scoop install autohotkey      # AutoHotkey
 scoop install obsidian        # Obsidian
 scoop install taskbarx        # TaskbarX
+scoop install keepassxc       # KeePassXC
 
 # Install Extras
 scoop install qutebrowser     # qutebrowser
