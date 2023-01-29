@@ -11,6 +11,7 @@ scoop install autohotkey      # AutoHotkey
 scoop install obsidian        # Obsidian
 scoop install taskbarx        # TaskbarX
 scoop install keepassxc       # KeePassXC
+scoop install powertoys       # PowerToys
 
 # Install Extras
 scoop install qutebrowser     # qutebrowser
