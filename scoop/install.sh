@@ -12,6 +12,7 @@ scoop install obsidian        # Obsidian
 scoop install taskbarx        # TaskbarX
 scoop install keepassxc       # KeePassXC
 scoop install powertoys       # PowerToys
+scoop install vscodium        # VSCodium
 
 # Install Extras
 scoop install qutebrowser     # qutebrowser
