@@ -110,7 +110,7 @@ git-branch-delete() {
 # Set Origin
 git-set-origin() {
   echo "Please specify the git slug [e.g.: BosEriko/dotfiles]:"
-  git remote rm origin && read git_slug
+  read git_slug && git remote rm origin
   git remote add origin git@github.com:${git_slug}.git
   git remote add github git@github.com:${git_slug}.git
   git remote add gitlab git@gitlab.com:${git_slug}.git
