@@ -74,7 +74,7 @@ git-rework() {
 
 # Help
 git-help() {
-  figlet 'Save time!' && echo -e $GIT_HELP_MESSAGE
+  figlet 'Save time!' | lolcat && echo -e $GIT_HELP_MESSAGE
 }
 
 # Go
