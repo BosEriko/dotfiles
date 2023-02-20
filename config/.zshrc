@@ -15,6 +15,7 @@ source ~/.files/zsh/git.z.sh
 source ~/.files/zsh/gpg.z.sh
 source ~/.files/zsh/tmux.z.sh
 source ~/.files/zsh/personal.z.sh
+source ~/.files/zsh/work.z.sh
 source ~/.files/zsh/start-session.z.sh
 source ~/.files/zsh/end-session.z.sh
 source ~/.files/zsh/environment.z.sh
