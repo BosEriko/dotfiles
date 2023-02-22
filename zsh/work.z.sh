@@ -4,7 +4,7 @@
 alias work:saturn:start="sudo service postgresql start && sudo service redis-server start && bin/dev"
 alias work:saturn:console="rails c"
 alias work:saturn:sidekiq="sidekiq"
-alias work:saturn:install="yarn install"
+alias work:saturn:install="bundle install && yarn install"
 
 work:help() {
   figlet 'Work' | lolcat && echo -e $WORK_HELP_MESSAGE
