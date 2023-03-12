@@ -16,6 +16,7 @@ scoop install vscodium        # VSCodium
 
 # Install Extras
 scoop install qutebrowser     # qutebrowser
+scoop install min             # min Browser
 scoop install obs-studio      # OBS
 scoop install autohotkey      # AutoHotkey
 
