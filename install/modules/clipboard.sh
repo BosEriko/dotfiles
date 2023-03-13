@@ -5,3 +5,6 @@ curl -sLo/tmp/win32yank.zip https://github.com/equalsraf/win32yank/releases/down
 unzip -p /tmp/win32yank.zip win32yank.exe > /tmp/win32yank.exe
 chmod +x /tmp/win32yank.exe
 sudo mv /tmp/win32yank.exe /usr/local/bin/
+
+# Remove xclip if it exists (Running :checkhealth on NeoVim should not use xclip)
+sudo apt-get remove xclip
