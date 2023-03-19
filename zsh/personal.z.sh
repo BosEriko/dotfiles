@@ -58,7 +58,7 @@ bos() {
         echo "Type -h or --help to print all the Bos commands."
     else
         if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
-            figlet $FIGLET_MESSAGE | lolcat && echo -e $BOS_HELP_MESSAGE
+            (cd ~; figlet $FIGLET_MESSAGE | lolcat && echo -e $BOS_HELP_MESSAGE;)
         elif [ "$1" = "-f" ] || [ "$1" = "--fun" ]; then
             if [ "$2" = "parrot" ]; then
                 curl parrot.live

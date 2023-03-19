@@ -13,7 +13,7 @@ alias dr:install="sudo docker-compose down && sudo docker-compose run web bundle
 alias dr:reset="sudo docker-compose run web rake db:schema:load"
 
 dr:help() {
-  figlet 'Docker' | lolcat && echo -e $DOCKER_HELP_MESSAGE
+  (cd ~; figlet 'Docker' | lolcat && echo -e $DOCKER_HELP_MESSAGE;)
 }
 
 DOCKER_HELP_MESSAGE="

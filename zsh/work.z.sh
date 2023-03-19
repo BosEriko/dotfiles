@@ -7,7 +7,7 @@ alias work:saturn:sidekiq="sidekiq"
 alias work:saturn:install="bundle install && yarn install"
 
 work:help() {
-  figlet 'Work' | lolcat && echo -e $WORK_HELP_MESSAGE
+  (cd ~; figlet 'Work' | lolcat && echo -e $WORK_HELP_MESSAGE;)
 }
 
 WORK_HELP_MESSAGE="
