@@ -1,6 +1,8 @@
 # Windows Dotfiles
 This dotfiles is meant to be run on Windows 10 only.
 
+![image](https://user-images.githubusercontent.com/10940193/227304765-83efc6be-4941-4e22-9fa2-fe23fd43ee84.png)
+
 ## Scoop
 Download [Scoop](https://scoop.sh/) as your Windows package manager. Run the command below on Windows PowerShell to install it.
 ``` sh
