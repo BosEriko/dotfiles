@@ -9,4 +9,4 @@ alias vim="nvim"
 alias v="nvim"
 
 # Change path accordingly if broken
-alias v:glaze="nvim /mnt/c/Users/Bos/.glaze-wm/config.yaml"
+alias sync:glaze="rm -rf /mnt/c/Users/Bos/.glaze-wm/config.yaml; cp ~/.files/glazewm/config.yaml /mnt/c/Users/Bos/.glaze-wm/config.yaml"
