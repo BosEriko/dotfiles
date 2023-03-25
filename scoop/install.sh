@@ -15,8 +15,9 @@ scoop install powertoys       # PowerToys
 scoop install vscodium        # VSCodium
 
 # Install Extras
-scoop install qutebrowser     # qutebrowser
+scoop install qutebrowser     # qutebrowser Browser
 scoop install min             # min Browser
+scoop install vivaldi         # Vivaldi Browser
 scoop install obs-studio      # OBS
 scoop install autohotkey      # AutoHotkey
 
