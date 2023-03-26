@@ -45,7 +45,7 @@ If you want to play games please close the following applications:
 
 **Tip:** You can create desktop shortcuts for the applications listed above so you can easily open them again once you're done playing games.
 
-Also, if things are broken, make sure all links are properly set. Hard coded links are included the following:
+Also, if things are broken, make sure all links are properly set. Hard coded links are included in the following:
 
 - config/.config/nvim/lua/config/settings/glazewm.lua
 
