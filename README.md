@@ -45,10 +45,6 @@ If you want to play games please close the following applications:
 
 **Tip:** You can create desktop shortcuts for the applications listed above so you can easily open them again once you're done playing games.
 
-Also, if things are broken, make sure all links are properly set. Hard coded links are included in the following:
-
-- config/.config/nvim/lua/config/settings/glazewm.lua
-
 ## Miscellaneous
 I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play along with the [equipment](markdown/equipment.md) of my choice.
 
