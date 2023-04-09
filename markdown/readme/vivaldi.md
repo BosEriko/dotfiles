@@ -48,13 +48,11 @@ Connect your [custom CSS](../../vivaldi/custom.css) to your Vivaldi:
 
 ## Update your settings
 ### Uncheck
-- Use Native Window
-- Use Animation
-### Check
-- Open Settings in a Tab
-### Set
-- Tab Bar Position on Bottom
-- As default browser
+- [ ] Use Native Window
+- [ ] Use Animation
+- [x] Open Settings in a Tab
+- [x] Tab Bar Position on Bottom
+- [x] Set as default browser
 
 ## Themes
 Set your theme as Blueprint (Dark).
