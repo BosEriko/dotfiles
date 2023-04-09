@@ -27,6 +27,7 @@ There are individual install instructions for the workflow tools I use. Refer be
 - [AutoHotkey](markdown/readme/autohotkey.md)
 - [PowerToys](markdown/readme/powertoys.md)
 - [Obsidian](markdown/readme/obsidian.md)
+- [Vivaldi](markdown/readme/vivaldi.md)
 - [Pimp your Windows](markdown/readme/pimp-your-windows.md)
 
 ## Security Tools
