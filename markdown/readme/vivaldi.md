@@ -56,5 +56,8 @@ Connect your [custom CSS](../../vivaldi/custom.css) to your Vivaldi:
 - Tab Bar Position on Bottom
 - As default browser
 
+## Themes
+Set your theme as Blueprint (Dark).
+
 ## Note
 Be sure to sync it!
