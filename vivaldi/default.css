@@ -1,5 +1,9 @@
-/* Disable header when there's only the menu button */
 /* Instructions: https://forum.vivaldi.net/topic/10549/modding-vivaldi */
+
 #header {
   display: none !important;
+}
+
+#browser {
+	border: 3px solid #21130d !important;
 }
