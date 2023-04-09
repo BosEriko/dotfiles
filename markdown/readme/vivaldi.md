@@ -3,4 +3,11 @@
 
 ## Hotkeys
 ### Window
-- Quick Commands`ctrl`+`shift`+`p`
+- Quick Commands: `ctrl`+`shift`+`p`
+- Keyboard Cheat Sheet: `ctrl`+`k`
+- Undo: `ctrl`+`z`
+- Redo: `ctrl`+`y`
+- Cut: `ctrl`+`x`
+- Copy: `ctrl`+`c`
+- Paste: `ctrl`+`v`
+- Select All: `ctrl`+`a`
