@@ -55,7 +55,7 @@ Connect your [custom CSS](../../vivaldi/custom.css) to your Vivaldi:
 - [x] Set as default browser
 
 ## Themes
-Set your theme as Blueprint (Dark).
+Set your theme as [Dracula 2](https://themes.vivaldi.net/themes/V6kJN6LJWXP).
 
 ## Note
 Be sure to sync it!
