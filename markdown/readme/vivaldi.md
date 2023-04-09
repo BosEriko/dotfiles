@@ -31,3 +31,12 @@
 
 ## Vimium C
 Install [Vimium C](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg) and update the "Characters used for link hints" to use `a`, `s`, `d`, `f`, `j`, `k`, `l` and `;`.
+
+## Custom CSS
+Connect your [custom CSS](vivaldi/custom.css) to your Vivaldi:
+- Open vivaldi://experiments
+- Enable "Allow for using CSS modifications"
+- Open Appearance section in settings
+- Choose the folder you want to use
+- Place your CSS files inside it
+- Restart Vivaldi to see them in effect
