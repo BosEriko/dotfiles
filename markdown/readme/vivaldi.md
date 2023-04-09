@@ -30,4 +30,4 @@
 - Stop Loading: `esc`
 
 ## Vimium C
-Install [Vimium C](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg) and update the "Characters used for link hints" to use "asdfjkl;".
+Install [Vimium C](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg) and update the "Characters used for link hints" to use `a`, `s`, `d`, `f`, `j`, `k`, `l` and `;`.
