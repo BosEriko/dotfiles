@@ -48,11 +48,13 @@ Connect your [custom CSS](../../vivaldi/custom.css) to your Vivaldi:
 
 ## Update your settings
 ### Uncheck
-- Uncheck "Use Native Window"
-- Uncheck "use Animation"
+- Use Native Window
+- Use Animation
 ### Check
-- Check "Open Settings in a Tab"
+- Open Settings in a Tab
 ### Set
-- Set "Tab Bar Position on Bottom"
-- Set as default browser
-- Sync it
+- Tab Bar Position on Bottom
+- As default browser
+
+## Note
+Be sure to sync it!
