@@ -40,3 +40,12 @@ Connect your [custom CSS](../../vivaldi/custom.css) to your Vivaldi:
 - Choose the folder you want to use
 - Place your CSS files inside it
 - Restart Vivaldi to see them in effect
+
+## Hide the following
+- Panel
+- Address Bar
+- Status Bar
+
+## Update your settings
+- Uncheck "Use Native Window"
+- Set "Tab Bar Position on Bottom"
