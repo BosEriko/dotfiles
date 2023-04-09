@@ -28,3 +28,6 @@
 - History Back: `ctrl`+`[`
 - History Forward: `ctrl`+`]`
 - Stop Loading: `esc`
+
+## Vimium C
+Install [Vimium C](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg) and update the "Characters used for link hints" to use "asdfjkl;".
