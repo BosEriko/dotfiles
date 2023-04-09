@@ -11,3 +11,20 @@
 - Copy: `ctrl`+`c`
 - Paste: `ctrl`+`v`
 - Select All: `ctrl`+`a`
+### View
+- Toggle UI: `ctrl`+`\`
+- Page Zoom Out Half: `Numpad7`
+- Page Zoom In Double: `Numpad8`
+### Tab
+- New Tab: `ctrl`+`T`
+- Close Tab: `ctrl`+`W`
+- Previous Tab (by Order): `ctrl`+`H`
+- Next Tab (by Order): `ctrl`+`L`
+### Page
+- Focus Address Field: `ctrl`+`p`
+- Reload Page: `ctrl`+`r`
+- Force Page Reload: `ctrl`+`shift`+`r`
+- Focus Search Field: `ctrl`+`f`
+- History Back: `ctrl`+`[`
+- History Forward: `ctrl`+`]`
+- Stop Loading: `esc`
