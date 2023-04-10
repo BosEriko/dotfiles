@@ -11,3 +11,8 @@
 #tabs-tabbar-container.bottom {
   padding: 0 !important;
 }
+
+.tabs-bottom .tab-position .tab:not(.tab-in-accordion):not(.tab-accordion) {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
