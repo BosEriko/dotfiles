@@ -1,7 +1,13 @@
+/* You can inspect element the browser for classes and IDs by going to: vivaldi://inspect/#apps */
+
 #header {
   display: none !important;
 }
 
 #browser {
 	/* border: 2px solid #7289dc !important; */
+}
+
+#tabs-tabbar-container.bottom {
+  padding: 0 !important;
 }
