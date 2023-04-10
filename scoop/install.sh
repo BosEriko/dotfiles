@@ -13,6 +13,7 @@ scoop install taskbarx        # TaskbarX
 scoop install keepassxc       # KeePassXC
 scoop install powertoys       # PowerToys
 scoop install vscodium        # VSCodium
+scoop install gimp            # Gimp
 
 # Install Extras
 scoop install qutebrowser     # qutebrowser Browser
