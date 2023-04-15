@@ -31,7 +31,6 @@ workspaces:
     display_name: ""
   - name: 5
     display_name: "嗢"
-    bind_to_monitor: 2
   - name: 6
     display_name: ""
   - name: 7
@@ -42,7 +41,6 @@ workspaces:
     display_name: ""
   - name: 0
     display_name: "ﭮ"
-    bind_to_monitor: 3
 
 window_rules:
   # Task Manager requires admin privileges to manage and should be ignored unless running
