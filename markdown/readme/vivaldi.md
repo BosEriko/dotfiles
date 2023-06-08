@@ -57,5 +57,9 @@ Connect your [custom CSS](../../vivaldi/custom.css) to your Vivaldi:
 ## Themes
 Set your theme as [Dracula 2](https://themes.vivaldi.net/themes/V6kJN6LJWXP).
 
+## Extensions
+- [Paradify](https://chrome.google.com/webstore/detail/paradify-youtube-to-spoti/bocdilfmhiggklhdifohjfghbdncgele) - YouTube to Spotify
+- [Redditsave](https://chrome.google.com/webstore/detail/hhienkkjhkcdeaolmcniloflgpjhdefi) - Video Downloader for reddit
+
 ## Note
 Be sure to sync it!
