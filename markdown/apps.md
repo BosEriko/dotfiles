@@ -2,12 +2,16 @@
 ## Browser
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Brave](https://brave.com/download/)
+- [Vivaldi](https://vivaldi.com)
 ## Productivity
 - [Pomofocus](https://pomofocus.io/)
 - [Todoist](https://todoist.com/downloads)
 - [Notion](https://www.notion.so/desktop)
 ## Streaming
 - [VMagicMirror](https://malaybaku.github.io/VMagicMirror/en/)
+- [OBS](https://obsproject.com)
+## Video Editing
+- [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
 ## Software Development
 - [Blender](https://www.blender.org/)
 - [Insomnia](https://insomnia.rest/download)
