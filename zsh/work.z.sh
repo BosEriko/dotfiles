@@ -6,7 +6,7 @@ alias work:saturn:console="rails c"
 alias work:saturn:sidekiq="sidekiq"
 alias work:saturn:install="bundle install && yarn install"
 
-alias work:refer:start="echo 'ReferScout work script'"
+alias work:refer:start="sudo service postgresql start && sudo service redis-server start && echo 'ReferScout start script.'"
 
 work:help() {
   (cd ~; figlet 'Work' | lolcat && echo -e $WORK_HELP_MESSAGE;)
