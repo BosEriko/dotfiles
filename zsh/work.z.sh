@@ -6,6 +6,8 @@ alias work:saturn:console="rails c"
 alias work:saturn:sidekiq="sidekiq"
 alias work:saturn:install="bundle install && yarn install"
 
+alias work:refer:start="echo 'ReferScout work script'"
+
 work:help() {
   (cd ~; figlet 'Work' | lolcat && echo -e $WORK_HELP_MESSAGE;)
 }
@@ -25,5 +27,7 @@ ${RESET}
     saturn:console              Start Saturn console
     saturn:sidekiq              Start Saturn sidekiq
     saturn:install              Install Saturn dependencies
+
+    refer:start                 Start ReferScout
 
 "
