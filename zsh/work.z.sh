@@ -8,6 +8,8 @@ alias work:saturn:console="rails c"
 alias work:saturn:sidekiq="sidekiq"
 alias work:saturn:install="bundle install && yarn install"
 
+alias work:saturn:logs:staging="heroku run rails c --app saturncms-staging"
+
 REFERSCOUT_URL="http://r-scout.lvh.me:3000/login"
 
 alias work:refer:start="sudo service postgresql start && sudo service redis-server start && bin/rails server && wslview ${REFERSCOUT_URL}"
@@ -35,6 +37,7 @@ ${RESET}
     saturn:console              Start Saturn console
     saturn:sidekiq              Start Saturn sidekiq
     saturn:install              Install Saturn dependencies
+    saturn:logs:staging         Show staging logs
 
     refer:start                 Start ReferScout
 
