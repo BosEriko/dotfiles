@@ -1,10 +1,12 @@
 
 # ============================================================================= [Work Alias] ===== #
 
-SATURN_URL="localhost:3000"
+SATURN_URL="http://localhost:3000"
 SATURN_PATH="~/Documents/Codes/Work/resonate/saturn"
+SATURN_TMUX_PATH="~/.files/tmux/workspace/saturn.tmux.sh"
 
-alias work:saturn:start="cd ${SATURN_PATH} && sudo service postgresql start && sudo service redis-server start && bin/dev && wslview ${SATURN_URL}"
+alias work:saturn="tmux source-file ${SATURN_TMUX_PATH}"
+alias work:saturn:start="cd ${SATURN_PATH}; wslview ${SATURN_URL}; echo ${PASSWORD} | sudo -S service postgresql start; echo ${PASSWORD} | sudo -S service redis-server start && bin/dev;"
 alias work:saturn:console="cd ${SATURN_PATH} && rails c"
 alias work:saturn:sidekiq="cd ${SATURN_PATH} && bundle exec sidekiq"
 alias work:saturn:install="cd ${SATURN_PATH} && bundle install && yarn install"
@@ -21,12 +23,14 @@ alias work:saturn:logs:pre-prod="cd ${SATURN_PATH} && heroku logs --tail --app a
 
 REFERSCOUT_URL="http://r-scout.lvh.me:3000/login"
 REFERSCOUT_PATH="~/Documents/Codes/Work/referscout"
+REFERSCOUT_TMUX_PATH="~/.files/tmux/workspace/referscout.tmux.sh"
 
-alias work:refer:start="cd ${REFERSCOUT_PATH} && sudo service postgresql start && sudo service redis-server start && bin/rails server && wslview ${REFERSCOUT_URL}"
-alias work:refer:console="cd ${REFERSCOUT_PATH} && rails c"
-alias work:refer:sidekiq="cd ${REFERSCOUT_PATH} && bundle exec sidekiq"
-alias work:refer:webpack="cd ${REFERSCOUT_PATH} && bin/webpack-dev-server"
-alias work:refer:install="cd ${REFERSCOUT_PATH} && bundle install && yarn install"
+alias work:referscout="tmux source-file ${REFERSCOUT_TMUX_PATH}"
+alias work:referscout:start="cd ${REFERSCOUT_PATH}; wslview ${REFERSCOUT_URL}; echo ${PASSWORD} | sudo -S service postgresql start; echo ${PASSWORD} | sudo -S service redis-server start; bin/rails server;"
+alias work:referscout:console="cd ${REFERSCOUT_PATH} && rails c"
+alias work:referscout:sidekiq="cd ${REFERSCOUT_PATH} && bundle exec sidekiq"
+alias work:referscout:webpack="cd ${REFERSCOUT_PATH} && bin/webpack-dev-server"
+alias work:referscout:install="cd ${REFERSCOUT_PATH} && bundle install && yarn install"
 
 work:help() {
   (cd ~; figlet 'Work' | lolcat && echo -e $WORK_HELP_MESSAGE;)
@@ -43,6 +47,7 @@ ${B_GREEN}
     Options:                    Description:
 ${RESET}
 
+    saturn                      Open Saturn workspace
     saturn:start                Start Saturn
     saturn:console              Start Saturn console
     saturn:sidekiq              Start Saturn sidekiq
@@ -56,10 +61,11 @@ ${RESET}
     saturn:logs:prod            Open Saturn logs (Prod)
     saturn:logs:pre-prod        Open Saturn logs (Pre-prod)
 
-    refer:start                 Start ReferScout
-    saturn:console              Start ReferScout console
-    saturn:sidekiq              Start ReferScout sidekiq
-    saturn:webpack              Start ReferScout webpack
-    saturn:install              Install Saturn dependencies
+    referscout                  Open ReferScout workspace
+    referscout:start            Start ReferScout
+    referscout:console          Start ReferScout console
+    referscout:sidekiq          Start ReferScout sidekiq
+    referscout:webpack          Start ReferScout webpack
+    referscout:install          Install Saturn dependencies
 
 "
