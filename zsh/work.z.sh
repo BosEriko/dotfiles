@@ -8,7 +8,15 @@ alias work:saturn:console="rails c"
 alias work:saturn:sidekiq="sidekiq"
 alias work:saturn:install="bundle install && yarn install"
 
-alias work:saturn:logs:staging="heroku run rails c --app saturncms-staging"
+alias work:saturn:console:staging="heroku run rails c --app saturncms-staging"
+alias work:saturn:console:qa="heroku run rails c --app apmc-allrs-qa"
+alias work:saturn:console:prod="heroku run rails c --app apmc-allrs-prod"
+alias work:saturn:console:pre-prod="heroku run rails c --app apmc-allrs-pre-prod"
+
+alias work:saturn:logs:staging="heroku logs --tail --app saturncms-staging"
+alias work:saturn:logs:qa="heroku logs --tail --app apmc-allrs-qa"
+alias work:saturn:logs:prod="heroku logs --tail --app apmc-allrs-prod"
+alias work:saturn:logs:pre-prod="heroku logs --tail --app apmc-allrs-pre-prod"
 
 REFERSCOUT_URL="http://r-scout.lvh.me:3000/login"
 
@@ -37,7 +45,14 @@ ${RESET}
     saturn:console              Start Saturn console
     saturn:sidekiq              Start Saturn sidekiq
     saturn:install              Install Saturn dependencies
-    saturn:logs:staging         Show staging logs
+    saturn:console:staging      Start Saturn console (Staging)
+    saturn:console:qa           Start Saturn console (QA)
+    saturn:console:prod         Start Saturn console (Prod)
+    saturn:console:pre-prod     Start Saturn console (Pre-prod)
+    saturn:logs:staging         Open Saturn logs (Staging)
+    saturn:logs:qa              Open Saturn logs (QA)
+    saturn:logs:prod            Open Saturn logs (Prod)
+    saturn:logs:pre-prod        Open Saturn logs (Pre-prod)
 
     refer:start                 Start ReferScout
 
