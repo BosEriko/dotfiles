@@ -9,4 +9,5 @@ split-window -f
 send "work:referscout:sidekiq" C-m
 split-window -h
 send "work:referscout:webpack" C-m
+select-pane -t 1
 select-window -t editor
