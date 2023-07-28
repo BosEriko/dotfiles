@@ -2,7 +2,7 @@ rename-session referscout
 rename-window editor
 send "v" C-m
 split-window -f
-send "(cd ~; clear; figlet 'ReferScout';)" C-m
+send "(cd ~; clear; figlet 'ReferScout' -f big | lolcat;)" C-m
 select-pane -t 1
 new-window -n process
 send "work:referscout:console" C-m
