@@ -19,6 +19,7 @@ Run this inside Ubuntu on WSL. Don't forget to change the proper location for th
 ``` sh
 git clone --recurse-submodules https://github.com/BosEriko/dotfiles.git ~/.files
 export STORAGE="/mnt/d"
+cp ~/.files/zsh/example.env.z.sh ~/.files/zsh/env.z.sh
 ~/.files/install/entry.sh
 ```
 
