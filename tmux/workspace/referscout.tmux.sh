@@ -20,5 +20,6 @@ select-pane -t 1
 resize-pane -Z
 
 new-window -n notes
+send "joplin" C-m
 
 select-window -t editor
