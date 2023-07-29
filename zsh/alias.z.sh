@@ -7,3 +7,4 @@ alias npm="echo 'Do you really want to use NPM instead of Yarn? (Ctrl-C to abort
 alias vi="nvim"
 alias vim="nvim"
 alias v="nvim"
+alias sudo="echo $PASSWORD | sudo -S "

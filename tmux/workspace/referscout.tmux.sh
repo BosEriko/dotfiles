@@ -2,21 +2,25 @@ rename-session referscout
 kill-window -a
 kill-pane -a
 
+rename-window setup
 send "cd ~/Documents/Codes/Work/referscout" C-m
-send "echo $PASSWORD | sudo -S service postgresql start" C-m
-send "echo $PASSWORD | sudo -S service redis-server start" C-m
+send "sudo service postgresql start" C-m
+send "sudo service redis-server start" C-m
 send "rails db:migrate RAILS_ENV=development" C-m
 send "bundle install" C-m
 send "yarn install" C-m
 send "wslview http://r-scout.lvh.me:3000/login" C-m
 
-rename-window editor
+new-window -n editor
+kill-window -t setup
+send "cd ~/Documents/Codes/Work/referscout" C-m
 send "vim" C-m
 split-window -f
 send "(cd ~; clear; figlet 'ReferScout' -f big | lolcat;)" C-m
 select-pane -t 1
 
 new-window -n process
+send "cd ~/Documents/Codes/Work/referscout" C-m
 send "rails console" C-m
 split-window -h
 send "bin/rails server" C-m
