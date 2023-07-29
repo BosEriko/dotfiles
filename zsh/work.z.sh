@@ -17,6 +17,7 @@ workspace() {
       rails db:migrate RAILS_ENV=development
       bundle install
       yarn install
+      wslview http://localhost:3000
       tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
       ;;
   "2")
@@ -24,6 +25,7 @@ workspace() {
       rails db:migrate RAILS_ENV=development
       bundle install
       yarn install
+      wslview http://r-scout.lvh.me:3000/login
       tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
       ;;
   *)

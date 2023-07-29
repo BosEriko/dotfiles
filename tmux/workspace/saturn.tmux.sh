@@ -5,7 +5,6 @@ kill-pane -a
 rename-window editor
 send "vim" C-m
 split-window -f
-send "wslview http://localhost:3000" C-m
 send "(cd ~; clear; figlet 'Saturn' -f big | lolcat;)" C-m
 select-pane -t 1
 

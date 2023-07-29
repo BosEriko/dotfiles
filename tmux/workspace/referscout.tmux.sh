@@ -5,7 +5,6 @@ kill-pane -a
 rename-window editor
 send "vim" C-m
 split-window -f
-send "wslview http://r-scout.lvh.me:3000/login" C-m
 send "(cd ~; clear; figlet 'ReferScout' -f big | lolcat;)" C-m
 select-pane -t 1
 
