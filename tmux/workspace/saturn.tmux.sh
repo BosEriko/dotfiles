@@ -3,8 +3,8 @@ kill-window -a
 kill-pane -a
 
 send "cd ~/Documents/Codes/Work/resonate/saturn" C-m
-send "echo ${PASSWORD} | sudo -S service postgresql start" C-m
-send "echo ${PASSWORD} | sudo -S service redis-server start" C-m
+send "echo $PASSWORD | sudo -S service postgresql start" C-m
+send "echo $PASSWORD | sudo -S service redis-server start" C-m
 send "rails db:migrate RAILS_ENV=development" C-m
 send "bundle install" C-m
 send "yarn install" C-m
