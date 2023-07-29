@@ -14,6 +14,7 @@
 ~/.files/install/modules/clipboard.sh
 ~/.files/install/modules/zsh.sh
 ~/.files/install/modules/tmux.sh
+~/.files/install/modules/joplin.sh
 ~/.files/install/modules/pull.sh
 ~/.files/install/modules/config.sh
 ~/.files/install/modules/origin.sh
