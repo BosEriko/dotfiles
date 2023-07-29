@@ -30,7 +30,7 @@ vim ~/.files/zsh/env.z.sh
 ## Installation Script
 After setting up the environment variables you can now proceed to the installation script. Run the command below on Ubuntu on WSL to start installing.
 ``` sh
-sh ~/.files/zsh/env.z.sh && ~/.files/install/entry.sh
+source ~/.files/zsh/env.z.sh && ~/.files/install/entry.sh
 ```
 
 ## Workflow Tools
