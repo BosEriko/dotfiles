@@ -1,4 +1,6 @@
 rename-session referscout
+kill-window -a
+kill-pane -a
 rename-window editor
 send "v" C-m
 split-window -f
