@@ -11,16 +11,6 @@ alias work:saturn:console="cd ${SATURN_PATH}; rails c;"
 alias work:saturn:sidekiq="cd ${SATURN_PATH}; bundle exec sidekiq;"
 alias work:saturn:install="cd ${SATURN_PATH}; rails db:migrate RAILS_ENV=development; bundle install; yarn install;"
 
-alias work:saturn:console:staging="cd ${SATURN_PATH} && heroku run rails c --app saturncms-staging"
-alias work:saturn:console:qa="cd ${SATURN_PATH} && heroku run rails c --app apmc-allrs-qa"
-alias work:saturn:console:prod="cd ${SATURN_PATH} && heroku run rails c --app apmc-allrs-prod"
-alias work:saturn:console:pre-prod="cd ${SATURN_PATH} && heroku run rails c --app apmc-allrs-pre-prod"
-
-alias work:saturn:logs:staging="cd ${SATURN_PATH} && heroku logs --tail --app saturncms-staging"
-alias work:saturn:logs:qa="cd ${SATURN_PATH} && heroku logs --tail --app apmc-allrs-qa"
-alias work:saturn:logs:prod="cd ${SATURN_PATH} && heroku logs --tail --app apmc-allrs-prod"
-alias work:saturn:logs:pre-prod="cd ${SATURN_PATH} && heroku logs --tail --app apmc-allrs-pre-prod"
-
 REFERSCOUT_URL="http://r-scout.lvh.me:3000/login"
 REFERSCOUT_PATH="~/Documents/Codes/Work/referscout"
 REFERSCOUT_TMUX_PATH="~/.files/tmux/workspace/referscout.tmux.sh"
@@ -32,8 +22,65 @@ alias work:referscout:sidekiq="cd ${REFERSCOUT_PATH}; bundle exec sidekiq;"
 alias work:referscout:webpack="cd ${REFERSCOUT_PATH}; bin/webpack-dev-server;"
 alias work:referscout:install="cd ${REFERSCOUT_PATH}; rails db:migrate RAILS_ENV=development; bundle install; yarn install"
 
+SATURN_SELECTION="  1. saturncms-staging
+  2. apmc-allrs-qa
+  3. apmc-allrs-prod
+  4. apmc-allrs-pre-prod"
+
+SATURN_HEROKU_CONSOLE_MESSAGE="Open Heroku console:
+${SATURN_SELECTION}
+Please choose between 1 to 4:"
+
+SATURN_HEROKU_LOGS_MESSAGE="Open Heroku logs:
+${SATURN_SELECTION}
+Please choose between 1 to 4:"
+
 work:help() {
   (cd ~; figlet 'Work' | lolcat && echo -e $WORK_HELP_MESSAGE;)
+}
+
+work:saturn:heroku:console() {
+  echo $SATURN_HEROKU_CONSOLE_MESSAGE;
+  read OPTION
+  case "$OPTION" in
+  "1")
+      (cd ${SATURN_PATH} && heroku run rails c --app saturncms-staging)
+      ;;
+  "2")
+      (cd ${SATURN_PATH} && heroku run rails c --app apmc-allrs-qa)
+      ;;
+  "3")
+      (cd ${SATURN_PATH} && heroku run rails c --app apmc-allrs-prod)
+      ;;
+  "4")
+      (cd ${SATURN_PATH} && heroku run rails c --app apmc-allrs-pre-prod)
+      ;;
+  *)
+      echo "Selection invalid."
+      ;;
+  esac
+}
+
+work:saturn:heroku:logs() {
+  echo $SATURN_HEROKU_LOGS_MESSAGE;
+  read OPTION
+  case "$OPTION" in
+  "1")
+      (cd ${SATURN_PATH} && heroku logs --tail --app saturncms-staging)
+      ;;
+  "2")
+      (cd ${SATURN_PATH} && heroku logs --tail --app apmc-allrs-qa)
+      ;;
+  "3")
+      (cd ${SATURN_PATH} && heroku logs --tail --app apmc-allrs-prod)
+      ;;
+  "4")
+      (cd ${SATURN_PATH} && heroku logs --tail --app apmc-allrs-pre-prod)
+      ;;
+  *)
+      echo "Selection invalid."
+      ;;
+  esac
 }
 
 WORK_HELP_MESSAGE="
@@ -52,14 +99,8 @@ ${RESET}
     saturn:console              Start Saturn console
     saturn:sidekiq              Start Saturn sidekiq
     saturn:install              Install Saturn dependencies
-    saturn:console:staging      Start Saturn console (Staging)
-    saturn:console:qa           Start Saturn console (QA)
-    saturn:console:prod         Start Saturn console (Prod)
-    saturn:console:pre-prod     Start Saturn console (Pre-prod)
-    saturn:logs:staging         Open Saturn logs (Staging)
-    saturn:logs:qa              Open Saturn logs (QA)
-    saturn:logs:prod            Open Saturn logs (Prod)
-    saturn:logs:pre-prod        Open Saturn logs (Pre-prod)
+    saturn:heroku:console       Start Saturn console on Heroku
+    saturn:heroku:logs          Open Saturn logs on Heroku
 
     referscout                  Open ReferScout workspace
     referscout:start            Start ReferScout
