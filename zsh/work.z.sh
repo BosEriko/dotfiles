@@ -2,6 +2,9 @@
 # ============================================================================= [Work Alias] ===== #
 
 workspace() {
+  sudo service postgresql start
+  sudo service redis-server start
+  clear
   echo "Select Workspace:"
   echo "  1. Saturn"
   echo "  2. ReferScout"
@@ -9,10 +12,18 @@ workspace() {
   read OPTION
   case "$OPTION" in
   "1")
-      cd ~/Documents/Codes/Work/resonate/saturn && tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
+      cd ~/Documents/Codes/Work/resonate/saturn
+      rails db:migrate RAILS_ENV=development
+      bundle install
+      yarn install
+      tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
       ;;
   "2")
-      cd ~/Documents/Codes/Work/referscout && tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
+      cd ~/Documents/Codes/Work/referscout
+      rails db:migrate RAILS_ENV=development
+      bundle install
+      yarn install
+      tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
       ;;
   *)
       echo "Invalid selection."
