@@ -15,20 +15,20 @@ irm https://raw.githubusercontent.com/BosEriko/dotfiles/master/scoop/install.sh 
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete then update Windows Terminal's [settings](windows-terminal/settings.json).
 
 ## Clone the repository
-You need to clone the repository recursively. Run this inside Ubuntu on WSL.
+To start you must first clone the repository. Run the command below on Ubuntu on WSL to clone the repository.
 ``` sh
 git clone --recurse-submodules https://github.com/BosEriko/dotfiles.git ~/.files
 ```
 
 ## Setup Environment Variables
-Before running the installation script you first need to setup your environment variables located on [KeePassXC](markdown/readme/keepassxc.md).
+Before running the installation script you first need to setup your environment variables located on [KeePassXC](markdown/readme/keepassxc.md). Run the command below on Ubuntu on WSL to setup your environment variables.
 ``` sh
 cp ~/.files/zsh/example.env.z.sh ~/.files/zsh/env.z.sh
 vim ~/.files/zsh/env.z.sh
 ```
 
 ## Installation Script
-After setting up the environment variables you can now proceed to the installation script.
+After setting up the environment variables you can now proceed to the installation script. Run the command below on Ubuntu on WSL to start installing.
 ``` sh
 sh ~/.files/zsh/env.z.sh && ~/.files/install/entry.sh
 ```
