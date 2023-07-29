@@ -44,16 +44,16 @@ work:saturn:heroku:console() {
   read OPTION
   case "$OPTION" in
   "1")
-      (cd ${SATURN_PATH} && heroku run rails c --app saturncms-staging)
+      heroku run rails c --app saturncms-staging
       ;;
   "2")
-      (cd ${SATURN_PATH} && heroku run rails c --app apmc-allrs-qa)
+      heroku run rails c --app apmc-allrs-qa
       ;;
   "3")
-      (cd ${SATURN_PATH} && heroku run rails c --app apmc-allrs-prod)
+      heroku run rails c --app apmc-allrs-prod
       ;;
   "4")
-      (cd ${SATURN_PATH} && heroku run rails c --app apmc-allrs-pre-prod)
+      heroku run rails c --app apmc-allrs-pre-prod
       ;;
   *)
       echo "Selection invalid."
@@ -66,16 +66,16 @@ work:saturn:heroku:logs() {
   read OPTION
   case "$OPTION" in
   "1")
-      (cd ${SATURN_PATH} && heroku logs --tail --app saturncms-staging)
+      heroku logs --tail --app saturncms-staging
       ;;
   "2")
-      (cd ${SATURN_PATH} && heroku logs --tail --app apmc-allrs-qa)
+      heroku logs --tail --app apmc-allrs-qa
       ;;
   "3")
-      (cd ${SATURN_PATH} && heroku logs --tail --app apmc-allrs-prod)
+      heroku logs --tail --app apmc-allrs-prod
       ;;
   "4")
-      (cd ${SATURN_PATH} && heroku logs --tail --app apmc-allrs-pre-prod)
+      heroku logs --tail --app apmc-allrs-pre-prod
       ;;
   *)
       echo "Selection invalid."
