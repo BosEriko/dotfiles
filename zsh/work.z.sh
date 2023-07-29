@@ -1,11 +1,29 @@
 
 # ============================================================================= [Work Alias] ===== #
 
+workspace() {
+  echo "Select Workspace:"
+  echo "  1. Saturn"
+  echo "  2. ReferScout"
+  echo "Please choose between 1 to 2:"
+  read OPTION
+  case "$OPTION" in
+  "1")
+      cd ~/Documents/Codes/Work/resonate/saturn && tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
+      ;;
+  "2")
+      cd ~/Documents/Codes/Work/referscout && tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
+      ;;
+  *)
+      echo "Invalid selection."
+      ;;
+  esac
+}
+
+
 SATURN_URL="http://localhost:3000"
 SATURN_PATH="~/Documents/Codes/Work/resonate/saturn"
-SATURN_TMUX_PATH="~/.files/tmux/workspace/saturn.tmux.sh"
 
-alias work:saturn="tmux source-file ${SATURN_TMUX_PATH}"
 alias work:saturn:start="cd ${SATURN_PATH}; wslview ${SATURN_URL}; echo ${PASSWORD} | sudo -S service postgresql start; echo ${PASSWORD} | sudo -S service redis-server start && bin/dev;"
 alias work:saturn:console="cd ${SATURN_PATH}; rails c;"
 alias work:saturn:sidekiq="cd ${SATURN_PATH}; bundle exec sidekiq;"
@@ -13,9 +31,7 @@ alias work:saturn:install="cd ${SATURN_PATH}; rails db:migrate RAILS_ENV=develop
 
 REFERSCOUT_URL="http://r-scout.lvh.me:3000/login"
 REFERSCOUT_PATH="~/Documents/Codes/Work/referscout"
-REFERSCOUT_TMUX_PATH="~/.files/tmux/workspace/referscout.tmux.sh"
 
-alias work:referscout="tmux source-file ${REFERSCOUT_TMUX_PATH}"
 alias work:referscout:start="cd ${REFERSCOUT_PATH}; wslview ${REFERSCOUT_URL}; echo ${PASSWORD} | sudo -S service postgresql start; echo ${PASSWORD} | sudo -S service redis-server start; bin/rails server;"
 alias work:referscout:console="cd ${REFERSCOUT_PATH}; rails c;"
 alias work:referscout:sidekiq="cd ${REFERSCOUT_PATH}; bundle exec sidekiq;"
