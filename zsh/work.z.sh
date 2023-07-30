@@ -14,17 +14,27 @@ workspace() {
   case "$OPTION" in
   "1")
     cd ~/Documents/Codes/Work/resonate/saturn
-    rails db:migrate RAILS_ENV=development
-    bundle install
-    yarn install
+    if [[ $(git rev-parse --abbrev-ref HEAD) == "development" ]]; then
+      git stash
+      git pull origin development
+      git stash apply
+      rails db:migrate RAILS_ENV=development
+      bundle install
+      yarn install
+    fi
     wslview http://localhost:3000
     tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
     ;;
   "2")
     cd ~/Documents/Codes/Work/referscout
-    rails db:migrate RAILS_ENV=development
-    bundle install
-    yarn install
+    if [[ $(git rev-parse --abbrev-ref HEAD) == "main" ]]; then
+      git stash
+      git pull origin main
+      git stash apply
+      rails db:migrate RAILS_ENV=development
+      bundle install
+      yarn install
+    fi
     wslview http://r-scout.lvh.me:3000/login
     tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
     ;;
