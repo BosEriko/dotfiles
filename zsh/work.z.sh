@@ -14,6 +14,7 @@ workspace() {
   case "$OPTION" in
   "1")
     cd ~/Documents/Codes/Work/resonate/saturn
+    git stash
     ACTIVE_BRANCH=$(git rev-parse --abbrev-ref HEAD)
     git checkout development
     git pull origin development
@@ -21,11 +22,13 @@ workspace() {
     bundle install
     yarn install
     git checkout $ACTIVE_BRANCH
+    git stash apply
     wslview http://localhost:3000
     tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
     ;;
   "2")
     cd ~/Documents/Codes/Work/referscout
+    git stash
     ACTIVE_BRANCH=$(git rev-parse --abbrev-ref HEAD)
     git checkout main
     git pull origin main
@@ -33,6 +36,7 @@ workspace() {
     bundle install
     yarn install
     git checkout $ACTIVE_BRANCH
+    git stash apply
     wslview http://r-scout.lvh.me:3000/login
     tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
     ;;
