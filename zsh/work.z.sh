@@ -14,17 +14,25 @@ workspace() {
   case "$OPTION" in
   "1")
     cd ~/Documents/Codes/Work/resonate/saturn
+    ACTIVE_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+    git checkout development
+    git pull origin development
     rails db:migrate RAILS_ENV=development
     bundle install
     yarn install
+    git checkout $ACTIVE_BRANCH
     wslview http://localhost:3000
     tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
     ;;
   "2")
     cd ~/Documents/Codes/Work/referscout
+    ACTIVE_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+    git checkout main
+    git pull origin main
     rails db:migrate RAILS_ENV=development
     bundle install
     yarn install
+    git checkout $ACTIVE_BRANCH
     wslview http://r-scout.lvh.me:3000/login
     tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
     ;;
