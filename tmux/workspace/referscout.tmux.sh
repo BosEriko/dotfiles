@@ -1,4 +1,5 @@
 rename-session referscout
+kill-session -a
 kill-window -a
 kill-pane -a
 
