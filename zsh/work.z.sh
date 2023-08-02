@@ -9,7 +9,9 @@ workspace() {
   echo "Select Workspace:"
   echo "  1. Saturn"
   echo "  2. ReferScout"
-  echo "Please choose 1 or 2:"
+  echo "  3. Kuru Studio Social"
+  echo "  4. Purrintables"
+  echo "Please choose between 1 to 4:"
   read OPTION
   case "$OPTION" in
   "1")
@@ -33,6 +35,12 @@ workspace() {
     fi
     wslview http://r-scout.lvh.me:3000/login
     tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
+    ;;
+  "3")
+    echo "No commands yet."
+    ;;
+  "4")
+    echo "No commands yet."
     ;;
   *)
     echo "Invalid selection."
