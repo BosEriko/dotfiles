@@ -18,10 +18,6 @@ sudo apt install -y ffmpeg                                                      
 sudo apt install -y tmux                                                                           # tmux source code (https://github.com/tmux/tmux)
 sudo apt install -y ripgrep                                                                        # ripgrep recursively searches directories for a regex pattern while respecting your gitignore (https://github.com/BurntSushi/ripgrep)
 
-# Neovim is a project that seeks to aggressively refactor Vim (https://github.com/neovim/neovim)
-sudo add-apt-repository ppa:neovim-ppa/stable
-sudo apt update -y; sudo apt install -y neovim;
-
 # Redis is an in-memory database (https://github.com/redis/redis)
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
