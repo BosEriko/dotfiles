@@ -27,7 +27,7 @@ workspace() {
     ;;
   "2")
     cd ~/Documents/Codes/Work/referscout
-    if [[ $(git rev-parse --abbrev-ref HEAD) == "main" ]]; then
+    if [[ $(git rev-parse --abbrev-ref HEAD) == "develop" ]]; then
       git stash
       git pull origin main
       git stash apply
