@@ -29,7 +29,7 @@ workspace() {
     cd ~/Documents/Codes/Work/referscout
     if [[ $(git rev-parse --abbrev-ref HEAD) == "develop" ]]; then
       git stash
-      git pull origin main
+      git pull origin develop
       git stash apply
       workspace:update
     fi
