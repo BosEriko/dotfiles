@@ -15,9 +15,29 @@ workspace() {
   read OPTION
   case "$OPTION" in
   "1")
+    cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/web
+    if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+      yarn install
+    fi
+    cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server
+    if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+      rails db:migrate RAILS_ENV=development
+      bundle install
+    fi
     cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social
-    # wslview http://r-scout.lvh.me:3000/login
-    # tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
+    if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+    fi
+    wslview http://localhost:3000
+    tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
     ;;
   "2")
     cd ~/Documents/Codes/Work/referscout
