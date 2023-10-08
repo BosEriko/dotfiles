@@ -7,23 +7,17 @@ workspace() {
   clear
   (cd ~; figlet 'When you enjoy what you do, work becomes play.' -f small | lolcat;)
   echo "Select Workspace:"
-  echo "  1. Saturn"
+  echo "  1. Kuru Studio Social"
   echo "  2. ReferScout"
-  echo "  3. Kuru Studio Social"
-  echo "  4. Purrintables"
+  echo "  3. Purrintables"
+  echo "  4. Saturn"
   echo "Please choose between 1 to 4:"
   read OPTION
   case "$OPTION" in
   "1")
-    cd ~/Documents/Codes/Work/resonate/saturn
-    if [[ $(git rev-parse --abbrev-ref HEAD) == "development" ]]; then
-      git stash
-      git pull origin development
-      git stash apply
-      workspace:update
-    fi
-    wslview http://localhost:3000
-    tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
+    cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social
+    # wslview http://r-scout.lvh.me:3000/login
+    # tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
     ;;
   "2")
     cd ~/Documents/Codes/Work/referscout
@@ -40,7 +34,15 @@ workspace() {
     echo "No commands yet."
     ;;
   "4")
-    echo "No commands yet."
+    cd ~/Documents/Codes/Work/resonate/saturn
+    if [[ $(git rev-parse --abbrev-ref HEAD) == "development" ]]; then
+      git stash
+      git pull origin development
+      git stash apply
+      workspace:update
+    fi
+    wslview http://localhost:3000
+    tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
     ;;
   *)
     echo "Invalid selection."
