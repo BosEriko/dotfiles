@@ -38,7 +38,7 @@ workspace() {
       git pull origin master
       git stash apply
     fi
-    wslview http://localhost:3000
+    wslview http://localhost:3001
     tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
     ;;
   "2")
