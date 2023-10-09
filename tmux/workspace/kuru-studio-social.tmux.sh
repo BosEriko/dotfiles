@@ -13,23 +13,20 @@ send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server" C-m
 send "(cd ~; clear; figlet 'KSS Server' -f big | lolcat;)" C-m
 select-pane -t 1
 
-# new-window -n process
-# send "rails console" C-m
-# split-window -h
-# send "bin/rails server -p 3000" C-m
-# split-window -f
-# send "yarn dev:js" C-m
-# split-window -h
-# send "yarn build:css --watch" C-m
-# split-window -h
-# send "bundle exec sidekiq" C-m
-# select-pane -t 3
-# split-window -h
-# send "yarn dev:jsx" C-m
-# select-pane -t 1
-# resize-pane -Z
+new-window -n process
+send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server" C-m
+send "docker-compose up" C-m
+split-window -f
+send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/web" C-m
+send "yarn develop" C-m
+select-pane -t 1
+split-window -h
+send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server" C-m
+send "docker-compose run web rails console" C-m
+select-pane -t 2
+resize-pane -Z
 
-# new-window -n notes
-# send "joplin" C-m
+new-window -n notes
+send "joplin" C-m
 
 select-window -t editor
