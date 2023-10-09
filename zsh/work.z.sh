@@ -28,7 +28,9 @@ workspace() {
       git pull origin master
       git stash apply
       docker-compose run web rails db:migrate
+      docker-compose down
       docker-compose run web bundle install
+      docker-compose build
     fi
     cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social
     if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
