@@ -4,6 +4,7 @@
 workspace() {
   sudo service postgresql start
   sudo service redis-server start
+  sudo service docker start
   clear
   (cd ~; figlet 'When you enjoy what you do, work becomes play.' -f small | lolcat;)
   echo "Select Workspace:"
