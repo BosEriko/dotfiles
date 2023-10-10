@@ -15,31 +15,7 @@ workspace() {
   read OPTION
   case "$OPTION" in
   "1")
-    cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/web
-    if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
-      git stash
-      git pull origin master
-      git stash apply
-      yarn install
-    fi
-    cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server
-    if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
-      git stash
-      git pull origin master
-      git stash apply
-      docker-compose run web rails db:migrate
-      docker-compose down
-      docker-compose run web bundle install
-      docker-compose build
-    fi
-    cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social
-    if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
-      git stash
-      git pull origin master
-      git stash apply
-    fi
-    wslview http://localhost:3001
-    tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
+    workspace:kuru-studio-social
     ;;
   "2")
     cd ~/Documents/Codes/Work/referscout
@@ -152,4 +128,44 @@ heroku:saturn:logs() {
       echo "Selection invalid."
       ;;
   esac
+}
+
+workspace:kuru-studio-social() {
+  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/web
+  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+    if [[ `git status --porcelain` ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+    else
+      git pull origin master
+    fi
+    yarn install
+  fi
+  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server
+  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+    if [[ `git status --porcelain` ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+    else
+      git pull origin master
+    fi
+    docker-compose run web rails db:migrate
+    docker-compose down
+    docker-compose run web bundle install
+    docker-compose build
+  fi
+  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social
+  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+    if [[ `git status --porcelain` ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+    else
+      git pull origin master
+    fi
+  fi
+  wslview http://localhost:3001
+  tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
 }
