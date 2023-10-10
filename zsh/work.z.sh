@@ -152,10 +152,10 @@ workspace:kuru-studio-social() {
     else
       git pull origin master
     fi
-    docker-compose run web rails db:migrate
-    docker-compose down
-    docker-compose run web bundle install
-    docker-compose build
+    sudo docker-compose run web rails db:migrate
+    sudo docker-compose down
+    sudo docker-compose run web bundle install
+    sudo docker-compose build
   fi
   cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social
   if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then

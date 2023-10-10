@@ -15,14 +15,14 @@ select-pane -t 1
 
 new-window -n process
 send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server" C-m
-send "docker-compose up" C-m
+send "sudo docker-compose up" C-m
 split-window -f
 send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/web" C-m
 send "yarn develop" C-m
 select-pane -t 1
 split-window -h
 send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server" C-m
-send "docker-compose run web rails console" C-m
+send "sudo docker-compose run web rails console" C-m
 select-pane -t 2
 resize-pane -Z
 
