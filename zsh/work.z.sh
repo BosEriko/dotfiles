@@ -19,29 +19,13 @@ workspace() {
     workspace:kuru-studio-social
     ;;
   "2")
-    cd ~/Documents/Codes/Work/referscout
-    if [[ $(git rev-parse --abbrev-ref HEAD) == "develop" ]]; then
-      git stash
-      git pull origin develop
-      git stash apply
-      workspace:update
-    fi
-    wslview http://r-scout.lvh.me:3000/login
-    tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
+    workspace:referscout
     ;;
   "3")
-    echo "No commands yet."
+    workspace:purrintables
     ;;
   "4")
-    cd ~/Documents/Codes/Work/resonate/saturn
-    if [[ $(git rev-parse --abbrev-ref HEAD) == "development" ]]; then
-      git stash
-      git pull origin development
-      git stash apply
-      workspace:update
-    fi
-    wslview http://localhost:3000
-    tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
+    workspace:saturn
     ;;
   *)
     echo "Invalid selection."
@@ -49,10 +33,84 @@ workspace() {
   esac
 }
 
-workspace:update() {
-  rails db:migrate RAILS_ENV=development
-  bundle install
-  yarn install
+workspace:kuru-studio-social() {
+  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/web
+  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+    if [[ `git status --porcelain` ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+    else
+      git pull origin master
+    fi
+    yarn install
+  fi
+  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server
+  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+    if [[ `git status --porcelain` ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+    else
+      git pull origin master
+    fi
+    sudo docker-compose run web rails db:migrate
+    sudo docker-compose down
+    sudo docker-compose run web bundle install
+    sudo docker-compose build
+  fi
+  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social
+  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+    if [[ `git status --porcelain` ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+    else
+      git pull origin master
+    fi
+  fi
+  wslview http://localhost:3001
+  tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
+}
+
+workspace:referscout() {
+  cd ~/Documents/Codes/Work/referscout
+  if [[ $(git rev-parse --abbrev-ref HEAD) == "develop" ]]; then
+    if [[ `git status --porcelain` ]]; then
+      git stash
+      git pull origin develop
+      git stash apply
+    else
+      git pull origin develop
+    fi
+    rails db:migrate RAILS_ENV=development
+    bundle install
+    yarn install
+  fi
+  wslview http://r-scout.lvh.me:3000/login
+  tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
+}
+
+workspace:purrintables() {
+  echo "No commands yet."
+}
+
+workspace:saturn() {
+  cd ~/Documents/Codes/Work/resonate/saturn
+  if [[ $(git rev-parse --abbrev-ref HEAD) == "development" ]]; then
+    if [[ `git status --porcelain` ]]; then
+      git stash
+      git pull origin development
+      git stash apply
+    else
+      git pull origin development
+    fi
+    rails db:migrate RAILS_ENV=development
+    bundle install
+    yarn install
+  fi
+  wslview http://localhost:3000
+  tmux source-file ~/.files/tmux/workspace/saturn.tmux.sh
 }
 
 heroku:saturn() {
@@ -129,44 +187,4 @@ heroku:saturn:logs() {
       echo "Selection invalid."
       ;;
   esac
-}
-
-workspace:kuru-studio-social() {
-  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/web
-  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
-    if [[ `git status --porcelain` ]]; then
-      git stash
-      git pull origin master
-      git stash apply
-    else
-      git pull origin master
-    fi
-    yarn install
-  fi
-  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server
-  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
-    if [[ `git status --porcelain` ]]; then
-      git stash
-      git pull origin master
-      git stash apply
-    else
-      git pull origin master
-    fi
-    sudo docker-compose run web rails db:migrate
-    sudo docker-compose down
-    sudo docker-compose run web bundle install
-    sudo docker-compose build
-  fi
-  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social
-  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
-    if [[ `git status --porcelain` ]]; then
-      git stash
-      git pull origin master
-      git stash apply
-    else
-      git pull origin master
-    fi
-  fi
-  wslview http://localhost:3001
-  tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
 }
