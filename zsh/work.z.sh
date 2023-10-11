@@ -69,7 +69,7 @@ workspace:kuru-studio-social() {
       git pull origin master
     fi
   fi
-  wslview http://localhost:3001
+  wslview http://localhost:3000
   tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
 }
 
