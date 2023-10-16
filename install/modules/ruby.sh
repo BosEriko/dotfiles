@@ -8,8 +8,8 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 git -C "$(rbenv root)"/plugins/ruby-build pull
 
 # Initialize rbenv and set global ruby version (https://github.com/rbenv/rbenv)
-rbenv install 3.1.2
-rbenv global 3.1.2
+rbenv install 3.2.2
+rbenv global 3.2.2
 rbenv rehash
 echo "Installing: rbenv has been initialized."
 
