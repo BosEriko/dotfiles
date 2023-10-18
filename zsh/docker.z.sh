@@ -3,6 +3,7 @@
 
 alias dr:start="sudo service docker start"
 alias dr:bash="sudo docker-compose exec web bash"
+alias dr:web="sudo docker-compose run web"
 alias dr:console="sudo docker-compose exec web rails c"
 alias dr:up="sudo docker-compose up"
 alias dr:down="sudo docker-compose down"
@@ -29,6 +30,7 @@ ${RESET}
 
     start                       Start Docker
     bash                        Start Bash for the current container
+    web                         Run commands inside docker
     console                     Start Rails console for the current container
     up                          Start the current container
     down                        Stop the current container
