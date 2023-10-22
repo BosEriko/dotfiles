@@ -92,7 +92,19 @@ workspace:referscout() {
 }
 
 workspace:purrintables() {
-  echo "No commands yet."
+  cd ~/Documents/Codes/Work/kuru-studio/purrintables
+  if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
+    if [[ `git status --porcelain` ]]; then
+      git stash
+      git pull origin master
+      git stash apply
+    else
+      git pull origin master
+    fi
+    yarn install
+  fi
+  wslview http://localhost:3000
+  tmux source-file ~/.files/tmux/workspace/purrintables.tmux.sh
 }
 
 workspace:saturn() {
