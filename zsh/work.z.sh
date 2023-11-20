@@ -11,7 +11,7 @@ workspace() {
   echo "  1. Kuru Studio Social"
   echo "  2. ReferScout"
   echo "  3. Purrintables"
-  echo "Please choose between 1 to 4:"
+  echo "Please choose between 1 to 3:"
   read OPTION
   case "$OPTION" in
   "1")
