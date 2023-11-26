@@ -6,6 +6,7 @@ This dotfiles is meant to be run on Windows 10 only.
 ## Package Manager
 <details open>
     <summary>Windows</summary>
+    ### Windows
     Download [Scoop](https://scoop.sh/) as your Windows package manager. Run the command below on Windows PowerShell to install it.
     ``` sh
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -15,6 +16,7 @@ This dotfiles is meant to be run on Windows 10 only.
 </details>
 <details open>
     <summary>macOS</summary>
+    ### macOS
     Download [Brew](https://brew.sh) as your macOS package manager. Run the command below on the default terminal to install it.
     ``` sh
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
