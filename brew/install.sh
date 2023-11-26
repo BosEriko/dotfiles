@@ -6,21 +6,20 @@
 
 # Install Applications
 brew install git                # git
-# scoop install neovim          # Neovim
+brew install neovim             # Neovim
 # scoop install autohotkey      # AutoHotkey
-# scoop install obsidian        # Obsidian
+brew install --cask obsidian    # Obsidian
 # scoop install taskbarx        # TaskbarX
-# scoop install keepassxc       # KeePassXC
+brew install --cask keepassxc   # KeePassXC
 # scoop install powertoys       # PowerToys
-# scoop install vscodium        # VSCodium
-# scoop install gimp            # Gimp
+brew install --cask vscodium    # VSCodium
+brew install --cask gimp        # Gimp
 
 # Install Extras
-# scoop install qutebrowser     # qutebrowser Browser
-# scoop install min             # min Browser
+brew install --cask qutebrowser # qutebrowser Browser
+brew install --cask min         # min Browser
 brew install --cask vivaldi     # Vivaldi Browser
-# scoop install obs-studio      # OBS
-# scoop install autohotkey      # AutoHotkey
+brew install --cask obs         # OBS
 
 # Install Fira Mono
 # scoop bucket add nerd-fonts
