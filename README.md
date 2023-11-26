@@ -13,6 +13,7 @@ irm https://raw.githubusercontent.com/BosEriko/dotfiles/master/scoop/install.sh 
 Download [Brew](https://brew.sh) as your macOS package manager. Run the command below on the default terminal to install it.
 ``` sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/BosEriko/dotfiles/master/brew/install.sh)"
 ```
 
 ## Ubuntu on WSL + Windows Terminal
