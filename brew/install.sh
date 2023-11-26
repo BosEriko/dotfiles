@@ -7,13 +7,13 @@
 # Install Applications
 brew install git                # git
 brew install neovim             # Neovim
-# scoop install autohotkey      # AutoHotkey
 brew install --cask obsidian    # Obsidian
-# scoop install taskbarx        # TaskbarX
 brew install --cask keepassxc   # KeePassXC
-# scoop install powertoys       # PowerToys
 brew install --cask vscodium    # VSCodium
 brew install --cask gimp        # Gimp
+# scoop install autohotkey      # AutoHotkey
+# scoop install taskbarx        # TaskbarX
+# scoop install powertoys       # PowerToys
 
 # Install Extras
 brew install --cask qutebrowser # qutebrowser Browser
