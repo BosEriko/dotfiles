@@ -1,7 +1,5 @@
-# Windows Dotfiles
-This dotfiles is meant to be run on Windows 10 only.
-
-![image](https://user-images.githubusercontent.com/10940193/230788712-a9bfe8c4-c8da-4f44-98fb-fcc367c0be65.png)
+# Dotfiles
+This is my personal dotfiles. Feel free to use it or fork it.
 
 ## Package Manager
 ### Windows
