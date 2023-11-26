@@ -28,7 +28,7 @@ Download [Brew](https://brew.sh) as your macOS package manager. Run the command 
 ### Windows
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete then update Windows Terminal's [settings](windows-terminal/settings.json).
 ### macOS
-Open your default terminal and run the commands below to use [Multipass](https://multipass.run/docs/installing-on-macos).
+Open your default terminal and run the commands below to use [Multipass](https://github.com/canonical/multipass).
 ```sh
 brew install multipass
 multipass launch
