@@ -31,7 +31,7 @@ Download [Brew](https://brew.sh) as your macOS package manager. Run the command 
 Open your default terminal and run the commands below to use [Multipass](https://multipass.run/docs/installing-on-macos).
 ```sh
 brew install multipass
-multipass launch --name boseriko
+multipass launch
 ```
 
 ## Clone the repository
