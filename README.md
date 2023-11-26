@@ -7,13 +7,13 @@ Download [Scoop](https://scoop.sh/) as your Windows package manager. Run the com
 ``` sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
-irm https://raw.githubusercontent.com/BosEriko/dotfiles/master/scoop/install.sh | iex
+irm https://raw.githubusercontent.com/BosEriko/dotfiles/HEAD/scoop/install.sh | iex
 ```
 ### macOS
 Download [Brew](https://brew.sh) as your macOS package manager. Run the command below on the default terminal to install it.
 ``` sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/BosEriko/dotfiles/master/brew/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/BosEriko/dotfiles/HEAD/brew/install.sh)"
 ```
 
 ## Ubuntu on WSL + Windows Terminal
