@@ -32,7 +32,7 @@ Open your default terminal and run the commands below to use [Multipass](https:/
 ```sh
 brew install multipass
 multipass launch -c 4 -m 8G -d 256G --name boseriko
-mmkdir ~/multipass && ultipass mount ~/multipass boseriko
+mkdir ~/multipass && multipass mount ~/multipass boseriko
 curl -o "$HOME/.zshrc" -L https://raw.githubusercontent.com/BosEriko/dotfiles/HEAD/macos/.zshrc
 ```
 
