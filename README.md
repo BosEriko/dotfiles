@@ -37,20 +37,20 @@ curl -o "$HOME/.zshrc" -L https://raw.githubusercontent.com/BosEriko/dotfiles/HE
 ```
 
 ## Clone the repository
-To start you must first clone the repository. Run the command below on Ubuntu on WSL to clone the repository.
+To start you must first clone the repository. Run the command below on Ubuntu on WSL/Multipass to clone the repository.
 ``` sh
 git clone --recurse-submodules https://github.com/BosEriko/dotfiles.git ~/.files
 ```
 
 ## Setup Environment Variables
-Before running the installation script you first need to setup your environment variables located on [KeePassXC](markdown/readme/keepassxc.md). Run the command below on Ubuntu on WSL to setup your environment variables.
+Before running the installation script you first need to setup your environment variables located on [KeePassXC](markdown/readme/keepassxc.md). Run the command below on Ubuntu on WSL/Multipass to setup your environment variables.
 ``` sh
 cp ~/.files/zsh/example.env.z.sh ~/.files/zsh/env.z.sh
 vim ~/.files/zsh/env.z.sh
 ```
 
 ## Installation Script
-After setting up the environment variables you can now proceed to the installation script. Run the command below on Ubuntu on WSL to start installing.
+After setting up the environment variables you can now proceed to the installation script. Run the command below on Ubuntu on WSL/Multipass to start installing.
 ``` sh
 source ~/.files/zsh/env.z.sh && ~/.files/install/entry.sh
 ```
