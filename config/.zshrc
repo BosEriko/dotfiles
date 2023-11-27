@@ -8,7 +8,6 @@ source ~/.files/zsh/alias.z.sh
 source ~/.files/zsh/docker.z.sh
 source ~/.files/zsh/projects.z.sh
 source ~/.files/zsh/fzf.z.sh
-source ~/.files/zsh/vim.z.sh
 source ~/.files/zsh/node.z.sh
 source ~/.files/zsh/ruby.z.sh
 source ~/.files/zsh/adb.z.sh
