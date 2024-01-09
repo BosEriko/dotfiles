@@ -10,6 +10,7 @@ source ~/.files/zsh/projects.z.sh
 source ~/.files/zsh/fzf.z.sh
 source ~/.files/zsh/node.z.sh
 source ~/.files/zsh/ruby.z.sh
+source ~/.files/zsh/brew.z.sh
 source ~/.files/zsh/adb.z.sh
 source ~/.files/zsh/git.z.sh
 source ~/.files/zsh/gpg.z.sh
