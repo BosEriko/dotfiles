@@ -17,6 +17,7 @@ sudo apt install -y sl                                                          
 sudo apt install -y ffmpeg                                                                         # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
 sudo apt install -y tmux                                                                           # tmux source code (https://github.com/tmux/tmux)
 sudo apt install -y ripgrep                                                                        # ripgrep recursively searches directories for a regex pattern while respecting your gitignore (https://github.com/BurntSushi/ripgrep)
+sudo apt install -y libnss3-tools                                                                  # Network Security Services, or NSS, is a set of libraries that was originally developed by Netscape
 
 # Redis is an in-memory database (https://github.com/redis/redis)
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
