@@ -40,7 +40,7 @@ workspaces:
   - name: 9
     display_name: ""
   - name: 0
-    display_name: "ﭮ"
+    display_name: ""
 
 window_rules:
   # Task Manager requires admin privileges to manage and should be ignored unless running
@@ -134,12 +134,12 @@ keybindings:
   - command: "focus workspace 1"
     binding: "LMenu+1"
   - command: "exec vivaldi"
-    binding: "RMenu+1"
+    binding: "LMenu+Shift+1"
 
   - command: "focus workspace 2"
     binding: "LMenu+2"
   - command: "exec wt"
-    binding: "RMenu+2"
+    binding: "LMenu+Shift+2"
 
   - command: "focus workspace 3"
     binding: "LMenu+3"
@@ -147,7 +147,7 @@ keybindings:
   - command: "focus workspace 4"
     binding: "LMenu+4"
   - command: "exec %localappdata%/Programs/tetrio-desktop/TETR.IO.exe"
-    binding: "RMenu+4"
+    binding: "LMenu+Shift+4"
 
   - command: "focus workspace 5"
     binding: "LMenu+5"
@@ -168,31 +168,31 @@ keybindings:
     binding: "LMenu+0"
 
   - commands: ["move to workspace 1", "focus workspace 1"]
-    binding: "LMenu+Shift+1"
+    binding: "RMenu+1"
 
   - commands: ["move to workspace 2", "focus workspace 2"]
-    binding: "LMenu+Shift+2"
+    binding: "RMenu+2"
 
   - commands: ["move to workspace 3", "focus workspace 3"]
-    binding: "LMenu+Shift+3"
+    binding: "RMenu+3"
 
   - commands: ["move to workspace 4", "focus workspace 4"]
-    binding: "LMenu+Shift+4"
+    binding: "RMenu+4"
 
   - commands: ["move to workspace 5", "focus workspace 5"]
-    binding: "LMenu+Shift+5"
+    binding: "RMenu+5"
 
   - commands: ["move to workspace 6", "focus workspace 6"]
-    binding: "LMenu+Shift+6"
+    binding: "RMenu+6"
 
   - commands: ["move to workspace 7", "focus workspace 7"]
-    binding: "LMenu+Shift+7"
+    binding: "RMenu+7"
 
   - commands: ["move to workspace 8", "focus workspace 8"]
-    binding: "LMenu+Shift+8"
+    binding: "RMenu+8"
 
   - commands: ["move to workspace 9", "focus workspace 9"]
-    bindings: "LMenu+Shift+9"
+    binding: "RMenu+9"
 
   - commands: ["move to workspace 0", "focus workspace 0"]
-    bindings: "LMenu+Shift+0"
+    binding: "RMenu+0"
