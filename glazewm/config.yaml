@@ -28,9 +28,9 @@ workspaces:
   - name: 3
     display_name: ""
   - name: 4
-    display_name: ""
+    display_name: ""
   - name: 5
-    display_name: "嗢"
+    display_name: ""
   - name: 6
     display_name: ""
   - name: 7
@@ -131,20 +131,23 @@ keybindings:
 
   # Launch CMD terminal (Alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
-  - command: "exec wt"
-    binding: "LMenu+Enter"
-
   - command: "focus workspace 1"
     binding: "LMenu+1"
+  - command: "exec vivaldi"
+    binding: "RMenu+1"
 
   - command: "focus workspace 2"
     binding: "LMenu+2"
+  - command: "exec wt"
+    binding: "RMenu+2"
 
   - command: "focus workspace 3"
     binding: "LMenu+3"
 
   - command: "focus workspace 4"
     binding: "LMenu+4"
+  - command: "exec %localappdata%/Programs/tetrio-desktop/TETR.IO.exe"
+    binding: "RMenu+4"
 
   - command: "focus workspace 5"
     binding: "LMenu+5"
@@ -189,7 +192,7 @@ keybindings:
     binding: "LMenu+Shift+8"
 
   - commands: ["move to workspace 9", "focus workspace 9"]
-    bindings: ["LMenu+Shift+9"]
+    bindings: "LMenu+Shift+9"
 
   - commands: ["move to workspace 0", "focus workspace 0"]
-    bindings: ["LMenu+Shift+0"]
+    bindings: "LMenu+Shift+0"
