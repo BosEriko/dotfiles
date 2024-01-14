@@ -23,14 +23,17 @@ bar:
 workspaces:
   - name: 1
     display_name: ""
+    bind_to_monitor: 1
   - name: 2
     display_name: ""
+    bind_to_monitor: 1
   - name: 3
     display_name: ""
   - name: 4
     display_name: ""
   - name: 5
     display_name: ""
+    bind_to_monitor: 1
   - name: 6
     display_name: ""
   - name: 7
@@ -41,6 +44,7 @@ workspaces:
     display_name: ""
   - name: 0
     display_name: ""
+    bind_to_monitor: 2
 
 window_rules:
   # Task Manager requires admin privileges to manage and should be ignored unless running
