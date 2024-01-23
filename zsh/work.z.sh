@@ -83,7 +83,7 @@ workspace:referscout() {
     bundle install
     yarn install
   fi
-  wslview http://r-scout.lvh.me:3000/login
+  wslview http://r-scout.localhost.dev:3000/login
   tmux source-file ~/.files/tmux/workspace/referscout.tmux.sh
 }
 
