@@ -15,6 +15,7 @@ Download [Scoop](https://scoop.sh/) as your Windows package manager. Run the com
 ``` sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
+scoop install git
 irm https://raw.githubusercontent.com/BosEriko/dotfiles/HEAD/scoop/install.sh | iex
 ```
 ### macOS
