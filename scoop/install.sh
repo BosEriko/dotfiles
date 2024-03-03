@@ -11,7 +11,6 @@ scoop install keepassxc                 # KeePassXC
 scoop install vscodium                  # VSCodium
 scoop install gimp                      # Gimp
 scoop install autohotkey                # AutoHotkey
-scoop install taskbarx                  # TaskbarX
 scoop install powertoys                 # PowerToys
 
 # Install Extras
