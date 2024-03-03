@@ -5,7 +5,6 @@ scoop bucket add extras
 scoop bucket add main
 
 # Install Applications
-scoop install git             # git
 scoop install neovim          # Neovim
 scoop install obsidian        # Obsidian
 scoop install keepassxc       # KeePassXC
