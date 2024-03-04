@@ -1,57 +1,45 @@
 # Dotfiles
-This is my personal dotfiles. Feel free to use it or fork it.
+This is my personal dotfiles for Windows. Feel free to use it or fork it.
 
 ## Table of contents
 - [Package Manager](#package-manager)
-    - [Windows](#windows)
-    - [macOS](#macos)
 - [Development Environment](#development-environment)
-    - [Windows](#windows-1)
-    - [macOS](#macos-1)
+- [Clone the repository](#clone-the-repository)
+- [Setup Environment Variables](#setup-environment-variables)
+- [Installation Script](#installation-script)
+- [Workflow Tools](#workflow-tools)
+- [Security Tools](#security-tools)
+- [Note](#note)
+- [Miscellaneous](#miscellaneous)
+- [Call to action](#call-to-action)
 
 ## Package Manager
-### Windows
-Download [Scoop](https://scoop.sh/) as your Windows package manager. Run the command below on Windows PowerShell to install it.
+Download [Scoop](https://scoop.sh/) as your package manager. Run the command below on PowerShell to install it.
 ``` sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 scoop install git
 irm https://raw.githubusercontent.com/BosEriko/dotfiles/HEAD/scoop/install.sh | iex
 ```
-### macOS
-Download [Brew](https://brew.sh) as your macOS package manager. Run the command below on the default terminal to install it.
-``` sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/BosEriko/dotfiles/HEAD/brew/install.sh)"
-```
 
 ## Development Environment
-### Windows
 [Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete then update Windows Terminal's [settings](windows-terminal/settings.json).
-### macOS
-Open your default terminal and run the commands below to use [Multipass](https://github.com/canonical/multipass) with 4 cpu, 8gb memory and 256gb of storage.
-```sh
-brew install multipass
-multipass launch -c 4 -m 8G -d 256G --name boseriko
-mkdir ~/multipass && multipass mount ~/multipass boseriko
-curl -o "$HOME/.zshrc" -L https://raw.githubusercontent.com/BosEriko/dotfiles/HEAD/macos/.zshrc
-```
 
 ## Clone the repository
-To start you must first clone the repository. Run the command below on Ubuntu on WSL/Multipass to clone the repository.
+To start you must first clone the repository. Run the command below on Ubuntu on WSL to clone the repository.
 ``` sh
 git clone --recurse-submodules https://github.com/BosEriko/dotfiles.git ~/.files
 ```
 
 ## Setup Environment Variables
-Before running the installation script you first need to setup your environment variables located on [KeePassXC](markdown/readme/keepassxc.md). Run the command below on Ubuntu on WSL/Multipass to setup your environment variables.
+Before running the installation script you first need to setup your environment variables located on [KeePassXC](markdown/readme/keepassxc.md). Run the command below on Ubuntu on WSL to setup your environment variables.
 ``` sh
 cp ~/.files/zsh/example.env.z.sh ~/.files/zsh/env.z.sh
 vim ~/.files/zsh/env.z.sh
 ```
 
 ## Installation Script
-After setting up the environment variables you can now proceed to the installation script. Run the command below on Ubuntu on WSL/Multipass to start installing.
+After setting up the environment variables you can now proceed to the installation script. Run the command below on Ubuntu on WSL to start installing.
 ``` sh
 source ~/.files/zsh/env.z.sh && ~/.files/install/entry.sh
 ```
