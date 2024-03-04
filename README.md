@@ -23,7 +23,7 @@ irm https://raw.githubusercontent.com/BosEriko/dotfiles/HEAD/scoop/install.sh | 
 ```
 
 ## Development Environment
-[Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete then update Windows Terminal's [settings](windows-terminal/settings.json). Don't forget to change `defaultProfile`, `profiles.list[0].guid` and `profiles.list[0].source` on your Window's Terminal JSON!
+[Turn on Developer Mode on the settings](markdown/enable-developer-mode.md) then install both [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) and [Ubuntu on WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview). Restart your computer after the installation is complete then update Windows Terminal's [settings](windows-terminal/settings.json).
 
 ## Clone the repository
 To start you must first clone the repository. Run the command below on Ubuntu on WSL to clone the repository.
