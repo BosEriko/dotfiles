@@ -1,7 +1,6 @@
 #/usr/bin/env sh
 
 ~/.files/install/modules/apt.sh
-~/.files/install/modules/brew.sh
 ~/.files/install/modules/nvim.sh
 ~/.files/install/modules/fzf.sh
 ~/.files/install/modules/youtube-dl.sh
