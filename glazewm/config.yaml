@@ -8,7 +8,7 @@ bar:
   opacity: 1.0
   background: "#101010"
   foreground: "white"
-  font_family: "FuraMono Nerd Font"
+  font_family: "FiraMono Nerd Font Mono"
   font_size: "13"
   padding: "1 6 1 6"
   components_left:
