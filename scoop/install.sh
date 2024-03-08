@@ -18,7 +18,3 @@ scoop install qutebrowser               # qutebrowser Browser
 scoop install min                       # min Browser
 scoop install vivaldi                   # Vivaldi Browser
 scoop install obs-studio                # OBS
-
-# Install Fira Mono
-scoop bucket add nerd-fonts
-scoop install FiraMono-NF
