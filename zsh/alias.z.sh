@@ -11,6 +11,7 @@ alias vs="codium"
 alias vim="nvim"
 alias vi="nvim"
 alias v="nvim"
+
 alias nvim:update="sudo ~/.files/install/modules/nvim.sh"
 alias vim:update="sudo ~/.files/install/modules/nvim.sh"
 alias vi:update="sudo ~/.files/install/modules/nvim.sh"
