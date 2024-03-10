@@ -17,7 +17,6 @@ ${RESET}
                                 parrotsay               Parrot Say
                                 train                   Let a train pass by
                                 pipes                   Run some pipes
-                                matrix                  Enter the matrix
                                 cowsay                  Get a random fortune
 
     -dl, --download             anime                   Download anime
@@ -68,8 +67,6 @@ bos() {
                 sl
             elif [ "$2" = "pipes" ]; then
                 pipes.sh
-            elif [ "$2" = "matrix" ]; then
-                cmatrix
             elif [ "$2" = "cowsay" ]; then
                 fortune | cowsay -f ghostbusters | lolcat
             else
