@@ -15,7 +15,6 @@ ${RESET}
 
     -f, --fun                   parrot                  Party Parrot
                                 parrotsay               Parrot Say
-                                pipes                   Run some pipes
                                 cowsay                  Get a random fortune
 
     -dl, --download             anime                   Download anime
@@ -62,8 +61,6 @@ bos() {
                 curl parrot.live
             elif [ "$2" = "parrotsay" ]; then
                 parrotsay
-            elif [ "$2" = "pipes" ]; then
-                pipes.sh
             elif [ "$2" = "cowsay" ]; then
                 fortune | cowsay -f ghostbusters | lolcat
             else

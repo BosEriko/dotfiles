@@ -1,10 +1,9 @@
-#/usr/bin/env sh
+#!/usr/bin/env sh
 
 ~/.files/install/modules/apt.sh
 ~/.files/install/modules/nvim.sh
 ~/.files/install/modules/fzf.sh
 ~/.files/install/modules/youtube-dl.sh
-~/.files/install/modules/pipes.sh
 ~/.files/install/modules/node.sh
 ~/.files/install/modules/docker.sh
 ~/.files/install/modules/ruby.sh
