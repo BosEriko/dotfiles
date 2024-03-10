@@ -15,7 +15,6 @@ ${RESET}
 
     -f, --fun                   parrot                  Party Parrot
                                 parrotsay               Parrot Say
-                                train                   Let a train pass by
                                 pipes                   Run some pipes
                                 cowsay                  Get a random fortune
 
@@ -63,8 +62,6 @@ bos() {
                 curl parrot.live
             elif [ "$2" = "parrotsay" ]; then
                 parrotsay
-            elif [ "$2" = "train" ]; then
-                sl
             elif [ "$2" = "pipes" ]; then
                 pipes.sh
             elif [ "$2" = "cowsay" ]; then

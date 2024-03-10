@@ -11,10 +11,9 @@ sudo apt install -y cowsay                                                      
 sudo apt install -y figlet                                                                         # FIGlet is a program for making large letters out of ordinary text (http://www.figlet.org/)
 sudo apt install -y fortune                                                                        # Fortune CLI (https://gist.github.com/zlorb/4a3eff8981fcec8ca1c7)
 sudo apt install -y git-flow                                                                       # Git workflow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-sudo apt install -y sl                                                                             # SL(1): Cure your bad habit of mistyping (https://github.com/mtoyoda/sl)
-sudo apt install -y ffmpeg                                                                         # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
 sudo apt install -y tmux                                                                           # tmux source code (https://github.com/tmux/tmux)
 sudo apt install -y ripgrep                                                                        # ripgrep recursively searches directories for a regex pattern while respecting your gitignore (https://github.com/BurntSushi/ripgrep)
+sudo apt install -y ffmpeg                                                                         # FFmpeg is a collection of libraries and tools to process multimedia content (https://github.com/FFmpeg/FFmpeg)
 sudo apt install -y libnss3-tools                                                                  # Network Security Services, or NSS, is a set of libraries that was originally developed by Netscape
 
 # Redis is an in-memory database (https://github.com/redis/redis)
