@@ -21,10 +21,6 @@ curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyr
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 sudo apt update -y; sudo apt install -y redis;
 
-# Elixir is a dynamic, functional language for building scalable and maintainable applications (https://elixir-lang.org/)
-wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb
-sudo apt update -y; sudo apt install -y esl-erlang; sudo apt install -y elixir;
-
 # Python is an interpreted, interactive, object-oriented programming language (https://www.python.org/)
 sudo apt install -y python3-pip
 sudo apt install -y python-is-python3
