@@ -29,7 +29,6 @@ ${RESET}
     -a, --assist                path                    Print out the list of paths
                                 restart-zsh             Restart ZSH
                                 restow                  Restow your config
-                                anime                   Search anime information
 
     -y, --yarn                  list                    List global yarn packages
                                 interactive             Upgrade global yarn packages interactively
@@ -106,8 +105,6 @@ bos() {
                 echo "Do you want to restow your config? (Ctrl-C to abort, or press enter to continue)"
                 read
                 ~/.files/install/modules/config.sh
-            elif [ "$2" = "anime" ]; then
-                ~/.files/scripts/anime-info.sh
             else
                 echo "Usage: -a <command> or --assist <command>"
             fi
