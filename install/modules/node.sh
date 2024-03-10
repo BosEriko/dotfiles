@@ -12,7 +12,6 @@ yarn global add http-server                 # A simple zero-configuration comman
 yarn global add live-server                 # A simple development http server with live reload capability (https://github.com/tapio/live-server)
 yarn global add ngrok                       # Introspected tunnels to localhost (https://github.com/inconshreveable/ngrok)
 yarn global add nodemon                     # Monitor for any changes in your node.js application and automatically restart the server - perfect for development (https://github.com/remy/nodemon)
-yarn global add parrotsay                   # The Party Parrot on your terminal (https://github.com/matheuss/parrotsay)
 yarn global add speed-test                  # Test your internet connection speed and ping using speedtest.net from the CLI (https://github.com/sindresorhus/speed-test)
 yarn global add tldr                        # Simplified and community-driven man pages (https://github.com/tldr-pages/tldr)
 yarn global add ts-node                     # TypeScript execution and REPL for node.js (https://github.com/TypeStrong/ts-node)

@@ -14,7 +14,6 @@ ${B_GREEN}
 ${RESET}
 
     -f, --fun                   parrot                  Party Parrot
-                                parrotsay               Parrot Say
                                 cowsay                  Get a random fortune
 
     -dl, --download             anime                   Download anime
@@ -59,8 +58,6 @@ bos() {
         elif [ "$1" = "-f" ] || [ "$1" = "--fun" ]; then
             if [ "$2" = "parrot" ]; then
                 curl parrot.live
-            elif [ "$2" = "parrotsay" ]; then
-                parrotsay
             elif [ "$2" = "cowsay" ]; then
                 fortune | cowsay -f ghostbusters | lolcat
             else
