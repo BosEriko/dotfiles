@@ -29,9 +29,4 @@ sudo apt install -y python-is-python3
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 sudo apt install -y nodejs
 
-# GitHub’s official command line tool (https://github.com/cli/cli)
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
-sudo apt-add-repository https://cli.github.com/packages
-sudo apt install -y gh
-
 echo "Installing: Apt apps have been installed."
