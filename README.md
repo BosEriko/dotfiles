@@ -45,9 +45,8 @@ There are individual install instructions for the security tools I use. Refer be
 - [GPG](markdown/readme/gpg.md)
 - [KeePassXC](markdown/readme/keepassxc.md)
 
-## Note
+## Game Mode
 If you want to play games please close the following applications:
-
 - [WSL](markdown/toggle-wsl.md)
 - Overload Capslock (AutoHotkey)
 - Hide Mouse When Typing (AutoHotkey)
