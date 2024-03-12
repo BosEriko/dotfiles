@@ -50,6 +50,7 @@ Connect your [custom CSS](../../vivaldi/custom.css) to your Vivaldi:
 ### Uncheck
 - [ ] Use Native Window
 - [ ] Use Animation
+### Check
 - [x] Open Settings in a Tab
 - [x] Tab Bar Position on Bottom
 - [x] Set as default browser
