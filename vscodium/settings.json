@@ -1,5 +1,0 @@
-{
-    "vscode-neovim.useWSL": true,
-    "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
-    "vscode-neovim.neovimInitVimPaths.linux": "/home/boseriko/.config/nvim/init.lua"
-}

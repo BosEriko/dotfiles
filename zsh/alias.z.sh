@@ -6,8 +6,6 @@ alias copy="clip.exe"
 alias npm="echo 'Do you really want to use NPM instead of Yarn? (Ctrl-C to abort, or press enter to continue)' && read && npm"
 alias sudo="echo $PASSWORD | sudo -S "
 
-alias vsc="codium"
-alias vs="codium"
 alias vim="nvim"
 alias vi="nvim"
 alias v="nvim"
