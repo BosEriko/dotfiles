@@ -16,3 +16,6 @@ alias nvim:update="sudo ~/.files/install/modules/nvim.sh"
 alias vim:update="sudo ~/.files/install/modules/nvim.sh"
 alias vi:update="sudo ~/.files/install/modules/nvim.sh"
 alias v:update="sudo ~/.files/install/modules/nvim.sh"
+
+alias start="start-session"
+alias end="end-session"
