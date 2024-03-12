@@ -32,15 +32,15 @@ After setting up the environment variables you can now proceed to the installati
 source ~/.files/zsh/env.z.sh && ~/.files/install/entry.sh
 ```
 
-## Workflow Tools
-There are individual install instructions for the workflow tools I use. Refer below to learn more:
+## Tools
+There are individual install instructions for the tools I use. Refer below to learn more:
+### Workflow
 - [AutoHotkey](markdown/readme/autohotkey.md)
 - [PowerToys](markdown/readme/powertoys.md)
 - [Obsidian](markdown/readme/obsidian.md)
 - [Vivaldi](markdown/readme/vivaldi.md)
 - [Pimp your Windows](markdown/readme/pimp-your-windows.md)
-
-## Security Tools
+### Security
 There are individual install instructions for the security tools I use. Refer below to learn more:
 - [GPG](markdown/readme/gpg.md)
 - [KeePassXC](markdown/readme/keepassxc.md)
