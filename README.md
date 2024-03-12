@@ -54,8 +54,5 @@ If you want to play games please close the following applications:
 
 **Tip:** You can create desktop shortcuts for the applications listed above so you can easily open them again once you're done playing games.
 
-## Miscellaneous
-I also have some [apps](markdown/apps.md) and [games](markdown/games.md) that I frequently use and play along with the [equipment](markdown/equipment.md) of my choice.
-
 ## Call to action
 If you want to share some ideas you can email me at boseriko@duck.com.
