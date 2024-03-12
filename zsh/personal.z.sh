@@ -13,9 +13,6 @@ ${B_GREEN}
     Options:                    Commands:               Description:
 ${RESET}
 
-    -f, --fun                   parrot                  Party Parrot
-                                cowsay                  Get a random fortune
-
     -dl, --download             anime                   Download anime
                                 movie                   Download a movie
                                 music                   Download music
@@ -38,10 +35,7 @@ ${RESET}
                                 ssh-key                 Copy Main SSH Key to clipboard
                                 deploy                  Deploy the current folder
                                 rbenv-rehash            Run Rehash on rbenv
-                                localhost               Start http-server
-                                localhost-live          Start live-server
                                 ngrok                   Start ngrok
-                                upload                  Upload a file online
 
     -s, --session               start                   Start programming session
                                 end                     End programming session
@@ -53,14 +47,6 @@ bos() {
     else
         if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
             (cd ~; figlet $FIGLET_MESSAGE | lolcat && echo -e $BOS_HELP_MESSAGE;)
-        elif [ "$1" = "-f" ] || [ "$1" = "--fun" ]; then
-            if [ "$2" = "parrot" ]; then
-                curl parrot.live
-            elif [ "$2" = "cowsay" ]; then
-                fortune | cowsay -f ghostbusters | lolcat
-            else
-                echo "Usage: -f <command> or --fun <command>"
-            fi
         elif [ "$1" = "-dl" ] || [ "$1" = "--download" ]; then
             if [ "$2" = "movie" ]; then
                 ~/.files/scripts/movie.sh
@@ -128,29 +114,11 @@ bos() {
                 vercel
             elif [ "$2" = "rbenv-rehash" ]; then
                 rbenv rehash
-            elif [ "$2" = "localhost" ]; then
-                if [ -z "$3" ]; then
-                    http-server
-                else
-                    http-server $3
-                fi
-            elif [ "$2" = "localhost-live" ]; then
-                if [ -z "$3" ]; then
-                    live-server
-                else
-                    live-server $3
-                fi
             elif [ "$2" = "ngrok" ]; then
                 if [ -z "$3" ]; then
                     echo "Please specify a port"
                 else
                     ngrok http --region=ap $3
-                fi
-            elif [ "$2" = "upload" ]; then
-                if [ -z "$3" ]; then
-                    echo "Please specify a file"
-                else
-                    curl -s --upload-file $3 https://transfer.sh/$3 | clip.exe
                 fi
             else
                 echo "Usage: -p <command> or --programming <command>"
