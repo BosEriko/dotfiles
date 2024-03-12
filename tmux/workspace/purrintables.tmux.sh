@@ -12,7 +12,4 @@ select-pane -t 1
 new-window -n process
 send "yarn develop" C-m
 
-new-window -n notes
-send "joplin" C-m
-
 select-window -t editor

@@ -18,7 +18,6 @@ yarn global add typescript-language-server  # Language Server Protocol implement
 yarn global add webtorrent-cli              # WebTorrent is the first BitTorrent client that works in the browser (https://github.com/webtorrent/webtorrent-cli)
 yarn global add vercel                      # The easiest way to deploy websites (https://github.com/zeit/now)
 yarn global add neovim                      # Neovim is a project that seeks to aggressively refactor Vim (https://github.com/neovim/neovim)
-yarn global add joplin                      # Secure note taking and to-do app (https://github.com/laurent22/joplin)
 echo "Installing: NPM apps have been installed."
 
 # Avoid running postinstall scripts from packages
