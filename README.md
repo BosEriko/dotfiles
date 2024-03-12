@@ -1,18 +1,6 @@
 # Dotfiles
 This is my personal dotfiles for Windows. Feel free to use it or fork it.
 
-## Table of contents
-- [Package Manager](#package-manager)
-- [Development Environment](#development-environment)
-- [Clone the repository](#clone-the-repository)
-- [Setup Environment Variables](#setup-environment-variables)
-- [Installation Script](#installation-script)
-- [Workflow Tools](#workflow-tools)
-- [Security Tools](#security-tools)
-- [Note](#note)
-- [Miscellaneous](#miscellaneous)
-- [Call to action](#call-to-action)
-
 ## Package Manager
 Download [Scoop](https://scoop.sh/) as your package manager. Run the command below on PowerShell to install it.
 ``` sh
