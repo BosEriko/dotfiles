@@ -48,10 +48,10 @@ There are individual install instructions for the security tools I use. Refer be
 ## Note
 If you want to play games please close the following applications:
 
+- [WSL](markdown/toggle-wsl.md)
 - Overload Capslock (AutoHotkey)
 - Hide Mouse When Typing (AutoHotkey)
 - GlazeWM
-- [WSL](markdown/toggle-wsl.md)
 
 ## Call to action
 If you want to share some ideas you can email me at boseriko@duck.com.
