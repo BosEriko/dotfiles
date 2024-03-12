@@ -12,6 +12,10 @@ sudo apt install -y fortune                                                     
 sudo apt install -y tmux                                                                           # tmux source code (https://github.com/tmux/tmux)
 sudo apt install -y ripgrep                                                                        # ripgrep recursively searches directories for a regex pattern while respecting your gitignore (https://github.com/BurntSushi/ripgrep)
 
+# PostgreSQL, also known as Postgres, is a free and open-source relational database management system (https://www.postgresql.org)
+sudo apt install -y postgresql
+sudo apt install -y postgresql-contrib
+
 # Redis is an in-memory database (https://github.com/redis/redis)
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
