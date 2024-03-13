@@ -4,6 +4,7 @@
 # https://github.com/BreadMoncher/notflix
 # https://github.com/Bugswriter/notflix
 
+source ~/.files/zsh/env.z.sh
 mkdir -p $HOME/.cache/notflix
 
 baseurl="https://1337x.to"
@@ -70,4 +71,4 @@ curl -s $fullURL > $cachedir/tmp.html
 magnet=$(grep -Eo "magnet:\?xt=urn:btih:[a-zA-Z0-9]*" $cachedir/tmp.html | head -n 1)
 
 # Download the file
-webtorrent "$magnet" --out /mnt/d/Movies
+webtorrent "$magnet" --out $STORAGE/Anime

@@ -2,6 +2,7 @@
 
 # Dependencies - webtorrent, mpv
 
+source ~/.files/zsh/env.z.sh
 mkdir -p $HOME/.cache/aniflix
 
 baseurl="https://nyaa.si"
