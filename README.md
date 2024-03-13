@@ -51,6 +51,7 @@ If you want to play games please close the following applications:
 - Overload Capslock (AutoHotkey)
 - Hide Mouse When Typing (AutoHotkey)
 - GlazeWM
+- Wallpaper Engine
 
 ## Call to action
 If you want to share some ideas you can email me at boseriko@duck.com.
