@@ -13,6 +13,7 @@
 - Select All: `ctrl`+`a`
 ### View
 - Tab Bar: `ctrl`+`\`
+- Tabs on Right: `ctrl`+`shift`+`\`
 - Page Zoom Out Half: `Numpad7`
 - Page Zoom In Double: `Numpad8`
 ### Tab
