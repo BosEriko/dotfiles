@@ -33,7 +33,6 @@ ${RESET}
 
     -p, --programming           external-ip             Show external IP address
                                 ssh-key                 Copy Main SSH Key to clipboard
-                                deploy                  Deploy the current folder
                                 rbenv-rehash            Run Rehash on rbenv
                                 ngrok                   Start ngrok
 
@@ -110,8 +109,6 @@ bos() {
             elif [ "$2" = "ssh-key" ]; then
                 cat ~/.ssh/id_rsa.pub | clip.exe
                 echo "SSH Key has been copied to clipboard."
-            elif [ "$2" = "deploy" ]; then
-                vercel
             elif [ "$2" = "rbenv-rehash" ]; then
                 rbenv rehash
             elif [ "$2" = "ngrok" ]; then
