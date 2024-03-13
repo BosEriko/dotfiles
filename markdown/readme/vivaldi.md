@@ -12,14 +12,14 @@
 - Paste: `ctrl`+`v`
 - Select All: `ctrl`+`a`
 ### View
-- Toggle UI: `ctrl`+`\`
+- Tab Bar: `ctrl`+`\`
 - Page Zoom Out Half: `Numpad7`
 - Page Zoom In Double: `Numpad8`
 ### Tab
-- New Tab: `ctrl`+`T`
-- Close Tab: `ctrl`+`W`
-- Previous Tab (by Order): `ctrl`+`H`
-- Next Tab (by Order): `ctrl`+`L`
+- New Tab: `ctrl`+`t`
+- Close Tab: `ctrl`+`w`
+- Previous Tab (by Order): `ctrl`+`alt`+`k`
+- Next Tab (by Order): `ctrl`+`alt`+`j`
 ### Page
 - Focus Address Field: `ctrl`+`p`
 - Reload Page: `ctrl`+`r`
