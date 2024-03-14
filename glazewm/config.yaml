@@ -22,16 +22,16 @@ bar:
     - type: "music"
       label_not_playing: ""
       label_paused: ""
-      label_playing: "   {song_title}"
+      label_playing: "<attr fg='#FFAB0F'>   {song_title}</attr>"
       max_title_length: 20
     - type: "cpu"
-      label: "   {percent_usage}%"
+      label: "<attr fg='#FE2C54'>   {percent_usage}%</attr>"
       refresh_interval_ms: 1000
     - type: "gpu"
-      label: "  󰍹 {percent_usage}%"
+      label: "<attr fg='#10A674'>  󰍹 {percent_usage}%</attr>"
       refresh_interval_ms: 1000
     - type: "memory"
-      label: "  󰧑 {percent_usage}%"
+      label: "<attr fg='#7BC8F6'>  󰧑 {percent_usage}%</attr>"
       refresh_interval_ms: 1000
     - type: "clock"
       time_formatting: "   hh:mm tt  󰃭 ddd MMM d"
