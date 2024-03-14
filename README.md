@@ -39,6 +39,7 @@ There are individual install instructions for the tools I use. Refer below to le
 - [PowerToys](markdown/readme/powertoys.md)
 - [Obsidian](markdown/readme/obsidian.md)
 - [Vivaldi](markdown/readme/vivaldi.md)
+- [Spotify](https://apps.microsoft.com/detail/9ncbcszsjrsb?launch=true&mode=full&hl=en-us&gl=ph)
 - [Pimp your Windows](markdown/readme/pimp-your-windows.md)
 ### Security
 There are individual install instructions for the security tools I use. Refer below to learn more:
