@@ -183,6 +183,8 @@ keybindings:
 
   - command: "focus workspace 8"
     binding: "LMenu+8"
+  - commands: ["focus workspace 8", "exec %appdata%/Spotify/Spotify.exe"]
+    binding: "LMenu+Shift+8"
 
   - command: "focus workspace 9"
     binding: "LMenu+9"
