@@ -16,9 +16,25 @@ bar:
       focused_workspace_background: "#8192B3"
       displayed_workspace_background: "#42403e"
       default_workspace_background: "#101010"
+  components_center:
+    - type: "music"
+      label_not_playing: ""
+      label_paused: "  {song_title} - {artist_name}"
+      label_playing: " {song_title} - {artist_name}"
+      max_title_length: 20
+      max_artist_length: 20
   components_right:
+    - type: "cpu"
+      label: "   {percent_usage}%"
+      refresh_interval_ms: 1000
+    - type: "gpu"
+      label: "  󰍹 {percent_usage}%"
+      refresh_interval_ms: 1000
+    - type: "memory"
+      label: "  󰧑 {percent_usage}%"
+      refresh_interval_ms: 1000
     - type: "clock"
-      time_formatting: "hh:mm tt  ddd MMM d"
+      time_formatting: "   hh:mm tt  󰃭 ddd MMM d"
 
 workspaces:
   - name: 1
