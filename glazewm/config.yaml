@@ -19,6 +19,11 @@ bar:
   components_center:
     - type: "window title"
   components_right:
+    - type: "music"
+      label_not_playing: ""
+      label_paused: ""
+      label_playing: "   {song_title}"
+      max_title_length: 20
     - type: "cpu"
       label: "   {percent_usage}%"
       refresh_interval_ms: 1000
