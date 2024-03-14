@@ -10,6 +10,7 @@ scoop install obsidian                  # Obsidian
 scoop install keepassxc                 # KeePassXC
 scoop install autohotkey                # AutoHotkey
 scoop install powertoys                 # PowerToys
+scoop install glazewm                   # GlazeWM
 
 # Install Extras
 scoop install vivaldi                   # Vivaldi Browser
