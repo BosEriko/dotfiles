@@ -24,15 +24,15 @@ bar:
       label_paused: ""
       label_playing: "<attr fg='#FFBACD'>   {song_title}</attr>"
       max_title_length: 20
-    # - type: "cpu"
-    #   label: "<attr fg='#FFAB0F'>   {percent_usage}%</attr>"
-    #   refresh_interval_ms: 1000
-    # - type: "gpu"
-    #   label: "<attr fg='#10A674'>  󰍹 {percent_usage}%</attr>"
-    #   refresh_interval_ms: 1000
-    # - type: "memory"
-    #   label: "<attr fg='#7BC8F6'>  󰧑 {percent_usage}%</attr>"
-    #   refresh_interval_ms: 1000
+    - type: "cpu"
+      label: "<attr fg='#FFAB0F'>   {percent_usage}%</attr>"
+      refresh_interval_ms: 1000
+    - type: "gpu"
+      label: "<attr fg='#10A674'>  󰍹 {percent_usage}%</attr>"
+      refresh_interval_ms: 1000
+    - type: "memory"
+      label: "<attr fg='#7BC8F6'>  󰧑 {percent_usage}%</attr>"
+      refresh_interval_ms: 1000
     - type: "clock"
       time_formatting: "   hh:mm tt  󰃭 ddd MMM d"
 
