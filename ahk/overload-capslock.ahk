@@ -29,7 +29,3 @@ ToggleCaps(){
     return
 }
 LControl::ToggleCaps()
-
-; Map esc to ` and ~
-esc::`
-LShift & esc::~

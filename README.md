@@ -51,6 +51,7 @@ If you want to play games please close the following applications:
 - [WSL](markdown/toggle-wsl.md)
 - Overload Capslock (AutoHotkey)
 - Hide Mouse When Typing (AutoHotkey)
+- Escape as Tilde (AutoHotkey)
 - GlazeWM
 
 ## Call to action
