@@ -6,6 +6,8 @@ workspace() {
   sudo service redis-server start
   sudo service docker start
   sudo docker network prune -f
+  sudo docker stop $(docker ps -aq)
+  sudo docker rm $(docker ps -aq)
   clear
   (cd ~; figlet 'When you enjoy what you do, work becomes play.' -f small | lolcat;)
   echo "Select Workspace:"
