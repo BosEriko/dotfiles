@@ -10,7 +10,7 @@ send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/web" C-m
 send "(cd ~; clear; figlet 'KSS Web' -f big | lolcat;)" C-m
 split-window -h
 send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-server" C-m
-send "(cd ~; clear; figlet 'KSS Server' -f big | lolcat;)" C-m
+send "(cd ~; clear; figlet 'KS Server' -f big | lolcat;)" C-m
 select-pane -t 1
 
 new-window -n process

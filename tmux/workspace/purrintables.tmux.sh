@@ -11,7 +11,7 @@ send "cd ~/Documents/Codes/Work/kuru-studio/purrintables" C-m
 send "(cd ~; clear; figlet 'Purrintables' -f big | lolcat;)" C-m
 split-window -h
 send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-server" C-m
-send "(cd ~; clear; figlet 'KSS Server' -f big | lolcat;)" C-m
+send "(cd ~; clear; figlet 'KS Server' -f big | lolcat;)" C-m
 select-pane -t 1
 split-window -h
 send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-server" C-m
