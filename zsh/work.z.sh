@@ -44,7 +44,7 @@ workspace:kuru-studio-social() {
     fi
     yarn install
   fi
-  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/server
+  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-server
   if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
     if [[ `git status --porcelain` ]]; then
       git stash
