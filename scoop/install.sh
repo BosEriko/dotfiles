@@ -13,4 +13,4 @@ scoop install powertoys                 # PowerToys
 scoop install glazewm                   # GlazeWM
 
 # Install Extras
-scoop install vivaldi                   # Vivaldi Browser
+scoop install extras/firefox            # Firefox Browser

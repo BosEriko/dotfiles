@@ -80,9 +80,6 @@ window_rules:
     match_process_name: "Telegram"
 
   - command: "resize borders 0px -7px -7px -7px"
-    match_process_name: "vivaldi"
-
-  - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "EpicGamesLauncher"
 
 keybindings:
