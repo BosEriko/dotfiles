@@ -97,7 +97,7 @@ workspace:kuru-studio-network() {
 }
 
 workspace:purrintables() {
-  cd ~/Documents/Codes/Work/kuru-studio/purrintables
+  cd ~/Documents/Codes/Work/kuru-studio/external-projects/purrintables
   if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
     if [[ `git status --porcelain` ]]; then
       git stash

@@ -4,10 +4,10 @@ kill-window -a
 kill-pane -a
 
 rename-window editor
-send "cd ~/Documents/Codes/Work/kuru-studio/purrintables" C-m
+send "cd ~/Documents/Codes/Work/kuru-studio/external-projects/purrintables" C-m
 send "vim" C-m
 split-window -f
-send "cd ~/Documents/Codes/Work/kuru-studio/purrintables" C-m
+send "cd ~/Documents/Codes/Work/kuru-studio/external-projects/purrintables" C-m
 send "(cd ~; clear; figlet 'Purrintables' -f big | lolcat;)" C-m
 split-window -h
 send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-server" C-m
@@ -22,7 +22,7 @@ new-window -n process
 send "cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-server" C-m
 send "docker-compose up" C-m
 split-window -f
-send "cd ~/Documents/Codes/Work/kuru-studio/purrintables" C-m
+send "cd ~/Documents/Codes/Work/kuru-studio/external-projects/purrintables" C-m
 send "yarn develop" C-m
 select-pane -t 1
 split-window -h
