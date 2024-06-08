@@ -11,14 +11,14 @@ workspace() {
   clear
   (cd ~; figlet 'When you enjoy what you do, work becomes play.' -f small | lolcat;)
   echo "Select Workspace:"
-  echo "  1. Kuru Studio Social"
+  echo "  1. Kuru Studio Network"
   echo "  2. ReferScout"
   echo "  3. Purrintables"
   echo "Please choose between 1 to 3:"
   read OPTION
   case "$OPTION" in
   "1")
-    workspace:kuru-studio-social
+    workspace:kuru-studio-network
     ;;
   "2")
     workspace:referscout
@@ -32,8 +32,8 @@ workspace() {
   esac
 }
 
-workspace:kuru-studio-social() {
-  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social/web
+workspace:kuru-studio-network() {
+  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-network/web
   if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
     if [[ `git status --porcelain` ]]; then
       git stash
@@ -58,7 +58,7 @@ workspace:kuru-studio-social() {
     sudo docker-compose run web bundle install
     sudo docker-compose build
   fi
-  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-social
+  cd ~/Documents/Codes/Work/kuru-studio/kuru-studio-network
   if [[ $(git rev-parse --abbrev-ref HEAD) == "master" ]]; then
     if [[ `git status --porcelain` ]]; then
       git stash
@@ -69,7 +69,7 @@ workspace:kuru-studio-social() {
     fi
   fi
   wslview http://localhost:3000
-  tmux source-file ~/.files/tmux/workspace/kuru-studio-social.tmux.sh
+  tmux source-file ~/.files/tmux/workspace/kuru-studio-network.tmux.sh
 }
 
 workspace:referscout() {
