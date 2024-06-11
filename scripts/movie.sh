@@ -71,4 +71,4 @@ curl -s $fullURL > $cachedir/tmp.html
 magnet=$(grep -Eo "magnet:\?xt=urn:btih:[a-zA-Z0-9]*" $cachedir/tmp.html | head -n 1)
 
 # Download the file
-webtorrent "$magnet" --out $STORAGE/Anime
+webtorrent "$magnet" --out $STORAGE/Movies
