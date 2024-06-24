@@ -30,11 +30,14 @@ jt() {
     "nvim")
         cd ~/.files/config/.config/nvim
         ;;
+    "config")
+        cd ~/.files
+        ;;
     ".files")
         cd ~/.files
         ;;
     *)
-        echo "Jump to: personal, work, anime, movies, music, youtube, password, obsidian, nvim or .files."
+        echo "Jump to: personal, work, anime, movies, music, youtube, password, obsidian, nvim, config or .files."
         ;;
     esac
 }
