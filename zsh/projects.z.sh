@@ -31,7 +31,7 @@ jt() {
         cd ~/.files/config/.config/nvim
         ;;
     "config")
-        cd ~/.files
+        cd ~/config
         ;;
     ".files")
         cd ~/.files
