@@ -13,4 +13,4 @@ scoop install powertoys                 # PowerToys
 scoop install glazewm                   # GlazeWM
 
 # Install Extras
-scoop install extras/firefox            # Firefox Browser
+scoop install extras/vscode             # Visual Studio Code
