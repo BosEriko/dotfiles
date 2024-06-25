@@ -15,9 +15,6 @@ set-origins() {
 # Update origin for .files
 set-origins ~/.files BosEriko/dotfiles-windows
 
-# Update origin for nvim
-set-origins ~/.files/config/.config/nvim BosEriko/nvim
-
 # Update origin for history
 set-origins ~/.history BosEriko/history
 

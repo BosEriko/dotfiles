@@ -14,7 +14,7 @@ git clone --recurse-submodules https://github.com/BosEriko/dotfiles.git ~/.files
 Before running the installation script you first need to setup your environment variables located on [KeePassXC](markdown/readme/keepassxc.md). Run the command below on Ubuntu on WSL to setup your environment variables.
 ``` sh
 cp ~/.files/zsh/example.env.z.sh ~/.files/zsh/env.z.sh
-vim ~/.files/zsh/env.z.sh
+nano ~/.files/zsh/env.z.sh
 ```
 
 ## Installation Script

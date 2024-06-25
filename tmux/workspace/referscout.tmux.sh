@@ -4,8 +4,6 @@ kill-window -a
 kill-pane -a
 
 rename-window editor
-send "vim" C-m
-split-window -f
 send "(cd ~; clear; figlet 'ReferScout' -f big | lolcat;)" C-m
 select-pane -t 1
 
