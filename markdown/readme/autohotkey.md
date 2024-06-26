@@ -1,2 +1,0 @@
-# AutoHotkey
-[AutoHotkey](https://scoop.sh/#/apps?q=autohotkey&s=0&d=1&o=true) should have been installed using the [Scoop](https://scoop.sh/) script that was run earlier on the instruction. Put both [Overload Capslock](../../ahk/overload-capslock.ahk) and [Hide Mouse When Typing](../../ahk/hide-mouse-when-typing.ahk) somewhere on your file system. If needed you can also add [Escape as Tilde](../../ahk/escape-as-tilde.ahk) to the list. Be sure to make them [automatically start](../automatically-start.md) on startup.
