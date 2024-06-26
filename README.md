@@ -34,7 +34,6 @@ There are individual install instructions for the security tools I use. Refer be
 ## Game Mode
 If you want to play games please close the following applications:
 - [WSL](markdown/toggle-wsl.md)
-- GlazeWM
 
 ## Call to action
 If you want to share some ideas you can email me at boseriko@duck.com.
