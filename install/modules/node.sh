@@ -9,8 +9,6 @@ echo "Installing: fnm has been installed."
 
 # Install packages using NPM (https://nodejs.org/)
 yarn global add ngrok                       # Introspected tunnels to localhost (https://github.com/inconshreveable/ngrok)
-yarn global add typescript                  # TypeScript is a superset of JavaScript that compiles to clean JavaScript output (https://github.com/Microsoft/TypeScript)
-yarn global add typescript-language-server  # Language Server Protocol implementation for TypeScript wrapping tsserver (https://github.com/typescript-language-server/typescript-language-server)
 yarn global add webtorrent-cli              # WebTorrent is the first BitTorrent client that works in the browser (https://github.com/webtorrent/webtorrent-cli)
 echo "Installing: NPM apps have been installed."
 

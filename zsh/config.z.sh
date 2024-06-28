@@ -15,8 +15,8 @@ ZSH_DISABLE_COMPFIX=true
 # Source ZSH
 source $ZSH/oh-my-zsh.sh
 
-# Disable power status on spaceship prompt
-export SPACESHIP_BATTERY_SHOW=false
+# Set Theme
+ZSH_THEME=robbyrussell
 
 # Use nano as the editor
 export VISUAL=nano

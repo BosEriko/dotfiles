@@ -12,7 +12,6 @@ antigen bundle djui/alias-tips                      # An oh-my-zsh plugin to hel
 antigen bundle zsh-users/zsh-autosuggestions        # Fish-like autosuggestions for zsh (https://github.com/zsh-users/zsh-autosuggestions)
 antigen bundle zsh-users/zsh-completions            # Additional completion definitions for Zsh (https://github.com/zsh-users/zsh-completions)
 antigen bundle zsh-users/zsh-syntax-highlighting    # Fish shell like syntax highlighting for Zsh (https://github.com/zsh-users/zsh-syntax-highlighting)
-antigen theme spaceship-prompt/spaceship-prompt     # A Zsh prompt for Astronauts (https://github.com/denysdovhan/spaceship-prompt)
 
 # Apply Antigen Plugins
 antigen apply
