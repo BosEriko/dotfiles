@@ -11,8 +11,6 @@
 ~/.files/install/modules/mkdir.sh
 ~/.files/install/modules/clipboard.sh
 ~/.files/install/modules/zsh.sh
-~/.files/install/modules/tmux.sh
 ~/.files/install/modules/pull.sh
-~/.files/install/modules/config.sh
 ~/.files/install/modules/origin.sh
 ~/.files/install/modules/ssh.sh
